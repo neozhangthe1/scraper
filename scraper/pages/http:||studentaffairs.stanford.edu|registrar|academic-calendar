@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<link rel="shortcut icon" href="http://studentaffairs.stanford.edu/sites/all/themes/stanford_d7/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="alternate" type="text/calendar" title="Add to My Calendar" href="webcal://studentaffairs.stanford.edu/registrar/academic-calendar/ical/2015-02" />
+<!-- Set the viewport width to device width for mobile -->
+<meta name="viewport" content="width=device-width" />
+<title>Academic Calendar | Student Affairs</title>
+<link type="text/css" rel="stylesheet" href="http://studentaffairs.stanford.edu/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://studentaffairs.stanford.edu/sites/default/files/css/css_u7DZBXX_6hgFX1nAZEbNmudsr3mDTiYLOqfuqcS82Pc.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://studentaffairs.stanford.edu/sites/default/files/css/css_U-59tyvd7Y9oaN4JZ_JpX_k2PBZmnIW4Hz2o17_VEBY.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://studentaffairs.stanford.edu/sites/default/files/css/css_xwauSb6Wofw8fWPVLTeOZpURGYqpc-PNbm-qNK9MfWE.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://studentaffairs.stanford.edu/sites/default/files/css/css_IvojEhlg8USVGkXcpqk1r4_q2boQgjQEcIlRcJ9NOJ4.css" media="only screen and (max-width: 640px)" />
+<link type="text/css" rel="stylesheet" href="http://studentaffairs.stanford.edu/sites/default/files/css/css_UKQPTiw0AnXZ52vKEj7JlYfQec9A3yARiRUrJHSRLOg.css" media="print" />
+<script type="text/javascript" src="http://studentaffairs.stanford.edu/sites/default/files/js/js_0gj6QcpfRH2jzTbCQqf7kEkm4MXY0UA_sRhwPc8jC1o.js"></script>
+<script type="text/javascript" src="http://studentaffairs.stanford.edu/sites/default/files/js/js_rv_BKYv7yieH0IgHddhWHDC-bWGan8yiJbusyOpr0mw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-11291968-1"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = "http://studentaffairs.stanford.edu/sites/default/files/googleanalytics/ga.js?njqgeo";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://studentaffairs.stanford.edu/sites/default/files/js/js_d_SMkEogNW2lDp2mE5l8EChr_AMOACZonRuc49oeYwI.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"stanford_d7","theme_token":"jxMiE_SxEGWoRgz1eqT0M26p-KpJVscCEUob1kO3-gY","js":{"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.7\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/themes\/stanfordmodern\/js\/stanfordmodern.js":1,"sites\/all\/themes\/stanford_d7\/js\/script.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/book\/book.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/workflow\/workflow_admin_ui\/workflow_admin_ui.css":1,"sites\/all\/modules\/calendar\/css\/calendar_multiday.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/shib_auth\/shib_auth.css":1,"sites\/all\/modules\/date\/date_views\/css\/date_views.css":1,"sites\/all\/themes\/stanford_d7\/css\/vpsa_calendar.css":1,"sites\/all\/themes\/stanfordmodern\/css\/stanfordmodern.css":1,"sites\/all\/themes\/stanfordmodern\/css\/ceebox-min.css":1,"sites\/all\/themes\/stanford_d7\/css\/styles.css":1,"sites\/all\/themes\/stanford_d7\/css\/topic_entry.css":1,"sites\/all\/themes\/stanford_d7\/css\/news_entry.css":1,"sites\/all\/themes\/stanford_d7\/css\/search_box.css":1,"sites\/all\/themes\/stanford_d7\/css\/policies.css":1,"sites\/all\/themes\/stanford_d7\/css\/policy.css":1,"sites\/all\/themes\/stanford_d7\/css\/soap.css":1,"sites\/all\/themes\/stanford_d7\/css\/change_log.css":1,"sites\/all\/themes\/stanford_d7\/css\/print.css":1,"sites\/all\/themes\/stanford_d7\/css\/mobile.css":1,"sites\/all\/themes\/stanfordmodern\/css\/print.css":1}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in two-sidebars page-registrar page-registrar-academic-calendar nav drawer    " >
+ <div id="skipnav">
+  <p>Skip to:</p>
+  <ul>
+    <li><a href="#main" class="element-invisible element-focusable">Skip to main content</a></li>
+        <li><a href="#nav" class="element-invisible element-focusable">Skip to navigation</a></li>
+      </ul>
+</div>
+<!-- /#skipnav -->
+<div id="layout">
+  <div id="wrapper" class="clearfix">
+    <div id="header" role="banner" class="clearfix">
+                  <a href="http://www.stanford.edu" title="Stanford University" id="logo"> <img src="http://studentaffairs.stanford.edu/sites/all/themes/stanford_d7/logo.png" alt="Home" /> </a>
+                  <div id="site">
+                <div id="name"> <a href="/registrar" title="Home"><span>Office of the University Registrar</span></a> </div>
+                      </div>
+      <!--      <h1> --><!-- </h1>-->
+      <div id="web_search">
+        <form action="http://www.stanford.edu/search" id="cse-searchbox">
+          <div id="search_placement_box">
+            <input type="radio" name="sitesearch" id="sa" value="studentaffairs.stanford.edu" checked> <label for="sa">Student Affairs</label>
+            <input type="radio" name="sitesearch" id="all" value="stanford.edu">	<label for="all">All Stanford</label></div>
+          <div class="searchbox">
+            <label for="search_string_web">Search:</label>
+            <input type="hidden" name="cx" value="003265255082301896483:sq5n7qoyfh8" />
+            <input type="hidden" name="cof" value="FORID:9" />
+            <input type="hidden" name="ie" value="UTF-8" />
+            <!-- <input type="hidden" name="as_sitesearch" value="studentaffairs.stanford.edu/taxonomy" /> -->
+            <input onfocus="this.value=''" type="text" value="Search" name="q" alt="Search field" />
+            <button type="submit" value="Submit" class="search_button" >Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- /#header -->
+        <div id="nav" role="navigation" class="clearfix">
+              <div class="region region-nav">
+    <div id="block-menu-menu-primary-registrar" class="block block-menu">     <h2>Office of the University Registrar</h2>
+      <div class="content"> <ul class="menu"><li class="first leaf"><a href="/registrar/students" title="">Students</a></li>
+<li class="leaf"><a href="/registrar/faculty" title="">Faculty</a></li>
+<li class="leaf"><a href="/registrar/staff" title="">Staff</a></li>
+<li class="leaf"><a href="/registrar/everyone" title="">Everyone</a></li>
+<li class="last leaf"><a href="/registrar/help" title="">Resources and Help</a></li>
+</ul> </div>
+</div>
+  </div>
+                </div>
+        <!-- /#nav -->
+    <!--    <div id="toggle">-->
+<!--      <div id="menu_expand">Expand Menus</div>-->
+<!--      <div id="menu_hide">Hide Menus</div>-->
+<!--    </div>-->
+    <!-- /#toggle -->
+        <div id="container">
+
+       
+            
+            <br>
+            
+            <div id="content" class="clearfix">
+
+        
+                          <h1 class="title" id="page-title">Academic Calendar</h1>
+                          
+                <div id="main" role="main">
+                    
+
+
+                    <div class="tabs-wrapper clearfix"><h2 class="element-invisible">Primary tabs</h2><ul class="tabs primary clearfix"><li><a href="/registrar/academic-calendar/week">Week</a></li>
+<li><a href="/registrar/academic-calendar/day">Day</a></li>
+<li><a href="/registrar/academic-calendar/year">Year</a></li>
+</ul></div>
+                      <div class="region region-content">
+    <div id="block-system-main" class="block block-system">       <div class="content"> <div class="view view-og-calendar-academic view-id-og_calendar_academic view-display-id-page_1 view-dom-id-df27e0f6c4e2b93492aadaad091fbd22">
+            <div class="view-header">
+      <div class="date-nav-wrapper clearfix">
+  <div class="date-nav item-list">
+    <div class="date-heading">
+      <h3>Sunday, February 1, 2015</h3>
+    </div>
+    <ul class="pager">
+          <li class="date-prev">
+        <a href="http://studentaffairs.stanford.edu/registrar/academic-calendar?date=2015-01" title="Navigate to previous month" rel="nofollow">&laquo; Prev</a>      </li>
+              <li class="date-next">
+        <a href="http://studentaffairs.stanford.edu/registrar/academic-calendar?date=2015-03" title="Navigate to next month" rel="nofollow">Next &raquo;</a>      </li>
+        </ul>
+  </div>
+</div>    </div>
+  
+  
+  
+      <div class="view-content">
+      <div class="calendar-calendar"><div class="month-view">
+<table class="full">
+  <thead>
+    <tr>
+              <th class="days week" id="Week">
+          &nbsp;        </th>
+              <th class="days sun" id="Sunday">
+          Sun        </th>
+              <th class="days mon" id="Monday">
+          Mon        </th>
+              <th class="days tue" id="Tuesday">
+          Tue        </th>
+              <th class="days wed" id="Wednesday">
+          Wed        </th>
+              <th class="days thu" id="Thursday">
+          Thu        </th>
+              <th class="days fri" id="Friday">
+          Fri        </th>
+              <th class="days sat" id="Saturday">
+          Sat        </th>
+          </tr>
+  </thead>
+  <tbody>
+    <tr class="date-box">
+  <td id="og_calendar_academic-weekno-2015-02-01" class="week" colspan="1" rowspan="2">
+  <div class="inner">
+    <a href="/registrar/academic-calendar/week/2015-W6">6</a>  </div>
+</td>
+<td id="og_calendar_academic-2015-02-01-date-box" class="date-box past" colspan="1" rowspan="1" data-date="2015-02-01"  headers="Sunday"  data-day-of-month="1" >
+  <div class="inner">
+    <div class="month day"> 1 </div>  </div>
+</td>
+<td id="og_calendar_academic-2015-02-02-date-box" class="date-box past" colspan="1" rowspan="1" data-date="2015-02-02"  headers="Monday"  data-day-of-month="2" >
+  <div class="inner">
+    <div class="month day"> 2 </div>  </div>
+</td>
+<td id="og_calendar_academic-2015-02-03-date-box" class="date-box past" colspan="1" rowspan="1" data-date="2015-02-03"  headers="Tuesday"  data-day-of-month="3" >
+  <div class="inner">
+    <div class="month day"> 3 </div>  </div>
+</td>
+<td id="og_calendar_academic-2015-02-04-date-box" class="date-box past" colspan="1" rowspan="1" data-date="2015-02-04"  headers="Wednesday"  data-day-of-month="4" >
+  <div class="inner">
+    <div class="month day"> 4 </div>  </div>
+</td>
+<td id="og_calendar_academic-2015-02-05-date-box" class="date-box past" colspan="1" rowspan="1" data-date="2015-02-05"  headers="Thursday"  data-day-of-month="5" >
+  <div class="inner">
+    <div class="month day"> 5 </div>  </div>
+</td>
+<td id="og_calendar_academic-2015-02-06-date-box" class="date-box past" colspan="1" rowspan="1" data-date="2015-02-06"  headers="Friday"  data-day-of-month="6" >
+  <div class="inner">
+    <div class="month day"> 6 </div>  </div>
+</td>
+<td id="og_calendar_academic-2015-02-07-date-box" class="date-box past" colspan="1" rowspan="1" data-date="2015-02-07"  headers="Saturday"  data-day-of-month="7" >
+  <div class="inner">
+    <div class="month day"> 7 </div>  </div>
+</td>
+</tr>
+<tr class="single-day">
+  <td id="og_calendar_academic-2015-02-01-0" class="single-day no-entry past" colspan="1" rowspan="1" data-date="2015-02-01"  headers="Sunday"  data-day-of-month="1" >
+  <div class="inner">
+    &nbsp;  </div>
+</td>
+<td id="og_calendar_academic-2015-02-02-0" class="single-day no-entry past" colspan="1" rowspan="1" data-date="2015-02-02"  headers="Monday"  data-day-of-month="2" >
+  <div class="inner">
+    &nbsp;  </div>
+</td>
+<td id="og_calendar_academic-2015-02-03-0" class="single-day no-entry past" colspan="1" rowspan="1" data-date="2015-02-03"  headers="Tuesday"  data-day-of-month="3" >
+  <div class="inner">
+    &nbsp;  </div>
+</td>
+<td id="og_calendar_academic-2015-02-04-0" class="single-day no-entry past" colspan="1" rowspan="1" data-date="2015-02-04"  headers="Wednesday"  data-day-of-month="4" >
+  <div class="inner">
+    &nbsp;  </div>
+</td>
+<td id="og_calendar_academic-2015-02-05-0" class="single-day no-entry past" colspan="1" rowspan="1" data-date="2015-02-05"  headers="Thursday"  data-day-of-month="5" >
+  <div class="inner">
+    &nbsp;  </div>
+</td>
+<td id="og_calendar_academic-2015-02-06-0" class="single-day no-entry past" colspan="1" rowspan="1" data-date="2015-02-06"  headers="Friday"  data-day-of-month="6" >
+  <div class="inner">
+    &nbsp;  </div>
+</td>
+<td id="og_calendar_academic-2015-02-07-0" class="single-day no-entry past" colspan="1" rowspan="1" data-date="2015-02-07"  headers="Saturday"  data-day-of-month="7" >
+  <div class="inner">
+    &nbsp;  </div>
+</td>
+</tr>
+<tr class="date-box">
+  <td id="og_calendar_academic-weekno-2015-02-08" class="week" colspan="1" rowspan="2">
+  <div class="inner">
+    <a href="/registrar/academic-calendar/week/2015-W7">7</a>  </div>
+</td>
+<td id="og_calendar_academic-2015-02-08-date-box" class="date-box past" colspan="1" rowspan="1" data-date="2015-02-08"  headers="Sunday"  data-day-of-month="8" >
+  <div class="inner">
+    <div class="month day"> <a href="http://studentaffairs.stanford.edu/registrar/academic-calendar/day/2015-02-08">8</a> </div>  </div>
+</td>
+<td id="og_calendar_academic-2015-02-09-date-box" class="date-box past" colspan="1" rowspan="1" data-date="2015-02-09"  headers="Monday"  data-day-of-month="9" >
+  <div class="inner">
+    <div class="month day"> 9 </div>  </div>
+</td>
+<td id="og_calendar_academic-2015-02-10-date-box" class="date-box past" colspan="1" rowspan="1" data-date="2015-02-10"  headers="Tuesday"  data-day-of-month="10" >
+  <div class="inner">
+    <div class="month day"> 10 </div>  </div>
+</td>
+<td id="og_calendar_academic-2015-02-11-date-box" class="date-box past" colspan="1" rowspan="1" data-date="2015-02-11"  headers="Wednesday"  data-day-of-month="11" >
+  <div class="inner">
+    <div class="month day"> 11 </div>  </div>
+</td>
+<td id="og_calendar_academic-2015-02-12-date-box" class="date-box past" colspan="1" rowspan="1" data-date="2015-02-12"  headers="Thursday"  data-day-of-month="12" >
+  <div class="inner">
+    <div class="month day"> 12 </div>  </div>
+</td>
+<td id="og_calendar_academic-2015-02-13-date-box" class="date-box past" colspan="1" rowspan="1" data-date="2015-02-13"  headers="Friday"  data-day-of-month="13" >
+  <div class="inner">
+    <div class="month day"> 13 </div>  </div>
+</td>
+<td id="og_calendar_academic-2015-02-14-date-box" class="date-box past" colspan="1" rowspan="1" data-date="2015-02-14"  headers="Saturday"  data-day-of-month="14" >
+  <div class="inner">
+    <div class="month day"> 14 </div>  </div>
+</td>
+</tr>
+<tr class="single-day">
+  <td id="og_calendar_academic-2015-02-08-0" class="single-day past" colspan="1" rowspan="1" data-date="2015-02-08"  headers="Sunday"  data-day-of-month="8" >
+  <div class="inner">
+    <div class="item">
+  <div class="view-item view-item-og_calendar_academic">
+  <div class="calendar monthview">
+        <div class="calendar.16128.field_academic_date.0.0 contents">
+                        
+  <div class="views-field views-field-field-academic-date">        <div class="field-content"><span class="date-display-single">Feb 8 2015 - 12:01pm</span></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/node/16128">Axess opens for Spring Quarter course enrollment.</a></span>  </div>  
+  <div class="views-field views-field-field-quarter">        <div class="field-content">Spring Quarter</div>  </div>          </div>  
+        <div class="cutoff">&nbsp;</div>
+      </div> 
+  </div>   
+</div>  </div>
+</td>
+<td id="og_calendar_academic-2015-02-09-0" class="single-day no-entry past" colspan="1" rowspan="1" data-date="2015-02-09"  headers="Monday"  data-day-of-month="9" >
+  <div class="inner">
+    &nbsp;  </div>
+</td>
+<td id="og_calendar_academic-2015-02-10-0" class="single-day no-entry past" colspan="1" rowspan="1" data-date="2015-02-10"  headers="Tuesday"  data-day-of-month="10" >
+  <div class="inner">
+    &nbsp;  </div>
+</td>
+<td id="og_calendar_academic-2015-02-11-0" class="single-day no-entry past" colspan="1" rowspan="1" data-date="2015-02-11"  headers="Wednesday"  data-day-of-month="11" >
+  <div class="inner">
+    &nbsp;  </div>
+</td>
+<td id="og_calendar_academic-2015-02-12-0" class="single-day no-entry past" colspan="1" rowspan="1" data-date="2015-02-12"  headers="Thursday"  data-day-of-month="12" >
+  <div class="inner">
+    &nbsp;  </div>
+</td>
+<td id="og_calendar_academic-2015-02-13-0" class="single-day no-entry past" colspan="1" rowspan="1" data-date="2015-02-13"  headers="Friday"  data-day-of-month="13" >
+  <div class="inner">
+    &nbsp;  </div>
+</td>
+<td id="og_calendar_academic-2015-02-14-0" class="single-day no-entry past" colspan="1" rowspan="1" data-date="2015-02-14"  headers="Saturday"  data-day-of-month="14" >
+  <div class="inner">
+    &nbsp;  </div>
+</td>
+</tr>
+<tr class="date-box">
+  <td id="og_calendar_academic-weekno-2015-02-15" class="week" colspan="1" rowspan="2">
+  <div class="inner">
+    <a href="/registrar/academic-calendar/week/2015-W8">8</a>  </div>
+</td>
+<td id="og_calendar_academic-2015-02-15-date-box" class="date-box past" colspan="1" rowspan="1" data-date="2015-02-15"  headers="Sunday"  data-day-of-month="15" >
+  <div class="inner">
+    <div class="month day"> 15 </div>  </div>
+</td>
+<td id="og_calendar_academic-2015-02-16-date-box" class="date-box past" colspan="1" rowspan="1" data-date="2015-02-16"  headers="Monday"  data-day-of-month="16" >
+  <div class="inner">
+    <div class="month day"> <a href="http://studentaffairs.stanford.edu/registrar/academic-calendar/day/2015-02-16">16</a> </div>  </div>
+</td>
+<td id="og_calendar_academic-2015-02-17-date-box" class="date-box today" colspan="1" rowspan="1" data-date="2015-02-17"  headers="Tuesday"  data-day-of-month="17" >
+  <div class="inner">
+    <div class="month day"> 17 </div>  </div>
+</td>
+<td id="og_calendar_academic-2015-02-18-date-box" class="date-box future" colspan="1" rowspan="1" data-date="2015-02-18"  headers="Wednesday"  data-day-of-month="18" >
+  <div class="inner">
+    <div class="month day"> <a href="http://studentaffairs.stanford.edu/registrar/academic-calendar/day/2015-02-18">18</a> </div>  </div>
+</td>
+<td id="og_calendar_academic-2015-02-19-date-box" class="date-box future" colspan="1" rowspan="1" data-date="2015-02-19"  headers="Thursday"  data-day-of-month="19" >
+  <div class="inner">
+    <div class="month day"> 19 </div>  </div>
+</td>
+<td id="og_calendar_academic-2015-02-20-date-box" class="date-box future" colspan="1" rowspan="1" data-date="2015-02-20"  headers="Friday"  data-day-of-month="20" >
+  <div class="inner">
+    <div class="month day"> 20 </div>  </div>
+</td>
+<td id="og_calendar_academic-2015-02-21-date-box" class="date-box future" colspan="1" rowspan="1" data-date="2015-02-21"  headers="Saturday"  data-day-of-month="21" >
+  <div class="inner">
+    <div class="month day"> 21 </div>  </div>
+</td>
+</tr>
+<tr class="single-day">
+  <td id="og_calendar_academic-2015-02-15-0" class="single-day no-entry past" colspan="1" rowspan="1" data-date="2015-02-15"  headers="Sunday"  data-day-of-month="15" >
+  <div class="inner">
+    &nbsp;  </div>
+</td>
+<td id="og_calendar_academic-2015-02-16-0" class="single-day past" colspan="1" rowspan="1" data-date="2015-02-16"  headers="Monday"  data-day-of-month="16" >
+  <div class="inner">
+    <div class="item">
+  <div class="view-item view-item-og_calendar_academic">
+  <div class="calendar monthview">
+        <div class="calendar.15957.field_academic_date.0.0 contents">
+                        
+  <div class="views-field views-field-field-academic-date">        <div class="field-content"><span class="date-display-single">Feb 16 2015 - 12:10am</span></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/node/15957">Presidents&#039; Day (holiday, no classes; Law does hold classes)</a></span>  </div>  
+  <div class="views-field views-field-field-quarter">        <div class="field-content">Winter Quarter</div>  </div>          </div>  
+        <div class="cutoff">&nbsp;</div>
+      </div> 
+  </div>   
+</div>  </div>
+</td>
+<td id="og_calendar_academic-2015-02-17-0" class="single-day no-entry today" colspan="1" rowspan="1" data-date="2015-02-17"  headers="Tuesday"  data-day-of-month="17" >
+  <div class="inner">
+    &nbsp;  </div>
+</td>
+<td id="og_calendar_academic-2015-02-18-0" class="single-day future" colspan="1" rowspan="1" data-date="2015-02-18"  headers="Wednesday"  data-day-of-month="18" >
+  <div class="inner">
+    <div class="item">
+  <div class="view-item view-item-og_calendar_academic">
+  <div class="calendar monthview">
+        <div class="calendar.15958.field_academic_date.0.0 contents">
+                        
+  <div class="views-field views-field-field-academic-date">        <div class="field-content"><span class="date-display-single">Feb 18 2015 - 5:00pm</span></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/node/15958">Term withdrawal deadline</a></span>  </div>  
+  <div class="views-field views-field-field-quarter">        <div class="field-content">Winter Quarter</div>  </div>          </div>  
+        <div class="cutoff">&nbsp;</div>
+      </div> 
+  </div>   
+</div>  </div>
+</td>
+<td id="og_calendar_academic-2015-02-19-0" class="single-day no-entry future" colspan="1" rowspan="1" data-date="2015-02-19"  headers="Thursday"  data-day-of-month="19" >
+  <div class="inner">
+    &nbsp;  </div>
+</td>
+<td id="og_calendar_academic-2015-02-20-0" class="single-day no-entry future" colspan="1" rowspan="1" data-date="2015-02-20"  headers="Friday"  data-day-of-month="20" >
+  <div class="inner">
+    &nbsp;  </div>
+</td>
+<td id="og_calendar_academic-2015-02-21-0" class="single-day no-entry future" colspan="1" rowspan="1" data-date="2015-02-21"  headers="Saturday"  data-day-of-month="21" >
+  <div class="inner">
+    &nbsp;  </div>
+</td>
+</tr>
+<tr class="date-box">
+  <td id="og_calendar_academic-weekno-2015-02-22" class="week" colspan="1" rowspan="2">
+  <div class="inner">
+    <a href="/registrar/academic-calendar/week/2015-W9">9</a>  </div>
+</td>
+<td id="og_calendar_academic-2015-02-22-date-box" class="date-box future" colspan="1" rowspan="1" data-date="2015-02-22"  headers="Sunday"  data-day-of-month="22" >
+  <div class="inner">
+    <div class="month day"> 22 </div>  </div>
+</td>
+<td id="og_calendar_academic-2015-02-23-date-box" class="date-box future" colspan="1" rowspan="1" data-date="2015-02-23"  headers="Monday"  data-day-of-month="23" >
+  <div class="inner">
+    <div class="month day"> 23 </div>  </div>
+</td>
+<td id="og_calendar_academic-2015-02-24-date-box" class="date-box future" colspan="1" rowspan="1" data-date="2015-02-24"  headers="Tuesday"  data-day-of-month="24" >
+  <div class="inner">
+    <div class="month day"> 24 </div>  </div>
+</td>
+<td id="og_calendar_academic-2015-02-25-date-box" class="date-box future" colspan="1" rowspan="1" data-date="2015-02-25"  headers="Wednesday"  data-day-of-month="25" >
+  <div class="inner">
+    <div class="month day"> 25 </div>  </div>
+</td>
+<td id="og_calendar_academic-2015-02-26-date-box" class="date-box future" colspan="1" rowspan="1" data-date="2015-02-26"  headers="Thursday"  data-day-of-month="26" >
+  <div class="inner">
+    <div class="month day"> 26 </div>  </div>
+</td>
+<td id="og_calendar_academic-2015-02-27-date-box" class="date-box future" colspan="1" rowspan="1" data-date="2015-02-27"  headers="Friday"  data-day-of-month="27" >
+  <div class="inner">
+    <div class="month day"> <a href="http://studentaffairs.stanford.edu/registrar/academic-calendar/day/2015-02-27">27</a> </div>  </div>
+</td>
+<td id="og_calendar_academic-2015-02-28-date-box" class="date-box future" colspan="1" rowspan="1" data-date="2015-02-28"  headers="Saturday"  data-day-of-month="28" >
+  <div class="inner">
+    <div class="month day"> 28 </div>  </div>
+</td>
+</tr>
+<tr class="single-day">
+  <td id="og_calendar_academic-2015-02-22-0" class="single-day no-entry future" colspan="1" rowspan="1" data-date="2015-02-22"  headers="Sunday"  data-day-of-month="22" >
+  <div class="inner">
+    &nbsp;  </div>
+</td>
+<td id="og_calendar_academic-2015-02-23-0" class="single-day no-entry future" colspan="1" rowspan="1" data-date="2015-02-23"  headers="Monday"  data-day-of-month="23" >
+  <div class="inner">
+    &nbsp;  </div>
+</td>
+<td id="og_calendar_academic-2015-02-24-0" class="single-day no-entry future" colspan="1" rowspan="1" data-date="2015-02-24"  headers="Tuesday"  data-day-of-month="24" >
+  <div class="inner">
+    &nbsp;  </div>
+</td>
+<td id="og_calendar_academic-2015-02-25-0" class="single-day no-entry future" colspan="1" rowspan="1" data-date="2015-02-25"  headers="Wednesday"  data-day-of-month="25" >
+  <div class="inner">
+    &nbsp;  </div>
+</td>
+<td id="og_calendar_academic-2015-02-26-0" class="single-day no-entry future" colspan="1" rowspan="1" data-date="2015-02-26"  headers="Thursday"  data-day-of-month="26" >
+  <div class="inner">
+    &nbsp;  </div>
+</td>
+<td id="og_calendar_academic-2015-02-27-0" class="single-day future" colspan="1" rowspan="1" data-date="2015-02-27"  headers="Friday"  data-day-of-month="27" >
+  <div class="inner">
+    <div class="item">
+  <div class="view-item view-item-og_calendar_academic">
+  <div class="calendar monthview">
+        <div class="calendar.15961.field_academic_date.0.0 contents">
+                        
+  <div class="views-field views-field-field-academic-date">        <div class="field-content"><span class="date-display-single">Feb 27 2015 - 12:10pm</span></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/node/15961">Application deadline for Winter Quarter degree conferral</a></span>  </div>  
+  <div class="views-field views-field-field-quarter">        <div class="field-content">Winter Quarter</div>  </div>          </div>  
+        <div class="cutoff">&nbsp;</div>
+      </div> 
+  </div>   
+</div><div class="item">
+  <div class="view-item view-item-og_calendar_academic">
+  <div class="calendar monthview">
+        <div class="calendar.15959.field_academic_date.0.0 contents">
+                        
+  <div class="views-field views-field-field-academic-date">        <div class="field-content"><span class="date-display-single">Feb 27 2015 - 5:00pm</span></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/node/15959">Change of grading basis deadline, except GSB</a></span>  </div>  
+  <div class="views-field views-field-field-quarter">        <div class="field-content">Winter Quarter</div>  </div>          </div>  
+        <div class="cutoff">&nbsp;</div>
+      </div> 
+  </div>   
+</div><div class="item">
+  <div class="view-item view-item-og_calendar_academic">
+  <div class="calendar monthview">
+        <div class="calendar.15960.field_academic_date.0.0 contents">
+                        
+  <div class="views-field views-field-field-academic-date">        <div class="field-content"><span class="date-display-single">Feb 27 2015 - 5:00pm</span></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/node/15960">Course withdrawal deadline, except GSB, Law, and M.D.</a></span>  </div>  
+  <div class="views-field views-field-field-quarter">        <div class="field-content">Winter Quarter</div>  </div>          </div>  
+        <div class="cutoff">&nbsp;</div>
+      </div> 
+  </div>   
+</div>  </div>
+</td>
+<td id="og_calendar_academic-2015-02-28-0" class="single-day no-entry future" colspan="1" rowspan="1" data-date="2015-02-28"  headers="Saturday"  data-day-of-month="28" >
+  <div class="inner">
+    &nbsp;  </div>
+</td>
+</tr>
+  </tbody>
+</table>
+</div></div>
+<script>
+try {
+  // ie hack to make the single day row expand to available space
+  if ($.browser.msie ) {
+    var multiday_height = $('tr.multi-day')[0].clientHeight; // Height of a multi-day row
+    $('tr[iehint]').each(function(index) {
+      var iehint = this.getAttribute('iehint');
+      // Add height of the multi day rows to the single day row - seems that 80% height works best
+      var height = this.clientHeight + (multiday_height * .8 * iehint); 
+      this.style.height = height + 'px';
+    });
+  }
+}catch(e){
+  // swallow 
+}
+</script>    </div>
+  
+  
+  
+  
+  
+      <div class="feed-icon">
+      <a href='webcal://studentaffairs.stanford.edu/registrar/academic-calendar/ical/2015-02' class='ical-icon'><img src="http://studentaffairs.stanford.edu/sites/all/modules/date_ical/images/ical-feed-icon-34x14.png" alt="Add to My Calendar" title="Add to My Calendar" /></a>    </div>
+  
+</div> </div>
+</div>
+  </div>
+                  </div>
+        <!-- /#main -->
+                <div id="sidebar-first" class="sidebar">   <div class="region region-sidebar-first">
+    <div id="block-block-203" class="block block-block">     <h2>Stanford Academic Calendar</h2>
+      <div class="content"> <ul><li>
+		<a href="/registrar/academic-calendar">Stanford Academic Calendar</a></li>
+	<li>
+		<a href="https://studentaffairs.stanford.edu/registrar/academic-calendar-1415">Stanford Academic Calendar, 2014-15</a></li>
+	<li>
+		<a href="https://studentaffairs.stanford.edu/registrar/academic-calendar-1314">Stanford Academic Calendar, 2013-14</a></li>
+	<li>
+		<a href="/registrar/academic-calendar-1213">Stanford Academic Calendar, 2012-13</a></li>
+	<li>
+		<a href="/registrar/academic-calendar-1112">Stanford Academic Calendar, 2011-12</a></li>
+	<li>
+		<a href="/registrar/academic-calendar-1011">Stanford Academic Calendar, 2010-11</a></li>
+	<li>
+		<a href="/registrar/academic-calendar-0910">Stanford Academic Calendar, 2009-10</a></li>
+	<li>
+		<a href="/registrar/academic-calendar-0809">Stanford Academic Calendar, 2008-09</a></li>
+	<li>
+		<a href="/registrar/academic-calendar-0708">Stanford Academic Calendar, 2007-08</a></li>
+	<li>
+		<a href="/registrar/academic-calendar-0607">Stanford Academic Calendar, 2006-07</a></li>
+	<li>
+		<a href="/registrar/academic-calendar-0506">Stanford Academic Calendar, 2005-06</a></li>
+	<li>
+		<a href="/registrar/calendar-future">Future Academic Calendars</a></li>
+	<li>
+		<a href="/registrar/academic-calendar-previous">Previous Academic Calendars</a></li>
+</ul> </div>
+</div>
+  </div>
+ </div>
+        <!-- /#sidebar-first -->
+                              </div>
+      <div id="sidebar-second" class="sidebar">   <div class="region region-sidebar-second">
+    <div id="block-block-36" class="block block-block">       <div class="content"> <p> </p>
+ </div>
+</div>
+<div id="block-block-82" class="block block-block">     <h2>Search the Registrar&#039;s Site</h2>
+      <div class="content"> <form action="http://www.stanford.edu/search" id="cse-search-box">
+	<div style="padding-bottom: 1em;">
+		<img src="http://studentaffairs.stanford.edu/sites/all/themes/stanford_d7/images/icons/search.gif" width="156" alt="" /><input name="cx" type="hidden" value="003265255082301896483:sq5n7qoyfh8" /><input name="cof" type="hidden" value="FORID:9" /><input name="ie" type="hidden" value="UTF-8" /><input name="sitesearch" type="hidden" value="studentaffairs.stanford.edu/registrar" /><label for="search_dept"><input alt="Search field" id="search_dept" name="q" style="width: 140px; margin-left: 8px;" type="text" /></label><button style="float: right; font-size: 80%; margin-right: 8px;">Search</button></div>
+</form>
+ </div>
+</div>
+<div id="block-block-291" class="block block-block">       <div class="content"> <script type="text/javascript">
+<!--//--><![CDATA[// ><!--
+
+ 
+//create a function that accepts an input variable (which key was key pressed)
+function disableEnterKey(e){
+ 
+//create a variable to hold the number of the key that was pressed     
+var key;
+ 
+    //if the users browser is internet explorer
+    if(window.event){
+      
+    //store the key code (Key number) of the pressed key
+    key = window.event.keyCode;
+      
+    //otherwise, it is firefox
+    } else {
+      
+    //store the key code (Key number) of the pressed key
+    key = e.which;     
+    }
+      
+    //if key 13 is pressed (the enter key)
+    if(key == 13){
+      
+    //open pop up
+	var popUpWin = null;
+	var question = document.questionForm.question.value;
+	popUpWin = window.open('https://stanford.intelliresponse.com/askjane/index.jsp?question='+escape(question)+'&interfaceID=2&requestType=NormalRequest','pop','width=755,height=810,screenX=125,screenY=90,left=250,top=150,scrollbars=no,resize=no');
+	popUpWin.focus();
+	return false;
+      
+    //otherwise
+    } else {
+      
+    //continue as normal
+    return true;
+    }
+}
+
+//--><!]]>
+</script><p><img alt="[Photo: Jane Stanford]" height="52" src="/sites/default/files/ssc-fingate/images/jane_stanford.gif" style="border: 1px solid black;" width="155" /></p>
+<form action="https://stanford.intelliresponse.com/askjane/index.jsp" id="questionForm" method="post" target="blank">
+	<div>
+		<input maxlength="240" name="question" onfocus="this.value='';" size="20" style="width: 149px;" type="text" value="Type a complete question" /><p style="float:right; padding: 5px 2px 0 5px; display: inline;"><input name="NormalRequest" type="submit" value="askJane" /><input name="interfaceID" type="hidden" value="1" /><input name="id" type="hidden" value="-1" /><input name="requestType" type="hidden" value="NormalRequest" /><input name="source" type="hidden" value="1" /><input name="TopQuestionsRequest" type="submit" value="Top10" /></p>
+	</div>
+</form>
+<p> </p>
+<p>Search common questions about admissions, billing, financial aid, housing, enrollment, StanfordCardPlan, and more!</p>
+ </div>
+</div>
+<div id="block-block-71" class="block block-block">     <h2>Help Resources</h2>
+      <div class="content"> <p><a href="/registrar/forms" title="Forms">Forms</a><br /><a href="/registrar/publications" title="Publications">Publications</a><br /><a href="/registrar/academic-calendar" title="Academic Calendar &amp; Deadlines">Academic Calendar</a><br /><a class="external_link" href="http://bulletin.stanford.edu/" title="Explore Degrees">Stanford Bulletin</a><br /><a class="external_link" href="http://explorecourses.stanford.edu" title="Explore Courses">ExploreCourses</a></p>
+<p>The Registrar's Office provides assistance to students with questions or issues through the <strong><a class="external_link" href="http://studentservicescenter.stanford.edu" title="Student Services Center">Student Services Center</a></strong>. Students are encouraged to file a <strong><a class="external_link" href="http://remedyweb.stanford.edu/helpsu/helpsu?pcat=Registrar" title="HelpSU ticket">HelpSU ticket</a></strong> or consult <a class="external_link" href="http://askjane.stanford.edu" title="askJane"><strong>askJane</strong></a> for the most rapid response.</p>
+<p>Staff and faculty with further questions may file a <strong><a class="external_link" href="http://remedyweb.stanford.edu/helpsu/helpsu?pcat=Registrar" title="HelpSU ticket">HelpSU ticket</a></strong> or contact a <strong><a href="/node/1259" title="Registrar's Office Directory">Registrar staff member</a></strong>.</p>
+<p>Alumni and others with further questions should file a <strong><a class="external_link" href="http://remedyweb.stanford.edu/helpsu/helpsu?pcat=Registrar" title="HelpSU ticket">HelpSU ticket</a></strong> for the most rapid response.</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+ </div>
+</div>
+<div id="block-block-28" class="block block-block">     <h2>Student Affairs</h2>
+      <div class="content"> <p style="text-align: center;"><a href="http://studentaffairs.stanford.edu">Student Affairs</a> advances student development and learning; fosters community engagement; promotes diversity, inclusion and respect; and empowers students to thrive.</p>
+ </div>
+</div>
+  </div>
+ </div>
+      <!-- /#sidebar-second -->
+      <!-- /#content -->
+
+      <!-- /#footer --> 
+    </div>
+    <!-- /#container --> 
+  </div>
+  <!-- /#wrapper -->
+      <div id="footer" role="contentinfo" class="clearfix">
+            <div class="region region-footer">
+    <div id="block-block-493" class="block block-block">       <div class="content"> <div align="center">
+	Copyright ©2015 Stanford University. <a href="http://www.stanford.edu/site/terms.html">Terms of Use</a> | <a href="http://www.stanford.edu/site/copyright.html">Copyright Complaints</a> | <a href="https://remedyweb.stanford.edu/helpsu/helpsu?pcat=ssawebsites">Report a website problem</a> | <a href="http://www.stanford.edu/site/accessibility">Report web accessibility issue </a>| <a href="https://studentaffairs.stanford.edu/vpsa-staff-resources">Intranet</a> | <a href="http://studentaffairs.stanford.edu/non-discrimination-policy">Stanford Non-Discrimination Policy</a></div>
+ </div>
+</div>
+  </div>
+        </div>
+</div>
+<!-- /#layout --> </body>
+</html>

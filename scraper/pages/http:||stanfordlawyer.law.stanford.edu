@@ -1,0 +1,411 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xmlns:fb="http://ogp.me/ns/fb#" xmlns:addthis="http://www.addthis.com/help/api-spec" >
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>
+Stanford Lawyer</title>
+
+
+
+  
+  
+
+
+<link rel="stylesheet" href="http://stanfordlawyer.law.stanford.edu/wp-content/themes/lawyer-2013/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="http://stanfordlawyer.law.stanford.edu/wp-content/themes/lawyer-2013/style.css" type="text/css" media="print" />
+<link href="http://stanfordlawyer.law.stanford.edu/wp-content/themes/lawyer-2013/li.css" rel="stylesheet" type="text/css" />
+<link href="http://stanfordlawyer.law.stanford.edu/wp-content/themes/lawyer-2013/91/colors.css.php" rel="stylesheet" type="text/css" />
+
+<link rel="alternate" type="application/rss+xml" title="Stanford Lawyer RSS Feed" href="http://stanfordlawyer.law.stanford.edu/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Stanford Lawyer Atom Feed" href="http://stanfordlawyer.law.stanford.edu/feed/atom/" />
+<link rel="pingback" href="http://stanfordlawyer.law.stanford.edu/xmlrpc.php" />
+
+ 
+
+<script type="text/javascript">
+<!--
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+//-->
+
+
+function wrapgaq(sel, a, b){
+  jQuery(sel).click(function() {
+var txt = this.innerHTML;
+txt = txt.replace(/&amp;/g,"and");
+_gaq.push(['_trackEvent', a,  b, txt ]);
+});
+}
+
+
+jQuery(document).ready(function() {
+								
+	// main navigation
+    wrapgaq("#top_nav   a", 'Top Navigation', '');  //
+    wrapgaq("#togrid   a", 'Top Grid', '');  // add code to get title from span
+    wrapgaq("#main_nav ul li a", 'Main Navigation', '');  //
+    wrapgaq("#sidebar   a", 'Sidebar', '');  //  
+ });
+
+
+</script>
+
+ 
+ 
+
+
+
+ 
+<link rel='stylesheet' id='output-css'  href='http://stanfordlawyer.law.stanford.edu/wp-content/plugins/addthis/css/output.css?ver=3.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='smooth_slider_headcss-css'  href='http://stanfordlawyer.law.stanford.edu/wp-content/plugins/smooth-slider/css/skins/default/style.css?ver=2.4' type='text/css' media='all' />
+<link rel='stylesheet' id='se-link-styles-css'  href='http://stanfordlawyer.law.stanford.edu/wp-content/plugins/search-everything/static/css/se-styles.css?ver=3.9.2' type='text/css' media='all' />
+<script type='text/javascript' src='http://stanfordlawyer.law.stanford.edu/wp-includes/js/jquery/jquery.js?ver=1.11.0'></script>
+<script type='text/javascript' src='http://stanfordlawyer.law.stanford.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://stanfordlawyer.law.stanford.edu/wp-content/plugins/smooth-slider/js/jcycle.js?ver=2.4'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://stanfordlawyer.law.stanford.edu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://stanfordlawyer.law.stanford.edu/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.9.2" />
+<script type="text/javascript">
+	window._se_plugin_version = '8.1.2';
+</script>
+<link rel="stylesheet" type="text/css" href="http://stanfordlawyer.law.stanford.edu/wp-content/plugins/wp-recaptcha/recaptcha.css" />
+<meta name="google-site-verification" content="TIEXamUQXt-DTcx7pPdfiSLWYSy0phzsxNQBpNibaE4" />
+
+ 
+</head>
+
+
+<body class="home blog"  >
+<div id="page">
+
+
+<!--<div id="temp"  > Most recent issue:  
+</div>-->
+ 
+ 
+
+
+<div id="top-nav"><a href="http://stanfordlawyer.law.stanford.edu/the-mobile-stanford-lawyer">Go Mobile</a> | <span class="twitter"><a href="http://twitter.com/#!/StanfordLawMag">Follow Us</a></span>  <span class="rss"><a href="http://stanfordlawyer.law.stanford.edu/feed/"  >RSS</a> | <a href="http://law.stanford.edu">SLS Website</a> </span>Fall &nbsp;2014, Issue #91   </div>
+
+
+<form method="get" id="searchform" action="http://stanfordlawyer.law.stanford.edu/">
+<label class="hidden" for="s">Search for:</label>
+<div><input type="text" value="" name="s" id="s" />
+
+<input id="searchsubmit" type="image" align="top" alt="Search" src="http://stanfordlawyer.law.stanford.edu/wp-content/themes/lawyer-2013/images/search.png"  />
+<!--<input type="submit" id="searchsubmit" value="Search" />-->
+</div>
+</form>
+ 
+<div style="margin-bottom:2px;"> <a href="http://stanfordlawyer.law.stanford.edu"><img src="http://stanfordlawyer.law.stanford.edu/wp-content/themes/lawyer-2013/91/lawyer-front.png"   align="top" alt="Stanford Lawyer" /></a> </div>
+
+<div class="skip-link screen-reader-text"><a href="#content" title="Skip to content">Skip to content</a></div>
+
+
+
+
+
+<div id="smoothslider"   >
+    <script type="text/javascript">jQuery("html").addClass("smooth_slider_fouc");jQuery(document).ready(function() {   jQuery(".smooth_slider_fouc #smooth_slider_1").css({"display" : "block"}); });jQuery(document).ready(function() {
+		jQuery("#smooth_slider_1").cycle({ 
+			fx: "scrollHorz",
+			speed:"500",
+			timeout: "5000",pager: "#smooth_slider_1_nav",pagerAnchorBuilder: function(idx, slide) { 
+					return '<a class="sldr'+(idx+1)+' smooth_slider_inav smooth_slider_bnav" style="width:8px;height:8px;" href="#"></a>'; 
+				}, pause: 1
+			,slideExpr: "div.smooth_slideri"
+		});jQuery("head").append("<style type=\"text/css\">#smooth_slider_1 .smooth_nav a.smooth_slider_inav.activeSlide{background-position:-8px 0 !important;}</style>");});</script><noscript><p><strong>This page is having a slideshow that uses Javascript. Your browser either doesn't support Javascript or you have it turned off. To see this page as it is meant to appear please use a Javascript enabled browser.</strong></p></noscript><div id="smooth_slider_1" class="smooth_slider" style="width:743px;height:312px;background-color:transparent;border:0px solid #999999;"><div class="smooth_sliderb"><div class="smooth_slideri" style="width:743px;margin:0px 0px 0px 0px;">
+			<!-- smooth_slideri --><a href="http://stanfordlawyer.law.stanford.edu/2014/11/civil-liberties-and-law-in-the-era-of-surveillance/" title="Civil Liberties and Law in the Era of Surveillance" ><img src="http://stanfordlawyer.law.stanford.edu/wp-content/uploads/2014/11/StanfordFinalOpener_lores.jpg" alt="Civil Liberties and Law in the Era of Surveillance" class="full smooth_slider_thumbnail" style="float:left;margin:0 10px 0 0px;max-height:312px;border:0px solid #000000;" /></a><h2 style="clear:none;line-height:27px;font-family:Georgia,serif;font-size:24px;font-weight:normal;font-style:normal;color:#00404f;margin:0 0 5px 0;"><a style="color:#00404f;font-size:24px;font-weight:normal;font-style:normal;" href="http://stanfordlawyer.law.stanford.edu/2014/11/civil-liberties-and-law-in-the-era-of-surveillance/">Civil Liberties and Law in the Era of Surveillance</a></h2><span style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;font-style:normal;color:#111111;"> It may no longer be an exaggeration to say that big brother is watching. When Edward Snowden leaked classified government documents last year, many were surprised to learn just how much access the National Security Agency (NSA) has to the personal email and phone records of ordinary citizens.                                                     </span>
+				<p class="smooth_more"><a href="http://stanfordlawyer.law.stanford.edu/2014/11/civil-liberties-and-law-in-the-era-of-surveillance/" style="color:#00404f;font-family:Arial,Helvetica,sans-serif;font-size:12px;">Read more</a></p>
+			
+				<!-- /smooth_slideri -->
+			</div><div class="smooth_slideri" style="width:743px;margin:0px 0px 0px 0px;">
+			<!-- smooth_slideri --><a href="http://stanfordlawyer.law.stanford.edu/2014/11/ip-law-and-innovation-with-mark-a-lemley-and-a-douglas-melamed/" title="IP Law and Innovation with Mark A. Lemley and A. Douglas Melamed" ><img src="http://stanfordlawyer.law.stanford.edu/wp-content/uploads/2014/11/LegalMatters.jpg" alt="IP Law and Innovation with Mark A. Lemley and A. Douglas Melamed" class="full smooth_slider_thumbnail" style="float:left;margin:0 10px 0 0px;max-height:312px;border:0px solid #000000;" /></a><h2 style="clear:none;line-height:27px;font-family:Georgia,serif;font-size:24px;font-weight:normal;font-style:normal;color:#00404f;margin:0 0 5px 0;"><a style="color:#00404f;font-size:24px;font-weight:normal;font-style:normal;" href="http://stanfordlawyer.law.stanford.edu/2014/11/ip-law-and-innovation-with-mark-a-lemley-and-a-douglas-melamed/">IP Law and Innovation with Mark A. Lemley and A. Douglas Melamed</a></h2><span style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;font-style:normal;color:#111111;"> Two of IP law's top scholars and practitioners discuss recent U.S. Supreme Court cases and challenges facing the field.                                                                                  </span>
+				<p class="smooth_more"><a href="http://stanfordlawyer.law.stanford.edu/2014/11/ip-law-and-innovation-with-mark-a-lemley-and-a-douglas-melamed/" style="color:#00404f;font-family:Arial,Helvetica,sans-serif;font-size:12px;">Read more</a></p>
+			
+				<!-- /smooth_slideri -->
+			</div><div class="smooth_slideri" style="width:743px;margin:0px 0px 0px 0px;">
+			<!-- smooth_slideri --><a href="http://stanfordlawyer.law.stanford.edu/2014/11/debra-zumwalt-jd-79-the-chief-legal-officer-at-the-farm/" title="Debra Zumwalt, JD ’79; The Chief Legal Officer at the Farm" ><img src="http://stanfordlawyer.law.stanford.edu/wp-content/uploads/2014/11/Zumwalt.jpg" alt="Debra Zumwalt, JD ’79; The Chief Legal Officer at the Farm" class="full smooth_slider_thumbnail" style="float:left;margin:0 10px 0 0px;max-height:312px;border:0px solid #000000;" /></a><h2 style="clear:none;line-height:27px;font-family:Georgia,serif;font-size:24px;font-weight:normal;font-style:normal;color:#00404f;margin:0 0 5px 0;"><a style="color:#00404f;font-size:24px;font-weight:normal;font-style:normal;" href="http://stanfordlawyer.law.stanford.edu/2014/11/debra-zumwalt-jd-79-the-chief-legal-officer-at-the-farm/">Debra Zumwalt, JD ’79; The Chief Legal Officer at the Farm</a></h2><span style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;font-style:normal;color:#111111;"> As vice president and general counsel of Stanford University, Debra Zumwalt is at the helm of a vast operation. Learn how she is helping to manage one of the world's top incubators of young talent.                                                                  </span>
+				<p class="smooth_more"><a href="http://stanfordlawyer.law.stanford.edu/2014/11/debra-zumwalt-jd-79-the-chief-legal-officer-at-the-farm/" style="color:#00404f;font-family:Arial,Helvetica,sans-serif;font-size:12px;">Read more</a></p>
+			
+				<!-- /smooth_slideri -->
+			</div><div class="smooth_slideri" style="width:743px;margin:0px 0px 0px 0px;">
+			<!-- smooth_slideri --><a href="http://stanfordlawyer.law.stanford.edu/2014/11/joan-petersilia-a-lifes-work-focusing-on-americas-prison-challenges/" title="Joan Petersilia: A Life’s Work Focusing on America’s Prison Challenges" ><img src="http://stanfordlawyer.law.stanford.edu/wp-content/uploads/2014/11/FINAL_JOAN.jpg" alt="Joan Petersilia: A Life’s Work Focusing on America’s Prison Challenges" class="full smooth_slider_thumbnail" style="float:left;margin:0 10px 0 0px;max-height:312px;border:0px solid #000000;" /></a><h2 style="clear:none;line-height:27px;font-family:Georgia,serif;font-size:24px;font-weight:normal;font-style:normal;color:#00404f;margin:0 0 5px 0;"><a style="color:#00404f;font-size:24px;font-weight:normal;font-style:normal;" href="http://stanfordlawyer.law.stanford.edu/2014/11/joan-petersilia-a-lifes-work-focusing-on-americas-prison-challenges/">Joan Petersilia: A Life’s Work Focusing on America’s Prison Challenges</a></h2><span style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;font-style:normal;color:#111111;"> The official commendation explaining the selection of Joan Petersilia for the Stockholm Prize in Criminology begins, “Your research has provided compelling evidence on the staggering needs of American prisoners returning to their communities, and the importance of their reintegration for public safety.”                                                           </span>
+				<p class="smooth_more"><a href="http://stanfordlawyer.law.stanford.edu/2014/11/joan-petersilia-a-lifes-work-focusing-on-americas-prison-challenges/" style="color:#00404f;font-family:Arial,Helvetica,sans-serif;font-size:12px;">Read more</a></p>
+			
+				<!-- /smooth_slideri -->
+			</div><div class="smooth_slideri" style="width:743px;margin:0px 0px 0px 0px;">
+			<!-- smooth_slideri --><a href="http://stanfordlawyer.law.stanford.edu/2014/11/bright-award-for-environmental-sustainability/" title="Bright Award for Environmental Sustainability" ><img src="http://stanfordlawyer.law.stanford.edu/wp-content/uploads/2014/11/Stanford-Bright-Award_high-res-01.jpg" alt="Bright Award for Environmental Sustainability" class="full smooth_slider_thumbnail" style="float:left;margin:0 10px 0 0px;max-height:312px;border:0px solid #000000;" /></a><h2 style="clear:none;line-height:27px;font-family:Georgia,serif;font-size:24px;font-weight:normal;font-style:normal;color:#00404f;margin:0 0 5px 0;"><a style="color:#00404f;font-size:24px;font-weight:normal;font-style:normal;" href="http://stanfordlawyer.law.stanford.edu/2014/11/bright-award-for-environmental-sustainability/">Bright Award for Environmental Sustainability</a></h2><span style="font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:normal;font-style:normal;color:#111111;"> This year’s Bright Award for Environmental Sustainability was given to Art Sterritt, who has played a critical role in establishing and protecting the Great Bear Rainforest in British Columbia. The $100,000 international prize, now in its second year, is given annually by Stanford Law School. Judges for the prize noted that the protected ecosystem that Sterritt helped to establish accounts for a quarter of the world’s remaining coastal temperate rainforests.                               </span>
+				<p class="smooth_more"><a href="http://stanfordlawyer.law.stanford.edu/2014/11/bright-award-for-environmental-sustainability/" style="color:#00404f;font-family:Arial,Helvetica,sans-serif;font-size:12px;">Read more</a></p>
+			
+				<!-- /smooth_slideri -->
+			</div></div><div id="smooth_slider_1_nav" class="smooth_nav"></div><div class="sldr_clearlt"></div><div class="sldr_clearrt"></div>
+</div>
+
+</div>
+
+
+<!-- main navigation -->
+
+
+
+
+
+  <div id="main_nav">
+  <ul id="nav">
+    <li><a id="home" href="http://stanfordlawyer.law.stanford.edu" class="selected"  >Home Page</a></li>
+    <li> <a id="toc" href="http://stanfordlawyer.law.stanford.edu/91/"  >Table of Contents: Issue 91</a> 
+   <!-- Removed 11/14/12 as requested by Sharon Driscoll
+   
+   <ul id="subnavlist">
+            <li><a href="/?p=/" title="Cover Story">Cover Story</a> </li>
+      <li><a href="/?cat=14/" title="In Brief">In Brief</a> </li>
+      <li><a href="/?cat=4/" title="In Focus">In Focus</a> </li>
+      
+      <li><a href="/?cat=37/" title="Feature">Feature</a> </li>
+      <li><a href="/?cat=7/" title="Legal Matters">Legal Matters</a> </li>
+      <li><a href="/?cat=8/" title="Clinic News">Clinic News</a> </li>
+      
+      <li><a href="/?cat=17/" title="Faculty News">Faculty News</a> </li>
+      
+      <li><a href="/?p=3717/" title="Point of View">Point of View</a> </li>
+     
+   
+           
+      
+       <li><a href="/?cat=58/" title="Remembrances">Remembrances</a> </li>
+
+      <li><a href="/?cat=47/" title="Scholarship">Scholarship</a> </li>
+      
+
+      <li><a href="/?p=3822/" title="From the Dean">From the Dean</a> </li>
+      <li><a href="/?cat=100/" title="Letters to the Editor">Letters to the Editor</a> </li>
+      
+      
+      <li class="last">&nbsp; </li>
+    </ul>-->
+    
+    </li>
+    <li><a id="categories"   href="http://stanfordlawyer.law.stanford.edu/?page_id=92">Categories</a> </li>
+    <li><a id="history"  href="http://stanfordlawyer.law.stanford.edu/?page_id=2">Our History</a> </li>
+    <li><a id="backissues"  href="http://stanfordlawyer.law.stanford.edu/?page_id=88" >Back Issues</a> </li>
+    <li><a id="editor"    href="http://stanfordlawyer.law.stanford.edu/?page_id=90">Editor's Notes</a> </li>
+    <li><a id="contact"   href="http://stanfordlawyer.law.stanford.edu/?page_id=29">Contact </a>
+  </ul>
+</div>
+<div id="content" > </div>
+
+<table id="frontpagecontent"   >
+    <tr class="firstrow">
+        <td class="weighingin" ><div id="weighingin">
+                <h2>  <img src="http://stanfordlawyer.law.stanford.edu/wp-content/themes/lawyer-2013/images/Weighing-In.png"   alt=" Weighing In"   />  </h2>
+
+                   <!-- <a href="http://stanfordlawyer.law.stanford.edu/comments/feed/"> Comments (RSS)</a>-->
+
+                                <h3>Comments on  "<a href="http://stanfordlawyer.law.stanford.edu/?p=7333#comment-467696">The Hobby Lobby Decision</a>" </h3>
+            </div></td>
+
+        <td class="spacer">&nbsp;</td>
+        <td class="legalexperts" >
+            <h2><a href="http://stanfordlawyer.law.stanford.edu/?cat=3"><img src="http://stanfordlawyer.law.stanford.edu/wp-content/themes/lawyer-2013/images/The-Legal-Aggregate.png"   alt=" Legal Aggregates "   /></a></h2>
+            
+
+                    <h3><a href="http://stanfordlawyer.law.stanford.edu/2015/02/computational-jurisprudence-3-0/" rel="bookmark" title="Permanent Link to Computational Jurisprudence 3.0">
+                            Computational Jurisprudence 3.0                        </a></h3>
+
+                    
+                    </td>
+
+        <td   class="spacer">&nbsp;</td>
+        <td   class="vault" >
+            <h2><a href="http://stanfordlawyer.law.stanford.edu/?cat=22"><img src="http://stanfordlawyer.law.stanford.edu/wp-content/themes/lawyer-2013/images/See-It-Hear-It.png"   alt=" Video and Podcast Vault "   /></a></h2>
+            
+                    <h3><a href="http://stanfordlawyer.law.stanford.edu/2015/02/professor-barbara-van-schewick-on-network-neutrality/" rel="bookmark" title="Permanent Link to Professor Barbara van Schewick on Network Neutrality">
+                            Professor Barbara van Schewick on Network Neutrality                        </a></h3>
+
+                                                            </td>
+
+        <td   class="spacer">&nbsp;</td>
+        <td  class="cuttingegde">
+
+            <h2>  <a href="http://stanfordlawyer.law.stanford.edu/?cat=36"><img src="http://stanfordlawyer.law.stanford.edu/wp-content/themes/lawyer-2013/images/The-Cutting-Edge.png"   alt=" The Cutting Edge "   /></a></h2>
+                                <h3><a href="http://stanfordlawyer.law.stanford.edu/2014/09/stanford-laws-afghanistan-legal-education-project-releases-english-translation-of-afghan-civil-code/" rel="bookmark" title="Permanent Link to Stanford Law&#8217;s Afghanistan Legal Education Project Releases English Translation of Afghan Civil Code">
+                            Stanford Law&#8217;s Afghanistan Legal Education Project Releases English Translation of Afghan Civil Code                        </a></h3>
+
+                                        
+        </td>
+        <td class="spacer">&nbsp;</td>
+    </tr>
+    <tr class="contentrow">
+        <td class="weighingin" >
+
+            <div class="text">
+                <p>
+                    Title:  Too convenient an argument?
+Response by Paul Bator, Stanford Lecturer, to:
+&#8220;The Hobby Lobby Decision&#8221; by Professor Michael McConnell
+Stanford Lawyer Issue 91 Point of View  
+Along the same lines as Justice Alito&#8217;s majority opinion, Prof. Michael McConnell (The Hobby Lobby Decision&#8221; Point of View, Issue 91) puts forth an [...]                </p>
+            </div>
+            <p class="author"> - Paul Bator </p>
+        </td>
+        <td class="spacer">&nbsp;</td>
+        <td class="legalexperts" >
+            <div class="text">
+
+                <p><div class="addthis_toolbox addthis_default_style addthis_" addthis:url='http://stanfordlawyer.law.stanford.edu/2015/02/computational-jurisprudence-3-0/' addthis:title='Computational Jurisprudence 3.0 ' ><a class="addthis_button_facebook"></a><a class="addthis_button_twitter"></a><a class="addthis_button_email"></a><a class="addthis_button_pinterest_share"></a><a class="addthis_button_compact"></a><a class="addthis_counter addthis_bubble_style"></a></div>The impact of technology on law is moving forward with all the subtlety of a charging rhinoceros, transforming traditional practice and spawning new forms of “legal service” delivery. Surprisingly, many expect that the swirling events will just enhance the existing system, leaving it essentially intact, but with certain processes improved. [...]<div class="addthis_toolbox addthis_default_style " addthis:url='http://stanfordlawyer.law.stanford.edu/2015/02/computational-jurisprudence-3-0/' addthis:title='Computational Jurisprudence 3.0 '  ><a class="addthis_button_facebook_like" fb:like:layout="button_count"></a><a class="addthis_button_tweet"></a><a class="addthis_button_pinterest_pinit"></a><a class="addthis_counter addthis_pill_style"></a></div></p> 
+            </div>
+             <p class="author">Oliver R. Goodenough </p></td>
+        <td   class="spacer">&nbsp;</td>
+        <td   class="vault" ><div class="text"> 
+
+                <p><div class="addthis_toolbox addthis_default_style addthis_" addthis:url='http://stanfordlawyer.law.stanford.edu/2015/02/professor-barbara-van-schewick-on-network-neutrality/' addthis:title='Professor Barbara van Schewick on Network Neutrality ' ><a class="addthis_button_facebook"></a><a class="addthis_button_twitter"></a><a class="addthis_button_email"></a><a class="addthis_button_pinterest_share"></a><a class="addthis_button_compact"></a><a class="addthis_counter addthis_bubble_style"></a></div>Professor Barbara van Schewick explains why meaningful network neutrality rules are critical to the future of the U.S. economy.<div class="addthis_toolbox addthis_default_style " addthis:url='http://stanfordlawyer.law.stanford.edu/2015/02/professor-barbara-van-schewick-on-network-neutrality/' addthis:title='Professor Barbara van Schewick on Network Neutrality '  ><a class="addthis_button_facebook_like" fb:like:layout="button_count"></a><a class="addthis_button_tweet"></a><a class="addthis_button_pinterest_pinit"></a><a class="addthis_counter addthis_pill_style"></a></div></p> 
+
+
+            </div>
+                            <a href="http://stanfordlawyer.law.stanford.edu/?p=7670" > <img src="http://stanfordlawyer.law.stanford.edu/wp-content/uploads/2015/02/Professor-van-Schewick.jpg"   alt="Go the Video post page"   /> </a >
+</td>
+        <td   class="spacer">&nbsp;</td>
+        <td  class="cuttingegde"><div class="text">
+                <p><div class="addthis_toolbox addthis_default_style addthis_" addthis:url='http://stanfordlawyer.law.stanford.edu/2014/09/stanford-laws-afghanistan-legal-education-project-releases-english-translation-of-afghan-civil-code/' addthis:title='Stanford Law&#8217;s Afghanistan Legal Education Project Releases English Translation of Afghan Civil Code ' ><a class="addthis_button_facebook"></a><a class="addthis_button_twitter"></a><a class="addthis_button_email"></a><a class="addthis_button_pinterest_share"></a><a class="addthis_button_compact"></a><a class="addthis_counter addthis_bubble_style"></a></div>The Afghanistan Legal Education Project (ALEP) publicly releases its English translation of the Afghan Civil Code this week. This is very significant for the legal and private sectors in Afghanistan, which have been operating without reliable English translations of two of the country’s three most important sources of law (the others [...]<div class="addthis_toolbox addthis_default_style " addthis:url='http://stanfordlawyer.law.stanford.edu/2014/09/stanford-laws-afghanistan-legal-education-project-releases-english-translation-of-afghan-civil-code/' addthis:title='Stanford Law&#8217;s Afghanistan Legal Education Project Releases English Translation of Afghan Civil Code '  ><a class="addthis_button_facebook_like" fb:like:layout="button_count"></a><a class="addthis_button_tweet"></a><a class="addthis_button_pinterest_pinit"></a><a class="addthis_counter addthis_pill_style"></a></div> </p>
+            </div>
+             <p class="author">Megan Karsh, JD '09, Rule of Law Fellow </p></td>
+        <td class="spacer">&nbsp;</td>
+    </tr>
+    <tr id="linkto">
+        <td class="weighingin" ><div class="linkto"><a href="http://stanfordlawyer.law.stanford.edu/?p=7333">Read more</a></div></td>
+        <td class="spacer">&nbsp;</td>
+        <td class="legalexperts" ><div class="linkto"><a href="http://stanfordlawyer.law.stanford.edu/?p=7673" rel="bookmark" >Read more</a></div></td>
+        <td class="spacer">&nbsp;</td>
+        <td class="vault" ><div class="linkto"><a href="http://stanfordlawyer.law.stanford.edu/?cat=22" rel="bookmark" >View more  </a></div></td>
+        <td class="spacer">&nbsp;</td>
+        <td  class="cuttingegde"><div class="linkto"><a href="http://stanfordlawyer.law.stanford.edu/?cat=36" rel="bookmark" >Read more</a></div></td>
+    </tr>
+    <tr   id="secondrow">
+        <td colspan="7" ><!-- from the dean; most recent post in category "from the Dean" -->
+            <div  id="dean"  >
+                                                                     <h2> <!--<a href="http://stanfordlawyer.law.stanford.edu/2014/11/from-the-dean-8/" > </a>--> From the Dean</h2>
+                        <p class="subheader">By Liz Magill</p>
+                        <div class="post-7165 post type-post status-publish format-standard hentry category-from-the-dean tag-dean-magill tag-faculty-scholarship tag-future-of-law tag-legal-trends" id="post-7165">
+        <div class="addthis_toolbox addthis_default_style addthis_" addthis:url='http://stanfordlawyer.law.stanford.edu/2014/11/from-the-dean-8/' addthis:title='From the Dean ' ><a class="addthis_button_facebook"></a><a class="addthis_button_twitter"></a><a class="addthis_button_email"></a><a class="addthis_button_pinterest_share"></a><a class="addthis_button_compact"></a><a class="addthis_counter addthis_bubble_style"></a></div>
+<p>The term “epicenter” refers to the point on the Earth’s surface that is directly above the point where an earthquake or underground explosion originates.</p>
+<p>We all know that the word epicenter is frequently used outside the context of seismic events. In fact, those who police our language grumble about its overuse. </p>
+<p>I cannot count the number of times I have been told that Stanford University and Silicon Valley are the epicenter of the digital revolution, but I don’t think even those who are serious about the use of language should complain. It’s true, there is no surface point that can be matched to a subsurface point of disruption, but this region and this school have created something that is easily analogous to an earthquake—a shaking and shifting of the earth, with unpredictable aftershocks. Of course, it is only an analogy because, unlike seismic disasters, the digital revolution has created countless goods. But it has also created some new concerns. </p>
+<p>Our feature story in this issue zeros in on one set of those concerns—the way in which the digital revolution has changed the relationship between the citizen and the state. The world that we now take for granted creates the possibility of wide-scale government surveillance of huge populations and the possibility that law enforcement can reach into every nook and cranny of our lives. Not surprisingly, those at Stanford Law School are at the center of many of the most pressing debates over this new reality and they are featured in our cover story.
+<div class="addthis_toolbox addthis_default_style " addthis:url='http://stanfordlawyer.law.stanford.edu/2014/11/from-the-dean-8/' addthis:title='From the Dean '  ><a class="addthis_button_facebook_like" fb:like:layout="button_count"></a><a class="addthis_button_tweet"></a><a class="addthis_button_pinterest_pinit"></a><a class="addthis_counter addthis_pill_style"></a></div>
+                            <div  class="more"> <a href="http://stanfordlawyer.law.stanford.edu/2014/11/from-the-dean-8/" rel="bookmark" title="Permanent Link to From the Dean"> Read More</a> </div>
+                        </div>
+                                    </div>
+            <!-- news -->
+            <div id="news" style="">
+                <h2>News</h2>
+
+
+
+                
+                        <div class="simplepie"> 
+                            <span class="date"> Monday, February 9 </span>
+                            <p>
+                                <a href="http://blogs.law.stanford.edu/newsfeed/2015/02/09/colleagues-honor-stanford-law-school-professor-richard-craswell-with-festschrift/">
+        Colleagues Honor Stanford Law School Professor Richard Craswell with Festschrift                       </a> 
+                            </p>
+                            <div class="rss-desc">   Some of the nation’s most respected scholars in the field of contract law gathered at a “festschrift” symposium last weekend to celebrate the exceptional contributions of Stanford Law School Pro  […] </div> 
+
+                        </div>    
+
+
+
+
+                    
+                        <div class="simplepie"> 
+                            <span class="date"> Thursday, February 5 </span>
+                            <p>
+                                <a href="http://blogs.law.stanford.edu/newsfeed/2015/02/05/supreme-court-justice-and-circuit-judges-give-sls-students-insiders-look-at-becoming-a-judge/">
+        Supreme Court Justice and Circuit Judges Give SLS Students Insider’s Look at Becoming a Judge                       </a> 
+                            </p>
+                            <div class="rss-desc">   A sterling reputation is the key driver of success for lawyers, agreed U.S. Supreme Court Justice Elena Kagan and U.S. Circuit Judges Sri Srinivasan (JD/MBA ’95, BA ’89) and Raymond Kethledge duri  […] </div> 
+
+                        </div>    
+
+
+
+
+                    
+                            </div>
+            <!-- SLS connect  -->
+            <div id="slsconnect" style="float:left; width:170px;   margin-top: 20px;">
+                <h2>Connect</h2>
+
+                </a></p>
+                <p><a href="https://alumni-law.stanford.edu/get/page/groups/overview/classmates">Login to the Alumni Network to read "Classmates."</a>.</p>
+
+
+                <h2>Browse by Topic</h2>
+
+
+                <div id="tags" >
+                                            <a href='http://stanfordlawyer.law.stanford.edu/tag/criminal-justice/' class='tag-link-56' title='13 topics' style='font-size: 8pt;'>Criminal Justice</a>
+<a href='http://stanfordlawyer.law.stanford.edu/tag/faculty-scholarship/' class='tag-link-57' title='33 topics' style='font-size: 23pt;'>Faculty Scholarship</a>
+<a href='http://stanfordlawyer.law.stanford.edu/tag/government-service/' class='tag-link-59' title='13 topics' style='font-size: 8pt;'>Government Service</a>
+<a href='http://stanfordlawyer.law.stanford.edu/tag/interdisciplinary/' class='tag-link-54' title='15 topics' style='font-size: 9.97368421053pt;'>Interdisciplinary</a>
+<a href='http://stanfordlawyer.law.stanford.edu/tag/law-and-innovation/' class='tag-link-94' title='23 topics' style='font-size: 17.0789473684pt;'>Law and Innovation</a>
+<a href='http://stanfordlawyer.law.stanford.edu/tag/legal-careers/' class='tag-link-41' title='20 topics' style='font-size: 14.7105263158pt;'>Legal Careers</a>
+<a href='http://stanfordlawyer.law.stanford.edu/tag/legal-education/' class='tag-link-31' title='26 topics' style='font-size: 19.0526315789pt;'>Legal Education</a>
+<a href='http://stanfordlawyer.law.stanford.edu/tag/legal-profession/' class='tag-link-39' title='22 topics' style='font-size: 16.2894736842pt;'>Legal Profession</a>
+<a href='http://stanfordlawyer.law.stanford.edu/tag/legal-research/' class='tag-link-77' title='15 topics' style='font-size: 9.97368421053pt;'>Legal Research</a>
+<a href='http://stanfordlawyer.law.stanford.edu/tag/legal-trends/' class='tag-link-30' title='17 topics' style='font-size: 12.3421052632pt;'>Legal Trends</a>
+<a href='http://stanfordlawyer.law.stanford.edu/tag/public-interest-law/' class='tag-link-35' title='19 topics' style='font-size: 13.9210526316pt;'>Public Interest Law</a>
+<a href='http://stanfordlawyer.law.stanford.edu/tag/student-interest/' class='tag-link-108' title='13 topics' style='font-size: 8pt;'>Student-interest</a>                </div>  
+
+
+
+
+
+
+
+
+            </div></td>
+    </tr>
+</table>
+
+<div id="footer">
+  <!-- If you'd like to support WordPress, having the "powered by" link somewhere on your blog is the best way; it's our only promotion or advertising. -->
+  <p> &copy; 2015 By The Board Of Trustees Of Leland Stanford Junior University </p>
+  <p class="footerline">
+    Stanford Lawyer    is proudly powered by <a href="http://wordpress.org/">WordPress</a>.    Best viewed with <a href="http://www.mozilla.com/products/firefox/">Firefox &reg; </a> 
+    <!-- 73 queries. 0.380 seconds. -->
+    | &nbsp;
+    <a href="https://stanfordlawyer.law.stanford.edu/wp-login.php">Log in</a>     
+  </p>  
+  <ul>
+      </ul>
+
+   
+  
+  </div>
+</div>
+<script type="text/javascript">if (typeof(addthis_share) == "undefined"){ addthis_share = {"url_transforms":{"shorten":{"twitter":"bitly"}},"shorteners":{"bitly":{"login":"stanfordlaw","apiKey":"R_6373c5f6273b83ef6f2b54384b3c5e8d"}}};}
+
+var addthis_config = {"data_track_clickback":true,"data_ga_property":"UA-1544716-7","data_ga_social":true,"data_track_addressbar":false,"data_track_textcopy":false,"ui_atversion":"300"};
+var addthis_product = 'wpp-3.5.9';
+</script><script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-504649c61901fd7d"></script><script type='text/javascript' src='http://stanfordlawyer.law.stanford.edu/wp-includes/js/jquery/ui/jquery.ui.core.min.js?ver=1.10.4'></script>
+<script type='text/javascript' src='http://stanfordlawyer.law.stanford.edu/wp-includes/js/jquery/ui/jquery.ui.widget.min.js?ver=1.10.4'></script>
+<script type='text/javascript' src='http://stanfordlawyer.law.stanford.edu/wp-includes/js/jquery/ui/jquery.ui.tabs.min.js?ver=1.10.4'></script>
+<!--wp_footer-->
+ 
+ <script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-1544716-7");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+ 
+</body></html></div>
+</body></html>

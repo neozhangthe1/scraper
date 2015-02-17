@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+		<meta name="keywords" content="stanford academic" />
+		<meta name="description" content="The first publicly available iTunes U site. A comprehensive online audio and video collection from Stanford University. Celebrating 5 years of edutechnosharification." />
+		<meta name="robots" content="all" />
+		<title>Stanford on iTunes U</title>
+		<link rel="stylesheet" type="text/css" href="css/soit2010.css?v=2" media="screen" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+		<script type="text/JavaScript">
+		function openWindow(url, windowname, width, height, toolbar){
+		var sizestring = 'width=' + width + ',height=' + height;
+		SmallWin = window.open(url,windowname,'scrollbars,resizable,' + sizestring +',toolbar='+toolbar+',location=0,status=0,directories=0,menubar='+toolbar);
+		SmallWin.focus();
+		}
+		</script>
+        
+        <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1860414-9']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+  })();
+
+</script>
+	</head>
+	
+	<body>
+		
+		<div id="wrapper">
+		<div id="content">
+				
+
+           	  <div id="localnav">
+				  <ul>
+						<li id="home"><a href="/"><img src="images/SoiTIcon49sq.png" alt="Stanford on iTunes U Home"  /></a></li>
+                        <li id="overview"><a href="content/overview.html">Overview</a></li>
+						<li id="quickstart"><a href="content/quickstart.html">Quickstart </a></li>
+						<li id="faq"><a href="content/faq.html"><abbr title="Frequently Asked Questions">FAQ</abbr></a></li>
+                        <li id="rss"><a href="content/rss.html"><abbr title="Really Simple Syndication">RSS</abbr></a></li>
+						<li id="contribute"><a href="http://ucomm.stanford.edu/contribute/">Contribute</a></li>
+						<li id="contact"><a href="content/contact.html" title="Contact">Contact</a></li>
+					</ul>
+                     <div id="smallopen">
+                <a href="http://deimos.apple.com/WebObjects/Core.woa/Browsev2/itunes.stanford.edu"target="_blank"><span class="offscreen">Open Stanford on iTunes U</span></a>                	</div>
+			  </div>
+                
+               
+		  <div id="hero">
+		    <div id="open"><a href="http://deimos.apple.com/WebObjects/Core.woa/Browsev2/itunes.stanford.edu"target="_blank"><span class="offscreen">Open Stanford on iTunes U</span></a></div>
+			  </div>	
+			</div>
+            
+            
+        <div id="gift"><div id="gifticon"><a href="http://pgnet.stanford.edu/goto/soitgift" target="_blank"><img src="images/MakeAGift.gif" alt="Support Stanford on iTunes U" /></a></div><div id="gifttext">You can help Stanford University's ongoing efforts to provide quality educational content online free of charge.  <a href="http://pgnet.stanford.edu/goto/soitgift" target="_blank">Please make a donation to Stanford on iTunes U today.</a></div>
+        </div>
+       
+        
+        <div id="footernav">
+        <ul>
+        	<li id="stanford"><a href="http://www.stanford.edu/" title="Stanford University">Stanford University</a></li>
+            <li id="contactus"><a href="content/contact.html" title="Contact">Contact</a></li>
+            </ul>
+           </div>
+		</div>
+       
+		
+		<div id="copyright" class="vcard">
+		&copy; <span class="fn org">Stanford University</span>.  All Rights Reserved.  <span class="adr"><span class="locality">Stanford</span>, <span class="region">CA</span>  <span class="postal-code">94305</span>. <span class="tel">(650) 723-2300</span></span>.  <a href="http://www.stanford.edu/home/atoz/terms.html">Terms of Use</a>&nbsp;|&nbsp;<a href="http://www.stanford.edu/home/atoz/copyright.html">Copyright Complaints</a>
+		</div>
+		
+	</body>
+</html>

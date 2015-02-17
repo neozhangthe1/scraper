@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Stanford Engineering Alumni | Engineering</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/sites/all/themes/stanford_soe/favicon.ico" type="image/x-icon" />
+<meta property="og:title" content="Stanford Engineering Alumni" />
+<link rel="canonical" href="http://engineering.stanford.edu/node/36370" />
+<meta property="og:url" content="http://engineering.stanford.edu/node/36370" />
+<meta name="revisit-after" content="1 day" />
+<meta property="fb:admins" content="56763409599" />
+<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/files/css/css_99b191adf8eddbaf89e3cfd71ced6c53.css" />
+<script type="text/javascript" src="/sites/default/files/js/js_c8c1af2242cf4146629e43defe0e2169.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "dhtmlMenu": { "siblings": "siblings", "slide": 0, "relativity": 0, "children": 0, "clone": 0, "doubleclick": 0 }, "googleanalytics": { "trackOutbound": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip" }, "viewsSlideshowSingleFrame": { "#views_slideshow_singleframe_main_news_carousel-block_6": { "num_divs": 4, "id_prefix": "#views_slideshow_singleframe_main_", "div_prefix": "#views_slideshow_singleframe_div_", "vss_id": "news_carousel-block_6", "timeout": 8500, "sort": 1, "effect": "fade", "speed": 700, "start_paused": 0, "delay": 0, "fixed_height": 1, "random": 0, "pause": 1, "pause_on_click": 0, "pause_when_hidden": 0, "pause_when_hidden_type": "full", "amount_allowed_visible": "", "remember_slide": 0, "remember_slide_days": 1, "controls": 1, "items_per_slide": 1, "pager": 2, "pager_type": "Numbered", "pager_hover": 2, "pager_click_to_page": 0, "image_count": 0, "nowrap": 0, "sync": 1, "advanced": "", "ie": { "cleartype": "true", "cleartypenobg": "false" } } } });
+//--><!]]>
+</script>
+  <!--[if lte IE 8]>
+    <link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/stanford_soe/css/ie8.css" />  <![endif]-->
+  
+  <script type="text/javascript"> </script>
+  <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+  <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <script src="/sites/all/themes/stanford_soe/js/ie8.js"></script>
+  <![endif]-->
+
+  <script type="text/javascript">
+        jQuery(document).ready(function() {
+
+            jQuery(".quicklinks").click(function(e) {
+				e.preventDefault();
+                jQuery("#block-block-53").toggle();
+				jQuery(".quicklinks").toggleClass("menu-open");
+            });
+
+			jQuery("div#block-block-53").mouseup(function() {
+				return false
+			});
+			jQuery(document).mouseup(function(e) {
+				if(jQuery(e.target).parent("a.quicklinks").length==0) {
+					jQuery(".quicklinks").removeClass("menu-open");
+					jQuery("div#block-block-53").hide();
+				}
+			});
+
+        });
+
+</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "f3b9106a-6622-4aa6-a630-665f50f2a48c"}); </script>
+
+</head>
+<body class="not-front not-logged-in page-node node-type-page one-sidebar sidebar-right slideshow-page searchbox">
+<div id="site-content">
+  <div id="skipnav">
+    <p>Skip to:</p>
+    <ul>
+      <li><a href="#content">Main Content</a></li>
+    </ul>
+  </div>
+  <!--/#skipnav -->
+  <div id="global-header">
+    <div class="container">
+      <div class="row">
+        <div id="top-logo" class="span4"><a href="http://www.stanford.edu"><img src="/sites/all/themes/stanford_soe/images/brandbar-stanford-logo@2x.png" width="152" height="23" alt="Stanford University" /></a></div>
+        <div id="top-menu" class="span8">
+          <div id="user-login-form"><a href="/sites/default/webauth/login?destination=portals/alumni">SUNet Login</a></div>                  </div>
+      </div>
+    </div>
+  </div>
+  <!-- /#global-header -->
+  <div id="page-content">
+    <div id="header" role="banner" class="clear-block">
+      <div class="container">
+                <div id="logo"><a href="/" title="Engineering"><img src="/sites/all/themes/stanford_soe/images/stanford-wordmark-red@2x.png" width="180" height="40" alt="Engineering" /></a></div>
+                <div id="site">
+                    <div id="name"><a href="/" title="Engineering">Engineering</a></div>
+                            </div>
+                <div id="top" class="row">
+          
+
+<div id="block-block-53" class="span6 clear-block block block-block">
+    <div class="content clear-block"><div class="link-panel">
+<h2><a href="/portals/alumni">Alumni</a></h2>
+<ul>
+<li><a href="https://soe-stanford-csm.symplicity.com/students/index.php">Alumni Job Board</a></li>
+<li><a href="https://alumni.stanford.edu/get/page/login?pg=yes&amp;nu=https:**alumni.stanford.edu/get/page/directory/search$pgOrg=saa">Search Alumni Directory</a></li>
+<li><a href="http://scpd.stanford.edu/">Professional Development</a></li>
+<li><a href="/portals/alumni/volunteer">Volunteer</a></li>
+</ul>
+</div>
+<div class="link-panel">
+<h2><a href="/portals/student">Students</a></h2>
+<ul>
+<li><a href="/portals/student/areas-of-study">Areas of Study</a></li>
+<li><a href="/portals/student/academic-support-and-resources">Academic Support</a></li>
+<li><a href="/portals/student/international-students">International Students</a></li>
+<li><a href="/portals/student/career-resources">Career Resources</a></li>
+<li><a href="/portals/student/jobs-and-internships">Jobs &amp; Internships</a></li>
+<li><a href="/portals/student/student-organizations">Student Organizations</a></li>
+</ul>
+</div>
+<div class="link-panel">
+<h2><a href="/partnerships">Partnerships</a></h2>
+<ul>
+<li><a href="/partnerships/affiliate-programs">Affiliate Programs</a></li>
+<li><a href="/partnerships/corporate-partnerships">Corporate Partnerships</a></li>
+<li><a href="/partnerships/recruiting">Recruiting</a></li>
+<li><a href="http://scpd.stanford.edu/">Professional Development</a></li>
+</ul>
+</div>
+<div class="link-panel">
+<h2><a href="/portals/faculty-staff">Faculty &amp; Staff</a></h2>
+<ul>
+<li><a href="/portals/faculty-staff/facilities-planning-management">Facilities Planning &amp; Management</a></li>
+<li><a href="/portals/faculty-staff/faculty-affairs">Faculty Affairs</a></li>
+<li><a href="/portals/faculty-staff/finance">Finance</a></li>
+<li><a href="/portals/faculty-staff/human-resources">Human Resources</a></li>
+<li><a href="/portals/faculty-staff/information-technology">Information Technology</a></li>
+<li><a href="/portals/faculty-staff/era">Research Administration</a></li>
+<li><a href="/portals/faculty-staff/seq-operations">SEQ Services</a></li>
+</ul>
+</div>
+<div class="link-panel">
+<h2>Other Engineering Sites</h2>
+<ul>
+<li><a href="http://scpd.stanford.edu/">Center for Professional Development</a></li>
+<li><a href="http://stvp.stanford.edu/">Technology Ventures Program</a></li>
+<li><a href="http://dschool.stanford.edu/">Hasso Plattner Institute of Design</a></li>
+<li><a href="http://icme.stanford.edu/">Institute for Computational &amp; Mathematical Engineering</a></li>
+<li><a href="http://www.stanford.edu/group/wellspring/">Wellspring of Innovation</a></li>
+</ul>
+</div>
+</div>
+  </div>
+
+
+<div id="block-menu-menu-top-links" class="span6 clear-block block block-menu">
+    <div class="content clear-block"><ul class="menu"><li class="expanded first dhtml-menu  active-trail"><a href="/user" title="" id="dhtml_menu-3115">Info For...</a><ul class="menu"><li class="leaf first dhtml-menu "><a href="/portals/student" title="" id="dhtml_menu-3831">Students</a></li>
+<li class="leaf  dhtml-menu "><a href="/portals/faculty-staff" title="" id="dhtml_menu-3830">Faculty &amp; Staff</a></li>
+<li class="leaf  dhtml-menu  active-trail"><a href="/portals/alumni" title="" id="dhtml_menu-4175" class="active">Alumni</a></li>
+<li class="leaf last dhtml-menu "><a href="/partnerships/corporate-partnerships" title="" id="dhtml_menu-4176">Companies</a></li>
+</ul></li>
+<li class="expanded  dhtml-menu  collapsed start-collapsed "><a href="/research-faculty/labs-centers" title="" id="dhtml_menu-4144">Departments</a><ul class="menu"><li class="leaf first dhtml-menu "><a href="http://aa.stanford.edu/" title="" id="dhtml_menu-4177">Aeronautics and Astronautics</a></li>
+<li class="leaf  dhtml-menu "><a href="http://bioengineering.stanford.edu/" title="" id="dhtml_menu-4178">Bioengineering</a></li>
+<li class="leaf  dhtml-menu "><a href="http://cheme.stanford.edu/" title="" id="dhtml_menu-4180">Chemical Engineering</a></li>
+<li class="leaf  dhtml-menu "><a href="http://cee.stanford.edu/" title="" id="dhtml_menu-4181">Civil &amp; Environmental Engineering</a></li>
+<li class="leaf  dhtml-menu "><a href="http://cs.stanford.edu/" title="" id="dhtml_menu-4182">Computer Science</a></li>
+<li class="leaf  dhtml-menu "><a href="http://ee.stanford.edu/" title="" id="dhtml_menu-4183">Electrical Engineering</a></li>
+<li class="leaf  dhtml-menu "><a href="http://www.stanford.edu/dept/MSandE/cgi-bin/index.php" title="" id="dhtml_menu-4185">Management Science &amp; Engineering</a></li>
+<li class="leaf  dhtml-menu "><a href="http://mse.stanford.edu/" title="" id="dhtml_menu-5183">Materials Science &amp; Engineering</a></li>
+<li class="leaf last dhtml-menu "><a href="http://me.stanford.edu/" title="" id="dhtml_menu-4186">Mechanical Engineering</a></li>
+</ul></li>
+<li class="expanded last dhtml-menu  collapsed start-collapsed "><a href="/user" title="" id="dhtml_menu-11197">Institutes</a><ul class="menu"><li class="leaf first dhtml-menu "><a href="http://dschool.stanford.edu/" title="" id="dhtml_menu-11198">Hasso Plattner Institute of Design</a></li>
+<li class="leaf  dhtml-menu "><a href="http://icme.stanford.edu/" title="" id="dhtml_menu-11199">Institute for Computational &amp; Mathematical Engineering</a></li>
+<li class="leaf  dhtml-menu "><a href="http://energy.stanford.edu/" title="" id="dhtml_menu-11200">Precourt Institute for Energy at Stanford</a></li>
+<li class="leaf last dhtml-menu "><a href="http://woods.stanford.edu/" title="" id="dhtml_menu-11201">Stanford Woods Institute for the Environment</a></li>
+</ul></li>
+</ul></div>
+  </div>
+          <!--<a href="#" class="quicklinks"><span>Quick Links</span></a> -->
+                    <div id="search" role="search"><form action="/portals/alumni"  accept-charset="UTF-8" method="post" id="search-theme-form">
+<div><div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-0ZwpC1YgTABtgSSFAFdVWRuotqVNRwB4ZlVGe3oCGYU" value="form-0ZwpC1YgTABtgSSFAFdVWRuotqVNRwB4ZlVGe3oCGYU"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+
+</div></form>
+</div>
+                  </div>
+                        <div id="navigation-primary" role="navigation" class="clear-block">
+                    
+
+<div id="block-menu-primary-links" class="clear-block block block-menu ">
+  <h2>Primary links</h2>
+
+  <div class="content">
+    <ul class="menu"><li class="leaf first no-dhtml "><a href="/about" title="" id="dhtml_menu-2688">About</a></li>
+<li class="leaf  no-dhtml "><a href="/research-faculty" title="" id="dhtml_menu-2668">Research &amp; Faculty</a></li>
+<li class="leaf  no-dhtml "><a href="/admissions" title="" id="dhtml_menu-1898">Admissions</a></li>
+<li class="leaf  no-dhtml "><a href="/education" title="" id="dhtml_menu-1910">Education</a></li>
+<li class="leaf last no-dhtml "><a href="/partnerships" title="" id="dhtml_menu-1952">Partnerships</a></li>
+</ul>  
+  </div>
+</div>
+        </div>
+              </div>
+    </div>
+    <!-- /#header -->
+    <div class="content-outer">
+      <div class="content-inner">
+        <div class="container">
+          <!-- /#navigation-primary -->
+                    <div id="main-content">
+            <div id="content-header" class="row">
+              <div class="span12">
+                                                                                                                                              </div>
+            </div>
+            <!-- /#content-header -->
+            <div id="content" class="row">
+                            <!-- /#sidebar-first -->
+              <div id="main" role="main" class="span9">
+                                <div id="content-top" class="row">
+
+ <div id="block-views-news_carousel-block_6" class="span9 clear-block block block-views carousel-mini"> 
+    <div class="content clear-block"><div class="view view-news-carousel view-id-news_carousel view-display-id-block_6 news-carousel news-carousel-mini news-carousel-alumniportal view-dom-id-3">
+            
+
+  <div class="views-slideshow-controls-top clear-block">
+    <div class="views_slideshow_singleframe_controls views_slideshow_controls" id="views_slideshow_singleframe_controls_news_carousel-block_6"><a href="# " class="views_slideshow_singleframe_previous views_slideshow_previous" id="views_slideshow_singleframe_prev_news_carousel-block_6">Previous</a><a href="# " class="views_slideshow_singleframe_pause views_slideshow_pause" id="views_slideshow_singleframe_playpause_news_carousel-block_6">Pause</a><a href="# " class="views_slideshow_singleframe_next views_slideshow_next" id="views_slideshow_singleframe_next_news_carousel-block_6">Next</a></div>
+          </div>
+
+<div id="views_slideshow_singleframe_main_news_carousel-block_6" class="views_slideshow_singleframe_main views_slideshow_main"><div id="views_slideshow_singleframe_teaser_section_news_carousel-block_6" class="views_slideshow_singleframe_teaser_section"><div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-1 views-row-odd" id="views_slideshow_singleframe_div_news_carousel-block_6_0"><div class="views-row views-row-0 views-row-first views-row-odd">
+  
+  <div class="views-field-field-news-slug-value">
+                <span class="field-content">Free Braille-Writer App</span>
+  </div>
+  
+  <div class="views-field-field-short-dek-value">
+                <span class="field-content">Stanford engineer&#039;s touchscreen Braille writer is now an app that turns an iPad into an invaluable tool for the visually impaired.</span>
+  </div>
+  
+  <div class="views-field-field-story-image-fid">
+                <span class="field-content"><a href="/news/stanford-engineer-produces-free-braille-writer-app"><img src="http://engineering.stanford.edu/sites/default/files/imagecache/carousel-700x325/braille-writer-2_680x320.jpg" alt="" title="" width="700" height="325" class="imagecache imagecache-carousel-700x325 imagecache-default imagecache-carousel-700x325_default"/></a></span>
+  </div>
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-2 views_slideshow_singleframe_hidden views-row-even" id="views_slideshow_singleframe_div_news_carousel-block_6_1"><div class="views-row views-row-0 views-row-first views-row-odd">
+  
+  <div class="views-field-field-news-slug-value">
+                <span class="field-content">Jens Nørskov elected to NAE</span>
+  </div>
+  
+  <div class="views-field-field-short-dek-value">
+                <span class="field-content">Professor honored for his contributions toto theoretical approaches to design of heterogeneous catalysts</span>
+  </div>
+  
+  <div class="views-field-field-story-image-fid">
+                <span class="field-content"><a href="/news/jens-norskov-elected-nae"><img src="http://engineering.stanford.edu/sites/default/files/imagecache/carousel-700x325/JT1_6775-edit_680x320.jpg" alt="" title="" width="700" height="325" class="imagecache imagecache-carousel-700x325 imagecache-default imagecache-carousel-700x325_default"/></a></span>
+  </div>
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-3 views_slideshow_singleframe_hidden views-row-odd" id="views_slideshow_singleframe_div_news_carousel-block_6_2"><div class="views-row views-row-0 views-row-first views-row-odd">
+  
+  <div class="views-field-field-news-slug-value">
+                <span class="field-content">Subhasish Mitra elected ACM fellow</span>
+  </div>
+  
+  <div class="views-field-field-short-dek-value">
+                <span class="field-content">Associate professor is honored for contributions to the design and testing of robust computing systems.</span>
+  </div>
+  
+  <div class="views-field-field-story-image-fid">
+                <span class="field-content"><a href="/news/subhasish-mitra-elected-acm-fellow"><img src="http://engineering.stanford.edu/sites/default/files/imagecache/carousel-700x325/RSD14_028_0136a_680x320.jpg" alt="" title="" width="700" height="325" class="imagecache imagecache-carousel-700x325 imagecache-default imagecache-carousel-700x325_default"/></a></span>
+  </div>
+
+</div>
+</div>
+<div class="views_slideshow_singleframe_slide views_slideshow_slide views-row-4 views_slideshow_singleframe_hidden views-row-even" id="views_slideshow_singleframe_div_news_carousel-block_6_3"><div class="views-row views-row-0 views-row-first views-row-odd">
+  
+  <div class="views-field-field-news-slug-value">
+                <span class="field-content">Fedkiw Shares Academy Award</span>
+  </div>
+  
+  <div class="views-field-field-short-dek-value">
+                <span class="field-content">Computer science professor honored for software to digitize destruction.</span>
+  </div>
+  
+  <div class="views-field-field-story-image-fid">
+                <span class="field-content"><a href="/news/professor-ron-fedkiw-shares-academy-award-software-digitize-destruction"><img src="http://engineering.stanford.edu/sites/default/files/imagecache/carousel-700x325/TerminatorSalvation-ha220.119_680x320_0.jpg" alt="" title="" width="700" height="325" class="imagecache imagecache-carousel-700x325 imagecache-default imagecache-carousel-700x325_default"/></a></span>
+  </div>
+
+</div>
+</div>
+</div>
+</div>
+  <div class="views-slideshow-controls-bottom clear-block">
+        <div class="views_slideshow_singleframe_pager views_slideshow_pagerNumbered" id="views_slideshow_singleframe_pager_news_carousel-block_6"></div>      </div>
+            </div>
+</div>
+  </div>
+</div>
+                                <h1 class="title">Stanford Engineering Alumni</h1>                <div class="breadcrumb"><a href="/">Home</a> » <a href="/portals/alumni" class="active">Alumni</a></div>                                <div id="node-36370" class="node">     <div class="content"> <a href="/print/node/36370"><img class="print-button" alt="Print view" src="/sites/all/themes/stanford_soe/images/icons/print.png"/></a><h2>
+	We Love Our Alums!</h2>
+<p>Stanford engineers are a diverse community of more than 53,000 innovative, influential professionals. They shape the future of technology, business, medicine, the environment and many other endeavors. Engineers change the world for the better.</p>
+<p>Alumni Relations offers a broad range of services including career resources, educational opportunities, intellectual programs&nbsp;and events.&nbsp;</p>
+<h2>Strength in Numbers</h2>
+<p>Engineering alums account for fully a quarter of all Stanford alumni. An incredibly large number of you &ndash; nearly 37 percent &ndash; stayed right here in Silicon Valley. More numbers below:</p>
+<ul>
+<li>53,546: Stanford Engineering alumni</li>
+<li>19,763: Engineering alumni in the Bay Area</li>
+<li>6,198: Engineering alumni outside the United States</li>
+<li>850: Estimated number of engineering alumni who have founded companies.</li>
+</ul>
+<h2>Stay Connected</h2>
+<h3>Alumni eNews</h3>
+<p>Subscribe to the monthly alumni e-mail for updates on the faculty research, school news, alumni events and professional development. To subscribe, simply update your email address in the <a href="https://alumni.stanford.edu">Stanford Alumni directory</a>.</p>
+<p>Non-engineering Stanford alumni can subscribe by sending an email to <a href="mailto:engineering-alumni@stanford.edu">engineering-alumni@stanford.edu</a>.</p>
+<h3>Stanford Engineering on LinkedIn&nbsp;</h3>
+<p><a href="http://www.linkedin.com/groups?gid=126874&amp;trk=hb_side_g"><img alt="" src="http://blog.hubspot.com/Portals/249/images/linkedin_logo.jpg" style="margin: 4px; float: left; width: 90px; height: 90px; " /></a></p>
+<p>It&#39;s open only to members of the Stanford Engineering community &ndash; faculty, students, alumni and staff &ndash; and it&#39;s already 6,000 strong. Share your news, network, join the conversation.&nbsp;<br />
+	<a href="http://www.linkedin.com/groups?gid=126874&amp;trk=hb_side_g">Stanford Engineering LinkedIn Group</a></p>
+<h3>&nbsp;</h3>
+<h3>Stanford Alumni Association (SAA)</h3>
+<p><a href="https://alumni.stanford.edu/get/page/login?pg=yes&amp;nu=https:**alumni.stanford.edu/get/page/directory/search$pgOrg=saa">Sign in or create a new account</a> to:</p>
+<ul>
+<li>Keep track of friends</li>
+<li>Reconnect with old classmates</li>
+<li>Network and jumpstart your career</li>
+</ul>
+      </div>
+    <div class="meta">
+        <div class="links"> <ul class="links inline"><li class="print_html first last"><a href="/print/36370" title="Display a printer-friendly version of this page." class="print-page" rel="nofollow">Printer-friendly version</a></li>
+</ul> </div>
+            <span class="clear"></span> </div>
+  </div>
+                                              </div>
+              <!-- /#main -->
+                            <div id="sidebar-second" class="sidebar span3">
+<div id="block-menu_block-1" class="clear-block block block-menu_block ">
+  <h2><a href="/portals/alumni" title="" class="active-trail active" id="dhtml_menu-3821">Alumni</a></h2>
+    <div class="content clear-block"><div class="menu-block-1 menu-name-menu-fullsite parent-mlid-0 menu-level-2">
+  <ul class="menu"><li class="leaf first menu-mlid-3823 no-dhtml "><a href="/portals/alumni/volunteer" title="" id="dhtml_menu-3823">Get involved</a></li>
+<li class="leaf menu-mlid-6768 no-dhtml "><a href="/fall-department-letters" title="Fall Department Letters" id="dhtml_menu-6768">Fall Department Letters</a></li>
+<li class="leaf last menu-mlid-6563 no-dhtml "><a href="/portals/alumni/alumni-career-resources" title="Alumni Career Resources" id="dhtml_menu-6563">Alumni Career Resources</a></li>
+</ul></div>
+</div>
+</div>
+
+<div id="block-block-122" class="clear-block block block-block blk-btn">
+  <div class="content clear-block"><p><a class="btn" href="/give">Support Stanford Engineering</a></p>
+</div>
+</div>
+
+<div id="block-block-36" class="clear-block block block-block blk-sidebar blk-contact">
+  <h2>Contact Us</h2>
+    <div class="content clear-block"><dl class="vcard">
+<dt class="fn"><strong>Engineering Alumni Relations</strong></dt>
+<dd class="email">engineering-alumni@stanford.edu</dd>
+<dd class="email">650-724-0359</dd>
+</dl>
+</div>
+</div>
+
+<div id="block-views-newsblocks-block_4" class="clear-block block block-views ">
+  <h2>Engineering News</h2>
+    <div class="content clear-block"><div class="view view-newsblocks view-id-newsblocks view-display-id-block_4 view-with-thumbnails view-dom-id-1">
+              <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field-field-story-image-fid">
+                <span class="field-content"><div class="small-image"><a href="/news/cybersecurity-panelists-call-long-term-global-approach-securing-free-open-network" class="imagecache imagecache-80x80 imagecache-linked imagecache-80x80_linked"><img src="http://engineering.stanford.edu/sites/default/files/imagecache/80x80/RSD15_012_0042a_0.jpg" alt="" title="" width="80" height="80" class="imagecache imagecache-80x80"/></a></div></span>
+  </div>
+  
+  <div class="views-field-field-news-slug-value">
+                <span class="field-content"><a href="/news/cybersecurity-panelists-call-long-term-global-approach-securing-free-open-network"><h4>Long-term approach to cybersecurity</h4></a></span>
+  </div>
+  
+  <div class="views-field-field-story-subtitle-value">
+                <div class="field-content">At a Stanford forum, White House officials, researchers and educators discuss how to stay ahead of...</div>
+  </div>
+  
+  <div class="views-field-view-node">
+                <span class="field-content"><a href="/news/cybersecurity-panelists-call-long-term-global-approach-securing-free-open-network">Read More</a></span>
+  </div>
+  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field-field-story-image-fid">
+                <span class="field-content"><div class="small-image"><a href="/news/stanford-engineer-produces-free-braille-writer-app" class="imagecache imagecache-80x80 imagecache-linked imagecache-80x80_linked"><img src="http://engineering.stanford.edu/sites/default/files/imagecache/80x80/braille-writer-2_680x320.jpg" alt="" title="" width="80" height="80" class="imagecache imagecache-80x80"/></a></div></span>
+  </div>
+  
+  <div class="views-field-field-news-slug-value">
+                <span class="field-content"><a href="/news/stanford-engineer-produces-free-braille-writer-app"><h4>Free Braille-Writer App</h4></a></span>
+  </div>
+  
+  <div class="views-field-field-story-subtitle-value">
+                <div class="field-content">A touchscreen Braille writer developed during a Stanford Engineering summer course is now an app...</div>
+  </div>
+  
+  <div class="views-field-view-node">
+                <span class="field-content"><a href="/news/stanford-engineer-produces-free-braille-writer-app">Read More</a></span>
+  </div>
+  </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last">
+      
+  <div class="views-field-field-story-image-fid">
+                <span class="field-content"><div class="small-image"><a href="/news/jens-norskov-elected-nae" class="imagecache imagecache-80x80 imagecache-linked imagecache-80x80_linked"><img src="http://engineering.stanford.edu/sites/default/files/imagecache/80x80/JT1_6775-edit_680x320.jpg" alt="" title="" width="80" height="80" class="imagecache imagecache-80x80"/></a></div></span>
+  </div>
+  
+  <div class="views-field-field-news-slug-value">
+                <span class="field-content"><a href="/news/jens-norskov-elected-nae"><h4>Jens Nørskov elected to NAE</h4></a></span>
+  </div>
+  
+  <div class="views-field-field-story-subtitle-value">
+                <div class="field-content">Chemical engineering professor honored for his contributions to theoretical approaches to design of...</div>
+  </div>
+  
+  <div class="views-field-view-node">
+                <span class="field-content"><a href="/news/jens-norskov-elected-nae">Read More</a></span>
+  </div>
+  </div>
+            </div>
+</div>
+</div>
+
+<div id="block-views-events-block_1" class="clear-block block block-views ">
+  <h2>Events</h2>
+    <div class="content clear-block"><div class="view view-events view-id-events view-display-id-block_1 view-with-thumbnails view-dom-id-2">
+              <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="/event/nasa-astronaut-speak-about-microgravity-research-international-space-station">NASA Astronaut To Speak About Microgravity Research On International Space Station</a></span>
+  </div>
+  
+  <div class="views-field-field-event-date-value">
+                <div class="field-content"><span class="date-display-single">Wednesday, February 18, 2015. 9:00 am</span></div>
+  </div>
+  </div>
+  <div class="views-row views-row-2 views-row-even views-row-last">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="/event/content-marketing-heart-soul-demand-creation">Content Marketing: The Heart &amp; Soul of Demand Creation</a></span>
+  </div>
+  
+  <div class="views-field-field-event-date-value">
+                <div class="field-content"><span class="date-display-single">Wednesday, March 4, 2015. 9:00 am</span></div>
+  </div>
+  </div>
+            </div>
+</div>
+</div>
+
+<div id="block-cck_blocks-field_quicklinks" class="clear-block block block-cck_blocks rr-quick-links">
+  <h2>Quick Links</h2>
+    <div class="content clear-block">  <div class="field field-type-link field-field-quicklinks">
+        <div class="field-items row">
+            <div class=" field-item odd">
+                <a href="https://alumni.stanford.edu/get/page/login?pg=yes&amp;nu=https:**alumni.stanford.edu/get/page/mystanford/home">Alumni Directory and Services</a>        </div>
+            <div class=" field-item even">
+                <a href="https://alumni.stanford.edu/get/page/career">CareerConnect</a>        </div>
+            <div class=" field-item odd">
+                <a href="https://soe-stanford-csm.symplicity.com/students/index.php">Engineering Alumni Job Board</a>        </div>
+            <div class=" field-item even">
+                <a href="http://engineering.stanford.edu/education/professional-development-and-continuing-education">Professional Development</a>        </div>
+            <div class=" field-item odd">
+                <a href="http://engineering.stanford.edu/education/life-long-learning">Lifelong Learning</a>        </div>
+            <div class=" field-item even">
+                <a href="http://www.stanford.edu/group/wellspring/">Wellspring of Innovation</a>        </div>
+            <div class=" field-item odd">
+                <a href="http://engineering.stanford.edu/alumni/2012-dept-letters">Fall Department Letters</a>        </div>
+            <div class=" field-item even">
+                <a href="http://engineering.stanford.edu/press/study-reports-stanford-alumni-create-nearly-3-trillion-economic-impact">Stanford University’s Economic Impact via Innovation and Entrepreneurship</a>        </div>
+          </div>
+  </div>
+</div>
+</div>
+</div>
+                            <!-- /#sidebar-second -->
+            </div>
+            <!-- /#content -->
+                      </div>
+          <!--/#main-content-->
+          <div id="sticky-footer">
+            <div id="footer" role="contentinfo" class="clear-block">
+                                          <!-- /#navigation-secondary -->
+            </div>
+            <!--/#footer-->
+                                  </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/#page-content-->
+  <div id="pre-footer">
+    <div class="container">
+      <p>
+        <a href="/contact-us">Contact</a>&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;
+        <a href="/visit">Visit</a>&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;
+        <a href="/give">Give</a>&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;
+        <!--<a href="/about">About this site</a>&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;-->
+        <a href="/portals/faculty-staff/facilities-planning-management/emergencies">Emergency info</a>
+      </p>
+      <p><strong>Stanford University</strong>, School of Engineering, 475 Via Ortega, Stanford, California 94305-4121. 650.725.1575</p>
+      <div class="social-links">
+        <ul>
+          <li class="social googleplus"><a href="https://plus.google.com/102383602041872018960" title="Google+">Google Plus</a></li>
+          <li class="social facebook"><a href="http://www.facebook.com/stanford.engineering" title="Facebook">Facebook</a></li>
+          <li class="social twitter"><a href="https://twitter.com/#!/stanfordeng" title="Twitter">Twitter</a></li>
+          <li class="social linkedin"><a href="http://www.linkedin.com/groups?home=&amp;gid=126874" title="LinkedIn">LinkedIn</a></li>
+          <li class="social youtube"><a href="http://www.youtube.com/user/stanfordeng/" title="YouTube">YouTube</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div id="global-footer">
+    <div class="container">
+      <div class="row">
+        <div id="bottom-logo" class="span2"><a href="http://www.stanford.edu"><img src="/sites/all/themes/stanford_soe/images/footer-stanford-logo@2x.png" width="105" height="49" alt="Stanford University" /></a></div>
+        <div id="bottom-text" class="span10">
+          <ul>
+            <li class="home"><a href="http://www.stanford.edu">SU Home</a></li>
+            <li class="maps alt"><a href="http://visit.stanford.edu/plan/maps.html">Maps &amp; Directions</a></li>
+            <li class="search-stanford"><a href="http://www.stanford.edu/search/">Search Stanford</a></li>
+            <li class="terms alt"><a href="http://www.stanford.edu/site/terms.html">Terms of Use</a></li>
+            <li class="copyright"><a href="http://www.stanford.edu/site/copyright.html">Copyright Complaints</a></li>
+          </ul>
+        </div>
+        <div class="clear"></div>
+          <p class="copyright vcard">&copy; <span class="fn org">Stanford University</span>, <span class="adr"> <span class="locality">Stanford</span>, <span class="region">California</span> <span class="postal-code">94305</span> </span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div></div>
+<!-- /#global-footer -->
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-5950986-5"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<!-- /#site-content -->
+</body>
+</html>

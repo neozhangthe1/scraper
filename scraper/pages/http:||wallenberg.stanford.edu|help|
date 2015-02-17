@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Help @ Wallenberg Hall</title>
+<link href="../css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<div class="container">
+<body bgcolor=#ffffff>
+
+<div class="Title"><a href="/index.html"><span>Teaching in Wallenberg Hall</span></a>	</div>
+
+<div class="BodyTextwide">
+
+<h3 align="center"><div style="background-image: url(../images/stripe.png); background-repeat: x;">Wallenberg <span class="grey">Help</span></h3>
+
+<p>Course Tools</p>
+<form method="get" action="http://www.google.com/search">
+
+<div style="border:0px solid black;padding:4px;width:20em;">
+<table width="800" border="0" cellpadding="0">
+<tr>
+  <td width="476"><a href="http://stanford.edu">Stanford</a> | <a href="http://coursework.stanford.edu" target="_blank">Coursework</a> | <a href="index.html">Wallenberg Help</a> | <a href="http://google.com">Google</a> | </td>
+  <td width="318">
+<input type="text"   name="q" size="25"
+ maxlength="255" value="" />
+<input type="submit" value="Google Search" /></td>
+  </tr>
+<tr>
+  <td align="left" style="font-size:100%">&nbsp;</td>
+  <td align="left" style="font-size:75%">
+<input type="checkbox"  name="sitesearch"
+ value="stanford.edu" checked /> only search Stanford<br /></td>
+</tr>
+</table>
+</div>
+
+</form>
+
+<p> Wallenberg Tools</p>
+<p><a href="http://wh.stanford.edu/copycam/firstfloor.cgi" target="_blank">Copycam</a> | <a href="http://questionanswer.stanford.edu" target="_blank">BackChat</a> | <a href="http://switchboard.stanford.edu/" target="_blank">Marratech Video Conferencing</a> (<a href="http://wh.stanford.edu/marratech.shtml" title="Download Marratech Client Software" target="_blank">Client Download</a>)| <a href="http://wherever.stanford.edu/shares/" target="_blank">WHerever Classroom File Server</a> | <a href="http://wallenberg.stanford.edu/blog">Blog</a> | </p>
+<p>The SCIL technology team offers consistent pedagogical and technical support and is committed to delivering an outstanding experience for instructors and students in Wallenberg Hall. </p>
+<p><strong>Immediate Assistance for 1st Floor Classrooms</strong>: call 650-723-7280</p>
+<p><a href="80/"><strong>BUILDING 80 Support</strong></a></p>
+<h4>Video Release Forms</h4>
+<p>Forms to get release for video/audio/image capture: <a href="../files/speakerform.pdf">speaker form</a> | <a href="../files/studentform.pdf">student form</a></p>
+<h4>&nbsp;</h4>
+</div>
+
+</body>
+</html>

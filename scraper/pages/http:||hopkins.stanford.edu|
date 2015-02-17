@@ -1,0 +1,260 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link REL ="SHORTCUT ICON" HREF="images/HMS_logo.ico">
+<title>Hopkins Marine Station</title>
+<link href="main.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+body {
+	background-color: #EEEEEE;
+}
+.style6 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #3366FF;
+}
+.style8 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #336699;
+}
+.style10 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #990000;
+}
+.style11 {font-family: Arial, Helvetica, sans-serif}
+.style19 {color: #CC0000}
+.style12 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:9px;
+}
+-->
+</style>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onload="MM_preloadImages('images/Facebookbx.jpg','images/mobileb.jpg','images/twitterB.jpg','images/youtubeB.jpg','images/instagramB.jpg')">
+<table width="1000" height="274" border="0" align="center" cellpadding="0" cellspacing="0" id="Hopkins Marine Station">
+  
+  <tr>
+    <td height="45"  colspan="3" valign="middle" background="images/stanford.gif"><div id = "su"><a href="http://seawater.stanford.edu"><img src="images/mobileicon.jpg" alt="HMS-Mobile" width="20" height="20" hspace="30" border="0" align="left" /></a><a href="http://www.stanford.edu">S T A N F O R D &nbsp;&nbsp;U N I V E R S I T Y</a></div></td>
+  </tr>  
+   <tr>
+    <td  height="239" colspan="3" align="right" valign="bottom" background="images/GraphicT.jpg" >
+      <div id = "weather" align="right">
+      <a href="index.html"><img src="images/header.gif" width="1000" height="195" border="0" /></a>
+	<form action="http://www.stanford.edu/search" id="cse-search-box">
+  		<div>
+    		<input type="hidden" name="cx" value="003265255082301896483:sq5n7qoyfh8" />
+    		<input type="hidden" name="cof" value="FORID:9" />
+    		<input type="hidden" name="ie" value="UTF-8" />
+    		<input type="text" name="q" size="15" />
+    		<input type="hidden" name="as_dt" value="i" />
+    		<input type="hidden" name="as_sitesearch" value="http://hopkins.stanford.edu" />
+           <input type="image" name="sa" value="Search" src="images/searchD.gif" />
+     </form>&nbsp; &nbsp;    
+    <br />&nbsp;</div></td>
+  </tr>
+</table>
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td bgcolor="#FFFFFF" height="8"></td>
+  </tr>
+  <tr>
+    <td bgcolor="#FFFFFF">
+    <table width="973" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="10" valign="top" bgcolor="#DDDDDD"><img src="images/menu-M.jpg" /></td>
+        <td width="56" background="images/menu-M2.jpg"><div align="center" id = "menu"><a href="index.html"><strong>HOME</strong></a></div></td>
+        <td width="10" valign="top" bgcolor="#DDDDDD"><img src="images/menu-M.jpg" /></td>
+        <td width="10" valign="top"><img src="images/menu-B.jpg" width="10" /></td>
+        <td width="10" valign="top"><img src="images/menu-L.jpg" width="10" /></td>
+        <td width="62" background="images/menu-M2.jpg"><div id = "menu" align="center"><a href="people.html">PEOPLE</a></div></td>
+        <td width="10" valign="top"><img src="images/menu-R.jpg" width="10"  /></td>
+        <td width="10" valign="top"><img src="images/menu-B.jpg" width="10"  /></td>
+        <td width="10" valign="top"><img src="images/menu-L.jpg" width="10"  /></td>
+        <td width="78" background="images/menu-M2.jpg"><div id = "menu" align="center"><a href="courses.html">COURSES</a></div></td>
+        <td width="10" valign="top"><img src="images/menu-R.jpg" width="10"  /></td>
+        <td width="10" valign="top"><img src="images/menu-B.jpg" width="10"  /></td>
+        <td width="10" valign="top"><img src="images/menu-L.jpg" width="10"  /></td>
+        <td width="87" background="images/menu-M2.jpg"><div id = "menu" align="center"><a href="students.html">STUDENTS</a></div></td>
+        <td width="10" valign="top"><img src="images/menu-R.jpg" width="10"  /></td>
+        <td width="10" valign="top"><img src="images/menu-B.jpg" width="10"  /></td>
+        <td width="10" valign="top"><img src="images/menu-L.jpg" width="10"  /></td>
+        <td width="71" background="images/menu-M2.jpg"><div id = "menu" align="center"><a href="friends.html">FRIENDS</a></div></td>
+        <td width="10" valign="top"><img src="images/menu-R.jpg" width="10"  /></td>
+        <td width="10" valign="top"><img src="images/menu-B.jpg" width="10"  /></td>
+        <td width="10" valign="top"><img src="images/menu-L.jpg" width="10"  /></td>
+        <td width="73" background="images/menu-M2.jpg"><div id = "menu" align="center"><a href="http://lib.stanford.edu/miller-library-marine-biology">LIBRARY</a></div></td>
+        <td width="10" valign="top"><img src="images/menu-R.jpg" width="10"  /></td>
+        <td width="10" valign="top"><img src="images/menu-B.jpg" width="10"  />        </td>
+        <td width="10" valign="top"><img src="images/menu-L.jpg" width="10"  /></td>
+        <td width="45" background="images/menu-M2.jpg"><div id = "menu" align="center"><a href="http://mlo.stanford.edu/">MLO</a></div></td>
+        <td width="10" valign="top"><img src="images/menu-R.jpg" width="10"  /></td>
+        <td width="10" valign="top"><img src="images/menu-B.jpg" width="10"  />        </td>
+        <td width="10" valign="top"><img src="images/menu-L.jpg" width="10"  /></td>
+        <td width="135" background="images/menu-M2.jpg"><div id = "menu" align="center"><a href="opportunities.html">OPPORTUNITIES</a></div></td>
+        <td width="10" valign="top"><img src="images/menu-R.jpg" width="10"  /></td>
+        <td width="10" valign="top"><img src="images/menu-B.jpg" width="10"  /></td>
+        <td width="10" valign="top"><img src="images/menu-L.jpg" width="10"  /></td>
+        <td width="106" background="images/menu-M2.jpg"><div id = "menu" align="center"><a href="resources.html">RESOURCES</a></div></td>
+        <td width="10" valign="top"><img src="images/menu-R.jpg" width="10"  /></td>
+        </tr>
+      <tr>
+        <td height="8" bgcolor="#DDDDDD"></td>
+        <td></td>
+        <td bgcolor="#DDDDDD"></td>
+        <td><img src="images/menu-IR.gif" width="10" height="8" /></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      </table>
+    <table width="973" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="10"><img src="images/menu-DL1.gif" width="10" height="27" /></td>
+        <td width="86" bgcolor="#DDDDDD"><div id = "menu" align="center"><a href="about.php">WELCOME</a></div></td>
+        <td width="6" bgcolor="#DDDDDD">&nbsp;</td>
+        <td width="136" bgcolor="#DDDDDD"><div id = "menu" align="center"><a href="find.html">HOW TO FIND</a></div></td>
+        <td width="9" bgcolor="#DDDDDD">&nbsp;</td>
+        <td width="148" bgcolor="#DDDDDD"><div id = "menu" align="center"><a href="K12outreach.htm">K-12 OUTREACH</a></div></td>
+        <td width="8" bgcolor="#DDDDDD">&nbsp;</td>
+        <td width="121" bgcolor="#DDDDDD"><div id = "menu" align="center"><a href="history.htm">HISTORY</a></div></td>
+        <td width="7" bgcolor="#DDDDDD">&nbsp;</td>
+        <td width="137" bgcolor="#DDDDDD"><div id = "menu" align="center"><a href="slides.html">SLIDE SHOWS</a></div></td>
+        <td width="10"><img src="images/menu-DR.gif" width="10" height="27" /></td>
+        <td width="67" bgcolor="#FFFFFF">&nbsp;</td>
+        <td width="10" bgcolor="#FFCC00"><img src="images/menu-DLg.gif" width="10" height="27" /></td>
+        <td width="208" bgcolor="#FFCC00"><div id = "menu" align="center"><a href="get2hms.html">PROSPECTIVE GRADS</a></div></td>
+        <td width="10" bgcolor="#FFCC00"><img src="images/menu-DRg.gif" width="10" height="27" /></td>
+      </tr>
+    </table>
+</td>
+  </tr>
+  <tr>
+    <td bgcolor="#FFFFFF">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="426" bgcolor="#FFFFFF"><table width="950" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td height="19"><span class="style10">featured news</span></td>
+        <td>&nbsp;</td>
+        <td><span class="style10"> featured event</span></td>
+      </tr>
+      <tr>
+        <td height="4"></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td align="center"><p><img src="images/turtle.jpg" alt="Marine Conservation" width="236" height="192" align="left" /></p>
+          <p><strong>Stanford researchers offer bold solutions for managing marine conservation on the high seas</strong></p>
+          <p><a href="http://www.eurekalert.org/pub_releases/2015-02/ssoe-sro021015.php">EurekAlert!</a><br />
+            <a href="https://earth.stanford.edu/news/bold-solutions-high-seas-marine-conservation">Stanford</a></p></td>
+        <td width="32">&nbsp;</td>
+        <td width="467" align="center" valign="top"><p><img src="images/FSEb.jpg" alt="Friends Special Event" width="200" height="200" align="left" /></p>
+          <p>&nbsp;</p>
+          <p><strong>Special Public Event Hosted by the Friends of Hopkins:   BRENDAN KELLY - February 25, 2015</strong></p>
+          <p><a href="friendsspecial.html">more . . .</a></p></td>
+      </tr>
+      <tr>
+        <td height="19">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="19"><span class="style8"><a href="news.html">news</a></span></td>
+        <td>&nbsp;</td>
+        <td class="style11"> <strong>seminars:</strong>&nbsp;&nbsp;<a href="memoriallectures.htm">memorial</a> &nbsp;&nbsp;&nbsp;&nbsp;<a href="list.htm">past</a> &nbsp;&nbsp;&nbsp;<em><span class="style10">&nbsp;<a href="events.html" class="style10">more . . .</a></span></em></td>
+      </tr>
+      <tr>
+        <td height="4"></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td height="266">
+         <iframe name="Frame1" src="news.html" style=" border:solid 1px #777 " width="450" height="250" frameborder="0" scrolling="yes">
+           <p>Your browser does not support iframes.</p>
+         </iframe>
+		</td>
+        <td>&nbsp;</td>
+        <td>
+<div id = "calendar" align="center">
+   <iframe src="https://www.google.com/calendar/embed?showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=250&amp;wkst=1&amp;hl=en&amp;bgcolor=%23ccccff&amp;src=vnjs2to7u02nlh1cat7givtp4s%40group.calendar.google.com&amp;color=%23182C57&amp;ctz=America%2FLos_Angeles" style=" border:solid 1px #777 " width="450" height="250" frameborder="0" scrolling="no"></iframe>
+   </div></tr>
+  </table>
+      </td>
+  </tr>
+</table>
+<table width="1000" height="185" border="0" align="center" cellpadding="0" cellspacing="0" background="images/bottom.jpg">
+  <tr>
+    <td height="185"><table width="911" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="297" align="left"><div align="center"><a href="MakeAGift.html"><img src="images/reps.gif" alt="Student Reps Hannah &amp; Zack Tue 4-5pm Y2E2 Rm 131" width="205" height="103" border="0" /></a></div></td>
+        <td width="313"><a href="http://maps.google.com/maps/mm?hl=en&amp;ie=UTF8&amp;ll=36.619497,-121.90464&amp;spn=0.008155,0.013078&amp;z=17">Hopkins Marine Station, <br />
+          120 Ocean View Blvd., <br />
+          Pacific Grove, CA 93950</a>, <br />
+          <strong>831 655 6200</strong></td>
+        <td width="301"><div align="center"><a href="http://www.facebook.com/HopkinsMarineStation" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image35','','images/facebookB.jpg',1)"><img src="images/facebookA.jpg" alt="Facebook" name="Image35" width="45" height="45" border="0" id="Image35" /></a> &nbsp; <a href="https://twitter.com/hopkinsmarine" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('twitter','','images/twitterB.jpg',1)"><img src="images/twitterA.jpg" alt="Twitter" name="twitter" width="45" height="45" border="0" id="twitter" /></a>&nbsp;&nbsp;<a href="http://www.youtube.com/hopkinsmarinestation" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('youtube','','images/youtubeB.jpg',1)"><img src="images/youtubeA.jpg" alt="YouTube" name="youtube" width="45" height="45" border="0" id="youtube" /></a> &nbsp;<a href="http://instagram.com/hopkinsmarinestation# " onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('instagram','','images/instagramB.jpg',1)"><img src="images/instagramA.jpg" alt="Instagram" name="instagram" width="45" height="45" border="0" id="instagram" /></a> &nbsp; <a href="http://seawater.stanford.edu" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image36','','images/mobileB.jpg',1)"> <img src="images/mobileA.jpg" alt="Mobile Version" name="Image36" width="45" height="45" border="0" id="Image36" /></a></div></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+<p>&nbsp;<iframe src="hopkins.php" width="1" height="1" frameborder="0"></iframe></p>
+<p>&nbsp;</p>
+</body>
+</html>

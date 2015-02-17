@@ -1,0 +1,316 @@
+-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Submit a Help Request to IRT &#x7c; Information Resources &amp; Technology &#x7c; Stanford Medicine</title>
+<!-- BEGIN HEAD CODE -->
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /><meta http-equiv="X-UA-Compatible" content="chrome=1" /><meta http-equiv="content-type" content="text/html; charset=iso-8859-1" /><meta name="viewport" content="width=770" /><script type="text/javascript" src="/Templates/yui-2.7.0/build/yahoo-dom-event/yahoo-dom-event.js"></script><script type="text/javascript" src="/Templates/AC_RunActiveContent.js"></script><script type="text/javascript" src="/Templates/swfobject.js"></script>
+
+<!-- Use media="screen and (min-device-width: 481px)" to prevent uptake by iPhone -->
+<link id="mainStyle" rel="stylesheet" type="text/css" href="/Templates/main_sm.css" />
+<!--[if IE]>
+<link id="ieStyle" rel="stylesheet" type="text/css" href="/Templates/main_sm_ie.css" /> 
+<![endif]-->
+<link id="iPhoneStyle" media="only screen and (max-device-width: 480px)" href="/Templates/iPhone.css" type="text/css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="/Templates/irt/styles.css" />
+<script type="text/javascript" src="/Templates/irt/siteparams.js"></script>
+<script type="text/javascript" src="/Templates/basic_functions_sm.js"></script>
+<link rel="stylesheet" type="text/css" media="print" href="/Templates/print.css" />
+<link rel="stylesheet" type="text/css" media="print" href="/Templates/irt/print.css" />
+<!-- END HEAD CODE -->
+
+<!-- PUT SUPPLEMENTAL STYLES AND SCRIPTS HERE -->
+<!-- YUI CSS -->
+<link rel="stylesheet" type="text/css" href="https://med.stanford.edu/irt/help/css/yui_sam_container.css"> 
+
+<!-- InputEx CSS -->
+<link type='text/css' rel='stylesheet' href='https://med.stanford.edu/irt/help/css/inputEx.css' />
+<link type='text/css' rel='stylesheet' href='https://med.stanford.edu/irt/help/css/home.css' />
+
+<!--[if IE 6]>
+<link type='text/css' rel='stylesheet' href='https://med.stanford.edu/irt/help/css/inputEx-IE6.css' />
+<![endif]-->
+
+
+
+<script type="text/javascript">
+	var autoFill = false;
+	</script>
+
+</head>
+<body>
+
+<div id="container">
+
+<!-- BEGIN TOPCODE -->
+ 
+
+
+<div id="brand" class="x_logo">
+  <a href="http://med.stanford.edu/"><img src="/Templates/images/logo_header_som2.gif" width="200" height="50" alt="Stanford School of Medicine" /></a>
+  <img src="/Templates/images/logo_header_som_print.gif" width="1" height="1" alt="Stanford School of Medicine" class="printLogo" />
+</div>
+<div id="brandedSiteName">
+  <a href="http://med.stanford.edu/irt/">Information Resources &amp; Technology<span class="nodisplay">&ndash;</span>
+  <span id="brandedSiteNameSubtitle"></span></a>
+</div>
+
+<!-- SMSTAGING Stanford Medicine Version 1.0 6/20/2008: -->
+<div id="search">
+  <form action="//med.stanford.edu/searchsm/" method="get" name="searchform" id="searchform">
+    <input type="hidden" id="numgm" name="numgm" value="5" />
+    <input type="hidden" id="searchid" name="searchid" value="" />
+    <div id="searchBox">
+      <input id="q" name="q" type="text" size="12" value="Search Stanford Medical Sites" class="" />
+      <button class="searchSubmitButton" type="submit">Search</button>
+    </div>
+    <div id="searchExtras"><!-- optional links, search controls, etc. -->
+      <!-- as_oq value reflects site or sites to be searched on first button -->
+      <div id="searchControls">
+        <ul id="searchControlsList">
+          <li id="thisSiteOnly"><input type="radio" name="as_oq" id="as_oq_1" value="" /><label for="as_oq_1" id="as_oq_1_label">This Site Only</label></li>
+          <li id="allStanfordMedicine"><input type="radio" name="as_oq" id="as_oq_2" value="" checked="checked" /><label for="as_oq_2" id="as_oq_2_label">Stanford Medical Sites</label></li>
+        </ul>
+      </div>
+      <div id="searchLinks">
+        <ul id="searchLinksList">
+          <li id="waysToGive" class="x_firstChild"><a href="http://med.stanford.edu/development/">Ways to Give</a></li>
+          <li id="findAPerson"><a href="http://med.stanford.edu/contacts/">Find a Person</a></li>
+        </ul>
+      </div>
+      <div id="searchLinksLong">
+        <ul id="searchLinksListLong">
+          <li class="x_firstChild"><a href="http://med.stanford.edu/alumni/">Alumni</a></li>
+          <li><a href="http://lane.stanford.edu/">Lane Library</a></li>
+          <li id="waysToGiveLong"><a href="http://med.stanford.edu/development/">Ways to Give</a></li>
+          <li id="findAPersonLong"><a href="http://med.stanford.edu/contacts/">Find a Person</a></li>
+        </ul>
+      </div>
+    </div>
+  </form>
+</div>
+
+<!-- END TOPCODE -->
+
+
+
+<div id="mainContent">
+<div class="irtRequestDiv">
+	<h1>Submit a Help Request to IRT</h1>
+    <p>Please call 725-8000 for live phone support from the IRT Service Desk.</p>
+    <div class="box_withboxlabel notice">
+		<p><strong>Note:</strong> do not use this form to submit <a href="http://www.stanford.edu/group/security/securecomputing/dataclass_chart.html" target="_blank">Restricted or Prohibited Data</a>.</p>
+    </div>
+	<div class="helpFormTop"></div>
+    <div id="formInstructions">
+      <p><span class="step">1.</span> If you have a SUNet ID, please click the button below so that information about you is filled out automatically.</p>
+      <div id="autoFillContainer"><a href="https://medlamp.stanford.edu/ldap_query.php" id="autoFillLink">Auto-fill Your Info</a></div>
+      <p><span class="step">2.</span> Review the information and make any corrections, if necessary.</p>
+    </div>
+	<div class="helpFormContainer" id="container1"></div>
+	<div class="helpFormBottom"></div>
+    <div id="userIPAddr">106.38.239.228</div>
+    <p>Problems with the request form? Please call (650)723-7192.</p>
+</div>
+<!-- YUI Library -->
+<script type="text/javascript" src="https://med.stanford.edu/irt/help/lib/yui/yahoo/yahoo-min.js"></script> 
+<script type="text/javascript" src="https://med.stanford.edu/irt/help/lib/yui/dom/dom-min.js"></script> 
+<script type="text/javascript" src="https://med.stanford.edu/irt/help/lib/yui/event/event-min.js"></script>
+<script type="text/javascript" src="https://med.stanford.edu/irt/help/lib/yui/container/container-min.js"></script>
+<script type="text/javascript" src="https://med.stanford.edu/irt/help/lib/yui/json/json-min.js"></script>
+<script type="text/javascript" src="https://med.stanford.edu/irt/help/lib/yui/connection/connection-min.js"></script>
+<script type="text/javascript" src="https://med.stanford.edu/irt/help/lib/yui/datasource/datasource-min.js"></script>
+<script type="text/javascript" src="https://med.stanford.edu/irt/help/lib/yui/yahoo-dom-event/yahoo-dom-event.js"></script>
+
+<!-- InputEx -->
+<script src="https://med.stanford.edu/irt/help/js/inputex.js"  type='text/javascript'></script>
+<script src="https://med.stanford.edu/irt/help/js/Field.js"  type='text/javascript'></script>
+<script src="https://med.stanford.edu/irt/help/js/Group.js"  type='text/javascript'></script>
+<script src="https://med.stanford.edu/irt/help/js/Form.js"  type='text/javascript'></script>
+<script src="https://med.stanford.edu/irt/help/js/Visus.js"  type='text/javascript'></script>
+<script src="https://med.stanford.edu/irt/help/js/fields/StringField.js"  type='text/javascript'></script>
+<script src="https://med.stanford.edu/irt/help/js/fields/SelectField.js"  type='text/javascript'></script>
+<script src="https://med.stanford.edu/irt/help/js/fields/EmailField.js"  type='text/javascript'></script>
+<script src="https://med.stanford.edu/irt/help/js/fields/UrlField.js"  type='text/javascript'></script>
+<script src="https://med.stanford.edu/irt/help/js/fields/ListField.js"  type='text/javascript'></script>
+<script src="https://med.stanford.edu/irt/help/js/fields/CheckBox.js"  type='text/javascript'></script>
+<script src="https://med.stanford.edu/irt/help/js/fields/HiddenField.js"  type='text/javascript'></script>
+<script src="https://med.stanford.edu/irt/help/js/fields/DSSelectField.js"  type='text/javascript'></script>
+<script src="https://med.stanford.edu/irt/help/js/fields/Textarea.js"  type='text/javascript'></script>
+<script src="https://med.stanford.edu/irt/help/js/fields/UneditableField.js"  type='text/javascript'></script>
+<script src="https://med.stanford.edu/irt/help/js/fields/RadioField.js"  type='text/javascript'></script>
+
+<script type="text/javascript" src="js/params.js"></script>
+<script type="text/javascript" src="js/main.js?v=2.2"></script>
+
+</div>
+
+<div id="breadcrumbs">
+<h4 class="nodisplay">You are Here:</h4>
+    <!-- Optional Tab Highlight Override -->
+	<!-- <h5 class="nodisplay">Current Tab: <span id="tabOverride">2</span></h5> -->
+    <!-- // End Optional Tab Highlight Override -->
+
+	<span id="sm_bc"><a href="http://med.stanford.edu">Stanford Medicine</a> &raquo; </span> <a href="http://med.stanford.edu/school/deans-office.html">Dean's Office</a> &raquo; <a href="http://med.stanford.edu/irt.html">Information Resources &amp; Technology (IRT) </a>
+</div>
+ 
+<div id="subNav">
+<div class="image_subnav"><img src="/Templates/irt/nav_image.jpg" alt="Campus Image" width="174" height="55" vspace="5" /></div>
+<h4 class="x_firstChild"><span class="nodisplay">Navigation for This Section: </span>Information Resources &amp; Technology</h4>
+<ul id="subNavList">
+  <li><a href="http://med.stanford.edu/irt.html">Home</a></li>
+  <li><a href="http://med.stanford.edu/irt/about/">About IRT</a></li>
+</ul>
+
+
+</div>
+
+<!-- BEGIN BOTTOMCODE -->
+<div id="nav">
+	<h4 class="nodisplay">Site Navigation:</h4>
+	<ul id="navList">
+		<li class="x_firstChild" id="tab01"><a href="//med.stanford.edu/irt/">Home</a></li>
+		<li id="tab02"><a href="http://med.stanford.edu/irt/help/">Request Help</a></li>
+		<li id="tab03" class=" "><a href="#">Services</a>
+		<ul>
+			<li class="x_hasChildren"><a href="http://med.stanford.edu/irt/personal-computing/">Personal Computing</a>
+			<ul>
+				<li><a href="http://med.stanford.edu/irt/personal-computing/desktop-support.html">Desktop Support</a></li>
+				<li><a href="http://med.stanford.edu/irt/personal-computing/recommended-software.html">Recommended Software</a></li>
+				<li><a href="http://med.stanford.edu/irt/personal-computing/purchasing-computer.html">Purchasing a Computer</a></li>
+				<li><a href="http://med.stanford.edu/irt/personal-computing/public-computing.html">Public Computing Services</a></li>
+				<li><a href="http://med.stanford.edu/irt/security.html">Computer &amp; Data Security</a></li>
+				<li><a href="http://med.stanford.edu/irt/personal-computing/clinical-applications/">Using Clinical Applications &amp; Data</a></li>
+				<li><a href="http://med.stanford.edu/irt/personal-computing/support-partners/">For Our Local Support Partners</a></li>
+				<li><a href="http://med.stanford.edu/irt/personal-computing/network-access/">Network Access</a></li>
+			</ul>
+			</li>
+			<li><a href="http://med.stanford.edu/irt/web/">Web Services</a>
+			</li>
+			<li class="x_hasChildren"><a href="http://med.stanford.edu/irt/infrastructure.html">Infrastructure Services &amp; Communications</a>
+			<ul>
+				<li><a href="http://med.stanford.edu/irt/infrastructure/phones.html">Desk &amp; Mobile Phones</a></li>
+				<li><a href="http://med.stanford.edu/irt/infrastructure/web_conference.html">Web Conference &amp; Video</a></li>
+				<li><a href="http://med.stanford.edu/irt/infrastructure/networking.html">Networking</a></li>
+				<li><a href="http://med.stanford.edu/irt/infrastructure/firewall/information_security.html">Security &amp; Firewall</a></li>
+				<li><a href="http://med.stanford.edu/irt/infrastructure/servers.html">Server Management</a></li>
+				<li><a href="http://med.stanford.edu/irt/infrastructure/databases.html">Application &amp; Database Management</a></li>
+			</ul>
+			</li>
+			<li><a href="http://med.stanford.edu/irt/researchtech/">Research Technology</a></li>
+			<li class="x_hasChildren"><a href="http://med.stanford.edu/irt/admintech.html">Technology for Administrative Staff</a>
+			<ul>
+				<li><a href="http://med.stanford.edu/irt/admintech/guide-to-systems.html">Guide to Administrative Systems at Stanford</a></li>
+				<li><a href="http://med.stanford.edu/irt/admintech/new-system.html">Acquiring or Developing a New Administrative System</a></li>
+				<li><a href="http://med.stanford.edu/irt/admintech/consultation.html"> Request a Consultation for Administrative Systems</a></li>
+				<li><a href="http://med.stanford.edu/irt/admintech/business-intelligence.html">Business Intelligence Program</a></li>
+				<li><a href="http://med.stanford.edu/irt/admintech/analysis.html">Scheduled Standard Reporting</a></li>
+				<li><a href="http://med.stanford.edu/irt/admintech/fixed-schedule.html">Fixed Schedule Reporting</a></li>
+			</ul>
+			</li>
+			<li class="x_hasChildren"><a href="http://med.stanford.edu/irt/edtech/">Educational Technology</a>
+			<ul>
+				<li><a href="http://med.stanford.edu/irt/classrooms/">Classroom Scheduling &amp; Support</a></li>
+				<li><a href="http://med.stanford.edu/irt/edtech/teaching/cwp.html">CourseWork</a></li>
+				<li><a href="http://med.stanford.edu/irt/edtech/teaching/"> Teaching Support</a></li>
+			</ul>
+			</li>
+		</ul>
+		</li>
+		<li id="tab05" class=" "><a href="http://med.stanford.edu/irt/centers_library/">Centers</a>
+		<ul>
+			<li><a href="http://clinicalinformatics.stanford.edu/">Stanford Center for Clinical Informatics</a></li>
+		</ul>
+		</li>
+		<li class="x_lastChild" id="tab06"><a href="http://med.stanford.edu/irt/about/">About IRT</a>
+		<ul>
+			<li><a href="http://med.stanford.edu/irt/about/">Overview</a></li>
+			<li><a href="http://med.stanford.edu/irt/about/contacts/">Key Contacts</a></li>
+			<li><a href="http://med.stanford.edu/irt/about/organization/">Organization</a></li>
+			<li><a href="http://med.stanford.edu/irt/about/maps-directions/">Maps &amp; Directions</a></li>
+		</ul>
+		</li>
+	</ul>
+</div>
+<div id="superheader">
+	<h4 class="nodisplay">Stanford Medicine Resources:</h4>
+	<ul id="superheaderList">
+		<li id="stanfordMedicineBrand"><a href="http://med.stanford.edu/"><b>Stanford Medicine</b></a></li>
+		<li id="sh_gettingCare"><a href="http://med.stanford.edu/health-care.html">Getting Care</a>
+<ul>
+				 <li><a href="http://med.stanford.edu/health-care.html">Overview</a></li>
+				 <li><a href="http://med.stanford.edu/health-care.html">Find a Physician</a></li>
+				 <li><a href="http://med.stanford.edu/health-care.html">Find a Clinical Care Center</a></li>
+				 <li><a href="http://stanfordhealthcare.org/">Stanford Health Care</a></li>
+				 <li><a href="http://www.stanfordchildrens.org/">Stanford Children's Health</a></li>
+				 <li><a href="http://stanfordhealthcare.org/medical-clinics/emergency-department.html">Emergency</a></li>
+				 </ul>
+		</li>
+<li id="sh_research"><a href="http://med.stanford.edu/research.html">Research</a>
+<ul>
+				<li><a href="http://med.stanford.edu/research.html">Overview</a></li>
+				<li><a href="http://med.stanford.edu/school.html">School of Medicine</a></li>
+				<li><a href="http://med.stanford.edu/news.html">News &amp; Resources</a></li>
+				<li><a href="http://med.stanford.edu/clinicaltrials/">Clinical Trials</a></li>
+				<li><a href="http://med.stanford.edu/school/directory.html">Departments, Institutes &amp; Centers</a></li>
+				<li><a href="https://med.stanford.edu/profiles/">Faculty Profiles</a></li>
+				</ul>
+		</li>
+<li id="sh_education"><a href="http://med.stanford.edu/education.html">Education &amp; Training</a>
+<ul>
+				 <li><a href="http://med.stanford.edu/education.html">Overview</a></li>
+				 <li><a href="http://med.stanford.edu/school.html">School of Medicine</a></li>
+				 <li><a href="http://med.stanford.edu/education.html">Programs</a></li>
+				 <li><a href="http://med.stanford.edu/education.html">Admissions</a></li>
+				 <li><a href="http://cme.stanford.edu/">Continuing Medical Education</a></li>
+				 <li><a href="http://med.stanford.edu/alumni/">Alumni</a></li>
+				 <li><a href="http://lane.stanford.edu/">Lane Medical Library</a></li>
+				 </ul>
+		</li>
+<li id="sh_community"><a href="http://med.stanford.edu/about/community-engagement.html">Community</a>
+<ul>
+				 <li><a href="http://med.stanford.edu/about/community-engagement.html">Overview</a></li>
+				 <li><a href="http://healthlibrary.stanford.edu/">Stanford Health Library</a></li>
+				 <li><a href="http://stanfordmedicine.org/communitynews/">Community Newsletter</a></li>
+				 <li><a href="http://med.stanford.edu/about/how-to-help.html">Volunteering</a></li>
+				 <li><a href="http://med.stanford.edu/about/community-engagement.html">Public Service &amp; Community Partnerships</a></li>
+				 <li><a href="http://med.stanford.edu/about/community-engagement.html">Renewal &amp; New Building Projects</a></li>
+				 </ul>
+		</li>
+<li id="sh_aboutUs"><a href="http://med.stanford.edu/about.html">About Us</a>
+<ul>
+				 <li><a href="http://med.stanford.edu/about.html">Overview</a></li>
+				 <li><a href="http://med.stanford.edu/news.html">News</a></li>
+				 <li><a href="http://stanfordcareers.stanford.edu/">Careers</a></li>
+				 <li><a href="http://med.stanford.edu/about/how-to-help.html">Ways to Give</a></li>
+				 <li><a href="http://med.stanford.edu/about/contacts.html">Find a Person</a></li>
+				 <li><a href="http://med.stanford.edu/about/contacts.html">Contact Us</a></li>
+				 <li><a href="http://med.stanford.edu/about/contacts/maps-directions.html">Maps &amp; Directions</a></li>
+	    </ul>
+		</li>
+	  <li id="stanfordUniversityBrand"><a href="http://www.stanford.edu/"><b>Stanford University</b></a></li>
+  </ul>
+</div>
+<!-- Superheader end -->
+<div id="localFooter">
+	<h4 class="nodisplay">Footer Links:</h4>
+	<ul id="localFooterList">
+		<li class="x_firstChild"><a href="http://med.stanford.edu/irt/about/contacts/">Contact Us</a></li>
+		<li><a href="//med.stanford.edu/irt/"> Back to IRT site</a></li>
+  </ul>
+</div>
+
+<!-- SMSTAGING Stanford Medicine version 1.0 2/17/09: copyright date -->
+
+<div id="globalFooter">
+	<ul id="globalFooterList">
+		<li class="x_firstChild">&copy;<a href="http://med.stanford.edu/"><span class="currentYear">2009</span> Stanford School of Medicine</a></li>
+		<li><a href="http://www.stanford.edu/site/terms.html">Terms of Use</a></li>
+		<li class="x_lastChild"><a href="http://med.stanford.edu/irt/" id="irtLink">Powered by <span id="irtLogoTiny"><b>IRT</b></span></a></li>
+	</ul>
+</div>
+<!-- END BOTTOMCODE -->
+
+
+
+</div>
+</body>
+</html>

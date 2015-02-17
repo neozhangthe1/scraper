@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+	<base href="http://stanfordcareers.stanford.edu/" />
+	<meta name="viewport" content="width=device-width" />
+	<title> Stanford Careers</title>
+	<!--[if lt IE 9]>
+		<script src="/sites/all/themes/careers/js/site/html5shiv.js"></script>
+	<![endif]-->
+	<link type="text/css" rel="stylesheet" media="all" href="/sites/default/files/css/css_02851e50d99feac4048408e5270db884.css" />
+	<script type="text/javascript" src="/sites/all/modules/jquery_update/replace/jquery.js?k"></script>
+<script type="text/javascript" src="/misc/drupal.js?k"></script>
+<script type="text/javascript" src="/sites/all/modules/jquery_ui/jquery.ui/js/jquery-ui-1.7.3.custom.min.js?k"></script>
+<script type="text/javascript" src="/sites/all/modules/jquery_ui/jquery.ui/ui/ui.core.js?k"></script>
+<script type="text/javascript" src="/sites/all/themes/careers/js/mootools/mootools.js?k"></script>
+<script type="text/javascript" src="/sites/all/themes/careers/js/engage/engage.js?k"></script>
+<script type="text/javascript" src="/sites/all/themes/careers/js/engage/engage.cache.js?k"></script>
+<script type="text/javascript" src="/sites/all/themes/careers/js/engage/engage.boxsize.js?k"></script>
+<script type="text/javascript" src="/sites/all/themes/careers/js/engage/engage.array.js?k"></script>
+<script type="text/javascript" src="/sites/all/themes/careers/js/engage/engage.elements.js?k"></script>
+<script type="text/javascript" src="/sites/all/themes/careers/js/engage/engage.links.js?k"></script>
+<script type="text/javascript" src="/sites/all/themes/careers/js/engage/engage.model.js?k"></script>
+<script type="text/javascript" src="/sites/all/themes/careers/js/engage/engage.view.js?k"></script>
+<script type="text/javascript" src="/sites/all/themes/careers/js/engage/engage.overlay.js?k"></script>
+<script type="text/javascript" src="/sites/all/themes/careers/js/engage/engage.menu.js?k"></script>
+<script type="text/javascript" src="/sites/all/themes/careers/js/engage/engage.forms.js?k"></script>
+<script type="text/javascript" src="/sites/all/themes/careers/js/panels/panels.js?k"></script>
+<script type="text/javascript" src="/sites/all/themes/careers/js/panels/panels.panel.js?k"></script>
+<script type="text/javascript" src="/sites/all/themes/careers/js/panels/panels.set.js?k"></script>
+<script type="text/javascript" src="/sites/all/themes/careers/js/panels/panels.control.js?k"></script>
+<script type="text/javascript" src="/sites/all/themes/careers/js/panels/panels.controlset.js?k"></script>
+<script type="text/javascript" src="/sites/all/themes/careers/js/panels/panels.generator.js?k"></script>
+<script type="text/javascript" src="/sites/all/themes/careers/js/site/site.js?k"></script>
+<script type="text/javascript" src="/sites/all/themes/careers/js/site/site.menu.js?k"></script>
+<script type="text/javascript" src="/sites/all/themes/careers/js/site/site.spotlight.js?k"></script>
+<script type="text/javascript" src="/sites/all/themes/careers/js/site/site.gallery.js?k"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/" });
+//--><!]]>
+</script>
+	<!--[if lt IE 9]>
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton:400" media="all" />
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton:400italic" media="all" />
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton:700" media="all" />
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400" media="all" />
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic" media="all" />
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:600" media="all" />
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:700" media="all" />
+	<![endif]-->
+	<!--[if gte IE 9]><!-->
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton:400,400italic,700" media="all" />
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,700" media="all" />
+	<!--<![endif]-->
+	<link href="https://www.stanford.edu/su-identity/css/su-identity.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet" type="text/css">
+<!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--[if IE 8]>
+  <link rel="stylesheet" type="text/css" href="https://www.stanford.edu/su-identity/css/ie/ie8.css" />
+<![endif]-->
+<!--[if IE 7]>
+  <link rel="stylesheet" type="text/css" href="https://www.stanford.edu/su-identity/css/ie/ie7.css" />
+<![endif]-->
+</head>
+
+
+<body class="front not-logged-in page-node node-type-page no-sidebars" id="top">
+<div id="skipnav" style="display:none;">
+    <p>Skip to:</p>
+    <ul>
+      <li><a href="#main-content">Main Content</a></li>
+    </ul>
+  </div>
+<div id="su-wrap"> <!-- #su-wrap start -->
+  <div id="su-content"> <!-- #su-content start -->
+<!-- Brandbar snippet start -->
+<div id="brandbar">
+  <div class="container">
+    <a href="http://www.stanford.edu">
+      <img src="https://www.stanford.edu/su-identity/images/brandbar-stanford-logo@2x.png" alt="Stanford University" width="152" height="23">
+    </a>
+  </div> <!-- .container end -->
+</div> <!-- #brandbar end -->
+<!-- Brandbar snippet end -->
+	<!--[if lte IE 7]>
+		<div class="browser-alert">
+			IE7 is not a recommended browser for this website. Please use IE6, IE8 or Firefox 1.5 or higher. Please be advised if you do not use one of the recommended browsers, you will experience noticeable design and functionality limitations.
+			<a class="close" href="#">Hide this Alert</a>
+		</div>
+	<![endif]-->
+	<script type="text/javascript">
+		if (Browser.ie6 || Browser.ie7) {
+			if (Cookie.read("browser-alert") == "hide") {
+				$$(".browser-alert").hide();
+			}
+			$$(".browser-alert .close").addEvent("click", function(e) {
+				e.preventDefault();
+				Cookie.write("browser-alert", "hide", {
+					duration: 0
+				});
+				$$(".browser-alert").hide();
+			});
+		}
+	</script>
+
+
+	<article class="page">
+
+		
+		<div class="inner">
+			<section class="shell">
+
+				<header class="header" id="site-header" role="banner">
+											<span class="sitelogo"><a href="/" title="Home">Stanford Careers</a></span>
+					
+					  <menu class="buttons primary search">
+	<a href="job-search">Search Jobs <span class="arrow">&raquo;</span></a>
+</menu>  <nav class="mainnav" role="navigation"  aria-label="site navigation">
+	<ul class="menu"><li class="leaf first active-trail"><a href="/" title="" class="active">Home</a></li>
+<li class="expanded"><a href="/job-search" title="Job Search">Job Search</a><ul class="menu"><li class="leaf first"><a href="/job-search" title="Staff Positions">Staff Positions</a></li>
+<li class="leaf"><a href="/temporary-positions" title="Temporary Positions">Temporary Positions</a></li>
+<li class="leaf"><a href="/job-search/job-families" title="Job Families">Job Families</a></li>
+<li class="leaf last"><a href="/job-search/schools-areas" title="Schools &amp; Areas">Schools &amp; Areas</a></li>
+</ul></li>
+<li class="expanded"><a href="/discover-stanford" title="Discover Stanford">Discover Stanford</a><ul class="menu"><li class="leaf first"><a href="/discover-stanford/mission" title="">Mission</a></li>
+<li class="leaf"><a href="/discover-stanford/culture" title="">Culture</a></li>
+<li class="leaf"><a href="/discover-stanford/diversity" title="Diversity">Diversity</a></li>
+<li class="leaf"><a href="/discover-stanford/people" title="">People</a></li>
+<li class="leaf"><a href="/discover-stanford/sustainability" title="">Sustainability</a></li>
+<li class="leaf last"><a href="/discover-stanford/innovation" title="">Innovation</a></li>
+</ul></li>
+<li class="expanded"><a href="/pay-and-rewards" title="Pay &amp; Rewards">Pay &amp; Rewards</a><ul class="menu"><li class="leaf first"><a href="/pay-and-rewards/a-competitive-edge" title="A Competitive Edge">A Competitive Edge</a></li>
+<li class="leaf"><a href="/pay-and-rewards/enviable-resources" title="Enviable Resources">Enviable Resources</a></li>
+<li class="leaf last"><a href="/pay-and-rewards/stanford-insider" title="Stanford Insider">Stanford Insider</a></li>
+</ul></li>
+<li class="expanded last"><a href="/growing-at-stanford" title="Growing at Stanford">Growing at Stanford</a><ul class="menu"><li class="leaf first"><a href="/growing-at-stanford/career-philosophy" title="">Career Philosophy</a></li>
+<li class="leaf"><a href="/growing-at-stanford/career-guidance" title="">Career Guidance</a></li>
+<li class="leaf"><a href="/growing-at-stanford/career-navigation" title="">Career Navigation</a></li>
+<li class="leaf last"><a href="/growing-at-stanford/career-development" title="">Career Development</a></li>
+</ul></li>
+</ul></nav>				</header>
+
+				<div role="main"><div class="content">
+
+										<a id="main-content" name="main"></a>
+					<section class="main">
+						
+						
+																		
+
+
+<div class="featured">
+	&nbsp;</div>
+<header class="intro">
+	<figure class="right">
+		<img alt="aerial photo of Palm Drive and Memorial Church" src="sites/all/themes/careers/img/-tmp-home.jpg" /></figure>
+	<h1>
+		<em>The best</em> that&rsquo;s in you.</h1>
+	<p>Stanford University aims to attract the best staff talent to join its workforce. Explore this site to learn if Stanford is the right place for you.</p>
+	<menu class="more primary">
+		<a href="discover-stanford" title="Discover Stanford">Discover Stanford &raquo;</a></menu>
+</header>
+<p>When people think of Stanford, they think of one of the most prestigious academic institutions anywhere&mdash;a culture of research and entrepreneurship, where freedom to innovate continually extends the horizon of the possible. What they might not think about is the small city of staff members who contribute to every aspect of this world-changing enterprise. Every member of Stanford&rsquo;s staff has an important job to do, and each takes pride and finds meaning in being part of an exceptional university.</p>
+						
+						  
+			<div class="features">
+	
+	
+						<dl class="feature">
+									<dd>
+						<figure>
+															<a href="http://stanfordcareers.stanford.edu/discover-stanford/culture">
+																<img src="http://stanfordcareers.stanford.edu/sites/default/files/imagecache/widgetimg/1.jpg" alt="photo of people at a picnic wearing Stanford apparel" title="" width="272" height="164" class="imagecache imagecache-widgetimg"/>															</a>
+													</figure>
+					</dd>
+				
+									<dt>Stanford's Culture</dt>
+				
+				<dd><p>Work among others who value innovation and education in a collegial environment.</p>
+</dd>
+
+									<dd class="more secondary"><a href="http://stanfordcareers.stanford.edu/discover-stanford/culture">Learn More About Stanford's Culture &raquo;</a></dd>
+				
+				
+			</dl>
+
+			
+		
+						<dl class="feature">
+									<dd>
+						<figure>
+															<a href="http://stanfordcareers.stanford.edu/pay-and-rewards/a-competitive-edge/benefits">
+																<img src="http://stanfordcareers.stanford.edu/sites/default/files/imagecache/widgetimg/HP_Work_Life%2001%20%28Medium%29.jpg" alt="photo of colleagues eating lunch together" title="" width="272" height="164" class="imagecache imagecache-widgetimg"/>															</a>
+													</figure>
+					</dd>
+				
+									<dt>Work-Life Balance</dt>
+				
+				<dd><p>Let Stanford help you find balance between a fulfilling career and the rest of your life.</p>
+</dd>
+
+									<dd class="more secondary"><a href="http://stanfordcareers.stanford.edu/pay-and-rewards/a-competitive-edge/benefits">Learn More About Work-Life Balance &raquo;</a></dd>
+				
+				
+			</dl>
+
+			
+		
+		
+			</div>
+	
+					</section>
+
+											<aside class="sidebar">
+							  
+<nav class="module sidenav spotlighted spotlighted">
+
+			<header>
+			<h2>Staff Career Spotlights:</h2>
+		</header>
+	
+	<ul class="people">
+		        <div style="display:none;"></div>
+															<li>
+				<a href="http://stanfordcareers.stanford.edu/discover-stanford/people/scott-calvert" data-fname="Scott" data-home-image="http://stanfordcareers.stanford.edu/sites/default/files/imagecache/homeimg/scott_calvert_home.jpg" data-video="" data-image="http://stanfordcareers.stanford.edu/sites/default/files/imagecache/videoimg/stanfordemp-116.JPG" data-quote="Our faculty are doing ground-breaking research and I get to help them make that happen.
+" data-family-href="http://stanfordcareers.stanford.edu/job-search/job-families/administration" data-alt="Scott Calvert walking">
+					<span class="name">
+						<span class="fname">Scott</span>
+						<span class="lname">Calvert</span>
+					</span>
+					<span class="title">Senior Associate Dean</span>
+					<span class="family">Administration</span>
+				</a>
+			</li>
+
+		        <div style="display:none;">Array
+(
+    [0] => Array
+        (
+            [fid] => 16137
+            [uid] => 1
+            [filename] => scott_calvert_home.jpg
+            [filepath] => sites/default/files/scott_calvert_home.jpg
+            [filemime] => image/jpeg
+            [filesize] => 91698
+            [status] => 1
+            [timestamp] => 1392419517
+            [list] => 1
+            [data] => Array
+                (
+                    [alt] => Scott Calvert walking
+                    [title] => 
+                )
+
+        )
+
+)
+</div>
+															<li>
+				<a href="http://stanfordcareers.stanford.edu/discover-stanford/people/cindy-cho" data-fname="Cindy" data-home-image="http://stanfordcareers.stanford.edu/sites/default/files/imagecache/homeimg/cindy_home.jpg" data-video="" data-image="http://stanfordcareers.stanford.edu/sites/default/files/imagecache/videoimg/cindy_slideshow-1.jpg" data-quote="I like the variety of people I meet in my work from our staff to our faculty and students.
+" data-family-href="http://stanfordcareers.stanford.edu/job-search/job-families/human-resources" data-alt="Cindy Cho standing outside next to a window">
+					<span class="name">
+						<span class="fname">Cindy</span>
+						<span class="lname">Cho</span>
+					</span>
+					<span class="title">Human Resources Manager</span>
+					<span class="family">Human Resources</span>
+				</a>
+			</li>
+
+		        <div style="display:none;">Array
+(
+    [0] => Array
+        (
+            [fid] => 314
+            [uid] => 1
+            [filename] => cindy_home.jpg
+            [filepath] => sites/default/files/cindy_home.jpg
+            [filemime] => image/jpeg
+            [filesize] => 159383
+            [status] => 1
+            [timestamp] => 1350143128
+            [list] => 1
+            [data] => Array
+                (
+                    [alt] => Cindy Cho standing outside next to a window
+                    [title] => 
+                )
+
+        )
+
+)
+</div>
+															<li>
+				<a href="http://stanfordcareers.stanford.edu/discover-stanford/people/aaron-king" data-fname="Aaron" data-home-image="http://stanfordcareers.stanford.edu/sites/default/files/imagecache/homeimg/home-aaron.jpg" data-video="" data-image="http://stanfordcareers.stanford.edu/sites/default/files/imagecache/videoimg/aaron-gallery1.jpg" data-quote="Being surrounded by driven and smart people all the time&mdash;it pushes you.
+" data-family-href="http://stanfordcareers.stanford.edu/job-search/job-families/student-services" data-alt="Photo of Aaron King, standing">
+					<span class="name">
+						<span class="fname">Aaron</span>
+						<span class="lname">King</span>
+					</span>
+					<span class="title">Program Manager</span>
+					<span class="family">Student Services</span>
+				</a>
+			</li>
+
+		        <div style="display:none;">Array
+(
+    [0] => Array
+        (
+            [fid] => 51463
+            [uid] => 11
+            [filename] => home-aaron.jpg
+            [filepath] => sites/default/files/home-aaron.jpg
+            [filemime] => image/jpeg
+            [filesize] => 55246
+            [status] => 1
+            [timestamp] => 1415663052
+            [list] => 1
+            [data] => Array
+                (
+                    [alt] => Photo of Aaron King, standing
+                    [title] => 
+                )
+
+        )
+
+)
+</div>
+															<li>
+				<a href="http://stanfordcareers.stanford.edu/discover-stanford/people/catherine-parrish" data-fname="Catherine" data-home-image="http://stanfordcareers.stanford.edu/sites/default/files/imagecache/homeimg/catherine_home.jpg" data-video="SVLse71tips" data-image="http://stanfordcareers.stanford.edu/sites/default/files/imagecache/videoimg/catherine_slideshow-1.jpg" data-quote="There&rsquo;s so much to latch on to whatever your interests may be.
+" data-family-href="http://stanfordcareers.stanford.edu/job-search/job-families/facilities" data-alt="photo of Catherine Parrish at work in the garden">
+					<span class="name">
+						<span class="fname">Catherine</span>
+						<span class="lname">Parrish</span>
+					</span>
+					<span class="title">Grounds Leader</span>
+					<span class="family">Facilities</span>
+				</a>
+			</li>
+
+		        <div style="display:none;">Array
+(
+    [0] => Array
+        (
+            [fid] => 287
+            [uid] => 1
+            [filename] => catherine_home.jpg
+            [filepath] => sites/default/files/catherine_home.jpg
+            [filemime] => image/jpeg
+            [filesize] => 170185
+            [status] => 1
+            [timestamp] => 1350140919
+            [list] => 1
+            [data] => Array
+                (
+                    [alt] => photo of Catherine Parrish at work in the garden
+                    [title] => 
+                )
+
+        )
+
+)
+</div>
+															<li>
+				<a href="http://stanfordcareers.stanford.edu/discover-stanford/people/david-cuffy" data-fname="David" data-home-image="http://stanfordcareers.stanford.edu/sites/default/files/imagecache/homeimg/david_home.jpg" data-video="" data-image="http://stanfordcareers.stanford.edu/sites/default/files/imagecache/videoimg/david_slideshow-1.jpg" data-quote="I love making a difference and I believe the research being conducted here at Stanford is important.
+" data-family-href="http://stanfordcareers.stanford.edu/job-search/job-families/administration" data-alt="David Cuffy standing in a walkway">
+					<span class="name">
+						<span class="fname">David</span>
+						<span class="lname">Cuffy</span>
+					</span>
+					<span class="title">Administrative Associate</span>
+					<span class="family">Administration</span>
+				</a>
+			</li>
+
+		        <div style="display:none;">Array
+(
+    [0] => Array
+        (
+            [fid] => 304
+            [uid] => 1
+            [filename] => david_home.jpg
+            [filepath] => sites/default/files/david_home.jpg
+            [filemime] => image/jpeg
+            [filesize] => 116205
+            [status] => 1
+            [timestamp] => 1350142494
+            [list] => 1
+            [data] => Array
+                (
+                    [alt] => David Cuffy standing in a walkway
+                    [title] => 
+                )
+
+        )
+
+)
+</div>
+															<li>
+				<a href="http://stanfordcareers.stanford.edu/discover-stanford/people/adam-daniel" data-fname="Adam" data-home-image="http://stanfordcareers.stanford.edu/sites/default/files/imagecache/homeimg/adam_daniel_home.jpg" data-video="" data-image="http://stanfordcareers.stanford.edu/sites/default/files/imagecache/videoimg/stanfordemp-001.jpg" data-quote="Although Stanford is a large research university, it&rsquo;s also a surprisingly tight community and the opportunities for support and collaboration abound
+" data-family-href="http://stanfordcareers.stanford.edu/job-search/job-families/administration" data-alt="Adam Daniel in front of a column">
+					<span class="name">
+						<span class="fname">Adam</span>
+						<span class="lname">Daniel</span>
+					</span>
+					<span class="title">Senior Associate Dean</span>
+					<span class="family">Administration</span>
+				</a>
+			</li>
+
+		        <div style="display:none;">Array
+(
+    [0] => Array
+        (
+            [fid] => 16077
+            [uid] => 1
+            [filename] => adam_daniel_home.jpg
+            [filepath] => sites/default/files/adam_daniel_home.jpg
+            [filemime] => image/jpeg
+            [filesize] => 76810
+            [status] => 1
+            [timestamp] => 1392409176
+            [list] => 1
+            [data] => Array
+                (
+                    [alt] => Adam Daniel in front of a column
+                    [title] => 
+                )
+
+        )
+
+)
+</div>
+															<li>
+				<a href="http://stanfordcareers.stanford.edu/discover-stanford/people/theo-mitchell" data-fname="Theo" data-home-image="http://stanfordcareers.stanford.edu/sites/default/files/imagecache/homeimg/home-theo.jpg" data-video="" data-image="http://stanfordcareers.stanford.edu/sites/default/files/imagecache/videoimg/theo-gallery1.jpg" data-quote="Everybody wants you to succeed at Stanford and looks out for you. There are chances to grow and try your hand at different things.
+" data-family-href="http://stanfordcareers.stanford.edu/job-search/job-families/athletics" data-alt="Photo of Theo Mitchell holding a basketball">
+					<span class="name">
+						<span class="fname">Theo</span>
+						<span class="lname">Mitchell</span>
+					</span>
+					<span class="title">Marketing Coordinator</span>
+					<span class="family">Athletics</span>
+				</a>
+			</li>
+
+		        <div style="display:none;">Array
+(
+    [0] => Array
+        (
+            [fid] => 51483
+            [uid] => 11
+            [filename] => home-theo.jpg
+            [filepath] => sites/default/files/home-theo.jpg
+            [filemime] => image/jpeg
+            [filesize] => 61479
+            [status] => 1
+            [timestamp] => 1415663817
+            [list] => 1
+            [data] => Array
+                (
+                    [alt] => Photo of Theo Mitchell holding a basketball
+                    [title] => 
+                )
+
+        )
+
+)
+</div>
+															<li>
+				<a href="http://stanfordcareers.stanford.edu/discover-stanford/people/vanessa-alcantar" data-fname="Vanessa" data-home-image="http://stanfordcareers.stanford.edu/sites/default/files/imagecache/homeimg/vanessa_home.jpg" data-video="" data-image="http://stanfordcareers.stanford.edu/sites/default/files/imagecache/videoimg/vanessa_slideshow-1.jpg" data-quote="Stanford is dedicated to all aspects of an employee&rsquo;s life, from professional development to work-life balance.
+" data-family-href="http://stanfordcareers.stanford.edu/job-search/job-families/finance" data-alt="photo of Vanessa Alcantar at her desk">
+					<span class="name">
+						<span class="fname">Vanessa</span>
+						<span class="lname">Alcantar</span>
+					</span>
+					<span class="title">Financial Systems Analyst</span>
+					<span class="family">Finance</span>
+				</a>
+			</li>
+
+		        <div style="display:none;">Array
+(
+    [0] => Array
+        (
+            [fid] => 319
+            [uid] => 1
+            [filename] => vanessa_home.jpg
+            [filepath] => sites/default/files/vanessa_home.jpg
+            [filemime] => image/jpeg
+            [filesize] => 127499
+            [status] => 1
+            [timestamp] => 1350144502
+            [list] => 1
+            [data] => Array
+                (
+                    [alt] => photo of Vanessa Alcantar at her desk
+                    [title] => 
+                )
+
+        )
+
+)
+</div>
+															<li>
+				<a href="http://stanfordcareers.stanford.edu/discover-stanford/people/chester-manuel" data-fname="Chester" data-home-image="http://stanfordcareers.stanford.edu/sites/default/files/imagecache/homeimg/chester_manuel_home_0.jpg" data-video="" data-image="http://stanfordcareers.stanford.edu/sites/default/files/imagecache/videoimg/stanfordemp-102.JPG" data-quote="There are always new business problems to solve and new things to learn in my field. Collaborating with highly talented and motivated staff makes Stanford an exciting and stimulating place to work.
+" data-family-href="http://stanfordcareers.stanford.edu/job-search/job-families/information-technology" data-alt="Chester Manuel standing next to a model of the Stanford campus">
+					<span class="name">
+						<span class="fname">Chester</span>
+						<span class="lname">Manuel</span>
+					</span>
+					<span class="title">IT Support Analyst</span>
+					<span class="family">Information Technology</span>
+				</a>
+			</li>
+
+		        <div style="display:none;">Array
+(
+    [0] => Array
+        (
+            [fid] => 16247
+            [uid] => 1
+            [filename] => chester_manuel_home.jpg
+            [filepath] => sites/default/files/chester_manuel_home_0.jpg
+            [filemime] => image/jpeg
+            [filesize] => 98181
+            [status] => 1
+            [timestamp] => 1392928776
+            [list] => 1
+            [data] => Array
+                (
+                    [alt] => Chester Manuel standing next to a model of the Stanford campus
+                    [title] => 
+                )
+
+        )
+
+)
+</div>
+															<li>
+				<a href="http://stanfordcareers.stanford.edu/discover-stanford/people/joan-passarelli" data-fname="Joan" data-home-image="http://stanfordcareers.stanford.edu/sites/default/files/imagecache/homeimg/home-joan.jpg" data-video="" data-image="http://stanfordcareers.stanford.edu/sites/default/files/imagecache/videoimg/joan-gallery1.jpg" data-quote="Stanford has a totally unique culture as an employer: a culture of excellence. From students and faculty doing cutting edge work to staff who support them&mdash;we all seek excellence.
+" data-family-href="http://stanfordcareers.stanford.edu/job-search/job-families/administration" data-alt="Photo of Joan Passarelli outside">
+					<span class="name">
+						<span class="fname">Joan</span>
+						<span class="lname">Passarelli</span>
+					</span>
+					<span class="title">Program Administrator</span>
+					<span class="family">Administration</span>
+				</a>
+			</li>
+
+		        <div style="display:none;">Array
+(
+    [0] => Array
+        (
+            [fid] => 51473
+            [uid] => 11
+            [filename] => home-joan.jpg
+            [filepath] => sites/default/files/home-joan.jpg
+            [filemime] => image/jpeg
+            [filesize] => 68645
+            [status] => 1
+            [timestamp] => 1415663567
+            [list] => 1
+            [data] => Array
+                (
+                    [alt] => Photo of Joan Passarelli outside
+                    [title] => 
+                )
+
+        )
+
+)
+</div>
+															<li>
+				<a href="http://stanfordcareers.stanford.edu/discover-stanford/people/swati-prabhu" data-fname="Swati" data-home-image="http://stanfordcareers.stanford.edu/sites/default/files/imagecache/homeimg/swati_home.jpg" data-video="" data-image="http://stanfordcareers.stanford.edu/sites/default/files/imagecache/videoimg/swati_slideshow-1.jpg" data-quote="My career growth is just one example of the endless possibilities here.
+" data-family-href="http://stanfordcareers.stanford.edu/job-search/job-families/information-technology" data-alt="Swati Prabhu at her desk">
+					<span class="name">
+						<span class="fname">Swati</span>
+						<span class="lname">Prabhu</span>
+					</span>
+					<span class="title">Associate Director, Technology</span>
+					<span class="family">Information Technology</span>
+				</a>
+			</li>
+
+		        <div style="display:none;">Array
+(
+    [0] => Array
+        (
+            [fid] => 315
+            [uid] => 1
+            [filename] => swati_home.jpg
+            [filepath] => sites/default/files/swati_home.jpg
+            [filemime] => image/jpeg
+            [filesize] => 132424
+            [status] => 1
+            [timestamp] => 1350143555
+            [list] => 1
+            [data] => Array
+                (
+                    [alt] => Swati Prabhu at her desk
+                    [title] => 
+                )
+
+        )
+
+)
+</div>
+															<li>
+				<a href="http://stanfordcareers.stanford.edu/discover-stanford/people/miguel-hernandez" data-fname="Miguel" data-home-image="http://stanfordcareers.stanford.edu/sites/default/files/imagecache/homeimg/miguel_home_v2.jpg" data-video="" data-image="http://stanfordcareers.stanford.edu/sites/default/files/imagecache/videoimg/miguel_slideshow-3.jpg" data-quote="There&rsquo;s never a dull moment, the constant deadlines keep me on my toes and keep things exciting.
+" data-family-href="http://stanfordcareers.stanford.edu/job-search/job-families/finance" data-alt="Miguel Hernandez outside on a cloudy day">
+					<span class="name">
+						<span class="fname">Miguel</span>
+						<span class="lname">Hernandez</span>
+					</span>
+					<span class="title">Associate Director, Ginzton Lab</span>
+					<span class="family">Finance</span>
+				</a>
+			</li>
+
+		        <div style="display:none;">Array
+(
+    [0] => Array
+        (
+            [fid] => 442
+            [uid] => 1
+            [filename] => miguel_home_v2.jpg
+            [filepath] => sites/default/files/miguel_home_v2.jpg
+            [filemime] => image/jpeg
+            [filesize] => 138903
+            [status] => 1
+            [timestamp] => 1350338439
+            [list] => 1
+            [data] => Array
+                (
+                    [alt] => Miguel Hernandez outside on a cloudy day
+                    [title] => 
+                )
+
+        )
+
+)
+</div>
+															<li>
+				<a href="http://stanfordcareers.stanford.edu/discover-stanford/people/dave-bunger" data-fname="Dave" data-home-image="http://stanfordcareers.stanford.edu/sites/default/files/imagecache/homeimg/dave_home.jpg" data-video="" data-image="http://stanfordcareers.stanford.edu/sites/default/files/imagecache/videoimg/dave_slideshow-1.jpg" data-quote="What I&rsquo;ve observed is that Stanford cares about its employees and about retaining them.
+" data-family-href="http://stanfordcareers.stanford.edu/job-search/job-families/information-technology" data-alt="Dave Bunger standing in front of a whiteboard">
+					<span class="name">
+						<span class="fname">Dave</span>
+						<span class="lname">Bunger</span>
+					</span>
+					<span class="title">Project Manager, IT</span>
+					<span class="family">Information Technology</span>
+				</a>
+			</li>
+
+		        <div style="display:none;">Array
+(
+    [0] => Array
+        (
+            [fid] => 297
+            [uid] => 1
+            [filename] => dave_home.jpg
+            [filepath] => sites/default/files/dave_home.jpg
+            [filemime] => image/jpeg
+            [filesize] => 114038
+            [status] => 1
+            [timestamp] => 1350142014
+            [list] => 1
+            [data] => Array
+                (
+                    [alt] => Dave Bunger standing in front of a whiteboard
+                    [title] => 
+                )
+
+        )
+
+)
+</div>
+															<li>
+				<a href="http://stanfordcareers.stanford.edu/discover-stanford/people/lourdes-andrade" data-fname="Lourdes" data-home-image="http://stanfordcareers.stanford.edu/sites/default/files/imagecache/homeimg/Lourdes-Andrade-Home_2.jpg" data-video="" data-image="http://stanfordcareers.stanford.edu/sites/default/files/imagecache/videoimg/lourdes-gallery2.jpg" data-quote="Stanford has opened so many opportunities that I had never considered before coming here&hellip;
+	I am encouraged to be the best that I can be.
+" data-family-href="http://stanfordcareers.stanford.edu/job-search/job-families/administration" data-alt="Photo of Lourdes Andrade with trees in the background">
+					<span class="name">
+						<span class="fname">Lourdes</span>
+						<span class="lname">Andrade</span>
+					</span>
+					<span class="title">Director, Undergrad Advising</span>
+					<span class="family">Administration</span>
+				</a>
+			</li>
+
+		        <div style="display:none;">Array
+(
+    [0] => Array
+        (
+            [fid] => 51457
+            [uid] => 11
+            [filename] => Lourdes-Andrade-Home.jpg
+            [filepath] => sites/default/files/Lourdes-Andrade-Home_2.jpg
+            [filemime] => image/jpeg
+            [filesize] => 110919
+            [status] => 1
+            [timestamp] => 1415652883
+            [list] => 1
+            [data] => Array
+                (
+                    [alt] => Photo of Lourdes Andrade with trees in the background
+                    [title] => 
+                )
+
+        )
+
+)
+</div>
+															<li>
+				<a href="http://stanfordcareers.stanford.edu/discover-stanford/people/esti-hall" data-fname="Esti" data-home-image="http://stanfordcareers.stanford.edu/sites/default/files/imagecache/homeimg/esti_home.jpg" data-video="" data-image="http://stanfordcareers.stanford.edu/sites/default/files/imagecache/videoimg/esti_slideshow-1.jpg" data-quote="My department has always encouraged me to continue my learning.
+" data-family-href="http://stanfordcareers.stanford.edu/job-search/job-families/administration" data-alt="photo of Esti Hall">
+					<span class="name">
+						<span class="fname">Esti</span>
+						<span class="lname">Hall</span>
+					</span>
+					<span class="title">Administrative Associate</span>
+					<span class="family">Administration</span>
+				</a>
+			</li>
+
+		        <div style="display:none;">Array
+(
+    [0] => Array
+        (
+            [fid] => 298
+            [uid] => 1
+            [filename] => esti_home.jpg
+            [filepath] => sites/default/files/esti_home.jpg
+            [filemime] => image/jpeg
+            [filesize] => 154188
+            [status] => 1
+            [timestamp] => 1350142283
+            [list] => 1
+            [data] => Array
+                (
+                    [alt] => photo of Esti Hall
+                    [title] => 
+                )
+
+        )
+
+)
+</div>
+															<li>
+				<a href="http://stanfordcareers.stanford.edu/discover-stanford/people/scott-stocker" data-fname="Scott" data-home-image="http://stanfordcareers.stanford.edu/sites/default/files/imagecache/homeimg/scott_home.jpg" data-video="" data-image="http://stanfordcareers.stanford.edu/sites/default/files/imagecache/videoimg/scott_slideshow-1.jpg" data-quote="I have received valuable mentorship over the years from coworkers and technology professionals across the university.
+" data-family-href="http://stanfordcareers.stanford.edu/job-search/job-families/information-technology" data-alt="Scott Stocker standing in front of an arch">
+					<span class="name">
+						<span class="fname">Scott</span>
+						<span class="lname">Stocker</span>
+					</span>
+					<span class="title">Sr. Director, Web Communications</span>
+					<span class="family">Information Technology</span>
+				</a>
+			</li>
+
+		        <div style="display:none;">Array
+(
+    [0] => Array
+        (
+            [fid] => 306
+            [uid] => 1
+            [filename] => scott_home.jpg
+            [filepath] => sites/default/files/scott_home.jpg
+            [filemime] => image/jpeg
+            [filesize] => 142620
+            [status] => 1
+            [timestamp] => 1350142537
+            [list] => 1
+            [data] => Array
+                (
+                    [alt] => Scott Stocker standing in front of an arch
+                    [title] => 
+                )
+
+        )
+
+)
+</div>
+															<li>
+				<a href="http://stanfordcareers.stanford.edu/discover-stanford/people/cindy-wilkinson" data-fname="Cindy" data-home-image="http://stanfordcareers.stanford.edu/sites/default/files/imagecache/homeimg/cindy_wilkinson_home.jpg" data-video="" data-image="http://stanfordcareers.stanford.edu/sites/default/files/imagecache/videoimg/stanfordemp-035.JPG" data-quote="Stanford has a culture of uncompromising excellence, while at the same time it offers a work environment that is healthy, friendly and supportive.
+" data-family-href="http://stanfordcareers.stanford.edu/job-search/job-families/administration" data-alt="Cindy Wilkinson walking outside">
+					<span class="name">
+						<span class="fname">Cindy</span>
+						<span class="lname">Wilkinson</span>
+					</span>
+					<span class="title">Director of Operations </span>
+					<span class="family">Administration</span>
+				</a>
+			</li>
+
+		        <div style="display:none;">Array
+(
+    [0] => Array
+        (
+            [fid] => 16115
+            [uid] => 1
+            [filename] => cindy_wilkinson_home.jpg
+            [filepath] => sites/default/files/cindy_wilkinson_home.jpg
+            [filemime] => image/jpeg
+            [filesize] => 108981
+            [status] => 1
+            [timestamp] => 1392417718
+            [list] => 1
+            [data] => Array
+                (
+                    [alt] => Cindy Wilkinson walking outside
+                    [title] => 
+                )
+
+        )
+
+)
+</div>
+															<li>
+				<a href="http://stanfordcareers.stanford.edu/discover-stanford/people/henry-lowood" data-fname="Henry" data-home-image="http://stanfordcareers.stanford.edu/sites/default/files/imagecache/homeimg/henry_home.jpg" data-video="2YSj3JVp9kY" data-image="http://stanfordcareers.stanford.edu/sites/default/files/imagecache/videoimg/henry_slideshow-1.jpg" data-quote="What starts as a vision can become a foundation that you can build on for more work in the future.
+" data-family-href="http://stanfordcareers.stanford.edu/job-search/job-families/library" data-alt="photo of Henry Lowood near bookshelves">
+					<span class="name">
+						<span class="fname">Henry</span>
+						<span class="lname">Lowood</span>
+					</span>
+					<span class="title">Library Curator</span>
+					<span class="family">Library</span>
+				</a>
+			</li>
+
+		        <div style="display:none;">Array
+(
+    [0] => Array
+        (
+            [fid] => 289
+            [uid] => 1
+            [filename] => henry_home.jpg
+            [filepath] => sites/default/files/henry_home.jpg
+            [filemime] => image/jpeg
+            [filesize] => 141786
+            [status] => 1
+            [timestamp] => 1350141334
+            [list] => 1
+            [data] => Array
+                (
+                    [alt] => photo of Henry Lowood near bookshelves
+                    [title] => 
+                )
+
+        )
+
+)
+</div>
+															<li>
+				<a href="http://stanfordcareers.stanford.edu/discover-stanford/people/jo-ann-cuevas" data-fname="Jo-Ann" data-home-image="http://stanfordcareers.stanford.edu/sites/default/files/imagecache/homeimg/jo-ann_cuevas_home_0.jpg" data-video="" data-image="http://stanfordcareers.stanford.edu/sites/default/files/imagecache/videoimg/stanfordemp-052.JPG" data-quote="You are surrounded by people who encourage collaboration, so instead of creating something good as individuals, we&nbsp;&nbsp;create&nbsp;&nbsp;extraordinary&nbsp;&nbsp;things together.
+" data-family-href="http://stanfordcareers.stanford.edu/job-search/job-families/information-technology" data-alt="Jo-Ann Cuevas">
+					<span class="name">
+						<span class="fname">Jo-Ann</span>
+						<span class="lname">Cuevas</span>
+					</span>
+					<span class="title">Campus Readiness Specialist</span>
+					<span class="family">Information Technology</span>
+				</a>
+			</li>
+
+		        <div style="display:none;">Array
+(
+    [0] => Array
+        (
+            [fid] => 16237
+            [uid] => 1
+            [filename] => jo-ann_cuevas_home.jpg
+            [filepath] => sites/default/files/jo-ann_cuevas_home_0.jpg
+            [filemime] => image/jpeg
+            [filesize] => 75795
+            [status] => 1
+            [timestamp] => 1392926028
+            [list] => 1
+            [data] => Array
+                (
+                    [alt] => Jo-Ann Cuevas
+                    [title] => 
+                )
+
+        )
+
+)
+</div>
+															<li>
+				<a href="http://stanfordcareers.stanford.edu/discover-stanford/people/israel-magallon" data-fname="Israel" data-home-image="http://stanfordcareers.stanford.edu/sites/default/files/imagecache/homeimg/israel_home.jpg" data-video="" data-image="http://stanfordcareers.stanford.edu/sites/default/files/imagecache/videoimg/israel_slideshow-1.jpg" data-quote="Any areas you don&rsquo;t feel comfortable with or feel you need some help with, the university will support your development to turn those weaknesses into strengths.
+" data-family-href="http://stanfordcareers.stanford.edu/job-search/job-family/security" data-alt="Henry Magallon with his daughter">
+					<span class="name">
+						<span class="fname">Israel</span>
+						<span class="lname">Magallon</span>
+					</span>
+					<span class="title">Public Safety Officer </span>
+					<span class="family">Security</span>
+				</a>
+			</li>
+
+			</ul>
+
+			<menu class="more tertiary">
+			<a data-cke-saved-href="discover-stanford/people" href="discover-stanford/people">View All Spotlights »</a>		</menu>
+	</nav>  <div role="complementary"><section class="module showcase">
+
+	
+			<h2>Featured <em>Job Openings</em></h2>
+	
+	<ul class="jobs">
+		
+			
+			<li>
+				<p class="title">
+											<a href="job-search?jobId=65499">
+											<span class="new">New</span> Housing Assignments Off-Campus Student Services Officer *65499 &raquo;
+											</a>
+									</p>
+				<p class="department">Residential & Dining Enterprises</p>
+				<p class="family">Administrative</p>
+							</li>
+
+		
+			
+			<li>
+				<p class="title">
+											<a href="job-search?jobId=64827">
+											<span class="new">New</span> Marketing and Communications Specialist* (64827) &raquo;
+											</a>
+									</p>
+				<p class="department">Continuing Studies and Summer Session</p>
+				<p class="family">Administrative</p>
+							</li>
+
+		
+			
+			<li>
+				<p class="title">
+											<a href="https://ch.tbe.taleo.net/CH12/ats/careers/requisition.jsp?org=SLAC&cws=1&rid=1558" rel="external">
+											<span class="new">New</span> Protocol Representative* (1558) &raquo;
+											</a>
+									</p>
+				<p class="department">SLAC</p>
+				<p class="family"></p>
+							</li>
+
+		
+			
+			<li>
+				<p class="title">
+											<a href="job-search?jobId=65349">
+											<span class="new">New</span> Human Resources Director* (65349) &raquo;
+											</a>
+									</p>
+				<p class="department">Dean of Research</p>
+				<p class="family">Human Resources</p>
+							</li>
+
+			</ul>
+
+	<menu class="more tertiary">
+		<a href="job-search/#featured-jobs">View More Featured Jobs &raquo;</a>
+	</menu>
+</section>
+</div>						</aside>
+					                    
+				</div>
+                </div>
+
+				
+				<footer class="footer" role="complementary">
+			        					  <nav class="footernav">
+	<ul>
+		<li class="primary"><a href="http://uhr.stanford.edu/" rel="external">University Human Resources</a></li>
+		<li class="primary"><a href="contact-us">Contact Us</a></li>
+		<li class="primary contact"><a href="technical-support">Technical Support</a></li>
+		<li><a href="http://icenter.stanford.edu/depts/lca.html" rel="external">LCA Notifications</a></li>
+		<li><a href="http://www.stanford.edu/dept/diversityaccess/access.html" rel="external">Disability and Diversity Services</a></li>
+		<li><a href="us-veterans">Veterans</a></li>
+	</ul>
+</nav>  <p class="disclaimer">Stanford complies with the Jeanne Clery Act and publishes crime statistics for the most recent three-year period. <a href="http://www.stanford.edu/group/SUDPS/safety-report.shtml" rel="external">View the full report.</a></p>
+
+<p class="disclaimer">Stanford University is an equal employment opportunity and affirmative action employer and is committed to recruiting and hiring qualified women, minorities, protected veterans and individuals with disabilities.</p>				</footer>
+
+			</section>
+		</div>
+
+		
+	</article>
+
+    
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-15197849-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+  </div> <!-- #su-content end -->
+</div> <!-- #su-wrap end -->
+
+<!-- Global footer snippet start -->
+<div id="global-footer">
+  <div class="container">
+    <div class="row">
+      <div id="bottom-logo" class="span2">
+        <a href="http://www.stanford.edu">
+          <img src="https://www.stanford.edu/su-identity/images/footer-stanford-logo@2x.png" alt="Stanford University" width="105" height="49"/>
+        </a>
+      </div>
+      <!-- #bottom-logo end -->
+      <div id="bottom-text" class="span10">
+        <ul>
+          <li class="home"><a href="http://www.stanford.edu">SU Home</a></li>
+          <li class="maps alt"><a href="http://visit.stanford.edu/plan/maps.html">Maps &amp; Directions</a></li>
+          <li class="search-stanford"><a href="http://www.stanford.edu/search/">Search Stanford</a></li>
+          <li class="terms alt"><a href="http://www.stanford.edu/site/terms.html">Terms of Use</a></li>
+          <li class="emergency-info"><a href="http://emergency.stanford.edu">Emergency Info</a></li>
+        </ul>
+      </div> <!-- .bottom-text end -->
+      <div class="clear"></div>
+      <p class="copyright vcard">&copy; <span class="fn org">Stanford University</span>, <span class="adr"> <span class="locality">Stanford</span>, <span class="region">California</span> <span class="postal-code">94305</span></span>.&nbsp;&nbsp;
+      <span id="copyright-complaint"><a href="http://www.stanford.edu/group/security/dmca.html" class="copyright-complaint" >Copyright Complaints</a></span>
+      </p>
+    </div> <!-- .row end --> 
+  </div> <!-- .container end --> 
+</div> <!-- global-footer end -->
+<!-- Global footer snippet end -->
+</body>
+</html>

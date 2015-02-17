@@ -1,0 +1,591 @@
+<!DOCTYPE html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Why technology won&#8217;t destroy the doctor-patient relationship | Scope Blog</title>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<link rel="shortcut icon" href="http://scopeblog.stanford.edu/wp-content/themes/scope/images/favicon.ico" />
+<link rel="stylesheet" href="http://scopeblog.stanford.edu/wp-content/themes/scope/style.css?v2" type="text/css" media="screen" />
+<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<meta name="viewport" content="width=990" />
+
+<!-- JavaScript code to activate Cufon -->
+<script src="http://scopeblog.stanford.edu/wp-content/themes/scope/cufon/cufon-yui.js" type="text/javascript"></script>
+<script src="http://scopeblog.stanford.edu/wp-content/themes/scope/cufon/cufon.font.js" type="text/javascript"></script>
+<script type="text/javascript">
+	//Cufon.replace('h1');
+	Cufon.replace('h4');
+	Cufon.replace('.search ul li a');
+	Cufon.replace('.categoryContainer a');
+	Cufon.replace('.moreCats');
+</script>
+
+<!-- JavaScript for placeholder text -->
+<script src="http://scopeblog.stanford.edu/wp-content/themes/scope/js/modernizr.js"></script>
+
+<script type="text/javascript" src="//med.stanford.edu/Templates/yui-2.7.0/build/yahoo-dom-event/yahoo-dom-event.js"></script>
+<script type="text/javascript" src="http://yui.yahooapis.com/3.3.0/build/yui/yui-min.js"></script>
+<script type="text/javascript" src="//med.stanford.edu/Templates/swfobject.js"></script>
+
+<!-- Use media="screen and (min-device-width: 481px)" to prevent uptake by iPhone -->
+<!--[if IE]>
+<link id="ieStyle" rel="stylesheet" type="text/css" href="//med.stanford.edu/Templates/scopeblog/main_sm_ie.css" /> 
+<![endif]-->
+
+<link id="iPhoneStyle" media="only screen and (max-device-width: 480px)" href="//med.stanford.edu/Templates/iPhone.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="//med.stanford.edu/Templates/scopeblog/siteparams.js"></script>
+<script src="http://scopeblog.stanford.edu/wp-content/themes/scope/js/basic_functions.js"></script>
+
+<!-- Resources needed for video container -->
+<script type="text/javascript">
+	var videoVars = new Array();
+</script>
+
+<script src="http://scopeblog.stanford.edu/wp-content/themes/scope/js/page_helpers.js"></script>
+
+<link rel="stylesheet" type="text/css" href="//med.stanford.edu/Templates/ui/media/video/embed.css" />
+
+<link rel="stylesheet" type="text/css" media="print" href="//med.stanford.edu/Templates/print.css" />
+
+<link rel="alternate" type="application/rss+xml" title="Scope Blog RSS Feed" href="http://scopeblog.stanford.edu/feed/" />
+<link rel="pingback" href="http://scopeblog.stanford.edu/xmlrpc.php" />
+
+<style type='text/css'>
+					.no-break br {
+						display: none !important;
+					}
+			</style>
+<!-- All in One SEO Pack 2.2.4.2 by Michael Torbert of Semper Fi Web Design[92,234] -->
+<meta name="description"  content="SMS (“Stanford Medical School”) Unplugged is a forum for students to chronicle their experiences in medical school. The student-penned entries appear on Scope" />
+
+<meta name="keywords"  content="news home,stanford,stanford medicine" />
+
+<link rel="canonical" href="http://scopeblog.stanford.edu/2015/02/11/why-technology-wont-destroy-the-doctor-patient-relationship/" />
+<!-- /all in one seo pack -->
+<link rel="alternate" type="application/rss+xml" title="Scope Blog &raquo; Why technology won&#8217;t destroy the doctor-patient relationship Comments Feed" href="http://scopeblog.stanford.edu/2015/02/11/why-technology-wont-destroy-the-doctor-patient-relationship/feed/" />
+<link rel='stylesheet' id='gkl_postavatar_css-css'  href='http://scopeblog.stanford.edu/wp-content/plugins/post-avatar/head/gkl-postavatar.css' type='text/css' media='all' />
+<link rel='stylesheet' id='mediaelementjs-styles-css'  href='http://scopeblog.stanford.edu/wp-content/plugins/media-element-html5-video-and-audio-player/mediaelement/mediaelementplayer.css?ver=4.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://scopeblog.stanford.edu/wp-includes/js/jquery/jquery.js?ver=1.11.1'></script>
+<script type='text/javascript' src='http://scopeblog.stanford.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://scopeblog.stanford.edu/wp-content/plugins/media-element-html5-video-and-audio-player/mediaelement/mediaelement-and-player.min.js?ver=2.1.3'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://scopeblog.stanford.edu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://scopeblog.stanford.edu/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Panel on diversity calls for transformative change in society, courageous leadership from individuals' href='http://scopeblog.stanford.edu/2015/02/10/panel-on-diversity-calls-for-transformative-change-in-society-courageous-leadership-from-individuals/' />
+<link rel='next' title='Stanford hosts inaugural Childx conference this spring' href='http://scopeblog.stanford.edu/2015/02/11/stanford-hosts-inaugural-childx-conference-this-spring/' />
+<link rel='shortlink' href='http://scopeblog.stanford.edu/?p=159612' />
+
+<!-- Dynamic Content Gallery plugin version 3.3.6 www.studiograsshopper.ch  Begin scripts -->
+<link type="text/css" rel="stylesheet" href="http://scopeblog.stanford.edu/wp-content/plugins/dynamic-content-gallery-plugin/js-mootools/css/jd.gallery.css" />
+<script type="text/javascript" src="http://scopeblog.stanford.edu/wp-content/plugins/dynamic-content-gallery-plugin/js-mootools/scripts/mootools-1.2.4-core-jm.js"></script>
+<script type="text/javascript" src="http://scopeblog.stanford.edu/wp-content/plugins/dynamic-content-gallery-plugin/js-mootools/scripts/mootools-1.2.4.4-more.js"></script>
+<script type="text/javascript" src="http://scopeblog.stanford.edu/wp-content/plugins/dynamic-content-gallery-plugin/js-mootools/scripts/jd.gallery_1_2_4_4.js"></script>
+<script type="text/javascript" src="http://scopeblog.stanford.edu/wp-content/plugins/dynamic-content-gallery-plugin/js-mootools/scripts/jd.gallery.transitions_1_2_4_4.js"></script>
+<script type="text/javascript">
+   function startGallery() {
+      var myGallery = new gallery($("myGallery"), {
+	  showArrows: true,
+	  showCarousel: false,
+	  showInfopane: true,
+	  timed: true,
+	  delay: 10000,
+	  defaultTransition: "continuoushorizontal",
+	  slideInfoZoneOpacity: 0.7,
+	  slideInfoZoneSlide: true,
+	  textShowCarousel: "Featured Articles"
+      });
+   }
+   window.addEvent("domready",startGallery);
+</script>
+
+
+
+<style type="text/css">
+.imageElement {
+	visibility: hidden;
+	}
+	
+#myGallery, #myGallerySet, #flickrGallery {
+	background: #000 url('http://scopeblog.stanford.edu/wp-content/plugins/dynamic-content-gallery-plugin/js-mootools/css/img/loading-bar-black.gif') no-repeat center;
+	border: 0px solid #000000;
+	height: 190px;
+	width: 260px;
+	}
+
+.jdGallery .slideInfoZone {
+	background-color: #000000 !important;
+	height: 50px;
+	}
+
+.jdGallery .slideInfoZone h2 {
+	color: #FFFFFF !important;
+	font-size: 13px !important;
+	font-weight: bold !important;
+	margin: 2px 5px !important;
+	padding: 4px 0px !important; 
+	}
+
+.jdGallery .slideInfoZone p {
+	color: #FFFFFF !important;
+	font-size: 9px !important;
+	line-height: 14px !important;
+	margin: 2px 5px !important;
+	padding: 0px 0px !important;
+	}
+
+.jdGallery .slideInfoZone p a, .jdGallery .slideInfoZone p a:link, .jdGallery .slideInfoZone p a:visited {
+	color: #FFFFFF !important;
+	font-weight:normal !important;
+	}
+
+.jdGallery .slideInfoZone p a:hover {
+	color: #FFFFFF !important;
+	font-weight:bold !important;
+	}
+	
+.jdGallery .slideElement {
+	background-color: #000000;
+	}
+
+</style><!-- End of Dynamic Content Gallery scripts -->
+
+<script charset="utf-8" type="text/javascript">var switchTo5x=true;</script>
+<script charset="utf-8" type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script charset="utf-8" type="text/javascript">stLight.options({"publisher":"wp.64a7cf30-9272-4eb3-a81e-3948d1cf489b"});var st_type="wordpress4.0.1";</script>
+
+
+<!-- Facebook Like Thumbnail (v0.3.4) -->
+<meta property="og:image" content="http://scopeblog.stanford.edu/wp-content/uploads/2015/02/doctor-in-iPad.jpg" />
+<!-- using first attachment -->
+<!-- Facebook Like Thumbnail (By Ashfame - https://github.com/ashfame/facebook-like-thumbnail) -->
+
+<meta property="fb:admins" content="656581563"/><meta property="og:title" content="Why technology won&#8217;t destroy the doctor-patient relationship"/><meta property="og:type" content="article"/><meta property="og:url" content="http://scopeblog.stanford.edu/2015/02/11/why-technology-wont-destroy-the-doctor-patient-relationship/"/><meta property="og:site_name" content="Scope Blog"/><meta property="og:image" content="http://scopeblog.stanford.edu/wp-content/themes/scope/images/logo_share.jpg"/><style type="text/css">
+	.jdGallery .slideInfoZone h2 {
+		font-weight: normal !important;
+		line-height: 1em !important;
+		margin: 5px 5px !important;
+	}
+</style>
+</head>
+<body>
+<div id="container">
+<!-- BEGIN TOPCODE -->
+<noscript><img alt="" class="nodisplay" border="0" name="DCSIMG" width="1" height="1" src="//irt-sdc.stanford.edu/dcs8k04jn10000omts799zm21_4p5q/njs.gif?dcsuri=/nojavascript&amp;WT.js=No" /></noscript>
+<!-- Stanford Medicine emergency notices, if any, appear here; populates som and shc, unless overridden -->
+<div id="brand" class="x_logo">
+  <a href="http://scopeblog.stanford.edu"><img src="http://scopeblog.stanford.edu/wp-content/themes/scope/images/logo.png" width="750" height="130" border="0" alt="SCOPE" /></a>
+</div>
+<!-- END TOPCODE -->
+<h4 id="tagline">Published by<br />Stanford Medicine</h4>
+
+
+
+
+<div id="mainContent">
+  	            <div class="entry" id="entry-159612">
+          		<div class="catLabel cat65"></div>
+                <span class="category"><a href="http://scopeblog.stanford.edu/category/patient-care/" rel="category tag">Patient Care</a>, <a href="http://scopeblog.stanford.edu/category/sms-unplugged/" rel="category tag">SMS Unplugged</a>, <a href="http://scopeblog.stanford.edu/category/technology/" rel="category tag">Technology</a></span>
+                <h1><a href="http://scopeblog.stanford.edu/2015/02/11/why-technology-wont-destroy-the-doctor-patient-relationship/" rel="bookmark" title="Permanent Link to Why technology won&#8217;t destroy the doctor-patient relationship">Why technology won&#8217;t destroy the doctor-patient relationship</a></h1>
+                <div class="entryInfo">
+                    <span class="author"><a href="http://scopeblog.stanford.edu/author/apathip/" title="Posts by Akhilesh Pathipati" rel="author">Akhilesh Pathipati</a></span>
+                    <span class="date">on February 11th, 2015</span>
+                    <span class="comments"><a href="http://scopeblog.stanford.edu/2015/02/11/why-technology-wont-destroy-the-doctor-patient-relationship/#respond" title="Comment on Why technology won&#8217;t destroy the doctor-patient relationship">No Comments</a></span>
+                </div>
+                <div class="entryBody">
+                    <p>
+                        <div class="postavatar"><img src="http://scopeblog.stanford.edu/wp-content/themes/scope/images/avatars/sms.jpg" width="38" height="36" alt="Why technology won&#039;t destroy the doctor-patient relationship" /></div>
+<p><em>SMS (“Stanford Medical School”) Unplugged is a forum for students to chronicle their experiences in medical school. The student-penned entries appear on Scope once a week; the entire blog series can be found in the <a href="http://scopeblog.stanford.edu/category/sms-unplugged/">SMS Unplugged category</a>.</em></p>
+<p><a href="http://scopeblog.stanford.edu/wp-content/uploads/2015/02/doctor-in-iPad.jpg"><img class="alignleft size-full wp-image-159647" src="http://scopeblog.stanford.edu/wp-content/uploads/2015/02/doctor-in-iPad.jpg" alt="doctor in iPad" width="307" height="205" /></a>Many aspects of medicine have changed over the course of human history. Schools of thought shifted from humorism to evidence-based medicine, while the standard of care evolved from bleeding to our modern cornucopia of interventions.</p>
+<p>Yet across centuries, the doctor-patient relationship has remained relatively constant – a physician would physically interact with the patient and then come to conclusions on how to treat him or her. However, new technologies and innovative delivery models have begun to erode this cornerstone of medical practice, raising questions about whether they are ultimately helpful or harmful.</p>
+<p>I was first introduced to non-traditional models of medical care the summer after my freshmen year of college. I worked with a doctor who has an extensive background in telemedicine, which broadly implies the use of technology to expand access to medical care. In practice, that might mean seeing patients via videoconference, having patients take pictures of lesions, remote monitoring, or a number of other applications. Moving forward, it may even allow patients to conduct their own physical on a <a href="http://www.wsj.com/articles/the-future-of-medicine-is-in-your-smartphone-1420828632">smartphone</a>.</p>
+<p>Inspired by my experience, I started to explore other ways we can reach patients without bringing them into the doctor’s office. One strategy is to use social media to engage patients. Another is to make use of retail health clinics – clinics in shopping centers or pharmacies that are equipped to handle one-off, minor medical complaints. (If you’re interested, I have written in more detail about each of these models <a href="http://www.sacbee.com/opinion/california-forum/article2587491.html">here</a>, <a href="http://www.sacbee.com/opinion/op-ed/article2609244.html">here</a>, and <a href="http://www.sacbee.com/opinion/op-ed/soapbox/article5044245.html">here</a>).</p>
+<p>Almost invariably, the first criticism brought against these strategies is that they&#8217;ll interfere with the doctor-patient relationship. It’s true that they can influence the dynamic between a patient and physician and should be evaluated carefully. But in my experience, critiques tend to overlook three major aspects of technology that actually <em>improve</em> the doctor-patient relationship.</p>
+<p>First, new tools in health-care delivery don&#8217;t replace the physician with a technological brave new world. To the contrary, they create a doctor-patient relationship for patients who otherwise wouldn’t have a doctor at all. Many of these tools are targeted towards patients who live in underserved communities and give them an effective way to communicate with a doctor.</p>
+<p>Take rural populations as an example. Suppose a patient has a condition that requires a specialist consult. Do you think the patient would rather: (1) take a day off from his or her job and drive three hours to a tertiary care center; or (2) remotely connect with a specialist who can clear up the problem? Most patients would likely prefer the second scenario, and may defer care if they don’t have that option.</p>
+<p>Second, the doctor-patient relationship is especially relevant to patients who have complicated medical issues. If patients are able to handle minor complaints outside of the doctor’s office, physicians will have more time to spend with the patients who need the most help.</p>
+<p>Finally, these approaches empower patients to take responsibility for their own health. Once again, let’s consider this in in the context of an example. One common stereotype in medicine is that of the non-compliant patient – maybe someone who has high blood pressure, high cholesterol, etc., but doesn’t take his or her medication, make diet modifications, or exercise. At present, a doctor might require this patient to come in for a check-up every few months. And yet nothing changes.</p>
+<p>But if the doctor gives that same patient the tools to monitor their health on a day-to-day basis, the patient may take on a greater sense of ownership for their well-being and start making some changes. As medical students, we regularly hear that we&#8217;re in an era of patient-centered care. Technological tools that give patients more health information don&#8217;t hurt the doctor-patient relationship; they serve as another means to connect us.</p>
+<p>Medicine is a constantly evolving field. New strategies have the potential to change the way we practice. But it’s worth remembering that a different doctor-patient relationship can be a <em>better</em> doctor-patient relationship.</p>
+<p><em>Akhilesh Pathipati is a second-year medical student at Stanford. He is interested in issues in health-care delivery.</em></p>
+<p>Photo by <a href="https://www.flickr.com/photos/neccorp/14445634744/">NEC Corporation of America</a></p>
+<p class="no-break"><span class='st_email_hcount' st_title='Why technology won&#8217;t destroy the doctor-patient relationship' st_url='http://scopeblog.stanford.edu/2015/02/11/why-technology-wont-destroy-the-doctor-patient-relationship/'></span><span class='st_twitter_hcount' st_title='Why technology won&#8217;t destroy the doctor-patient relationship' st_url='http://scopeblog.stanford.edu/2015/02/11/why-technology-wont-destroy-the-doctor-patient-relationship/'></span><span class='st_facebook_hcount' st_title='Why technology won&#8217;t destroy the doctor-patient relationship' st_url='http://scopeblog.stanford.edu/2015/02/11/why-technology-wont-destroy-the-doctor-patient-relationship/'></span></p>                    </p>
+                </div>
+          </div>
+        <div class="comments">
+            			<!-- You can start editing here. -->
+<!-- If comments are open, but there are no comments. -->
+<h4 id="respond">Comment</h4>
+<form action="http://scopeblog.stanford.edu/wp-comments-post.php" method="post" id="commentform">
+    <p>
+    <input type="text" name="author" id="author" value="" size="22" tabindex="1" aria-required='true' />
+    <label for="author">Name
+      (required)     </label>
+  </p>
+  <p>
+    <input type="text" name="email" id="email" value="" size="22" tabindex="2" aria-required='true' />
+    <label for="email">Mail (required, but will not be published)</label>
+  </p>
+    <!--<p><small><strong>XHTML:</strong> You can use these tags: <code>&lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;strike&gt; &lt;strong&gt; </code></small></p>-->
+  <p>
+    <textarea name="comment" id="comment" cols="100%" rows="10" tabindex="4"></textarea><br />
+    Please read <a href="http://scopeblog.stanford.edu/about-scope/">our comments policy</a> before posting
+  </p>
+  <p>
+    <input width="58" height="23" type="submit" id="submit" value="&nbsp;Post&nbsp;" name="submit" tabindex="5">
+    <input type="hidden" name="comment_post_ID" value="159612" />
+  </p>
+  <p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="62bc8d6757" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="187"/></p></form>
+		</div>
+
+		
+        </div>
+<div id="subNav">
+  <div>
+<div class="search">
+	<h4>Search</h4>
+	<form method="get" id="scope_search" action="http://scopeblog.stanford.edu/">
+<label class="hidden" for="s">Search for:</label>
+<input type="text" value="" name="s" id="blogSearchField" placeholder="What are you looking for?" />
+<input type="image" src="http://scopeblog.stanford.edu/wp-content/themes/scope/images/searchBtn.png" id="searchsubmit" value="Search" class="search_button" />
+</form>
+	<ul>
+    	<li><a href="http://feeds.feedburner.com/stanford/scope" class="rss">Subscribe to Scope</a></li>
+        <li><a href="http://twitter.com/#!/@ScopeMedBlog" title="Follow Scope on Twitter" class="iconTwitterSmall">Follow Scope on Twitter</a></li>
+        <li><a href="http://eepurl.com/NbHWH" target="_blank">Sign up for Scope's e-newsletter</a></li>
+        <li><a href="http://scopeblog.stanford.edu/about-scope/">About Scope</a></li>
+        <li><a href="http://scopeblog.stanford.edu/contributors/">Contributors</a></li>
+    </ul>
+</div>
+<div class="featured">
+<h4>Featured Entries</h4>
+	
+<div id="myGallery"><!-- Start of Dynamic Content Gallery output -->
+<div class="imageElement"><!-- DCG Image #1-->
+	<h3>Stanford hosts inaugural Childx conference this spring</h3>
+	<p></p>
+	<a href="http://scopeblog.stanford.edu/2015/02/11/stanford-hosts-inaugural-childx-conference-this-spring/" title="Read More" class="open"></a>
+	<img src="http://scopeblog.stanford.edu/wp-content/uploads/2015/02/doctor-and-toddler-260.jpg" alt="Stanford hosts inaugural Childx conference this spring" class="dfcg-metabox full" />
+	<img class="dfcg-thumb-legacy thumbnail" src="http://scopeblog.stanford.edu/wp-content/uploads/2015/02/doctor-and-toddler-260.jpg" alt="Stanford hosts inaugural Childx conference this spring" />
+<!-- DCG Info Message 20: Metabox image selected. Metabox image found. -->
+</div>
+<div class="imageElement"><!-- DCG Image #2-->
+	<h3>Medical student-turned-entrepreneur harnesses Google Glass to improve doctor-patient relationship</h3>
+	<p></p>
+	<a href="http://scopeblog.stanford.edu/2015/02/09/medical-student-turned-entrepreneur-harnesses-google-glass-to-improve-doctor-patient-relationship/" title="Read More" class="open"></a>
+	<img src="http://scopeblog.stanford.edu/wp-content/uploads/2015/02/Pelu-260.jpg" alt="Medical student-turned-entrepreneur harnesses Google Glass to improve doctor-patient relationship" class="dfcg-metabox full" />
+	<img class="dfcg-thumb-legacy thumbnail" src="http://scopeblog.stanford.edu/wp-content/uploads/2015/02/Pelu-260.jpg" alt="Medical student-turned-entrepreneur harnesses Google Glass to improve doctor-patient relationship" />
+<!-- DCG Info Message 20: Metabox image selected. Metabox image found. -->
+</div>
+<div class="imageElement"><!-- DCG Image #3-->
+	<h3>Research institute or detective agency?  Investigating the “perp” known as cancer</h3>
+	<p></p>
+	<a href="http://scopeblog.stanford.edu/2015/02/10/research-institute-or-detective-agency-investigating-the-perp-known-as-cancer/" title="Read More" class="open"></a>
+	<img src="http://scopeblog.stanford.edu/wp-content/uploads/2015/02/Sherlock-Holmes2-260.jpg" alt="Research institute or detective agency?  Investigating the “perp” known as cancer" class="dfcg-metabox full" />
+	<img class="dfcg-thumb-legacy thumbnail" src="http://scopeblog.stanford.edu/wp-content/uploads/2015/02/Sherlock-Holmes2-260.jpg" alt="Research institute or detective agency?  Investigating the “perp” known as cancer" />
+<!-- DCG Info Message 20: Metabox image selected. Metabox image found. -->
+</div>
+<div class="imageElement"><!-- DCG Image #4-->
+	<h3>Why technology won&#039;t destroy the doctor-patient relationship</h3>
+	<p></p>
+	<a href="http://scopeblog.stanford.edu/2015/02/11/why-technology-wont-destroy-the-doctor-patient-relationship/" title="Read More" class="open"></a>
+	<img src="http://scopeblog.stanford.edu/wp-content/uploads/2015/02/doctor-on-iPad-260.jpg" alt="Why technology won&#039;t destroy the doctor-patient relationship" class="dfcg-metabox full" />
+	<img class="dfcg-thumb-legacy thumbnail" src="http://scopeblog.stanford.edu/wp-content/uploads/2015/02/doctor-on-iPad-260.jpg" alt="Why technology won&#039;t destroy the doctor-patient relationship" />
+<!-- DCG Info Message 20: Metabox image selected. Metabox image found. -->
+</div>
+<div class="imageElement"><!-- DCG Image #5-->
+	<h3>Growing number of donor hearts rejected for transplantation, Stanford study finds</h3>
+	<p></p>
+	<a href="http://scopeblog.stanford.edu/2015/02/10/growing-number-of-donor-hearts-rejected-for-transplantation-stanford-study-finds/" title="Read More" class="open"></a>
+	<img src="http://scopeblog.stanford.edu/wp-content/uploads/2015/02/Khush-260.jpg" alt="Growing number of donor hearts rejected for transplantation, Stanford study finds" class="dfcg-metabox full" />
+	<img class="dfcg-thumb-legacy thumbnail" src="http://scopeblog.stanford.edu/wp-content/uploads/2015/02/Khush-260.jpg" alt="Growing number of donor hearts rejected for transplantation, Stanford study finds" />
+<!-- DCG Info Message 20: Metabox image selected. Metabox image found. -->
+</div>
+<div class="imageElement"><!-- DCG Image #6-->
+	<h3>For this doctor couple, the Super Bowl was about way more than football</h3>
+	<p></p>
+	<a href="http://scopeblog.stanford.edu/2015/02/12/for-this-doctor-couple-the-super-bowl-was-about-way-more-than-football/" title="Read More" class="open"></a>
+	<img src="http://scopeblog.stanford.edu/wp-content/uploads/2015/02/Kalanithis-at-Super-Bowl-260.jpg" alt="For this doctor couple, the Super Bowl was about way more than football" class="dfcg-metabox full" />
+	<img class="dfcg-thumb-legacy thumbnail" src="http://scopeblog.stanford.edu/wp-content/uploads/2015/02/Kalanithis-at-Super-Bowl-260.jpg" alt="For this doctor couple, the Super Bowl was about way more than football" />
+<!-- DCG Info Message 20: Metabox image selected. Metabox image found. -->
+</div>
+</div><!-- End of Dynamic Content Gallery output -->
+
+</div>
+<div class="categories">
+    <h4>Categories</h4>
+    <div class="categoryContainer">
+        <ul class="sidebarList">
+            	<li class="cat-item cat-item-80"><a href="http://scopeblog.stanford.edu/category/stanford-news/" >Stanford News</a>
+</li>
+	<li class="cat-item cat-item-71"><a href="http://scopeblog.stanford.edu/category/research/" >Research</a>
+</li>
+	<li class="cat-item cat-item-41"><a href="http://scopeblog.stanford.edu/category/in-the-news/" >In the News</a>
+</li>
+	<li class="cat-item cat-item-66"><a href="http://scopeblog.stanford.edu/category/pediatrics/" >Pediatrics</a>
+</li>
+	<li class="cat-item cat-item-69"><a href="http://scopeblog.stanford.edu/category/public-health/" >Public Health</a>
+</li>
+	<li class="cat-item cat-item-84"><a href="http://scopeblog.stanford.edu/category/technology/" >Technology</a>
+</li>
+	<li class="cat-item cat-item-86"><a href="http://scopeblog.stanford.edu/category/videos/" >Videos</a>
+</li>
+	<li class="cat-item cat-item-56"><a href="http://scopeblog.stanford.edu/category/neuroscience/" >Neuroscience</a>
+</li>
+	<li class="cat-item cat-item-13"><a href="http://scopeblog.stanford.edu/category/cancer/" >Cancer</a>
+</li>
+	<li class="cat-item cat-item-34"><a href="http://scopeblog.stanford.edu/category/health-policy/" >Health Policy</a>
+</li>
+	<li class="cat-item cat-item-53"><a href="http://scopeblog.stanford.edu/category/mental-health/" >Mental Health</a>
+</li>
+	<li class="cat-item cat-item-65"><a href="http://scopeblog.stanford.edu/category/patient-care/" >Patient Care</a>
+</li>
+	<li class="cat-item cat-item-28"><a href="http://scopeblog.stanford.edu/category/global-health/" >Global Health</a>
+</li>
+	<li class="cat-item cat-item-58"><a href="http://scopeblog.stanford.edu/category/nutrition/" >Nutrition</a>
+</li>
+	<li class="cat-item cat-item-87"><a href="http://scopeblog.stanford.edu/category/womens-health/" >Women&#039;s Health</a>
+</li>
+	<li class="cat-item cat-item-50"><a href="http://scopeblog.stanford.edu/category/medicine-and-society/" >Medicine and Society</a>
+</li>
+	<li class="cat-item cat-item-27"><a href="http://scopeblog.stanford.edu/category/genetics/" >Genetics</a>
+</li>
+	<li class="cat-item cat-item-73"><a href="http://scopeblog.stanford.edu/category/science-2/" >Science</a>
+</li>
+	<li class="cat-item cat-item-42"><a href="http://scopeblog.stanford.edu/category/infectious-disease/" >Infectious Disease</a>
+</li>
+	<li class="cat-item cat-item-46"><a href="http://scopeblog.stanford.edu/category/medical-education/" >Medical Education</a>
+</li>
+	<li class="cat-item cat-item-31"><a href="http://scopeblog.stanford.edu/category/health-and-fitness/" >Health and Fitness</a>
+</li>
+	<li class="cat-item cat-item-64"><a href="http://scopeblog.stanford.edu/category/parenting/" >Parenting</a>
+</li>
+	<li class="cat-item cat-item-29"><a href="http://scopeblog.stanford.edu/category/grand-roundup/" >Grand Roundup</a>
+</li>
+	<li class="cat-item cat-item-14"><a href="http://scopeblog.stanford.edu/category/cardiovascular-medicine/" >Cardiovascular Medicine</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="http://scopeblog.stanford.edu/category/aging/" >Aging</a>
+</li>
+	<li class="cat-item cat-item-44"><a href="http://scopeblog.stanford.edu/category/media/" >Media</a>
+</li>
+	<li class="cat-item cat-item-81"><a href="http://scopeblog.stanford.edu/category/stem-cells/" >Stem Cells</a>
+</li>
+	<li class="cat-item cat-item-16"><a href="http://scopeblog.stanford.edu/category/chronic-disease/" >Chronic Disease</a>
+</li>
+	<li class="cat-item cat-item-59"><a href="http://scopeblog.stanford.edu/category/obesity/" >Obesity</a>
+</li>
+	<li class="cat-item cat-item-38"><a href="http://scopeblog.stanford.edu/category/image-of-the-week/" >Image of the Week</a>
+</li>
+	<li class="cat-item cat-item-23"><a href="http://scopeblog.stanford.edu/category/events/" >Events</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="http://scopeblog.stanford.edu/category/behavioral-science/" >Behavioral Science</a>
+</li>
+	<li class="cat-item cat-item-68"><a href="http://scopeblog.stanford.edu/category/pregnancy/" >Pregnancy</a>
+</li>
+	<li class="cat-item cat-item-39"><a href="http://scopeblog.stanford.edu/category/imaging/" >Imaging</a>
+</li>
+	<li class="cat-item cat-item-57"><a href="http://scopeblog.stanford.edu/category/nih/" >NIH</a>
+</li>
+	<li class="cat-item cat-item-77"><a href="http://scopeblog.stanford.edu/category/sleep/" >Sleep</a>
+</li>
+	<li class="cat-item cat-item-11"><a href="http://scopeblog.stanford.edu/category/bioengineering/" >Bioengineering</a>
+</li>
+	<li class="cat-item cat-item-83"><a href="http://scopeblog.stanford.edu/category/surgery/" >Surgery</a>
+</li>
+	<li class="cat-item cat-item-2"><a href="http://scopeblog.stanford.edu/category/addiction/" >Addiction</a>
+</li>
+	<li class="cat-item cat-item-17"><a href="http://scopeblog.stanford.edu/category/clinical-trials/" >Clinical Trials</a>
+</li>
+	<li class="cat-item cat-item-32"><a href="http://scopeblog.stanford.edu/category/health-costs/" >Health Costs</a>
+</li>
+	<li class="cat-item cat-item-67"><a href="http://scopeblog.stanford.edu/category/podcasts/" >Podcasts</a>
+</li>
+	<li class="cat-item cat-item-22"><a href="http://scopeblog.stanford.edu/category/ethics/" >Ethics</a>
+</li>
+	<li class="cat-item cat-item-63"><a href="http://scopeblog.stanford.edu/category/pain/" >Pain</a>
+</li>
+	<li class="cat-item cat-item-79"><a href="http://scopeblog.stanford.edu/category/sports/" >Sports</a>
+</li>
+	<li class="cat-item cat-item-36"><a href="http://scopeblog.stanford.edu/category/hivaids/" >HIV/AIDS</a>
+</li>
+	<li class="cat-item cat-item-47"><a href="http://scopeblog.stanford.edu/category/medical-schools/" >Medical Schools</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="http://scopeblog.stanford.edu/category/applied-biotechnology/" >Applied Biotechnology</a>
+</li>
+	<li class="cat-item cat-item-74"><a href="http://scopeblog.stanford.edu/category/science-policy/" >Science Policy</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="http://scopeblog.stanford.edu/category/askstanfordmed/" >Ask Stanford Med</a>
+</li>
+	<li class="cat-item cat-item-33"><a href="http://scopeblog.stanford.edu/category/health-disparities/" >Health Disparities</a>
+</li>
+	<li class="cat-item cat-item-49"><a href="http://scopeblog.stanford.edu/category/medicine-and-literature/" >Medicine and Literature</a>
+</li>
+	<li class="cat-item cat-item-21"><a href="http://scopeblog.stanford.edu/category/emergency-medicine/" >Emergency Medicine</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="http://scopeblog.stanford.edu/category/autoimmune-disease/" >Autoimmune Disease</a>
+</li>
+	<li class="cat-item cat-item-35"><a href="http://scopeblog.stanford.edu/category/history/" >History</a>
+</li>
+	<li class="cat-item cat-item-40"><a href="http://scopeblog.stanford.edu/category/immunology/" >Immunology</a>
+</li>
+	<li class="cat-item cat-item-51"><a href="http://scopeblog.stanford.edu/category/medicine-x/" >Medicine X</a>
+</li>
+	<li class="cat-item cat-item-54"><a href="http://scopeblog.stanford.edu/category/microbiology/" >Microbiology</a>
+</li>
+	<li class="cat-item cat-item-19"><a href="http://scopeblog.stanford.edu/category/dermatology/" >Dermatology</a>
+</li>
+	<li class="cat-item cat-item-18"><a href="http://scopeblog.stanford.edu/category/complementary-medicine/" >Complementary Medicine</a>
+</li>
+	<li class="cat-item cat-item-75"><a href="http://scopeblog.stanford.edu/category/scope-announcements/" >Scope Announcements</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="http://scopeblog.stanford.edu/category/autism/" >Autism</a>
+</li>
+	<li class="cat-item cat-item-25"><a href="http://scopeblog.stanford.edu/category/fda/" >FDA</a>
+</li>
+	<li class="cat-item cat-item-85"><a href="http://scopeblog.stanford.edu/category/transplants/" >Transplants</a>
+</li>
+	<li class="cat-item cat-item-10"><a href="http://scopeblog.stanford.edu/category/big-data/" >Big data</a>
+</li>
+	<li class="cat-item cat-item-52"><a href="http://scopeblog.stanford.edu/category/mens-health/" >Men&#039;s Health</a>
+</li>
+	<li class="cat-item cat-item-78"><a href="http://scopeblog.stanford.edu/category/sms-unplugged/" >SMS Unplugged</a>
+</li>
+	<li class="cat-item cat-item-45"><a href="http://scopeblog.stanford.edu/category/medical-apps/" >Medical Apps</a>
+</li>
+	<li class="cat-item cat-item-61"><a href="http://scopeblog.stanford.edu/category/orthopedics/" >Orthopedics</a>
+</li>
+	<li class="cat-item cat-item-37"><a href="http://scopeblog.stanford.edu/category/humor/" >Humor</a>
+</li>
+	<li class="cat-item cat-item-26"><a href="http://scopeblog.stanford.edu/category/fertility/" >Fertility</a>
+</li>
+	<li class="cat-item cat-item-76"><a href="http://scopeblog.stanford.edu/category/sexual-health/" >Sexual Health</a>
+</li>
+	<li class="cat-item cat-item-24"><a href="http://scopeblog.stanford.edu/category/evolution/" >Evolution</a>
+</li>
+	<li class="cat-item cat-item-15"><a href="http://scopeblog.stanford.edu/category/cdc/" >CDC</a>
+</li>
+	<li class="cat-item cat-item-48"><a href="http://scopeblog.stanford.edu/category/medicine-2-0/" >Medicine 2.0</a>
+</li>
+	<li class="cat-item cat-item-70"><a href="http://scopeblog.stanford.edu/category/public-safety/" >Public Safety</a>
+</li>
+	<li class="cat-item cat-item-82"><a href="http://scopeblog.stanford.edu/category/stroke/" >Stroke</a>
+</li>
+	<li class="cat-item cat-item-72"><a href="http://scopeblog.stanford.edu/category/rural-health/" >Rural Health</a>
+</li>
+	<li class="cat-item cat-item-30"><a href="http://scopeblog.stanford.edu/category/haiti/" >Haiti</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="http://scopeblog.stanford.edu/category/biomed-bites/" >Biomed Bites</a>
+</li>
+	<li class="cat-item cat-item-55"><a href="http://scopeblog.stanford.edu/category/myths/" >Myths</a>
+</li>
+	<li class="cat-item cat-item-43"><a href="http://scopeblog.stanford.edu/category/lgbt/" >LGBT</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="http://scopeblog.stanford.edu/category/anesthesiology/" >Anesthesiology</a>
+</li>
+	<li class="cat-item cat-item-20"><a href="http://scopeblog.stanford.edu/category/ebola/" >Ebola</a>
+</li>
+	<li class="cat-item cat-item-62"><a href="http://scopeblog.stanford.edu/category/otolaryngology/" >otolaryngology</a>
+</li>
+	<li class="cat-item cat-item-60"><a href="http://scopeblog.stanford.edu/category/ophthalmology/" >Ophthalmology</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://scopeblog.stanford.edu/category/uncategorized/" >Uncategorized</a>
+</li>
+        </ul>
+    </div>
+</div>
+<div class="authors">
+    <h4>Authors</h4>
+    <div class="categoryContainer">
+        <ul class="sidebarList">
+            <li><a href="http://scopeblog.stanford.edu/author/steakley/" title="Posts by Lia Steakley">lia steakley</a></li><li><a href="http://scopeblog.stanford.edu/author/mbrandt/" title="Posts by Michelle Brandt">Michelle Brandt</a></li><li><a href="http://scopeblog.stanford.edu/author/jstaffor/" title="Posts by John Stafford">John Stafford</a></li><li><a href="http://scopeblog.stanford.edu/author/ehite/" title="Posts by Emily Hite">Emily Hite</a></li><li><a href="http://scopeblog.stanford.edu/author/kristac/" title="Posts by Krista Conger">Krista Conger</a></li><li><a href="http://scopeblog.stanford.edu/author/goldmanb/" title="Posts by Bruce Goldman">bruce goldman</a></li><li><a href="http://scopeblog.stanford.edu/author/digitale/" title="Posts by Erin Digitale">Erin Digitale</a></li><li><a href="http://scopeblog.stanford.edu/author/richter1/" title="Posts by Ruthann Richter">Ruthann Richter</a></li><li><a href="http://scopeblog.stanford.edu/author/mayi/" title="Posts by Margarita Gallardo">margarita gallardo</a></li><li><a href="http://scopeblog.stanford.edu/author/julia-james/" title="Posts by Julia James">Julia James</a></li><li><a href="http://scopeblog.stanford.edu/author/paulc1/" title="Posts by Paul Costello">Paul Costello</a></li><li><a href="http://scopeblog.stanford.edu/author/hollymac/" title="Posts by Holly MacCormick">Holly MacCormick</a></li><li><a href="http://scopeblog.stanford.edu/author/retrout/" title="Posts by Becky Bach">becky bach</a></li><li><a href="http://scopeblog.stanford.edu/author/traciew/" title="Posts by Tracie White">Tracie White</a></li><li><a href="http://scopeblog.stanford.edu/author/manishma/" title="Posts by Rosanne Spector">Rosanne Spector</a></li><li><a href="http://scopeblog.stanford.edu/author/evalenti/" title="Posts by Eva Valenti">Eva Valenti</a></li><li><a href="http://scopeblog.stanford.edu/author/rshaikhl/" title="Posts by Rina Shaikh-Lesko">Rina Shaikh-Lesko</a></li><li><a href="http://scopeblog.stanford.edu/author/krisn/" title="Posts by Kris Newby">Kris Newby</a></li><li><a href="http://scopeblog.stanford.edu/author/yann-meunier/" title="Posts by Yann Meunier">Yann Meunier</a></li><li><a href="http://scopeblog.stanford.edu/author/amyadams/" title="Posts by Amy Adams">Amy Adams</a></li><li><a href="http://scopeblog.stanford.edu/author/mbrandt92/" title="Posts by Inspire Contributor">Inspire Contributor</a></li><li><a href="http://scopeblog.stanford.edu/author/marissaf/" title="Posts by Marissa Fessenden">Marissa Fessenden</a></li><li><a href="http://scopeblog.stanford.edu/author/slwykes/" title="Posts by Sara Wykes">Sara Wykes</a></li><li><a href="http://scopeblog.stanford.edu/author/jrabin/" title="Posts by Jonathan Rabinovitz">Jonathan Rabinovitz</a></li><li><a href="http://scopeblog.stanford.edu/author/dconn/" title="Posts by Dylan Conn">Dylan Conn</a></li><li><a href="http://scopeblog.stanford.edu/author/adam24/" title="Posts by Adam Vaughan">Adam Vaughan</a></li><li><a href="http://scopeblog.stanford.edu/author/keith-rozendal/" title="Posts by Keith Rozendal">Keith Rozendal</a></li><li><a href="http://scopeblog.stanford.edu/author/knh/" title="Posts by Keith Humphreys">Keith Humphreys</a></li><li><a href="http://scopeblog.stanford.edu/author/susani/" title="Posts by Susan Ipaktchian">Susan Ipaktchian</a></li><li><a href="http://scopeblog.stanford.edu/author/alillyf/" title="Posts by Andrea Ford">Andrea Ford</a></li><li><a href="http://scopeblog.stanford.edu/author/jsanford/" title="Posts by John Sanford">John Sanford</a></li><li><a href="http://scopeblog.stanford.edu/author/mamalone/" title="Posts by MA Malone">MA Malone</a></li><li><a href="http://scopeblog.stanford.edu/author/lkobza/" title="Posts by Liat Kobza">Liat Kobza</a></li><li><a href="http://scopeblog.stanford.edu/author/louisb/" title="Posts by Louis Bergeron">Louis Bergeron</a></li><li><a href="http://scopeblog.stanford.edu/author/stephanie-pappas/" title="Posts by Stephanie Pappas">Stephanie Pappas</a></li><li><a href="http://scopeblog.stanford.edu/author/lisandra-west/" title="Posts by Lisandra West">Lisandra West</a></li><li><a href="http://scopeblog.stanford.edu/author/mclaeys/" title="Posts by Michael Claeys">Michael Claeys</a></li><li><a href="http://scopeblog.stanford.edu/author/sandra-chung/" title="Posts by Sandra Chung">Sandra Chung</a></li><li><a href="http://scopeblog.stanford.edu/author/jbaxter2/" title="Posts by Jen Baxter">Jen Baxter</a></li><li><a href="http://scopeblog.stanford.edu/author/stesha-doku/" title="Posts by Stesha Doku">Stesha Doku</a></li><li><a href="http://scopeblog.stanford.edu/author/hamsika/" title="Posts by Hamsika Chandrasekar">Hamsika Chandrasekar</a></li><li><a href="http://scopeblog.stanford.edu/author/jmgeno/" title="Posts by Jacqueline Genovese">Jacqueline Genovese</a></li><li><a href="http://scopeblog.stanford.edu/author/hank-greely/" title="Posts by Hank Greely">Hank Greely</a></li><li><a href="http://scopeblog.stanford.edu/author/diane-rogers/" title="Posts by Diane Rogers">Diane Rogers</a></li><li><a href="http://scopeblog.stanford.edu/author/nbirgiss/" title="Posts by Natalia Birgisson">Natalia Birgisson</a></li><li><a href="http://scopeblog.stanford.edu/author/christinaclarke/" title="Posts by CPIC Contributor">CPIC Contributor</a></li><li><a href="http://scopeblog.stanford.edu/author/vaughan1/" title="Posts by Christopher Vaughan">Christopher Vaughan</a></li><li><a href="http://scopeblog.stanford.edu/author/robynh/" title="Posts by Robyn Horn">Robyn Horn</a></li><li><a href="http://scopeblog.stanford.edu/author/gallegosmoises/" title="Posts by Moises Humberto Gallegos">Moises Humberto Gallegos</a></li><li><a href="http://scopeblog.stanford.edu/author/jdecoste/" title="Posts by Jennifer DeCoste-Lopez">Jennifer DeCoste-Lopez</a></li><li><a href="http://scopeblog.stanford.edu/author/lapeles/" title="Posts by Linda Apeles">Linda Apeles</a></li><li><a href="http://scopeblog.stanford.edu/author/gupta5/" title="Posts by Mihir Gupta">Mihir Gupta</a></li><li><a href="http://scopeblog.stanford.edu/author/holland2/" title="Posts by Todd Holland">Todd Holland</a></li><li><a href="http://scopeblog.stanford.edu/author/lpotter7/" title="Posts by Lisa Marie Potter">Lisa Marie Potter</a></li><li><a href="http://scopeblog.stanford.edu/author/pjwaldro/" title="Posts by Patricia Waldron">Patricia Waldron</a></li><li><a href="http://scopeblog.stanford.edu/author/dardenne/" title="Posts by Kimberlee D’Ardenne">Kimberlee D’Ardenne</a></li><li><a href="http://scopeblog.stanford.edu/author/msharlac/" title="Posts by Molly Sharlach">Molly Sharlach</a></li><li><a href="http://scopeblog.stanford.edu/author/brandtml/" title="Posts by Medicine X Contributor">Medicine X Contributor</a></li><li><a href="http://scopeblog.stanford.edu/author/alembke/" title="Posts by Anna Lembke">Anna Lembke</a></li><li><a href="http://scopeblog.stanford.edu/author/apathip/" title="Posts by Akhilesh Pathipati">Akhilesh Pathipati</a></li><li><a href="http://scopeblog.stanford.edu/author/donna2alvarado/" title="Posts by Donna Alvarado">Donna Alvarado</a></li><li><a href="http://scopeblog.stanford.edu/author/nfleming/" title="Posts by Nathaniel Fleming">Nathaniel Fleming</a></li><li><a href="http://scopeblog.stanford.edu/author/ksg15/" title="Posts by Kylie Gordon">Kylie Gordon</a></li><li><a href="http://scopeblog.stanford.edu/author/jsherkow/" title="Posts by Jake Sherkow">Jake Sherkow</a></li><li><a href="http://scopeblog.stanford.edu/author/eileend/" title="Posts by Eileen DiFranco">Eileen DiFranco</a></li><li><a href="http://scopeblog.stanford.edu/author/labaker/" title="Posts by Lindsey Baker">Lindsey Baker</a></li><li><a href="http://scopeblog.stanford.edu/author/emmas/" title="Posts by Emma Seppala">Emma Seppala</a></li><li><a href="http://scopeblog.stanford.edu/author/ranjinir/" title="Posts by Ranjini Raghunath">Ranjini Raghunath</a></li><li><a href="http://scopeblog.stanford.edu/author/monyade/" title="Posts by Monya De">Monya De</a></li><li><a href="http://scopeblog.stanford.edu/author/roberta-friedman/" title="Posts by Roberta Friedman">Roberta Friedman</a></li><li><a href="http://scopeblog.stanford.edu/author/hayleygoldbach/" title="Posts by Hayley Goldbach">Hayley Goldbach</a></li><li><a href="http://scopeblog.stanford.edu/author/mfriend/" title="Posts by Matthew Friend">Matthew Friend</a></li><li><a href="http://scopeblog.stanford.edu/author/pvrticka/" title="Posts by Pascal Vrticka">Pascal Vrticka</a></li><li><a href="http://scopeblog.stanford.edu/author/amayacc/" title="Posts by Amaya Cotton-Caballero">Amaya Cotton-Caballero</a></li><li><a href="http://scopeblog.stanford.edu/author/lisagris/" title="Posts by Lisa Griswold">Lisa Griswold</a></li><li><a href="http://scopeblog.stanford.edu/author/amrapalimaitra/" title="Posts by Amrapali Maitra">Amrapali Maitra</a></li><li><a href="http://scopeblog.stanford.edu/author/msnyder/" title="Posts by Michael Snyder">Michael Snyder</a></li><li><a href="http://scopeblog.stanford.edu/author/lizdevitt/" title="Posts by Elizabeth Devitt">Elizabeth Devitt</a></li><li><a href="http://scopeblog.stanford.edu/author/anandveeravagu/" title="Posts by Anand Veeravagu">Anand Veeravagu</a></li><li><a href="http://scopeblog.stanford.edu/author/jgreicius/" title="Posts by Julie Greicius">Julie Greicius</a></li><li><a href="http://scopeblog.stanford.edu/author/hamrashaar/" title="Posts by Polly Stryker">Polly Stryker</a></li><li><a href="http://scopeblog.stanford.edu/author/szenios/" title="Posts by Stefanos Zenios">Stefanos Zenios</a></li><li><a href="http://scopeblog.stanford.edu/author/auerbach/" title="Posts by Paul Auerbach">Paul Auerbach</a></li><li><a href="http://scopeblog.stanford.edu/author/talewis/" title="Posts by Tanya Lewis">Tanya Lewis</a></li><li><a href="http://scopeblog.stanford.edu/author/eaboujaoude/" title="Posts by Elias Aboujaoude">Elias Aboujaoude</a></li><li><a href="http://scopeblog.stanford.edu/author/paulaz/" title="Posts by Paula Zimlicki">Paula Zimlicki</a></li><li><a href="http://scopeblog.stanford.edu/author/bchien/" title="Posts by Bonnie Chien">Bonnie Chien</a></li><li><a href="http://scopeblog.stanford.edu/author/melaniet/" title="Posts by Melanie Thernstrom">Melanie Thernstrom</a></li><li><a href="http://scopeblog.stanford.edu/author/tedleng/" title="Posts by Theodore Leng">Theodore Leng</a></li><li><a href="http://scopeblog.stanford.edu/author/malitsky/" title="Posts by Brittany Malitsky">Brittany Malitsky</a></li><li><a href="http://scopeblog.stanford.edu/author/sarahcpwilliams/" title="Posts by Sarah C. P. Williams">Sarah C. P. Williams</a></li><li><a href="http://scopeblog.stanford.edu/author/melissa/" title="Posts by Melissa Warde">Melissa Warde</a></li><li><a href="http://scopeblog.stanford.edu/author/kstankus/" title="Posts by Kristin Stankus">Kristin Stankus</a></li><li><a href="http://scopeblog.stanford.edu/author/akhila9/" title="Posts by Akhila Narla">Akhila Narla</a></li><li><a href="http://scopeblog.stanford.edu/author/shiris/" title="Posts by Shiri Sadeh-Sharvit">Shiri Sadeh-Sharvit</a></li><li><a href="http://scopeblog.stanford.edu/author/brichp/" title="Posts by Brandon Peters">Brandon Peters</a></li><li><a href="http://scopeblog.stanford.edu/author/jshugart/" title="Posts by Jessica Shugart">Jessica Shugart</a></li><li><a href="http://scopeblog.stanford.edu/author/elandhuis/" title="Posts by Esther Landhuis">Esther Landhuis</a></li><li><a href="http://scopeblog.stanford.edu/author/ssonies/" title="Posts by Joanne Conroy">Joanne Conroy</a></li><li><a href="http://scopeblog.stanford.edu/author/cleas/" title="Posts by Clea Sarnquist">Clea Sarnquist</a></li><li><a href="http://scopeblog.stanford.edu/author/jtremmel/" title="Posts by Jennifer Tremmel">Jennifer Tremmel</a></li><li><a href="http://scopeblog.stanford.edu/author/mhoaglin/" title="Posts by Mike Hoaglin">Mike Hoaglin</a></li><li><a href="http://scopeblog.stanford.edu/author/laytonlamsam/" title="Posts by Layton Lamsam">Layton Lamsam</a></li><li><a href="http://scopeblog.stanford.edu/author/rctsai/" title="Posts by Raymond Tsai">Raymond Tsai</a></li><li><a href="http://scopeblog.stanford.edu/author/jakeros/" title="Posts by Jake Rosenberg">Jake Rosenberg</a></li><li><a href="http://scopeblog.stanford.edu/author/markrosekind/" title="Posts by Mark Rosekind">Mark Rosekind</a></li><li><a href="http://scopeblog.stanford.edu/author/maxmc/" title="Posts by Max McClure">Max McClure</a></li>        </ul>
+    </div>
+</div>
+</div>
+</div>
+<!-- BEGIN BOTTOMCODE -->
+<div id="footer">
+  <div class="links_logo">
+    <h4 class="nodisplay">Footer Links:</h4>
+    <a class="sm_logo" href="http://med.stanford.edu"><img src="//med.stanford.edu/Templates/images/logo_header_sm2.gif" width="200" height="50" alt="Stanford School of Medicine" /></a>
+    <ul>
+      <li class="x_firstChild"><a href="http://scopeblog.stanford.edu/about-scope/">About Scope</a></li>
+      <li><a href="http://scopeblog.stanford.edu/contributors/">Contributors</a></li>
+    </ul>
+    <p>Powered by <a href="http://med.stanford.edu/irt/">IRT</a></p>
+  </div>
+</div>
+
+<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+	try {
+	var pageTracker = _gat._getTracker("UA-8214842-4");
+	pageTracker._trackPageview();
+	} catch(err) {}
+</script> 
+<div id="superheader">
+  <h4 class="nodisplay">Stanford Medicine Resources:</h4>
+  <ul id="superheaderList">
+    <li id="stanfordMedicineBrand"><a href="http://med.stanford.edu/"><b>Stanford Medicine</b></a></li>
+    <li id="sh_gettingCare"><a href="http://stanfordmedicine.org/getting_care/">Getting Care</a>
+      <ul>
+        <li><a href="http://stanfordmedicine.org/getting_care/">Overview</a></li>
+        <li><a href="http://stanfordmedicine.org/getting_care/find_physician.html">Find a Physician</a></li>
+        <li><a href="http://stanfordmedicine.org/getting_care/fccc.html">Find a Clinical Care Center</a></li>
+        <li><a href="http://stanfordhealthcare.org/">Stanford Healthcare</a></li>
+        <li><a href="http://www.lpch.org/">Lucile Packard Children's Hospital Stanford</a></li>
+        <li><a href="http://stanfordmedicine.org/getting_care/emergency.html">Emergency</a></li>
+      </ul>
+    </li>
+    <li id="sh_research"><a href="http://med.stanford.edu/research.html">Research</a>
+      <ul>
+        <li><a href="http://stanfordmedicine.org/research/">Overview</a></li>
+        <li><a href="http://med.stanford.edu/school.html">School of Medicine</a></li>
+        <li><a href="http://med.stanford.edu/research/">News &amp; Resources</a></li>
+        <li><a href="http://med.stanford.edu/clinicaltrials/">Clinical Trials</a></li>
+        <li><a href="http://med.stanford.edu/guide/">Departments, Institutes &amp; Centers</a></li>
+        <li><a href="http://med.stanford.edu/profiles/">Faculty Profiles</a></li>
+      </ul>
+    </li>
+    <li id="sh_education"><a href="http://stanfordmedicine.org/education_training/">Education &amp; Training</a>
+      <ul>
+        <li><a href="http://stanfordmedicine.org/education_training/">Overview</a></li>
+        <li><a href="http://med.stanford.edu/">School of Medicine</a></li>
+        <li><a href="http://stanfordmedicine.org/education_training/programs.html">Programs</a></li>
+        <li><a href="http://med.stanford.edu/admissions/">Admissions</a></li>
+        <li><a href="http://med.stanford.edu/cme/">Continuing Medical Education</a></li>
+        <li><a href="http://med.stanford.edu/alumni/">Alumni</a></li>
+        <li><a href="http://lane.stanford.edu/">Lane Medical Library</a></li>
+      </ul>
+    </li>
+    <li id="sh_community"><a href="http://stanfordmedicine.org/community_connections/">Community</a>
+      <ul>
+        <li><a href="http://stanfordmedicine.org/community_connections/">Overview</a></li>
+        <li><a href="http://healthlibrary.stanford.edu/">Stanford Health Library</a></li>
+        <li><a href="http://stanfordmedicine.org/communitynews/">Community Newsletter</a></li>
+        <li><a href="http://stanfordmedicine.org/community_connections/volunteering.html">Volunteering</a></li>
+        <li><a href="http://stanfordmedicine.org/community_connections/pscp.html">Public Service &amp; Community Partnerships</a></li>
+        <li><a href="http://stanfordmedicine.org/community_connections/rnbp.html">Renewal &amp; New Building Projects</a></li>
+      </ul>
+    </li>
+    <li id="sh_aboutUs"><a href="http://stanfordmedicine.org/about/">About Us</a>
+      <ul>
+        <li><a href="http://stanfordmedicine.org/about/">Overview</a></li>
+        <li><a href="http://stanfordmedicine.org/about/news.html">News</a></li>
+        <li><a href="http://stanfordmedicine.org/about/careers.html">Careers</a></li>
+        <li><a href="http://stanfordmedicine.org/about/ways_to_give.html">Ways to Give</a></li>
+        <li><a href="http://stanfordmedicine.org/about/find_person.html">Find a Person</a></li>
+        <li><a href="http://stanfordmedicine.org/about/contact.html">Contact Us</a></li>
+        <li><a href="http://stanfordmedicine.org/about/maps_directions.html">Maps &amp; Directions</a></li>
+        <li><a href="http://deansnewsletter.stanford.edu/">The Dean's Newsletter</a></li>
+      </ul>
+    </li>
+    <li id="stanfordUniversityBrand"><a href="http://www.stanford.edu/"><b>Stanford University</b></a></li>
+  </ul>
+</div>
+<!-- Resource needed for video container -->
+<script type="text/javascript" src="//med.stanford.edu/Templates/ui/media/video/embed.js"></script>
+<script type="text/javascript"> Cufon.now(); </script>
+<!-- END BOTTOMCODE -->
+</div>
+<script type='text/javascript' src='http://scopeblog.stanford.edu/wp-content/plugins/akismet/_inc/form.js?ver=3.0.4'></script>
+</body></html>

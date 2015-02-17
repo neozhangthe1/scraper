@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<!--[if IE 7]> <html lang="en" class="ie7"> <![endif]-->
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+<title>Cybersecurity Research at Stanford | Stanford News</title>
+
+<!-- Meta -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Cybersecurity Research at Stanford" />
+<meta name="author" content="Stanford News" />
+<!-- These meta tags are used when someone shares a link to this page on Facebook,
+     Twitter or other social media sites. All tags are optional, but including them
+     and customizing the content for specific sites can help the visibility of your
+     content.
+-->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Cybersecurity Research at Stanford" />
+<meta property="og:description" content="Stanford's thought leaders are taking an interdisciplinary approach to tackling the world's cybersecurity challenges." />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@Stanford" />
+<meta name="twitter:title" content="Cybersecurity Research at Stanford" />
+<meta name="twitter:description" content="Stanford's thought leaders are taking an interdisciplinary approach to tackling the world's cybersecurity challenges." />
+<meta name="twitter:image" content="http://news.stanford.edu/features/cybersecurity/img/cybersecurity-social.jpg" />
+<link rel="publisher" href="https://plus.google.com/102312438958695854492" />
+
+<!-- CSS -->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" type="text/css" />
+<link rel="stylesheet" href="../assets/cardinal/css/bootstrap.min.css" type="text/css" />
+<link rel="stylesheet" href="../assets/cardinal/css/base.min.css?v=0.1" type="text/css" />
+<link rel="stylesheet" href="css/custom.css?v=0.1" type="text/css"/>
+<!--[if lt IE 9]>
+  <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--[if IE 8]>
+  <link rel="stylesheet" type="text/css" href="../assets/cardinal/css/ie/ie8.css" />
+<![endif]-->
+<!--[if IE 7]>
+  <link rel="stylesheet" type="text/css" href="../assets/cardinal/css/ie/ie7.css" />
+<![endif]-->
+<!-- JS and jQuery -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="../assets/cardinal/js/modernizr.custom.17475.js"></script>
+<script src="../assets/cardinal/js/bootstrap.min.js"></script>
+<script src="../assets/cardinal/js/jquery.stellar.min.js"></script><!-- parallax -->
+
+<!--[if lt IE 9]>
+	<script src="../assets/cardinal/js/respond.js"></script>
+<![endif]-->
+
+<!-- custom JS -->
+<script src="../assets/cardinal/js/base.js?v=1.0"></script>
+<script src="js/custom.js"></script>
+<!-- ShareThis and social media -->
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "fd244ac8-7106-4346-9f7c-261b4cef8c0e", tracking:'google'});</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1860414-2', 'auto');
+  ga('send', 'pageview');
+</script>
+</head>
+
+<body class="">
+<div id="su-wrap"> <!-- used to force footer to bottom of short pages -->
+  <div id="su-content"> <!-- used to force footer to bottom of short pages --> 
+    
+    <!--=== Top ===-->
+    <div id="top">
+      <div class="container"> 
+        <!--=== Skip links ===-->
+        <div id="skip"> <a href="#content" onClick="$('#content').focus()">Skip to content</a> </div>
+        <!-- /Skip links --> 
+      </div>
+    </div>
+    <!--/top--> 
+    
+    <!--=== Header ===-->
+    <div id="header" class="clearfix" role="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <div id="logo" class="clearfix"><a href="http://www.stanford.edu/"><img class="img-responsive" src="//www.stanford.edu/su-identity/images/stanford-white@2x.png" alt="Stanford University" /></a></div>
+            <div id="signature">
+              <div id="site-name"> <a href="/"> <span id="site-name-1">News</span> </a> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Menu -->
+    <div id="mainmenu" class="clearfix" role="navigation">
+      <div class="container">
+        <div class="navbar navbar-default"> 
+          
+          <!-- main navigation -->
+          <button type="button" class="navbar-toggle btn-navbar" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="menu-text">Menu</span></button>
+          <!-- /nav-collapse -->
+          
+          <div class="navbar-collapse collapse"> 
+            <!--search box-->
+            <div id="nav-search" role="search">
+              <form action="http://news.stanford.edu/search" method="get" id="search-form" accept-charset="UTF-8">
+                <h2 class="hidden">Search form</h2>
+                <label class="hidden" for="search-field">Search term</label>
+                <input name="cx" type="hidden" value="003265255082301896483:sq5n7qoyfh8">
+                <input name="cof" type="hidden" value="FORID:9">
+                <input name="ie" type="hidden" value="UTF-8">
+                <input title="Search string" class="input-medium" placeholder="Search this site&hellip;" type="text" id="search-field" name="q" value="" size="15" maxlength="128" />
+                <button id="search-btn" type="submit" name="submit"  aria-label="Search" formmethod="get"><i class="fa fa-search"></i></button>
+              </form>
+            </div>
+            <div  role="navigation">
+              <div id="primary-nav">
+                <ul class="nav navbar-nav" aria-label="primary navigation">
+                  <li id="nav-home"> <a href="//news.stanford.edu">Home</a></li>
+                  <li id="nav-1"> <a href="//news.stanford.edu/news">All News</a> </li>
+                  <li id="nav-2"> <a href="//news.stanford.edu/news/staff">Faculty &amp; Staff News</a> </li>
+                  <li id="nav-3"> <a href="//ucomm.stanford.edu/journalists/">For Journalists</a> </li>
+                  <li id="nav-4"> <a href="//news.stanford.edu/about">About Us</a> </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- /nav-collapse --> 
+        </div>
+        <!-- /navbar --> 
+        
+      </div>
+      <!-- /container --> 
+    </div>
+    <!-- /mainmenu --> 
+    
+    <!-- Content -->
+    <div class="hero-banner container-fluid" style="background-color:#000;">
+      <div class="row"> <img src="img/cybersecurity-banner-1170.png" alt="Cyber Security image" class="img-responsive image-center"> </div>
+    </div>
+    <div id="content" tabindex="0" class="container">
+      <h1 class="text-center">Cybersecurity research at Stanford</h1>
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+          <p id="sharethis"> <span class="st_fblike_hcount" ></span> <span class='st_facebook_hcount' displayText='Facebook'></span> <span class='st_twitter_hcount' displayText='Tweet'></span> <span class='st_email_hcount' displayText='Email'></span> </p>
+        </div>
+        <div class="col-md-10 col-md-offset-1">
+          <p class="lead">In a world increasingly dependent on modern technology, cybersecurity is one of humanity's most pressing issues.  Stanford's broad network of thought leaders are taking an interdisciplinary approach to tackling the range of challenges and opportunities created by ever-changing technical advances.  Here are just a few examples of how Stanford is working to address the world's cybersecurity challenges.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div id="content-section-1" class="row content-section">
+          <div class="col-md-5 col-md-offset-1 well">
+            <h3 style="font-size: 1.5em; text-align:center">The Stanford Cyber Initiative</h3>
+            <p style="text-align:center; padding-top: 20px;"><span class="icon"><i class="fa fa-3x fa-lock"></i></span></p>
+            <p>Stanford’s university-wide initiative to understand cyberspace, cybersecurity, and the challenges and opportunities that networked information pose to humanity. The initiative is supported by a $15 million grant from the William and Flora Hewlett Foundation.</p>
+            <p class="more-link" style="display:block; text-align: right"> <a data-ua-label="external-link" data-ua-action="cyber.stanford.edu" data-caption="" href="http://cyber.stanford.edu"><i class="fa fa-chevron-circle-right"></i> <span>Learn more</span></a> </p>
+          </div>
+          <div class="col-md-5 well spacing">
+            <h3  style="font-size: 1.5em; text-align:center">White House Cybersecurity Summit</h3>
+            <p style="text-align:center; padding-top: 20px;"><span class="icon whitehouse"><i class="fa fa-3x fa-university"></i></span></p>
+            <p>On February 13, 2015, the White House hosts a <em>Summit on Cybersecurity and Consumer Protection</em> at Stanford. The summit convenes major stakeholders to help shape public and private sector efforts to protect consumers and companies from growing network threats.</p>
+            <p class="more-link" style="display:block; text-align: right"> <a data-ua-label="external-link" data-ua-action="cyber.stanford.edu" data-caption="" href="http://news.stanford.edu/news/2015/february/cyber-summit-obama-020915.html"><i class="fa fa-chevron-circle-right"></i> <span>Learn more</span></a> </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid people-list"  style="background-color:#f2f1eb; margin:20px 0 0 0; padding:20px 0 0 0">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1">
+            <h2 class="text-center"><i class="fa fa-user"  style="color: #c7d1c5;"></i>Stanford experts on cybersecurity</h2>
+            <p class="text-center"> Stanford researchers in fields related to cybersecurity include:</p>
+            <div class="row">
+              <div class="col-sm-3">
+                <h4>Herb Lin</h4>
+                <ul>
+                  <li><a href="http://cisac.fsi.stanford.edu/people/herbert_lin">senior research scholar</a> at CISAC for cyber policy and security</li>
+                  <li><a href="http://www.hoover.org/profiles/herbert-lin">research fellow</a> at the Hoover Institution</li>
+                </ul>
+              </div>
+              <div class="col-sm-3">
+                <h4>Jonathan Mayer</h4>
+                <ul>
+                  <li><a href="http://cyberlaw.stanford.edu/about/people/jonathan-mayer">cybersecurity fellow</a> at CISAC</li>
+                  <li>research fellow at the Law School's Center for Internet and Society</li>
+                </ul>
+              </div>
+              <div class="col-sm-3">
+                <h4>Tim Junio</h4>
+                <ul>
+                  <li><a href="http://fsi.stanford.edu/people/timothy_junio">cybersecurity research affiliate</a> at CISAC</li>
+                  <li>cybersecurity fellow at the Hoover Institution</li>
+                </ul>
+              </div>
+              <div class="col-sm-3">
+                <h4>Michael McFaul</h4>
+                <ul>
+                  <li><a href="http://fsi.stanford.edu/people/michael_a_mcfaul">professor</a> of political science, director of Freeman Spogli Institute for International Studies</li>
+                  <li><a href="http://www.hoover.org/profiles/michael-mcfaul">senior fellow</a> at the Hoover Institution</li>
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-3 ">
+                <h4>Barbara Van Schewick</h4>
+                <ul>
+                  <li><a href="http://cyberlaw.stanford.edu/about/people/barbara-van-schewick">director</a> of Stanford Law School’s <a href="http://cyberlaw.stanford.edu/">Center for Internet and Society</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-3">
+                <h4>Jennifer Granick</h4>
+                <ul>
+                  <li><a href="http://cyberlaw.stanford.edu/about/people/jennifer-granick">director</a> of civil liberties at the Stanford Center for Internet and Society</li>
+                </ul>
+              </div>
+              <div class="col-sm-3">
+                <h4>Amy Zegart</h4>
+                <ul>
+                  <li><a href="http://fsi.stanford.edu/people/amy_zegart">co-director</a> at CISAC</li>
+                  <li><a href="http://www.hoover.org/profiles/amy-zegart">senior fellow</a> at the Hoover Institution</li>
+                </ul>
+              </div>
+              <div class="col-sm-3">
+                <h4>Dan Boneh</h4>
+                <ul>
+                  <li><a href="https://profiles.stanford.edu/dan-boneh?tab=bio">professor</a> of computer science</li>
+                  <li>co-director of Stanford Computer Security Lab</li>
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-3">
+                <h4>Abraham Sofaer</h4>
+                <ul>
+                  <li><a href="http://www.hoover.org/profiles/abraham-d-sofaer">distinguished scholar and senior fellow</a> at the Hoover Institution</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <style>
+		.credit{
+				
+		}
+	</style>
+    <div class="container-fluid" style="background-color:#f2f1eb; padding-bottom:40px; padding-top:20px;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h4>Herb Lin</h4>
+            <div class="video-container">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/bMrKuxCTx-g" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <h4>Michael McFaul</h4>
+            <div class="video-container">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/i8hMnXoosTM" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <h4>Dan Boneh</h4>
+            <div class="video-container">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/H-YGdcNFBJk" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+        <!--div class="row">
+        	<div class="col-md-4 col-md-offset-2">
+            	<div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/9X0weDMh9C4" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        	<div class="col-md-4">
+            	<div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/9X0weDMh9C4" frameborder="0" allowfullscreen></iframe>
+                </div>            
+            </div>          
+        </div--> 
+      </div>
+    </div>
+    <div class="container">
+      <div id="story-grid" class="row">
+        <div class="col-md-5 col-md-offset-1" id="engineering-technology">
+          <div class="row"  >
+            <div class="col-md-12">
+              <h2><i class="fa fa-lightbulb-o"  style="color: #EAAB00;"></i> Engineering and technology</h2>
+              <p class="margin-bottom-20"><em>Stanford faculty and students are conducting research to make the Internet more secure.</em></p>
+              <ul class="headline-list">
+                <li><a href="http://engineering.stanford.edu/news/stanford-computer-scientists-extend-web-browsers-make-internet-safer">Stanford computer scientists extend Web browsers to make the Internet safer</a></li>
+                <li> <a href="http://news.stanford.edu/news/2014/january/business-spying-dangers-011614.html">Surveillance threatens U.S. business climate, democracy, say Stanford researchers</a> </li>
+                <li><a href="http://news.stanford.edu/news/2014/march/nsa-phone-surveillance-031214.html">Stanford students show that phone record surveillance can yield vast amounts of information</a></li>
+                <li><a href="https://engineering.stanford.edu/news/engineering-student-combines-legal-computing-acumen-make-big-public-impact">Engineering student combines legal and computing acumen to make a big public impact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 spacing" id="policy-law">
+          <div class="row">
+            <div class="col-md-12">
+              <h2><i class="fa fa-shield"  style="color: #0098DB;"></i> Policy and law</h2>
+              <p class="margin-bottom-20"><em>Stanford takes an interdisciplinary approach to such issues as the balance between national security and privacy.</em></p>
+            </div>
+          </div>
+          <div class="row">
+            <ul  class="headline-list">
+              <li><a href="http://cyberlaw.stanford.edu/">The Center for Internet and Society at Stanford is a leader in the study of the law and policy around emerging technologies</a></li>
+              <li><a href="http://cisac.fsi.stanford.edu/news/takeaway-inaugural-cyber-boot-camp-nothing-secure">Inaugural cyber boot camp brings congressional staffers to Silicon Valley</a></li>
+              <li> <a href="http://news.stanford.edu/news/2014/august/cybersecurity-boot-camp-082614.html">Google's Eric Schmidt tells Stanford gathering that the key to cybersecurity is better encryption</a> </li>
+              <li><a href="http://cisac.fsi.stanford.edu/news/nsa-chief-admiral-michael-rogers-addresses-stanford">NSA director calls for partnership with Silicon Valley to combat cyber attacks</a></li>
+              <li><a href="http://cisac.fsi.stanford.edu/news/media-and-edward-snowden-evening-barton-gellman">Barton Gellman on Edward Snowden and privacy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- #content--> 
+    
+  </div>
+  <!-- #su-content --> 
+</div>
+<!-- #su-wrap --> 
+
+<!-- BEGIN footer -->
+<div id="footer" class="clearfix footer" role="contentinfo">
+  <div class="container">
+    <div id="footer-content" class="row"> 
+      <!--div class="col-xs-12 col-sm-8">
+        <h3>Stanford experts on cybersecurity</h3>
+        <p><em>Stanford researchers in fields related to cybersecurity include:</em></p>
+        <ul>
+          <li><a href="http://cisac.fsi.stanford.edu/people/herbert_lin">Herb Lin</a>, senior research scholar at CISAC for cyber policy and security; a research fellow at the <a href="http://www.hoover.org/profiles/herbert-lin">Hoover Institution</a></li>
+          <li><a href="http://cyberlaw.stanford.edu/about/people/jonathan-mayer">Jonathan Mayer</a>, cybersecurity fellow at CISAC; research fellow at the Law School's Center for Internet and Society; a CS Ph.D. candidate</li>
+          <li><a href="http://fsi.stanford.edu/people/timothy_junio">Tim Junio</a>, cybersecurity research affiliate at CISAC; cybersecurity fellow at Hoover</li>
+          <li><a href="http://online.stanford.edu/instructors/dan-boneh">Dan Boneh</a>, professor of computer science; heads CS <a href="http://online.stanford.edu/instructors/dan-boneh">applied crytography project</a></li>
+          <li><a href="http://cyberlaw.stanford.edu/about/people/barbara-van-schewick">Barbara Van Schewick</a>, director of Stanford Law School’s <a href="http://cyberlaw.stanford.edu/">Center for Internet and Society</a></li>
+          <li><a href="http://cyberlaw.stanford.edu/about/people/jennifer-granick">Jennifer Granick</a>, director of civil liberties at the Stanford Center for Internet and Society</li>
+          <li><a href="http://fsi.stanford.edu/people/amy_zegart">Amy Zegart</a>, co-director at CISAC; senior fellow at the <a href="http://www.hoover.org/profiles/amy-zegart">Hoover Institution</a></li>
+          <li><a href="http://fsi.stanford.edu/people/michael_a_mcfaul">Michael McFaul</a>, professor of political science, director and FSI for international affairs; senior fellow at the <a href="http://www.hoover.org/profiles/michael-mcfaul">Hoover Institution</a></li>
+          <li><a href="http://www.hoover.org/profiles/abraham-d-sofaer">Abraham Sofaer</a>, distinguished scholar and senior fellow at the Hoover Institution</li>
+        </ul>
+      </div-->
+      <div class="col-md-12">
+        <h3 class="text-center">Share This Story</h3>
+        <div id="socialmedia" class="text-center" style="box-sizing: none;"> <span class="st_facebook_vcount" displayText="Facebook"></span> <span class="st_twitter_vcount" displayText="Tweet"></span> <span class="st_linkedin_vcount" displayText="LinkedIn"></span> <span class="st_email_vcount" displayText="Email"></span> </div>
+      </div>
+    </div>
+  </div>
+  <!-- Global footer snippet start -->
+  <div id="global-footer">
+    <div class="container">
+      <div class="row">
+        <div id="bottom-logo" class="col-xs-6 col-sm-2"> <a href="http://www.stanford.edu"> <img src="//www.stanford.edu/su-identity/images/footer-stanford-logo@2x.png" alt="Stanford University" width="105" height="49"/> </a> </div>
+        <!-- #bottom-logo end -->
+        <div id="bottom-text" class="col-xs-6 col-sm-10">
+          <ul>
+            <li class="home"><a href="http://www.stanford.edu">SU Home</a></li>
+            <li class="maps alt"><a href="http://visit.stanford.edu/plan/maps.html" class="su-link" data-ua-action="visit.stanford.edu/plan/maps" data-ua-label="global-footer">Maps &amp; Directions</a></li>
+            <li class="search-stanford"><a href="http://stanford.edu/search/">Search Stanford</a></li>
+            <li class="terms alt"><a href="http://www.stanford.edu/site/terms.html">Terms of Use</a></li>
+            <li class="emergency-info"><a href="http://emergency.stanford.edu/" class="su-link" data-ua-label="global-footer">Emergency Info</a></li>
+          </ul>
+        </div>
+        <!-- .bottom-text end -->
+        <div class="clear"></div>
+        <p class="copyright vcard col-sm-10">&copy; <span class="fn org">Stanford University</span>.&nbsp; <span class="adr"> <span class="locality">Stanford</span>, <span class="region">California</span> <span class="postal-code">94305</span></span>. <span id="termsofuse"><a href="http://www.stanford.edu/group/security/dmca.html" class="su-link" data-ua-action="copyright-complaints" data-ua-label="global-footer">Copyright Complaints</a>&nbsp;&nbsp;&nbsp;<a href="https://adminguide.stanford.edu/chapter-1/subchapter-5/policy-1-5-4" class="su-link" data-ua-action="trademark-notice" data-ua-label="global-footer">Trademark Notice</a></span></p>
+      </div>
+      <!-- .row end --> 
+    </div>
+    <!-- .container end --> 
+  </div>
+  <!-- Global footer snippet end --> 
+  
+</div>
+<!-- END footer --> 
+
+<script>
+$(function(){
+  var mobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+  if (!mobile) { // only do parallax scrolling on non-mobile devices
+    $.stellar({
+        horizontalScrolling: false
+      , parallaxBackgrounds: true
+      , responsive: true
+    });
+  } else { // allow the background to scroll on mobile devices (iOS doesn't support 'fixed')
+    $('.parallax-bg').css('background-attachment', 'scroll');
+  }
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,690 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>About Us - Stanford Alumni Association</title>
+
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta http-equiv="cache control" content="no-cache" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+	<!-- YUI -->
+	<link rel="stylesheet" type="text/css" href="/pgw/s20/js/2.5.2/build/reset-fonts-grids/reset-fonts-grids.css">
+	<link rel="stylesheet" type="text/css" href="/pgw/s20/js/2.5.2/build/assets/skins/sam/skin.css">
+	<script type="text/javascript" src="/pgw/s20/js/perm/bundle_2.5.2_1.js"></script>
+	<script type="text/javascript" src="/pgw/s20/js/loaderBundled.js"></script>
+
+	<!-- Styled Select -->
+	<script type="text/javascript" src="/pgw/s20/js/styledselect.js"></script> <!-- Included on every page b/c of header tools -->
+	<!-- Clear Fields -->
+	<script type="text/javascript" language="javascript">
+	YAHOO.namespace("SolutionSet.widget");
+
+	YAHOO.SolutionSet.widget.ClearFields = function(selector) {
+		var elements = YAHOO.util.Selector.query(selector);
+
+		YAHOO.util.Event.addListener(elements, "focus", YAHOO.SolutionSet.widget.ClearFields._onElementFocus);
+		YAHOO.util.Event.addListener(elements, "blur", YAHOO.SolutionSet.widget.ClearFields._onElementBlur);
+	}
+
+	YAHOO.SolutionSet.widget.ClearFields._onElementFocus = function (e) {
+		var target = YAHOO.util.Event.getTarget(e);
+		if (target.value == target.defaultValue) {
+			target.value = "";
+		}
+	}
+
+	YAHOO.SolutionSet.widget.ClearFields._onElementBlur = function (e) {
+		var target = YAHOO.util.Event.getTarget(e);
+		if(!YAHOO.util.Dom.hasClass(target, "forceClear")) {
+			if (target.value == "") {
+				target.value = target.defaultValue;
+			}
+		}
+	}
+	
+	//Setup function to switch between templates
+	YAHOO.SolutionSet.util.bodyTemplateSwitcher = function(oldTemplate, newTemplate) {
+		var bodyClass = document.body.className;
+		bodyClass = bodyClass.replace("template" + oldTemplate, "template" + newTemplate);
+		document.body.className = bodyClass;
+	}
+
+	</script>
+	<!-- Form Dialog -->
+	<script type="text/javascript" src="/pgw/s20/js/formdialog.js"></script> <!-- Included on every page b/c of terms in footer -->
+
+	<!-- global -->
+	<link rel="stylesheet" type="text/css" href="/pgw/s20/css/global.css" />
+	<link rel="stylesheet" type="text/css" href="/pgw/s20/css/global.new.css" />
+
+	<!-- sIFR -->
+	<!--
+	<script type="text/javascript" src="/pgw/s20/js/perm/sifr.js"></script>
+	<link rel="stylesheet" type="text/css" href="/pgw/s20/css/perm/sifr.css" />
+    -->
+
+	<script type="text/javascript" language="javascript">
+		var saaHeaderImageForTemplate ="/pgw/s20/i/banners/bannerHome03.jpg";
+		var jstimeout = null;
+		YAHOO.SolutionSet.util.LoadJSFiles(["/pgw/s20/js/jstimeout.js"], function()
+		{
+				jstimeout = new YAHOO.SolutionSet.widget.JSTimeout("none");
+		});
+		var newAppBgb=true;
+	</script>
+
+	<!-- page part type css -->
+	<!-- page part type js -->
+	<link rel="stylesheet" type="text/css" href="/pgw/s20/css/global.css" />
+<link rel="stylesheet" type="text/css" href="/pgw/s20/css/global.new.css" />
+<link rel="stylesheet" type="text/css" href="/content/global/css/SAAnav.css" /><!-- pageCode head goes here -->
+	<!-- page part type css -->
+	<!-- page part type js -->
+	
+<style type="text/css">
+div.box.expandable {
+ margin-bottom: 10px;
+}
+.expandable .header {
+  background-color: #eee;
+  padding-left: 15px;
+}
+.expandable .header h4 {
+  margin: 10px 0 10px 20px;
+  border-bottom: none;
+  font-weight: normal;
+}
+div.expandable .content {
+  padding-left: 35px;
+}
+.expandable li {
+  padding: 9px 0; 
+  border-top: 1px dashed #ccc;
+}
+.expandable li.first {
+  padding: 0 0 9px 0; 
+  border-top:none;
+}
+div.expandable .handle  {
+  margin: 0;
+}
+div.expandable .handle span {
+  width: 20px;
+  height: 20px;
+  margin-left: 0px;
+}
+div.expandable.show .handle span {
+  background: url("/pgw/s20/i/icons/chevron_down.png") no-repeat scroll 0 30% transparent;
+  filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='/pgw/s20/i/icons/chevron_down.png');
+  *background: none;
+}
+div.expandable.hide .handle span {
+  background: url("/pgw/s20/i/icons/chevron_right.png") no-repeat scroll 0 30% transparent;
+  filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='/pgw/s20/i/icons/chevron_right.png');
+  *background: none;
+}
+</style>
+<link rel="stylesheet" type="text/css" media="print" href="/pgw/s20/css/perm/print.css" />
+<noscript><style type="text/css">div#wrapper { display: none; }</style></noscript>
+
+<script language="JavaScript" type="text/javascript">
+function rtaClickTrackToPage(rtaToPage, rtaToCode) {
+  window.location.href="/get/page/" + rtaToPage + "?rtaCode=1&rtaTcode=" + rtaToCode + "&rtaType=P";
+}
+function rtaClickTrackToUrl(rtaToUrl, rtaToCode) {
+  var i_qn = rtaToUrl.indexOf('?');
+if (i_qn < 0) {sDelim = '?'} else {sDelim = '&'}
+  window.location.href= rtaToUrl + sDelim + "rtaCode=1&rtaTcode=" + rtaToCode + "&rtaType=P";
+}
+</script>
+</head>
+<body class="yui-skin-sam template2">
+<a href="#content" class="a11y">Skip to content</a>
+<div id="fb-root"></div>
+<noscript>
+<div style="margin: 2em; padding: 4px; padding-top: 20px; text-align:center; align:center; font-weight: bold;font-size: 120%;">
+<!-- STOP PGNET INDEX -->
+<table width="580"><tr><td>
+Sorry, we are unable to supply content for this web page, either
+because the Internet security on your browser is set to high, or
+because you have disabled Javascript.  For information on how to change
+these settings in your browser, please see the <a href="/content/misc/noscriptHelpPage.html">Help page</a>
+</td></tr></table>
+<!-- START PGNET INDEX -->
+</div>
+</noscript>
+
+	
+
+	<!-- pageCode top could go here -->
+	
+
+	<div id="wrapper">
+		
+
+		
+
+		
+
+		<div id="header">
+			
+
+			
+
+			<!-- STOP PGNET INDEX -->
+<p id="loginDL" style="float: right;color: #900;margin: 4px 0;">Welcome | <a href="/get/page/register?pg=yes&nu=/get/page/about-us">Register</a> | <a href="https://alumni.stanford.edu/get/page/login?pg=yes&am=tparty&nu=/get/page/about-us">Log In</a></p>
+
+<div id="tools" class="clearfix">
+	<div class="buttons">
+		<a href="/get/page/directory/search?pgOrg=saa"><img src="/pgw/s20/i/global/buttonFindAnAlum.gif" alt="Find an Alum" /></a>
+		<a href="/tools/mail?level=12&groupname=saa&pgOrg=saa&dbc=y" target="_blank"><img src="/pgw/s20/i/global/buttonCheckEmail.gif" alt="Check Email" /></a>
+	</div>
+
+<form action="/get/page/search/results">
+<div>
+<input type="text" value="enter search item" name="keywords" id="keywords" class="text" onfocus="this.select();">
+<select id="searchType" name="section">
+<option value="site">Entire Site</option>
+<option value="blog">Blogs</option>
+<option value="discussion">Discussions</option>
+<option value="group">Groups</option>
+<option value="trip">Trips</option>
+<option value="magazine">Magazine</option>
+<option value="event">Events</option>
+</select>
+<input type="image" class="image" value="Search" name="submit" src="/pgw/s20/i/global/buttonSearch.gif">
+</div>
+</form>
+	
+<script type="text/javascript">
+var searchTypeSS = new YAHOO.SolutionSet.widget.StyledSelect(document.getElementById('searchType'));
+</script>
+
+</div>
+<a href="/get/page/home" id="saaLogo">Stanford Alumni</a>
+
+<script type="text/javascript" language="javascript">
+var imageHTMLstring = "<img src='" + saaHeaderImageForTemplate + "' id='masthead'>";
+document.write(imageHTMLstring);
+</script>
+
+<div id="browsePanel">
+         <div class="hd">
+            <div class="tl"></div>
+            <div class="tr"></div>
+         </div>
+         <div class="bd">
+            <div class="body">
+               <div class="section" id="catCommunity">
+                  <h5 class="bucket"><a href="/get/page/landing/community">Community</a></h5>
+                  <ul class="listing">
+                     <li><a href="/get/page/groups/main">Classes, Groups &<br>Clubs</a></li>
+                     <li><a href="/get/page/directory/search">Alumni Directory</a></li>
+                     <li><a href="/get/page/discussions">Discussions</a></li>
+                     <li><a href="/get/page/life-long-learning/book-overview">Book Salon</a></li>
+                     <li><a href="/get/page/students/home">Undergrad Students</a></li><li><a href="/get/page/youngalumni">Young Alumni</a></li>
+                  </ul>
+               </div>
+               <div class="section" id="catActivities">
+                  <h5 class="bucket"><a href="/get/page/landing/activities">Activities</a></h5>
+                  <ul class="listing">
+			<li><a href="/get/page/stanfordconnects/home">Stanford+Connects</a></li>
+                     <li><a href="/get/page/reunion/home">Reunions</a></li>
+                     <li><a href="/get/page/events">Events</a></li>
+                     <li><a href="/get/page/regions/landing">Where I Live</a></li>
+                     <li><a href="/get/page/travel-study/overview">Travel/Study</a></li>
+                     <li><a href="/get/page/sierra">Sierra Camp &<br />Programs</a></li>
+                     <li><a href="/get/page/landing/campus_events">On Campus</a></li>
+                  </ul>
+               </div>
+               <div class="section" id="catResources">
+                  <h5 class="bucket"><a href="/get/page/landing/resources">Resources</a></h5>
+                  <ul class="listing">
+                     <li><a href="/get/page/career/home">CareerConnect</a></li>
+                     <li><a href="/get/page/perks/index">Perks</a></li>
+                     <li><a href="/get/page/membership/home">Membership</a></li>
+                     <li><a href="/get/page/resources/alumnicenter">Your Alumni Center</a></li>      <li><a href="/get/page/resources/eventplanning">Alumni Center Event<br> Planning</a></li>
+
+                  </ul>
+               </div>
+               <div class="section" id="catNews">
+                  <h5 class="bucket"><a href="/get/page/landing/newsViews">News & Views</a></h5>
+                  <ul class="listing">
+                     <li><a href="/get/page/magazine">Magazine</a></li>
+                     <li><a href="/get/page/enews/quickstudies">Quick Studies</a></li>
+                     <!-- li><a href="/get/page/landing/enews">e-News</a></li -->
+                     <li><a href="/get/page/landing/socialMedia">Social Media</a></li>
+                     <li><a href="/get/page/landing/stanford_links">Stanford Links</a></li>
+                  </ul>
+               </div>
+               <div class="section" id="catVolunteer">
+                  <h5 class="bucket"><a href="/get/page/landing/volunteering">Volunteering</a></h5>
+                  <ul class="listing">
+<li><a href="/get/page/volunteering/recognition/home">Recognition</a></li>
+<li><a href="/get/page/volunteering/leadership">Leadership</a></li>
+
+<li><a href="/get/page/volunteering/beyondthefarm/">Beyond the Farm</a></li>
+                                                              <li><a href="/get/page/volunteering/trustee/home">Trustee Nominations</a></li>
+                  </ul>
+               </div>
+               <div class="section" id="catMy">
+                  <h5 class="bucket terminus"><a href="/get/page/mystanford/home"><img id="myStanfordImg" src="/content/images/global/MyStanford.gif" border="0" hspace="0" vspace="0"></a></h5>
+                  <ul class="listing terminus">
+                     <li><a href="/get/page/mystanford/home">Dashboard</a></li>
+                     <li><a href="/get/page/my-account/profile">My Profile</a></li>
+                     <li><a href="/get/page/messaging/inbox">My Messages</a></li>
+                     <li><a href="/get/page/friends">My Friends</a></li>
+<li><a href="/get/page/events/my-events">My Events</a></li>
+                     <li><a href="/get/page/groups/my-groups">My Groups</a></li>
+                     <li><a href="/get/page/gallery/list">My Gallery</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <div class="ft">
+            <div class="bl"></div>
+            <div class="caret"></div>
+            <div class="br"></div>
+         </div>
+      </div>
+<!-- START PGNET INDEX --><!-- pageCode top could go here -->
+			
+
+		</div><!-- end of header -->
+		<div id="container">
+			<div id="containerInner">
+
+				<div id="leftSash" class="yui-b">
+					<div class="box nav clearfix">
+					
+
+					<div class="homeBrowse" style="display:none;">
+						<input type="image" src="/content/images/global/nav_browse_button.gif" id="browseBtn">
+						<!-- STOP PGNET INDEX -->
+						<a href="/get/page/home">Home</a>
+						<!-- START PGNET INDEX -->
+					</div>
+					<script language="javascript">
+						var Event = YAHOO.util.Event, Dom = YAHOO.util.Dom, browsePanel;
+						var browseBtn = document.getElementById("browseBtn");
+						var panelAnchor = document.getElementById("leftSash");
+
+						browsePanel = new YAHOO.widget.Panel("browsePanel", {
+							width: "895px",
+							underlay: "none",
+							close: false,
+							visible: true,
+							draggable: false,
+							zIndex: 100,
+							iframe: true,
+							context: ["leftSash", "tl", "tl"],
+							effect:{effect:YAHOO.widget.ContainerEffect.FADE,duration:0.15}
+						});
+						browsePanel.renderable = false;
+						browsePanel.rendered = false;
+
+						Event.onDOMReady(function(){
+							browsePanel.renderable = true;
+						});
+
+						Event.on(browseBtn, "click", function() {
+							if (browsePanel.rendered && browsePanel.cfg.getProperty("visible")) {
+								browsePanel.hide();
+							}
+							else if (browsePanel.renderable && !browsePanel.rendered) {
+								browsePanel.render(panelAnchor);
+								browsePanel.rendered = true;
+								browsePanel.show();
+							}
+							else {
+								browsePanel.show();
+							}
+						});
+
+						Event.on(document, "click", function(e) {
+							var el = Event.getTarget(e);
+							var browsePanelEl = browsePanel.element;
+							if (browsePanel.rendered && (el != browsePanelEl && !Dom.isAncestor(browsePanelEl, el) && el != browseBtn && !Dom.isAncestor(browseBtn, el))) {
+								browsePanel.hide();
+							}
+						});
+					</script>
+					
+<!-- STOP PGNET INDEX -->
+<ul id="subnav"><li  class="root" > <a href="#"   onclick="return false;">The Fine Print</a><ul><li class="active selected " > <a href="/get/page/about-us" >About Us</a><ul><li > <a href="/get/page/about-us/about-board" >Board of Directors/Executive Staff</a></li><li > <a href="/get/page/about-us/phonenumbers" >Department Phone Numbers</a></li></ul></li><li > <a href="/get/page/accessibility" >Accessibility</a></li><li > <a href="/get/page/help/faq" >Help</a></li><li > <a href="/get/page/help/contact-us" >Contact Us</a></li><li > <a href="/get/page/terms" >Terms of Use</a></li><li > <a href="/get/page/privacy" >Privacy Policy</a></li></ul></li></ul>
+<!-- START PGNET INDEX -->
+					
+<!-- STOP PGNET INDEX -->
+<ul id="subnav"><li > <a href="/get/page/landing/community" >Community</a></li><li > <a href="/get/page/landing/activities" >Activities</a></li><li > <a href="/get/page/landing/resources" >Resources</a></li><li > <a href="/get/page/landing/newsViews" >News &amp; Views</a></li><li > <a href="/get/page/landing/volunteering" >Volunteering</a></li><li > <a href="/get/page/mystanford/home" >My Stanford</a></li></ul>
+<!-- START PGNET INDEX -->
+					
+
+					
+
+					
+
+					
+
+					</div><!-- end of box nav clearfix -->
+				</div><!-- end of leftSash -->
+				<div id="content">
+					
+<!-- STOP PGNET INDEX -->
+<div class="clearfix" id="pageTools">
+    <div>
+        <ul class="clearfix">
+            <li class="first"><a href="javascript:window.print();">Print</a></li>
+            <li class="last"><a href="javascript:void('0');" class="sharePage {'ajaxURL':'/friend/actions/share/','ctURL':'true'}">Share</a></li>
+        </ul>
+    </div>
+</div>
+
+<script type="text/javascript"> 
+		YAHOO.SolutionSet.util.LoadJSFiles(["/pgw/s20/js/formdialog.js","/pgw/s20/js/selectrecipient.js","/pgw/s20/js/autoCompleteYUI.js"], function(){
+		YAHOO.SolutionSet.widget.FormDialog.add(YAHOO.util.Dom.getElementsByClassName("sharePage", "a"), {
+			onAfterDataReturned: function() {
+				/*var shareDataSource = new YAHOO.widget.DS_XHR("/", ["ResultSet.Result","Title"]);
+				shareDataSource.queryMatchContains = true;
+				shareDataSource.scriptQueryAppend = "__module=share&type=autocomplete";*/
+				var shareDataSource = new YAHOO.widget.DS_JSArray([]);
+				//shareDataSource.scriptQueryAppend = "?cturl=" + location.href;
+				YAHOO.SolutionSet.shareAutoComplete = new YAHOO.SolutionSet.widget.AutoComplete("shareUsername","shareAutoCompleteContainer", shareDataSource, {
+					initUpdateValues: function(values) {
+						var newValues = [];
+						for (var i=0, value; value = values[i]; i++) {
+							var matches = value.match(/^([^<]*[^<\s])\s?<(.*)>\s*$/);
+							
+							if (matches && matches.length > 2) {
+								newValues.push({
+									Title: matches[1],
+									Value: matches[1],
+									TextboxValue: matches[2]
+								});
+							} else if (!value.match(/^\s*$/)) {
+								newValues.push({
+									Title: value,
+									Value: value,
+									TextboxValue: value
+								});	
+							}
+				        }
+			            return newValues;
+			        },
+			        onlyAllowValidEmails: true
+			    });
+		        YAHOO.SolutionSet.shareAutoComplete.delimChar = [",",";"];
+
+		        YAHOO.SolutionSet.util.LoadJSFiles(["/pgw/s20/js/selectrecipient.js"], function() {
+					new YAHOO.SolutionSet.widget.SelectRecipient("selectRecipient", {								
+					ajaxURL: '/friend/messaging/selectrecipient?',
+					inputId: 'shareUsername'
+					});
+				}); 	
+		        YAHOO.util.Event.addListener("outsidenetwork", "click", function(e) {
+					document.getElementById("outsidenetworkcontainer").style.display = (document.getElementById("outsidenetwork").checked) ? "" : "none";
+				});
+				
+		        YAHOO.util.Event.addListener("subject", "blur", function(e) {
+		            var subjectEle = YAHOO.util.Dom.get('subject');
+					if (subjectEle && subjectEle.value == "") {
+    					var panel = new YAHOO.widget.Panel("ErrorDialog", {
+    						width:"400px",
+    						fixedcenter: false,
+    						constraintoviewport: false,
+    						underlay:"shadow",
+    						modal:true,
+    						close:true,
+    						visible:false,
+    						draggable:true,
+    						iframe: true,
+    						zIndex:202
+    					});
+    					panel.setHeader("Error!");
+    					panel.setBody('<p>Please enter a subject.</p><span class="yui-button yui-push-button default"><span class="first-child"><button type="button">Okay</button></span></span>');
+    					panel.render(document.body);
+					
+    					panel.cfg.setProperty("fixedcenter",true);
+    					panel.show();
+    					
+						var button = panel.body.getElementsByTagName("button")[0];
+						button.focus();
+						YAHOO.util.Event.addListener(button, "click", function(e) {
+							panel.hide();
+						});
+					
+    					panel.subscribe("hide", function() {
+					        subjectEle.focus();
+    					}, this, true);
+					}
+				});
+	        }
+
+        });
+    });
+
+
+</script>
+<!-- START PGNET INDEX -->
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					<div id="middle">
+						
+<h1>About Us</h1>
+<p>
+The Stanford Alumni Association exists to help you stay connected to Stanford, and to each other, wherever you are in your life now. Whatever you're seeking, be it Stanford events and connections in your hometown, an excuse to come back to the Farm for reunion, a job lead or a mind-expanding magazine, we've got you covered.
+</p>
+						
+<h2>Programs & Services</h2>
+<div id="vtabs" class="yui-navset vertical clearfix yui-navset-top padBottom">
+	<ul class="yui-nav clearfix">
+		<li title="active" class="selected"><a href="#"><em>Social</em></a></li>
+		<li><a href="#"><em>Professional</em></a></li>
+		<li><a href="#"><em>Intellectual</em></a></li>
+		<li><a href="#"><em>Giving Back</em></a></li>
+		<li><a href="#"><em>Just for Fun</em></a></li>
+		<li><a href="#"><em>For your convenience</em></a></li>
+	</ul>
+
+	<div class="box yui-content">
+		<div style="display: block;">
+        	<p>Use the <a href="/get/page/directory/search">alumni directory</a> to find alums around the world.</p>
+<p>Check out the <a href="/get/page/regions/alumni/">Where I Live</a> page to see what's happening in your backyard.</p> 
+<p>Come home for <a href="/get/page/reunion/home">Reunion Homecoming</a>.  </p>
+<p>Keep up with what's happening on the Farm by Liking the <a href="https://www.facebook.com/stanfordalumni">Stanford Alumni Facebook page</a>.  </p>
+<p>Keep up with what's happening in your area by Liking <a href="https://www.facebook.com/stanfordalumni/app_190322544333196">your local Facebook page</a>.</p>
+ 		</div>
+
+
+		<div style="display: none;">
+<p>Tap into alumni-only <a href="/get/page/career/home">CareerConnect</a> resources to find a job or post a job or internship.</p>
+<p>Join the <a href="http://www.linkedin.com/groups/Stanford-University-Alumni-74186">Stanford Alumni LinkedIn group</a> to leverage the professional power of the alumni network.</p>
+ 		</div>
+
+
+		<div style="display: none;">
+		    <p>Learn from Stanford professors and meet President Hennessy at <a href="https://stanfordconnects.stanford.edu/">a Stanford+Connects event</a> in your area.</p>
+<p>Take a <A href="/get/page/travel-study/overview">Travel/Study trip</a> led by Stanford faculty and scholars.</p>
+<p>Attend free lectures <a href="/get/page/landing/campus_events">on campus</a>.</p>
+<p>Travel by armchair as you read along with the <a href="/get/page/life-long-learning/book-overview">Book Salon</a>.</p>
+<p>Follow <a href="https://twitter.com/stanfordalumni">@StanfordAlumni on Twitter</a> for big ideas packed into bite-size tweets.</p>
+ 		</div>
+
+
+		<div style="display: none;">
+		    <p>Volunteer with Stanford alumni <a href="/get/page/volunteering/beyondthefarm/">Beyond the Farm</a>.</p>
+<p>Support the Stanford Alumni Association's services by purchasing a <a href="/get/page/membership/home">membership</a>.</p>
+ 		</div>
+
+
+		<div style="display: none;">
+		    <p>Enjoy an unforgettable weekend with your family&mdash;and your extended family of alumni&mdash;at <a href="/get/page/sierra/family-camp">Sierra Camp</a>.</p>
+<p>Get the latest alumni news and views and stay current with what's happening in the greater Stanford universe with <a href="/get/page/magazine">STANFORD magazine</a> and <a href="/get/page/loop/home">the Loop</a>.</p>
+<p>Take in a daily campus scene at <a href="http://instagram.com/stanfordalumni">StanfordAlumni on Instagram</a>.</p>
+<p>Watch Stanford Alumni-produced videos on the <a href="http://www.youtube.com/stanfordalumni">Stanford Alumni YouTube channel.</a></p>
+ 		</div>
+
+
+		<div style="display: none;">
+		    <p>Bet you didn't know you can stop by the <a href="/get/page/resources/alumnicenter">Alumni Center</a> when you're on campus to borrow a bike, check your email and even take a post-workout shower.</p>
+<p>Got <a href="/get/page/perks/alumniemail">alumni email</a>?</p>
+ 		</div>
+
+
+		
+	</div>
+</div>
+
+
+<script type="text/javascript">
+YAHOO.SolutionSet.util.LoadJSFiles(["/pgw/s20/js/2.5.2/build/tabview/tabview-min.js"], function(){
+     YAHOO.util.Event.onContentReady("vtabs", function() {
+	     var myTabs = new YAHOO.widget.TabView("vtabs");
+     });
+});
+
+</script>
+
+						
+<h2>Looking for your grad school?</h2>
+<p>Search no more. We work closely with the below school alumni associations, which offer specialized resources for their graduates in addition to those provided by us.</p>
+<ul class="bullets">
+<li><a href="https://alumni.gsb.stanford.edu/">Stanford Graduate School of Business</a></li>
+<li><a href="https://pangea.stanford.edu/alumni/">Stanford School of Earth Sciences</a></li>
+<li><a href="https://ed.stanford.edu/alumni/">Stanford Graduate School of Education</a></li>
+<li><a href="http://engineering.stanford.edu/portals/alumni">Stanford Engineering</a></li>
+<li><a href="http://www.law.stanford.edu/alumni">Stanford Law School</a></li>
+<li><A href="http://med.stanford.edu/alumni/">Stanford School of Medicine</a></li>
+</ul>
+						
+<h2>Our Mission</h2>
+<p>
+The Stanford Alumni Association seeks to reach, serve and engage all Stanford alumni and students; to foster a lifelong intellectual and emotional connection between the University and its graduates; and to provide the University with goodwill and support.
+</p>
+						
+<h2>Our History</h2>
+<p>
+Founded in 1892 by the University's first graduates, the Stanford Alumni Association aims to deliver the most effective alumni relations program anywhere in higher education. Its diverse offerings include a bimonthly magazine; online communication and networking tools; academic and social programming (on and off-campus); a worldwide travel/study program; and numerous Stanford-related products and initiatives.
+</p>
+						
+
+						
+
+						
+
+						
+
+						
+
+					</div><!-- end of middle -->
+					<div id="rightSash">
+						
+<div class="box first">
+<h3>Come Visit Us</h3>
+<a href="/get/page/resources/alumnicenter">Frances C. Arrillaga Alumni Center website</a>
+<p>See all we have to offer at your home-away-from-home at Stanford.<br /><a href="/get/page/resources/alumnicenter/directions">Directions to the alumni center &raquo;</a></p>
+</div>
+						
+<div class="box alt">
+  <h3>Contact Us</h3>
+  <p>
+Stanford Alumni Association<br/>
+Frances C. Arrillaga Alumni Center<br/>
+326 Galvez Street<br/>
+Stanford, CA 94305-6105
+  </p>
+  <p>
+Main Number: (650) 723-2021
+Toll-free: (800) 786-2586
+<a href="/get/page/about-us/phonenumbers">Department phone numbers &raquo;</a>
+  </p>
+</div>
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+					</div><!-- end of rightSash -->
+				</div><!-- end of content -->
+				<div id="watermark"></div>
+			</div><!-- end of containerInner -->
+		</div><!-- end of container -->
+		<div id="footer">
+			
+
+			<!-- Begin pagecode footer -->
+<!-- STOP PGNET INDEX -->
+<span class="alumni">Stanford Alumni</span>
+<ul>
+	<li><a href="/get/page/home">Home</a></li>
+	<li><a href="/get/page/about-us">About Us</a></li>
+        <li><a href="http://www.stanford.edu">Stanford University Homepage</a></li>
+	<li class="last"><a href="http://giving.stanford.edu">Giving to Stanford</a></li>
+</ul>
+<ul class="sub">
+        <li><a href="/get/page/help/contact-us">Contact Us</a></li>
+	<li><a href="/get/page/help/faq">Help</a></li>
+        <li><a href="/get/page/accessibility">Accessibility</a></li>
+	<li><a href="/get/page/privacy">Privacy Policy</a></li>
+	<li class="last"><a href="/get/page/terms">Terms of Use</a></li>
+</ul>
+<p id="copyright">© 2015 Stanford University</p>
+<!-- START PGNET INDEX -->
+<!-- End pagecode footer --><!-- pageCode footer could go here -->
+			
+
+		</div><!-- end of footer -->
+		
+
+		<!-- pageCode footer could go here -->
+		
+
+	</div><!-- end of wrapper -->
+	
+
+	<!-- pageCode footer could go here -->
+	
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-16648126-1");
+pageTracker._setDomainName(".stanford.edu");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+<script type="text/javascript" language="javascript">
+                YAHOO.util.Event.addListener('submitButton', 'click', function(e) {
+                                var element = YAHOO.util.Event.getTarget(e);
+                                setTimeout(function() {
+                                                element.className += ' disabled';
+                                                element.disabled='disabled';
+                                                return true;
+                                }, 10, element);
+                });
+</script>
+</body>
+</html>
+

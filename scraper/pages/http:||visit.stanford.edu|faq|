@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<!--[if IE 7]> <html lang="en" class="ie7"> <![endif]-->
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en"><!-- InstanceBegin template="/Templates/wide.dwt" codeOutsideHTMLIsLocked="false" -->
+<!--<![endif]-->
+
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>FAQ : Stanford University</title>
+<!-- InstanceEndEditable -->
+
+<!-- Meta -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- InstanceBeginEditable name="MetaTags" -->
+<meta name="description" content="Visitor Information Services at Stanford University--one of the world's leading research and teaching institutions. It is located in Palo Alto, California." />
+<meta name="author" content="Visitor Information Services at Stanford University" />
+<link rel="icon" type="image/png" href="http://www.stanford.edu/favicon.ico"/>
+<!-- These meta tags are used when someone shares a link to this page on Facebook,
+     Twitter or other social media sites. All tags are optional, but including them
+     and customizing the content for specific sites can help the visibility of your
+     content.
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Title when shared to social media sites" />
+<meta property="og:description" content="Snippet for social media sites." />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@TwitterHandle" />
+<meta name="twitter:title" content="Title for Twitter" />
+<meta name="twitter:description" content="Snippet when tweet is expanded." />
+<meta name="twitter:image" content="http://stanford.edu/about/images/intro_about.jpg" />
+<link rel="publisher" href="https://plus.google.com/id# of Google+ entity associated with your department or group" />
+-->
+<!-- InstanceEndEditable -->
+
+<!-- CSS -->
+<link rel="stylesheet" href="../assets/cardinal/css/bootstrap.min.css" type="text/css" />
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" type="text/css" />
+<link rel="stylesheet" href="../assets/cardinal/css/base.min.css?v=0.1" type="text/css" />
+<link rel="stylesheet" href="../assets/cardinal/css/custom.css?v=0.1" type="text/css"/>
+<!--[if lt IE 9]>
+  <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--[if IE 8]>
+  <link rel="stylesheet" type="text/css" href="../assets/cardinal/css/ie/ie8.css" />
+<![endif]-->
+<!--[if IE 7]>
+  <link rel="stylesheet" type="text/css" href="../assets/cardinal/css/ie/ie7.css" />
+<![endif]-->
+<!-- JS and jQuery -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="../assets/cardinal/js/modernizr.custom.17475.js"></script>
+<script src="../assets/cardinal/js/bootstrap.min.js"></script>
+
+<!--[if lt IE 9]>
+	<script src="../assets/cardinal/js/respond.js"></script>
+<![endif]-->
+
+<!-- custom JS -->
+<script src="../assets/cardinal/js/base.js?v=1.0"></script>
+<script src="../assets/cardinal/js/custom.js"></script>
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<!-- InstanceParam name="site_name_1" type="text" value="Group or Department Name" -->
+<!-- InstanceParam name="site_name_2" type="text" value="Signature Line 2" -->
+<!-- InstanceParam name="site_url" type="text" value="/" -->
+<!-- InstanceParam name="body_class" type="text" value="home" -->
+<!-- InstanceParam name="h1" type="text" value="Frequently Asked Questions" -->
+</head>
+<!-- Stanford Cardinal Templates Version 1.0 -->
+<!-- Template Property Options:                       
+     body_class: "home", "nav-1", "nav-2", etc. - specifies which item in the top nav to underline
+                 "two-line-signature" - displays two line header signature
+     h1        : "hide" - creates a hidden <h1> element
+ -->
+
+<body class="home">
+<div id="su-wrap"> <!-- used to force footer to bottom of short pages -->
+  <div id="su-content"> <!-- used to force footer to bottom of short pages --> 
+        <!--=== Top ===-->
+    <div id="top">
+      <div class="container"> 
+        <!--=== Skip links ===-->
+        <div id="skip"> <a href="#content" onClick="$('#content').focus()">Skip to content</a> </div>
+        <!-- /Skip links --> 
+      </div>
+    </div>
+    <!--/top--> 
+    
+    <!--=== Header ===-->
+    <div id="header" class="clearfix" role="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8"> 
+            <!-- Logo -->
+            <div id="logo" class="clearfix"> <a href="http://www.stanford.edu/"><img class="img-responsive" src="http://visit.stanford.edu/assets/cardinal/images/stanford-white@2x.png"  alt="Stanford University" /></a> </div>
+            <!-- /logo -->
+            <div id="signature">
+              <div id="site-name"> <a href="/"> <span id="site-name-1">Visitor Information</span> <span id="site-name-2">Optional line 2 - add two-line-signature to body class to display</span> </a> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Menu -->
+    <div id="mainmenu" class="clearfix" role="navigation">
+      <div class="container">
+        <div class="navbar navbar-default"> 
+          
+          <!-- main navigation -->
+          <button type="button" class="navbar-toggle btn-navbar" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="menu-text">Menu</span></button>
+          <!-- /nav-collapse -->
+          
+          <div class="navbar-collapse collapse"> 
+           <!--search box-->
+          <div id="nav-search" role="search">
+            <form action="http://visit.stanford.edu/search/" method="get" id="search-form" accept-charset="UTF-8">
+              <h2 class="hidden">Search form</h2>
+              <label class="hidden" for="search-field">Search term</label>
+              <input name="cx" type="hidden" value="005252872952349847953:kny9yffw67s">
+              <input name="cof" type="hidden" value="FORID:9">
+              <input name="ie" type="hidden" value="UTF-8">
+              <!-- replace value in next line with your site URL -->
+              <input name="as_sitesearch" type="hidden" value="http://visit.stanford.edu/">
+              <input title="Search string" class="input-medium" placeholder="Search Visitor Info&hellip;" type="text" id="search-field" name="q" value="" size="15" maxlength="128" />
+              <button id="search-btn" type="submit" name="submit"  aria-label="Search" formmethod="get"><i class="fa fa-search"></i></button>          
+</form>
+            </form>
+          </div>
+            <div  role="navigation">
+              <div id="primary-nav">
+                <ul class="nav navbar-nav" aria-label="primary navigation">
+                  <li id="nav-1"> <a href="http://visit.stanford.edu/basics/">The Basics</a></li>
+                  <li id="nav-2"> <a href="http://visit.stanford.edu/tours/">Campus Tours</a> </li>
+                  <li id="nav-3"> <a href="http://visit.stanford.edu/plan/">Plan Your Visit</a> </li>
+                  <li id="nav-4"> <a href="http://visit.stanford.edu/activities/">Campus Activities</a> </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- /nav-collapse --> 
+        </div>
+        <!-- /navbar --> 
+        
+      </div>
+      <!-- /container --> 
+    </div>
+    <!-- /mainmenu -->  
+    
+    <!-- Content -->
+    <div id="content" class="container" role="main" tabindex="0">
+      <h1 class="Frequently Asked Questions"><!-- InstanceBeginEditable name="Page Title" -->Frequently Asked Questions<!-- InstanceEndEditable --></h1>
+      <div class="row"> 
+        
+        <!--  #main-content (Center) -->
+        <div id="main-content" class="col-md-12" role="main"> <!-- InstanceBeginEditable name="content_main" -->
+          <ol>
+            <li><a href="#faq_1">What kind of weather should I expect at Stanford?</a></li>
+            <li><a href="#faq_2">How should I dress for my campus visit?</a></li>
+            <li><a href="#faq_3">I am planning a visit to Stanford University. Do I need to let you know that I&rsquo;m coming?</a></li>
+            <li><a href="#faq_4">Do you have any resources available to visitors who speak languages other than English?</a></li>
+            <li><a href="#faq_5">What is the main postal address for Stanford University?</a></li>
+            <li><a href="#faq_6">What address can I use to find directions to Stanford University via an internet search engine?</a></li>
+            <li><a href="#faq_7">I'm coming to campus straight from the airport. Is there a place to store my bags?</a></li>
+            <li><a href="#faq_8">How can I get around Stanford once I am on campus?</a></li>
+            <li><a href="#faq_9">A member of our party has a mobility restriction. What resources are available to us while visiting Stanford?</a></li>
+            <li><a href="#faq_10">I would like to visit other schools in addition to Stanford while visiting the area. Is this possible?</a></li>
+            <li><a href="#faq_11">Where can I access the Internet while I am visiting the Stanford campus?</a></li>
+            <li><a href="#faq_12">Is there a specific program or tour I should attend if I am interested in applying as an undergraduate?</a></li>
+            <li><a href="#faq_13">I am a prospective student and will be visiting the campus. Can I sit in on classes? </a></li>
+            <li><a href="#faq_14">How can I meet current students during my visit to the Stanford campus?</a> </li>
+          </ol>
+          <hr />
+          <h4><strong><a name="faq_1" id="22"></a></strong>1. What kind of weather should I expect at Stanford?
+          </strong></h4>
+          <p>Visitors to Stanford are often surprised by the area’s mild climate.&nbsp; Protected from the chilly summer coastal fog by the Santa Cruz Mountains to the west, Palo Alto enjoys summer daytime temperatures typically in the 70s and low 80s, with an occasional brief heat wave.&nbsp; Fall is also quite temperate.&nbsp; Winter daytime temperatures are usually in the 50s and 60s. Rain is rare during the summer; the “rainy season” usually begins in the late fall and continues into the spring.</p>
+          <p>For yearly temperature and rainfall averages, see the<a href="http://www.idcide.com/weather/ca/palo-alto.htm" target="_blank" class="external"> local weather profile at IDcide</a>.&nbsp; Current Stanford weather is available at the <a href="http://weather.stanford.edu/" target="_blank" class="external">Stanford Weather Station</a>.</p>
+          <p><!-- #BeginLibraryItem "/Library/top_return.lbi" --><a href="#header">[back to top]</a><!-- #EndLibraryItem --></p>
+          <p>&nbsp;</p>
+          <h4><strong><a name="faq_2" id="23"></a></strong>2. How should I dress for my campus visit?</h4>
+          <p>Dress casually—and for the weather!&nbsp; Be prepared for sunny and warm days during the summer. If you’re taking a tour, it’s a good idea to bring a water bottle and a hat and/or sunscreen. You can’t go wrong with “layering” in the late fall, winter, and early spring. Some backup rain gear is advisable for November through March.</p>
+          <p><!-- #BeginLibraryItem "/Library/top_return.lbi" --><a href="#header">[back to top]</a><!-- #EndLibraryItem --></p>
+          <p>&nbsp;</p>
+          <h4><strong><a name="faq_3" id="faq_3"></a></strong>3. I am planning a visit to Stanford University. Do I need to let you know that I&rsquo;m coming?</h4>
+          <p>Stanford has an open campus that you are welcome to explore at your leisure. If you would like to take a guided tour, the reservation process may vary depending on the type of tour that you would like to take. More specific information about each of these tours can be found at the <a href="../../tours/index.html" >Campus Tours</a> section of our website. </p>
+          <p><!-- #BeginLibraryItem "/Library/top_return.lbi" --><a href="#header">[back to top]</a><!-- #EndLibraryItem --></p>
+          <p>&nbsp;</p>
+          <h4><strong><a name="faq_4" id="faq_4"></a></strong>4. Do you have any resources available to visitors who speak languages other than English?</h4>
+          <p> <a href="../tours/index.html" >Campus Tours</a> are conducted in English. Visitor Information Services has brief self-guided tours available in French, Spanish, Mandarin, German, Italian, and Korean that cover the primary historic areas of campus.</p>
+          <p>Many campus attractions, such as the <a href="http://museum.stanford.edu" target="_blank" class="external">Cantor Arts Center</a>, <a href="http://www.stanford.edu/group/religiouslife/memchu.html" target="_blank" class="external">Memorial Church</a>, and <a href="http://museum.stanford.edu/view/outdoor_sculpture.html" target="_blank" class="external">outdoor sculpture</a>, do not require knowledge of English to be visited, viewed, and appreciated.</p>
+          <p><!-- #BeginLibraryItem "/Library/top_return.lbi" --><a href="#header">[back to top]</a><!-- #EndLibraryItem --></p>
+          <p>&nbsp;</p>
+          <h4><strong><a name="faq_5" id="faq_5"></a></strong>5. What is the main postal address for Stanford University?</h4>
+          <p>Stanford&rsquo;s main mailing address is:<br />
+            <strong>Stanford University<br />
+            Stanford, CA 94305<br />
+            USA</strong><br />
+            <br />
+            If you are interested in mailing something to Stanford University, we recommend that you address your mail to a specific department or individual. Each building and department has its own specific street number and mailing code that should be included to ensure that your mail arrives at its destination. For example, an envelope or package intended for the Visitor Center should be addressed to:</p>
+          <p><strong>Visitor Information Services</strong></p>
+          <p><strong>Stanford Visitor Center<br />
+            295 Galvez Street<br />
+            Stanford, CA 94305-6104<br />
+            </strong></p>
+          <p>Start at the <a href="http://www.stanford.edu" target="_blank" >Stanford University Homepage</a> or <a href="https://stanfordwho.stanford.edu/OSApp/" target="_blank" >Stanford&rsquo;s Directories</a> page to find the specific building or department address you need.<strong>&nbsp;</strong></p>
+          <p><!-- #BeginLibraryItem "/Library/top_return.lbi" --><a href="#header">[back to top]</a><!-- #EndLibraryItem --></p>
+          <p>&nbsp;</p>
+          <h4> <strong><a name="faq_6" id="faq_6"></a></strong>6. What address can I use to find directions to Stanford University via an internet search engine?</h4>
+          <p>The University does not have one main address. When using an internet search engine (such as <a href="http://www.mapquest.com" target="_blank" class="external" >MapQuest</a> or <a href="http://maps.yahoo.com" target="_blank" class="external" >Yahoo! Maps</a>) to obtain directions enter Stanford University's zip code: 94305</p>
+          <p>Be aware that an address searched on these sites might not be accessible to vehicular traffic. Quite often buildings are accessible to pedestrians only. Visitors may need to park in one of our visitor lots and walk to their destination.</p>
+          <p>See <a href="../../plan/maps.html">Maps &amp; Directions</a> for basic driving directions to the Visitor Center in Memorial Auditorium from surrounding locations. </p>
+          <p><!-- #BeginLibraryItem "/Library/top_return.lbi" --><a href="#header">[back to top]</a><!-- #EndLibraryItem --></p>
+          <p>&nbsp;</p>
+          <h4><strong><a name="faq_7" id="faq_7"></a></strong>7. I&rsquo;m coming to campus straight from the airport. Is there a place to store my bags?</h4>
+          <p>For security reasons, few locations on campus will hold large bags or other parcels. Visitor Information Services cannot store these items. The <a href="http://alumni.stanford.edu/get/page/resources/alumnicenter/" target="_blank" class="external" >Arrillaga Alumni Center</a> provides small lockers for Stanford alumni. The <a href="http://museum.stanford.edu" target="_blank" class="external" >Cantor Arts Center </a> has limited storage facilities for visitors to the museum. Open, unsecured shelves are available for storing smaller bags and backpacks while viewing the museum, and paid lockers are available  to store small carry-on suitcases.</p>
+          <p><!-- #BeginLibraryItem "/Library/top_return.lbi" --><a href="#header">[back to top]</a><!-- #EndLibraryItem --></p>
+          <p>&nbsp;</p>
+          <h4><strong><a name="faq_8" id="faq_8"></a></strong>8. How can I get around Stanford once I am on campus?</h4>
+          <p>Many buildings on campus are not accessible to vehicular traffic. Many Stanford University community members walk or bike to get from one campus location to another. Additionally, the <a href="http://transportation.stanford.edu/marguerite" target="_blank" class="external" >Marguerite Shuttle</a> is a free bus network with several routes that service locations both on and off campus. Key locations served by the Marguerite Shuttle include Tresidder Union, the Main Quad, Memorial Auditorium, the Stanford Linear Accelerator Center, the Palo Alto CalTrain Station, downtown Palo Alto, the Stanford Shopping Center, and the San Antonio Shopping Center. If you are interested in biking around Stanford, the <a href="http://campusbikeshop.com/" target="_blank" class="external">Campus Bike Shop</a> located at Tresidder Union rents bicycles to visitors.</p>
+          <p><!-- #BeginLibraryItem "/Library/top_return.lbi" --><a href="#header">[back to top]</a><!-- #EndLibraryItem --></p>
+          <p>&nbsp;</p>
+          <h4><strong><a name="faq_9" id="faq_9"></a></strong>9. A member of our party has a mobility restriction. What resources are available to us while visiting Stanford?</h4>
+          <p>A great way to see the campus is on a <a href="../../tours/golf_cart.html" target="_blank">Golf Cart Tour </a>conducted by Visitor Information Services. This tour is offered at 1:00 p.m. daily. You can also reserve a wheelchair for the day through Visitor Information Services by calling (650) 723-2560. All buildings on campus are wheelchair accessible. Should your party have any questions or concerns, please contact the <a href="http://web.stanford.edu/dept/diversityaccess/access.html" target="_blank" class="external">Disability and Access Center</a> at (650) 725-0326 (voice), (650) 723-1216 (TTY), or e-mail <a href="mailto:disability.access@stanford.edu">disability.access@stanford.edu</a>.</p>
+          <p><!-- #BeginLibraryItem "/Library/top_return.lbi" --><a href="#header">[back to top]</a><!-- #EndLibraryItem --></p>
+          <p>&nbsp;</p>
+          <h4><strong><a name="faq_10" id="faq_10"></a></strong>10. I would like to visit other schools in addition to Stanford while visiting the area. Is this possible?</h4>
+          <p>Other schools in the area  that prospective students often visit include <a href="http://www.scu.edu" target="_blank" >Santa Clara University</a>, <a href="http://www.berkeley.edu" target="_blank" class="external">University of California &ndash; Berkeley</a>, <a href="http://www.ucsc.edu" target="_blank" class="external" >and University of California &ndash; Santa Cruz</a>.</p>
+          <p>While it may be possible to  visit Stanford and an additional school in the same day, our experience has found this itinerary to leave visitors pressed for time. </p>
+          <p><!-- #BeginLibraryItem "/Library/top_return.lbi" --><a href="#header">[back to top]</a><!-- #EndLibraryItem --></p>
+          <p>&nbsp;</p>
+          <h4><strong><a name="faq_11" id="faq_11"></a></strong>11. Where can I access the Internet while I am visiting the Stanford campus?</h4>
+          <p>Internet access is available at <a href="http://www-sul.stanford.edu/depts/green/index.html" target="_blank" class="external">Green Library</a> during library hours and at <a href="http://wallenberg.stanford.edu/" target="_blank" class="external" >Wallenberg Hall</a> in Building 160 of the Main Quad during regular business hours. Please note that the hours at each location vary depending on the academic calendar.</p>
+          <p><!-- #BeginLibraryItem "/Library/top_return.lbi" --><a href="#header">[back to top]</a><!-- #EndLibraryItem --></p>
+          <p>&nbsp;</p>
+          <h4><strong><a name="faq_12" id="faq_12"></a></strong>12. Is there a specific program or tour I should attend if I am interested in applying as an undergraduate?</h4>
+          <p>If you are a prospective undergraduate, you may want to consider making a reservation for our <em><a href="../../tours/prospective.html" target="_blank">Discover Stanford</a></em> program. This two hour program consists of a walking tour of the campus followed by an information session with an admission representative.&nbsp; The  program is intended for high school juniors and seniors and their parents. Reservations are required, and can be made online. </p>
+          <p><!-- #BeginLibraryItem "/Library/top_return.lbi" --><a href="#header">[back to top]</a><!-- #EndLibraryItem --></p>
+          <p>&nbsp;</p>
+          <h4><strong><a name="faq_13" id="faq_13"></a></strong>13. I am a prospective student and will be visiting the campus. Can I sit in on classes?</h4>
+          <p>During the academic year, the Visitor Center or office of Undergraduate Admission can provide a list of classes open for observation by prospective students. This list is normally available one week after the start of classes each quarter. </p>
+          <p>If visiting a class is a high priority for you, be advised that those courses that allow prospective students to observe generally have a lecture-based format, are offered on the hour on weekdays, and last for approximately one hour. To ensure that you will be able to sit in on a course in an academic area of your interest, be sure to coordinate your intentions and itinerary when making reservations for other tours or programs. Also, ensure that you are visiting while classes are in session and not during finals or academic breaks. <em>Stanford University operates on the quarter system, and our class calendar can differ significantly from those of other institutions.</em> See the <a href="http://registrar.stanford.edu/academic_calendar" target="_blank" class="external">Stanford Academic Calendar </a>for holidays and dates of instruction. </p>
+          <p>Observing a class during Summer Quarter is not possible, as course options are limited and often cater specifically to summer camp or conference audiences.</p>
+          <p><!-- #BeginLibraryItem "/Library/top_return.lbi" --><a href="#header">[back to top]</a><!-- #EndLibraryItem --></p>
+          <p>&nbsp;</p>
+          <h4><strong><a name="faq_14" id="faq_14"></a></strong>14. How can I meet current students during my visit to the Stanford campus?</h4>
+          <p>Current students and recent alumni are on staff at the Visitor Center and  welcome your questions. In addition, Stanford students typically enjoy talking about their experiences, and you are welcome to ask questions of any student that you see walking around campus.</p>
+          <p><!-- #BeginLibraryItem "/Library/top_return.lbi" --><a href="#header">[back to top]</a><!-- #EndLibraryItem --></p>
+          <!-- InstanceEndEditable --><!-- #BeginLibraryItem "/Library/last_update.lbi" --><span style="font-size:10px;">Updated on <!-- #BeginDate format:Am1a -->November 23, 2014 9:38 PM<!-- #EndDate --></span><!-- #EndLibraryItem --></div>
+        <!--  End #main-content (Center) --> 
+        
+      </div>
+    </div>
+    <!-- #content--> 
+    
+  </div>
+  <!-- #su-content --> 
+</div>
+<!-- #su-wrap --> 
+
+<!-- BEGIN footer -->
+<div id="footer" class="clearfix footer" role="contentinfo"> 
+  <!-- Fat footer start -->
+  <div class="container">
+    <div id="footer-content" class="row">
+      <div class="col-xs-12 col-sm-3 col-sm-push-3">
+        <h3>Self-Guided Tours</h3>
+        <p>Explore the campus at your own pace and learn more about Stanford's rich history, distinctive architecture, and notable landmarks.</p>
+        <ul>
+          <li><a href="https://itunes.apple.com/us/app/visit-stanford/id372934311?mt=8">Visit Stanford App</a></li>
+          <li><a href="https://itunes.apple.com/itunes-u/stanford-campus-tour/id384238809?mt=10">Podcast Tour</a></li>
+          <li><a href="http://visit.stanford.edu/tours/virtual/">Virtual Tours</a></li>
+          <li><a href="http://visit.stanford.edu/pdf/self-guided_tour_map.pdf">Self-Guided Tour Map</a></li>
+        </ul>
+      </div>
+      <div class="col-xs-12 col-sm-3 col-sm-push-3">
+        <h3>Newsletter</h3>
+        <p>Subscribe to a free monthly email featuring upcoming concerts, lectures, sports, art exhibits, family activities &amp; more.</p>
+        <ul>
+        <li><a href="http://web.stanford.edu/dept/publicaffairs/stanfordforyou/">Stanford for You</a></li>
+        </ul>
+        <h3>Related Sites</h3>
+        <ul>
+        <li><a href="http://financialaid.stanford.edu">Financial Aid</a></li>
+        <li><a href="http://admission.stanford.edu">Undergraduate Admission</a></li>
+        <li><a href="http://neighbors.stanford.edu">Neighbors</a></li>
+        </ul>
+      </div>
+       <div id="hp-buttons" class="col-xs-12 col-sm-3 col-sm-push-3">
+        <ul>
+        <li><a href="http://visit.stanford.edu/calendar" class="btn btn-u btn-block"><i class="fa fa-calendar fa-fw"></i> <span>Visitor Calendar</span></a> </li>
+          <li><a href="http://visit.stanford.edu/plan" class="btn btn-u btn-block"><i class="fa fa-map-marker fa-fw"></i> <span>Maps &amp; Directions</span></a> </li>
+          <li><a href="http://visit.stanford.edu/contact" class="btn btn-u btn-block"><i class="fa fa-comment-o fa-fw"></i> <span>Contact Us</span></a> </li>
+        </ul>
+      </div>
+      <div id="social-icons" class="col-xs-12 col-sm-3 col-sm-pull-9">
+        <h3>Connect with us</h3>
+        <a href="http://www.facebook.com/stanford"><img alt="Facebook" src="http://visit.stanford.edu/assets/cardinal/images/social/facebook@2x.png" /></a> <a href="http://twitter.com/stanford"><img alt="Twitter" src="http://visit.stanford.edu/assets/cardinal/images/social/twitter@2x.png" /></a> <a href="http://itunes.stanford.edu/"><img alt="iTunes" src="http://visit.stanford.edu/assets/cardinal/images/social/apple@2x.png" /></a><a href="http://www.youtube.com/stanford"><img alt="YouTube" src="http://visit.stanford.edu/assets/cardinal/images/social/youtube@2x.png" /></a><a href="http://instagram.com/stanford"><img alt="Instagram" src="http://visit.stanford.edu/assets/cardinal/images/social/instagram@2x.png" /></a><a href="http://futurity.org/university/stanford-university/"><img alt="Futurity" src="http://visit.stanford.edu/assets/cardinal/images/social/futurity@2x.png" /></a> </div>
+    </div>
+  </div>
+  <!-- Fat footer end --> 
+  
+  <!-- Global footer snippet start -->
+  <div id="global-footer">
+    <div class="container">
+      <div class="row">
+        <div id="bottom-logo" class="col-xs-6 col-sm-2"> <a href="http://www.stanford.edu"> <img src="http://visit.stanford.edu/assets/cardinal/images/footer-stanford-logo@2x.png" alt="Stanford University" width="105" height="49"/> </a> </div>
+        <!-- #bottom-logo end -->
+        <div id="bottom-text" class="col-xs-6 col-sm-10">
+          <ul>
+            <li class="home"><a href="http://www.stanford.edu">SU Home</a></li>
+            <li class="maps alt"><a href="http://visit.stanford.edu/plan/index.html" class="su-link" data-ua-action="visit.stanford.edu/plan/maps" data-ua-label="global-footer">Maps &amp; Directions</a></li>
+            <li class="search-stanford"><a href="http://stanford.edu/search/">Search Stanford</a></li>
+            <li class="terms alt"><a href="http://www.stanford.edu/site/terms.html">Terms of Use</a></li>
+            <li class="emergency-info"><a href="http://emergency.stanford.edu/" class="su-link" data-ua-label="global-footer">Emergency Info</a></li>
+          </ul>
+        </div>
+        <!-- .bottom-text end -->
+        <div class="clear"></div>
+        <p class="copyright vcard col-sm-10">&copy; <span class="fn org">Stanford University</span>.&nbsp; <span class="adr"> <span class="locality">Stanford</span>, <span class="region">California</span> <span class="postal-code">94305</span></span>. <span id="termsofuse"><a href="http://www.stanford.edu/group/security/dmca.html" class="su-link" data-ua-action="copyright-complaints" data-ua-label="global-footer">Copyright Complaints</a>&nbsp;&nbsp;&nbsp;<a href="https://adminguide.stanford.edu/chapter-1/subchapter-5/policy-1-5-4" class="su-link" data-ua-action="trademark-notice" data-ua-label="global-footer">Trademark Notice</a></span></p>
+      </div>
+      <!-- .row end --> 
+    </div>
+    <!-- .container end --> 
+  </div>
+  <!-- Global footer snippet end --> 
+  
+</div>
+<!-- END footer -->
+<script src="https://visit.stanford.edu/assets/cardinal/js/tracking.js?v=1.0"></script>
+
+
+</body>
+<!-- InstanceEnd --></html>

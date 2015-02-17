@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<!--[if IE 7]> <html lang="en" class="ie7"> <![endif]-->
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+<title>Beyond the Classroom</title>
+
+<!-- Meta -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Beyond the Classroom" />
+<meta property="og:description" content="Each year about 1,000 Stanford undergraduates work closely with faculty mentors on research ranging from engineering and medicine to the humanities, fine arts and social sciences, in some cases traveling world-wide." />
+<meta name="author" content="Stanford News" />
+<!-- These meta tags are used when someone shares a link to this page on Facebook,
+     Twitter or other social media sites. All tags are optional, but including them
+     and customizing the content for specific sites can help the visibility of your
+     content.
+-->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Beyond the Classroom" />
+<meta property="og:description" content="Each year about 1,000 Stanford undergraduates work closely with faculty mentors on research ranging from engineering and medicine to the humanities, fine arts and social sciences, in some cases traveling world-wide." />
+<meta property="og:image" content="http://news.stanford.edu/features/2015/undergrad-research/img/social-media-image.jpg?v=0.1" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@Stanford" />
+<meta name="twitter:title" content="Beyond the Classroom" />
+<meta name="twitter:description" content="Each year about 1,000 Stanford undergraduates work closely with faculty mentors on research ranging from engineering and medicine to the humanities, fine arts and social sciences, in some cases traveling world-wide." />
+<meta name="twitter:image" content="http://news.stanford.edu/features/2015/undergrad-research/img/social-media-image.jpg?v=0.1" />
+<link rel="publisher" href="https://plus.google.com/102312438958695854492" />
+
+<!-- CSS -->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" type="text/css" />
+<link rel="stylesheet" href="../../assets/cardinal/css/bootstrap.min.css" type="text/css" />
+<link rel="stylesheet" href="../../assets/cardinal/css/base.min.css?v=0.1" type="text/css" />
+<link rel="stylesheet" href="css/custom.css?v=0.1" type="text/css"/>
+<!--[if lt IE 9]>
+  <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--[if IE 8]>
+  <link rel="stylesheet" type="text/css" href="css/ie/ie8.css" />
+<![endif]-->
+<!--[if IE 7]>
+  <link rel="stylesheet" type="text/css" href="../assets/cardinal/css/ie/ie7.css" />
+<![endif]-->
+<!-- JS and jQuery -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="../../assets/cardinal/js/modernizr.custom.17475.js"></script>
+<script src="../../assets/cardinal/js/bootstrap.min.js"></script>
+
+<!--[if lt IE 9]>
+	<script src="../../assets/cardinal/js/respond.js"></script>
+<![endif]-->
+
+<!-- custom JS -->
+<script src="../../assets/cardinal/js/base.js?v=1.0"></script>
+<!-- ShareThis and social media -->
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "fd244ac8-7106-4346-9f7c-261b4cef8c0e", tracking:'google'});</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1860414-2', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<!--[if gte IE 9]>
+  <style type="text/css">
+    .gradient {
+       filter: none;
+    }
+  </style>
+<![endif]-->
+
+</head>
+
+<body class="full-width">
+<div id="page-loader">
+  <h1 class='loader-logo'>Beyond the Classroom</h1>
+  <span class="page-loader-gif"><i class="fa fa-cog fa-spin fa-5x"></i></span> </div>
+<div id="su-wrap"> 
+  <!-- used to force footer to bottom of short pages -->
+  <div id="su-content"> <!-- used to force footer to bottom of short pages --> 
+    
+    <!--=== Top ===-->
+    <div id="top">
+      <div class="container"> 
+        <!--=== Skip links ===-->
+        <div id="skip"> <a href="#content" onClick="$('#content').focus()">Skip to content</a> </div>
+        <!-- /Skip links --> 
+      </div>
+    </div>
+    <!--/top--> 
+    
+    <!--=== Header ===-->
+    <div id="header" class="clearfix" role="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <div id="logo" class="clearfix"><a href="http://www.stanford.edu/"><img class="img-responsive" src="//www.stanford.edu/su-identity/images/stanford-white@2x.png" alt="Stanford University" /></a></div>
+            <div id="signature">
+              <div id="site-name"> <a href="/"> <span id="site-name-1">News</span> </a> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Menu -->
+    <div id="mainmenu" class="clearfix" role="navigation">
+      <div class="container">
+        <div class="navbar navbar-default"> 
+          
+          <!-- main navigation -->
+          <button type="button" class="navbar-toggle btn-navbar" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="menu-text">Menu</span></button>
+          <!-- /nav-collapse -->
+          
+          <div class="navbar-collapse collapse"> 
+            <!--search box-->
+            <div id="nav-search" role="search">
+              <form action="http://news.stanford.edu/search" method="get" id="search-form" accept-charset="UTF-8">
+                <h2 class="hidden">Search form</h2>
+                <label class="hidden" for="search-field">Search term</label>
+                <input name="cx" type="hidden" value="003265255082301896483:sq5n7qoyfh8">
+                <input name="cof" type="hidden" value="FORID:9">
+                <input name="ie" type="hidden" value="UTF-8">
+                <!-- replace value in next line with your site URL -->
+                <input name="as_sitesearch" type="hidden" value="facts.stanford.edu">
+                <input title="Search string" class="input-medium" placeholder="Search this site&hellip;" type="text" id="search-field" name="q" value="" size="15" maxlength="128" />
+                <button id="search-btn" type="submit" name="submit"  aria-label="Search" formmethod="get"><i class="fa fa-search"></i></button>
+              </form>
+            </div>
+            <div  role="navigation">
+              <div id="primary-nav">
+                <ul class="nav navbar-nav" aria-label="primary navigation">
+                  <li id="nav-home"> <a href="//news.stanford.edu">Home</a></li>
+                  <li id="nav-1"> <a href="//news.stanford.edu/news">All News</a> </li>
+                  <li id="nav-2"> <a href="//news.stanford.edu/news/staff">Faculty &amp; Staff News</a> </li>
+                  <li id="nav-3"> <a href="//ucomm.stanford.edu/journalists/">For Journalists</a> </li>
+                  <li id="nav-4"> <a href="//news.stanford.edu/about">About Us</a> </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- /nav-collapse --> 
+        </div>
+        <!-- /navbar --> 
+        
+      </div>
+      <!-- /container --> 
+    </div>
+    <!-- /mainmenu --> 
+    
+    <!-- Content -->
+    <div id="maintop">
+      <div id="content" tabindex="0" class="container content-section">
+        <div class="row">
+          <div class="col-lg-4 overflow-hide">
+            <div id="project-title" class="fade-in hidden-xs hidden-sm"> <a href="index.html">
+              <h1>Beyond the Classroom</h1>
+              </a> </div>
+            <div id="project-title-xs" class="hidden-md hidden-lg"> <a href="index.html">
+              <h1>Beyond the Classroom</h1>
+              </a> </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="lead">
+              <h2>Research opportunities expand education</h2>
+              <p>Each year about 1,000 Stanford undergraduates work closely with faculty mentors on research ranging from engineering and medicine to the humanities, fine arts and social sciences, in some cases traveling world-wide (<a href="#factsheet">see below</a> for more on where they went last year). These <a href="#research">projects</a> introduce students to the rigors of academic research, build analytic skills and also help students find their own future path, whether it's diving deeper into academics or taking their passion and applying it to other careers.</p>
+            </div>
+            <p id="sharethis"> <span class="st_fblike_hcount" ></span> <span class='st_facebook_hcount' displayText='Facebook'></span> <span class='st_twitter_hcount' displayText='Tweet'></span> <span class='st_email_hcount' displayText='Email'></span> </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="project-area" class="gradient-bg-lake">
+      <div class="container"> <a id="research"></a>
+        <h2 class="text-center text-uppercase">Research Projects</h2>
+        <div class="item box"> <a href="profiles/sen.shtml" data-ua-label="sen-img" class="ga"><img class="img-responsive" alt="Page of medieval literature" src="img/sen-project-th.jpg" title="Photo Credit: Kurt Hickman"></a>
+          <div class="name-box"><img src="img/sen.png" class="img-circle" alt="portrait of Rukma Sen" title="Photo Credit: L.A. Cicero"><span>Rukma Sen</span></div>
+          <div class="box-content"> <a href="profiles/sen.shtml" data-ua-label="sen-image" class="ga">
+            <h3>Mother monster</h3>
+            </a>
+            <p>From medieval literature to today’s hit movies, Sen is exploring the staying power of female monstrosity. </p>
+            <p class="more-link pull-right"><a href="profiles/sen.shtml" data-ua-label="sen-read-more" class="ga">Read more</a></p>
+          </div>
+        </div>
+        <div class="item box"> <a href="profiles/sapp.shtml" data-ua-label="sapp-img" class="ga"><img class="img-responsive" alt="Neurons" src="img/sapp-project-th.jpg" title="Photo Credit: Shatz Lab"></a>
+          <div class="name-box"><img src="img/sapp.png" class="img-circle" alt="portrait of Richie Sapp" title="Photo Credit: L.A. Cicero"><span>Richie Sapp</span></div>
+          <div class="box-content"> <a href="profiles/sapp.shtml" data-ua-label="sapp-title" class="ga">
+            <h3>Brain research</h3>
+            </a>
+            <p>A team of researchers, including Sapp, are working to make it easier for adults to learn.</p>
+            <p class="more-link pull-right"><a href="profiles/sapp.shtml" data-ua-label="sapp-read-more" class="ga">Read more</a></p>
+          </div>
+        </div>
+        <div class="item box"> <a href="profiles/boslough.shtml" data-ua-label="boslough-img" class="ga"><img src="img/boslough-project-th.jpg" alt="Mine entrace at the Jumbo Mine" class="img-responsive" title="Photo Courtesy: Annalisa Boslough"></a>
+          <div class="name-box"><img src="img/boslough.png" alt="portrait of Annalisa Boslough and Madelyn Boslough" class="img-circle" title="Photo Credit: L.A. Cicero"><span>Annalisa Boslough &amp;<br>
+            Madelyn Boslough</span></div>
+          <div class="box-content"> <a href="profiles/boslough.shtml" data-ua-label="boslough-title" class="ga">
+            <h3>Gold-mining camps</h3>
+            </a>
+            <p>Backpacking deep into the Alaskan wilderness, sisters study long-abandoned gold-mining camps.</p>
+            <p class="more-link pull-right"><a href="profiles/boslough.shtml" data-ua-label="boslough-read-more" class="ga">Read more</a></p>
+          </div>
+        </div>
+        <div class="item box"> <a href="profiles/alston.shtml" data-ua-label="alston-img" class="ga"><img src="img/alston-project-th.jpg" alt="Graffiti on San Francisco streets" class="img-responsive" title="Photo Credit: L.A. Cicero"></a>
+          <div class="name-box"><img src="img/alston.png" alt="portrait of Kareem Alston" class="img-circle" title="Photo Credit: L.A. Cicero"><span>Kareem Alston</span></div>
+          <div class="box-content"> <a href="profiles/alston.shtml" data-ua-label="sen-title" class="ga">
+            <h3>Hip-hop</h3>
+            </a>
+            <p>Alston delved into an arts organization’s success, with the aim of helping other groups serving youths. </p>
+            <p class="more-link pull-right"><a href="profiles/alston.shtml" data-ua-label="alston-title" class="ga">Read more</a></p>
+          </div>
+        </div>
+        <div class="item box"> <a href="profiles/cox-becerra.shtml" data-ua-label="cox-becerra-img" class="ga"><img class="img-responsive" alt="Rocket launching" title="Photo Credit: Project Nearside" src="img/cox-becerra-project-th.jpg"></a>
+          <div class="name-box"><img src="img/cox-becerra.png" alt="portrait of Charlie Cox and Daniel Becerra" class="img-circle" title="Photo Credit: L.A. Cicero"><span>Daniel Becerra &amp;<br>
+            Charlie Cox</span></div>
+          <div class="box-content"> <a href="profiles/cox-becerra.shtml" data-ua-label="cox-becerra-title" class="ga">
+            <h3>Rocketeers</h3>
+            </a>
+            <p>The team pushed the limits of amateur high-altitude exploration by launching a custom-made rocket from a balloon.</p>
+            <p class="more-link pull-right"><a href="profiles/cox-becerra.shtml" data-ua-label="cox-becerra-title" class="ga">Read more</a></p>
+          </div>
+        </div>
+        <div class="item box"> <a href="profiles/cords.shtml" data-ua-label="cords-img" class="ga"><img class="img-responsive" alt="The Three Species of Intermediate Hosts That Are Provided from The Schistosomiasis Center." src="img/cords-project-th.jpg" title="Photo Credit: Fred A. Lewis, Yung-san Liang, Nithya Raghavan & Matty Knight, The NIH-NIAID Schistosomiasis Resource Center"></a>
+          <div class="name-box"><img src="img/cords.png" alt="portrait of Olivia Cords" class="img-circle" title="Photo Credit: L.A. Cicero"><span>Olivia Cords</span></div>
+          <div class="box-content"> <a href="profiles/cords.shtml" data-ua-label="cords-title" class="ga">
+            <h3>Snail fever</h3>
+            </a>
+            <p>Researchers, including Cords, are seeking an ecological solution to a disease common along a Senegal river.</p>
+            <p class="more-link pull-right"><a href="profiles/cords.shtml" data-ua-label="cords-read-more" class="ga">Read more</a></p>
+          </div>
+        </div>
+        <div class="item box"> <a href="profiles/sharma.shtml" data-ua-label="sharma-img" class="ga"><img src="img/sharma-project-th.jpg" alt="Girls attending the workshop participate in a roundtable discussion" class="img-responsive" title="Photo Courtesy: Garima Sharma"></a>
+          <div class="name-box"><img src="img/sharma.png" alt="portrait of Garima Sharma" class="img-circle" title="Photo Credit: L.A. Cicero"><span>Garima Sharma</span></div>
+          <div class="box-content"> <a href="profiles/sharma.shtml" data-ua-label="sharma-title" class="ga">
+            <h3>Child marriage</h3>
+            </a>
+            <p>Garima is delving into why child marriage persists in India despite evidence of its danger to young girls.</p>
+            <p class="more-link pull-right"><a href="profiles/sharma.shtml" data-ua-label="sharma-read-more" class="ga">Read more</a></p>
+          </div>
+        </div>
+        <div class="item box"> <a href="profiles/smith.shtml" data-ua-label="smith-img" class="ga"><img src="img/smith-chair.png" alt="A musician bows a stringed instrument in this wood carving in Winchester Cathedral in the south of England." class="img-responsive" title="Photo Courtesy: Christina Smith"></a>
+          <div class="name-box"><img src="img/smith.png" alt="portrait of Christina Smith" class="img-circle" title="Photo Credit: L.A. Cicero"><span>Christina Smith</span></div>
+          <div class="box-content"> <a href="profiles/smith.shtml" data-ua-label="smith-title" class="ga">
+            <h3>Medieval wood carvings</h3>
+            </a>
+            <p>Smith traveled to more than a dozen English cathedrals to research the misericords used by ancient monks. </p>
+            <p class="more-link pull-right"><a href="profiles/smith.shtml" data-ua-label="smith-read-more" class="ga">Read more</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container margin-bottom-30 section-content">
+      <div class="row"> <a id="factsheet"></a>
+        <h2 class="text-center text-uppercase">Fact Sheet 2013 - 2014</h2>
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <p class="text-center">Stanford University’s Office of the Vice Provost for Undergraduate Education provides students with <a href="https://undergrad.stanford.edu/opportunities/research">advising and funding</a> to explore research under the guidance of Stanford faculty mentors and can direct students to <a href="https://doresearch.stanford.edu/node/1200502">interdisciplinary institutes</a> that support undergraduate research. These programs foster enthusiasm for independent scholarship and strong connections between faculty and students.</p>
+          </div>
+        </div>
+        <div class="row" style="padding-bottom:20px;">
+          <div class="col-md-6">
+            <table class="data-table" style="margin-bottom:20px;">
+              <caption>
+              Undergraduate Research Funding
+              </caption>
+              <tbody>
+                <tr>
+                  <th>Year</th>
+                  <th>Program Budget</th>
+                  <th>Student Projects Funded</th>
+                </tr>
+                <tr>
+                  <td>1989 - 1990</td>
+                  <td>$254 K</td>
+                  <td>210</td>
+                </tr>
+                <tr>
+                  <td>1994 - 1995</td>
+                  <td>$454 K</td>
+                  <td>345</td>
+                </tr>
+                <tr>
+                  <td>1999 - 2000</td>
+                  <td>$1.4 M</td>
+                  <td>394</td>
+                </tr>
+                <tr>
+                  <td>2004 - 2005</td>
+                  <td>$3.8 M</td>
+                  <td>907</td>
+                </tr>
+                <tr>
+                  <td>2009 - 2010</td>
+                  <td>$4.4 M</td>
+                  <td>975</td>
+                </tr>
+                <tr>
+                  <td>2013 - 2014</td>
+                  <td>$5.8 M</td>
+                  <td>986</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-md-6">
+            <div id="chart-container" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"> </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div id="chart-container2" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container section-content margin-bottom-30">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <h2 class="text-center text-uppercase section-title">What people are saying</h2>
+          <p class="text-center">We asked alumni: Where in the world did #UndergradResearch take you? Read their responses on Facebook, Twitter and Instagram.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="postcard-left">
+            <div class="postcard-image"> <i class="fa fa-instagram fa-2x" style="color: #517fa4;"></i> </div>
+            <div class="postcard-text">
+              <blockquote><img class="img-rounded" alt="Caleb Kruse instagram profile photo" src="https://instagramimages-a.akamaihd.net/profiles/profile_9955_75sq_1370848476.jpg">&ldquo;I got to study coral color in the Line Islands, heart physiology in Sri Lanka and paleoclimate in Patagonia. Some of my best Stanford experiences.&rdquo; &mdash; <em>Caleb Kruse, '14, National Geographic young explorer</em></blockquote>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="postcard-left">
+            <div class="postcard-image"> <i class="fa fa-instagram fa-2x" style="color: #517fa4;"></i> </div>
+            <div class="postcard-text">
+              <blockquote><img class="img-rounded" alt="CK instagram profile photo" src="https://igcdn-photos-h-a.akamaihd.net/hphotos-ak-xpf1/t51.2885-19/10326483_1513836412165327_777377518_a.jpg">&ldquo;NYC to dance! It was amazing.&rdquo; &mdash; <em>Athelia "CK" Woolley LeSueur, '01, co-founder and CEO of Shabby Apple</em></blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="postcard-left">
+            <div class="postcard-image"> <i class="fa fa-instagram fa-2x" style="color: #517fa4;"></i> </div>
+            <div class="postcard-text">
+              <blockquote><img class="img-rounded" alt="Adam Kreek instagram profile photo" src="https://instagramimages-a.akamaihd.net/profiles/profile_214353393_75sq_1347809590.jpg">&ldquo;Carlsbad, New Mexico to study microfold layers in 3D.&rdquo; &mdash; <em>Adam Kreek, '07, Olympic gold medalist and social entrepreneur </em></blockquote>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="postcard-left">
+            <div class="postcard-image"> <i class="fa fa-facebook-square fa-2x" style="color: #517fa4;"></i> </div>
+            <div class="postcard-text">
+              <blockquote><img class="img-rounded" alt="James Crowley facebook profile photo" src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/v/t1.0-1/c80.0.320.320/p320x320/1620392_10205149701761110_4613030908011300774_n.jpg?oh=945b6ba0af0d5a22638b5194e1e5453a&amp;oe=5569D37F&amp;__gda__=1433356989_861ea795569fa33b9dbb6007558e5355">&ldquo;557 Escondido Mall.&rdquo; (That's Green Library, for the uninitiated.) &mdash; <em>James Crowley, '91, technical writer at Microsoft</em></blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="postcard-left">
+            <div class="postcard-image"> <i class="fa fa-facebook-square fa-2x" style="color: #517fa4;"></i> </div>
+            <div class="postcard-text">
+              <blockquote><img class="img-rounded" alt="Adam Kreek facebook profile photo" src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xap1/v/t1.0-1/c0.0.320.320/p320x320/10583929_10101220199691833_1477767597122913474_n.jpg?oh=8585544d28e3acf8cb66bdae5aaae259&oe=55640706&__gda__=1431505848_8621e10a37eaf63029ccbd3293c0bba2">&ldquo;Thanks to the Stanford Beagle II Award, I spent a summer doing research on climate change adaptation in vulnerable island nations. I spent three months in Fiji, Kiribati and Vanuatu, traveling by boat and prop plane. I'll never forget it!.&rdquo; &mdash; <em>Enessa Janes, '05, MS '06, planner at Michael Baker International</em></blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="social-links">
+      <div class="container">
+        <ul>
+          <li><a href="http://www.facebook.com/stanford" class="icon"><i class="fa fa-facebook"></i><span class="sr-only">Facebook</span></a></li>
+          <li><a href="http://www.twitter.com/stanford" class="icon"><i class="fa fa-twitter"></i><span class="sr-only">Twitter</span></a></li>
+          <li><a href="http://instagram.com/stanford" class="icon"><i class="fa fa-instagram"></i><span class="sr-only">Instagram</span></a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- #content--> 
+  </div>
+  <!-- #su-content --> 
+</div>
+<!-- #su-wrap --> 
+
+<!-- BEGIN footer -->
+<div id="footer" class="clearfix footer" role="contentinfo"> 
+  
+  <!-- Global footer snippet start -->
+  <div id="global-footer">
+    <div class="container">
+      <div class="row">
+        <div id="bottom-logo" class="col-xs-6 col-sm-2"> <a href="http://www.stanford.edu"> <img src="//www.stanford.edu/su-identity/images/footer-stanford-logo@2x.png" alt="Stanford University" width="105" height="49"/> </a> </div>
+        <!-- #bottom-logo end -->
+        <div id="bottom-text" class="col-xs-6 col-sm-10">
+          <ul>
+            <li class="home"><a href="http://www.stanford.edu">SU Home</a></li>
+            <li class="maps alt"><a href="http://visit.stanford.edu/plan/maps.html" class="su-link" data-ua-action="visit.stanford.edu/plan/maps" data-ua-label="global-footer">Maps &amp; Directions</a></li>
+            <li class="search-stanford"><a href="http://stanford.edu/search/">Search Stanford</a></li>
+            <li class="terms alt"><a href="http://www.stanford.edu/site/terms.html">Terms of Use</a></li>
+            <li class="emergency-info"><a href="http://emergency.stanford.edu/" class="su-link" data-ua-label="global-footer">Emergency Info</a></li>
+          </ul>
+        </div>
+        <!-- .bottom-text end -->
+        <div class="clear"></div>
+        <p class="copyright vcard col-sm-10">&copy; <span class="fn org">Stanford University</span>.&nbsp; <span class="adr"> <span class="locality">Stanford</span>, <span class="region">California</span> <span class="postal-code">94305</span></span>. <span id="termsofuse"><a href="http://www.stanford.edu/group/security/dmca.html" class="su-link" data-ua-action="copyright-complaints" data-ua-label="global-footer">Copyright Complaints</a>&nbsp;&nbsp;&nbsp;<a href="https://adminguide.stanford.edu/chapter-1/subchapter-5/policy-1-5-4" class="su-link" data-ua-action="trademark-notice" data-ua-label="global-footer">Trademark Notice</a></span></p>
+      </div>
+      <!-- .row end --> 
+    </div>
+    <!-- .container end --> 
+  </div>
+  <!-- Global footer snippet end --> 
+  
+</div>
+<!-- END footer --> 
+<script src="js/highcharts.js"></script> 
+<script>
+$(document).ready(function(){
+	
+	$(window).load(function(){
+		$('#page-loader').fadeOut(500);	
+				
+		$(".fade-in").velocity({ translateY: 300 }, {
+			duration: 1000,
+			easing: [ .42, 0, .58, 1 ]
+		});
+				
+	});
+});
+
+
+$(function () {
+
+	Highcharts.theme= {
+		colors: ['#0098DB', '#007C92', '#009B76', '#B26F16', '#E98300', '#EAAB00'],
+		chart:{
+			backgroundColor: '#FFF'
+		}
+	}
+
+	Highcharts.setOptions(Highcharts.theme);
+	
+
+    $('#chart-container').highcharts({
+        chart: {
+            plotBackgroundColor: null,
+            plotBorderWidth: null,
+            plotShadow: false,
+        },
+		credits:{
+			enabled:false	
+		},
+        title: {
+            text: 'Distribution of Funding Across Disciplines',
+			style:{
+				color: '#8C1515'	
+			}
+        },
+		subtitle:{
+			text: 'Total Research Proposals Funded: 986<br/>Independent Student-Authored Proposals Funded: 263',
+			style:{
+				color: '#4d5357'
+			}
+		},
+        tooltip: {
+            pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+        },
+        plotOptions: {
+            pie: {
+                allowPointSelect: true,
+                cursor: 'pointer',
+				animation:false,
+                dataLabels: {
+                    enabled: true,
+                    format: '<b>{point.name}</b>:<br>{point.percentage:.1f} %',
+                    style: {
+                        color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                    },
+                    connectorColor: 'silver'
+                }
+            }
+        },
+        series: [{
+            type: 'pie',
+            name: 'Funding share',
+            data: [
+                ['Humanities & Fine Arts',   11.0],
+                ['Social Sciences',       18.0],
+                ['Natural Sciences',    22.0],
+                ['Engineering',    31.0],
+                ['Interdisciplinary Programs',     18.0],
+            ]
+        }]
+    });
+	
+	    $('#chart-container2').highcharts({
+        chart: {
+            plotBackgroundColor: null,
+            plotBorderWidth: null,
+            plotShadow: false
+        },
+		credits:{
+			enabled:true,
+			href: "",
+			position: {
+				verticalAlign: 'bottom',
+				align: 'right',
+				y:-10	
+			},
+			style:{
+				color: '#4d5357'
+			},
+			text: '* includes Eastern Europe, the Middle East, and Australia & the Pacific Islands'
+		},
+        title: {
+            text: 'Foreign Countries Visited for Research',
+			style:{
+				color: '#8C1515'	
+			}
+        },
+		subtitle:{
+			text: 'Students Conducting Independent Research Overseas: 89<br/>Foreign Countries Visited for Research: 41',
+			style:{
+				color: '#4d5357'
+			}
+		},
+		legend: {
+			align: 'right',
+			verticalAlign: 'bottom',
+			x:0,
+			y:100,
+			title: 'other'	
+		},
+        tooltip: {
+            pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+        },
+        plotOptions: {
+            pie: {
+                allowPointSelect: true,
+                cursor: 'pointer',
+				animation:false,
+                dataLabels: {
+                    enabled: true,
+                    format: '<b>{point.name}</b>:<br>{point.percentage:.1f} %',
+                    style: {
+                        color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                    },
+                    startAngle: -90,
+					endAngle: 90,
+					center: ['50%', '75%']
+                }
+            }
+        },
+        series: [{
+            type: 'pie',
+            name: 'Visited',
+			innerSize: '50%',
+            data: [
+                ['Africa',       13.0],
+				['Western Europe',   39.0],
+                ['*Other',    13.0],
+				['Asia',    24.0],
+				['Latin America', 11.0]
+            ]
+        }]
+    });
+	
+	if (ga) {
+		$(".ga").click(function(ev){
+		  var $this = $(this)
+			, category = $this.data('ua-category') || 'feature'
+			, action   = $this.data('ua-action')   || 'click'
+			, label    = $this.data('ua-label')    || $this.attr('href')
+			;
+		  ga('send', 'event', category, action, label);
+		});
+  }
+	
+	
+});
+</script> 
+<script src="js/velocity.min.js"></script> 
+</body>
+</html>

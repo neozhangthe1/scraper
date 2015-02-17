@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6 lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7 lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8 lt-ie9" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="ie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+
+<!-- Basic Page Metas -->
+<meta charset="utf-8">
+<title>Stanford News | The quest to save coral</title>
+<meta name="description" content="More than half of the world's coral reefs have died since the dawn of the industrial age, due to human activities and ever increasing ocean temperatures. Stanford's Steve Palumbi has a plan for bringing them back to life.">
+<meta name="author" content="news.stanford.edu">
+
+<!-- Mobile Specifics -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- Favicons -->
+<link rel="shortcut icon" href="images/favicon/favicon.ico">
+<link rel="apple-touch-icon" href="images/favicon/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-touch-icon-114x114.png">
+
+<!-- Google Font -->
+<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet" type="text/css">
+<link type="text/css" href="https://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
+<!-- Stanford Identity -->
+<link href="css/su-identity.css" rel="stylesheet">
+
+<!-- Main CSS Style -->
+<link rel="stylesheet" href="css/style.css">
+
+<!-- Media Queries -->
+<link rel="stylesheet" href="css/mediaqueries.css">
+
+<!-- Layout -->
+<link rel="stylesheet" href="css/layout/white.css" data-name="layout">
+
+<!-- Color Skin -->
+<link rel="stylesheet" href="css/skins/red.css" data-name="skin">
+
+<!-- Custom Style -->
+<link rel="stylesheet" href="css/custom.css">
+
+<!--[if lt IE 9]>
+    <link rel="stylesheet" href="css/ie.css"> 
+    <script src="js/libs/html5.js"></script>
+    <![endif]-->
+
+<!--[if lt IE 8]>
+    <script src="js/libs/icons.ie.js"></script>
+    <![endif]-->
+
+<!-- ShareThis and social media -->
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "fd244ac8-7106-4346-9f7c-261b4cef8c0e", tracking:'google'});</script>
+
+<!-- Google Analytics  -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1860414-2', 'stanford.edu');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+<body>
+
+<!-- Start Preloader --> 
+<!-- <div id="loader"> <span class="color">0</span> </div> --> 
+<!-- End Preloader -->
+
+<div id="wrap">
+  <div class="identity" id="top">
+    <div class="container clearfix">
+      <div class="sixteen columns"> <a href="http://www.stanford.edu" id="wordmark"> <img src="http://www.stanford.edu/su-identity/images/stanford-white@2x.png" width="160" height="34" alt="Stanford University"> </a> <a href="http://news.stanford.edu" id="site">News</a> </div>
+    </div>
+  </div>
+  
+  <!-- Start Header -->
+  <header id="sticky">
+    <div class="container clearfix">
+      <div class="sixteen columns"> 
+        <!-- Start Navigation -->
+        <div id="menu">
+          <ul id="nav">
+            <li><a href="http://news.stanford.edu">Home</a></li>
+            <li><a href="http://news.stanford.edu/news/">All News</a></li>
+            <li><a href="http://news.stanford.edu/news/staff/">Faculty &amp; Staff News</a></li>
+            <li><a href="http://ucomm.stanford.edu/">For Journalists</a></li>
+            <li><a href="http://news.stanford.edu/about/">About Us</a></li>
+          </ul>
+        </div>
+        <div id="mobile-menu">
+          <div id="toggle"><i class="icon-reorder"></i></div>
+          <ul id="mobile-nav">
+            <li><a href="http://news.stanford.edu">Home</a></li>
+            <li><a href="http://news.stanford.edu/news/">All News</a></li>
+            <li><a href="http://news.stanford.edu/news/staff/">Faculty &amp; Staff News</a></li>
+            <li><a href="http://ucomm.stanford.edu/">For Journalists</a></li>
+            <li><a href="http://news.stanford.edu/about/">About Us</a></li>
+          </ul>
+        </div>
+        
+        <!-- End Navigation --> 
+        
+      </div>
+    </div>
+  </header>
+  <!-- End Header --> 
+  
+  <!-- Start Parallax Quote --> 
+  <a id="intro"></a>
+  <section class="parallax clearfix parallax-short" id="px01">
+    <div class="px_bg">
+      <div class="bg"></div>
+      <div class="pxmask"></div>
+    </div>
+    <div class="px_overlay">
+      <div class="container clearfix">
+        <div class="sixteen columns">
+          <div class="parallax_content sentence">
+            <h1>The quest to save coral</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Parallax Quote --> 
+  
+  <!-- Start Intro Chapter Section 1 -->
+  <section class="content clearfix" id="ch1">
+    <div class="container clearfix">
+      <div class="sixteen columns">
+        <div class="margin-50 clearfix">
+          <p class="lead">More than half the world’s coral reefs have died since the dawn of the industrial age, due to human activities and ever increasing ocean temperatures. Stanford’s Steve Palumbi has a plan for bringing them back to life.</p>
+          <h6 style="margin-bottom: 20px">BY BJORN CAREY</h6>
+          <p> <span class="dropcaps bgcolor">J</span>ust around the corner from <a href="http://palumbi.stanford.edu">Steve Palumbi</a>'s office at Stanford's <a href="http://www-marine.stanford.edu/">Hopkins Marine Station</a> is a small, unmarked room with white cinder block walls. The metal shelves are coated with the white crust that metal grows when it's exposed to a salty breeze, and are stacked high with fish tanks that fill the room with a constant gurgle.</p>
+          <p>There are no fish in these tanks, though, just thumb-size chunks of colorful coral, carefully arranged in grids. Next to the tanks are collections of lighting equipment, fans, power converters and other electronic gear. It's part pet store, part mad scientist's laboratory.</p>
+          <p>"Welcome to the 'Monterey Bay coral reef,'" said Palumbi, the Harold A. Miller Professor in Marine Sciences and a senior fellow at the <a href="http://woods.stanford.edu">Stanford Woods Institute for the Environment</a>.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container clearfix">
+      <div class="sixteen columns">
+        <div class="margin-50 clearfix"> 
+          <!-- Start Full Width Video -->
+          <div class="video">
+            <iframe src="//www.youtube.com/embed/wJkFTh72_II?rel=0" ></iframe>
+          </div>
+          <!-- End Full Width Video  --> 
+          
+        </div>
+      </div>
+    </div>
+    <div class="container clearfix">
+      <div class="ten columns">
+        <p>Although corals play a starring role in vacation photo albums, their importance to global ecosystems and economies is often overlooked. Worldwide, coral reefs provide an estimated $30 billion net economic benefit each year. A healthy coral reef provides a home to thousands of organisms, which island subsistence communities rely on for the bulk of their diet. A reef's mere presence can quell the waves whipped up by a surging storm, thereby guarding low-lying coastal towns from flooding.</p>
+        <p>Unfortunately, the corals in Palumbi's lab are in much better shape than those in the oceans. Scientists estimate that 30 to 60 percent of all the coral reefs on the planet have been wiped out since the industrial revolution. As human-caused climate change has warmed the oceans, huge swathes of rainbow-colored coral that can't withstand the heat have died and turned white, a process known as bleaching. At the same time, the uptick in carbon dioxide in the atmosphere has turned the oceans more acidic, which has slowed coral growth rates.</p>
+        <p>With ocean temperatures expected to increase an additional 2 to 4 degrees Fahrenheit over the next century, scientists generally predict a very gloomy future for coral. Palumbi, however, is more optimistic.</p>
+        <p>"The thing corals have going for them is that they make rock and they're capable of growing islands, entire structures that you can see from space," Palumbi said. "If we can find a way to help them do that, then we've got a leg up and can help that future be better."</p>
+        <p>And here, in this cinder block closet, Palumbi and his students might have found a way to do just that.</p>
+      </div>
+      <div class="six columns">
+        <div class="image-container"> <img src="images/about/research.jpg" alt="Steve Palumbi" style="width: 100%; display: block;" />
+          <div class="caption">
+            <p style="margin-bottom: 0;">Steve Palumbi stresses coral in special tanks to identify species with the best heat resistance.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Chapter 1 Section --> 
+  
+  <!-- Start Parallax Quote -->
+  <section class="parallax clearfix" id="px02">
+    <div class="px_bg">
+      <div class="bg"></div>
+      <div class="pxmask"></div>
+    </div>
+    <div class="px_overlay">
+      <div class="container clearfix">
+        <div class="sixteen columns">
+          <div class="parallax_content sentence"> <span class="icon-blockquote-32"></span>
+            <h3>We’re in the century right now of choice. The oceans are not yet irrevocably harmed by climate change, but we have to choose to curtail emissions and make changes in our behavior for that future to be possible.</h3>
+            <span class="author">Steve Palumbi, the Harold A. Miller Professor in Marine Sciences</span> </div>
+        </div>
+        
+        <!-- Start Back to Section -->
+        <div class="backsection bgcolor"> <a href="#intro"><span class="icon-arrow-simple-up icon-white"></span> </a> </div>
+        <!-- End Back to Section --> 
+      </div>
+    </div>
+  </section>
+  <!-- End Parallax Quote --> 
+  
+  <!-- Start Chapter 2 section -->
+  <section class="content clearfix" id="ch2">
+    <div class="container clearfix">
+      <div class="ten columns">
+        <h4>The discovery</h4>
+        <p> Palumbi is a card-carrying ocean lover. He began raising tropical fish in elementary school and was a frequent visitor to the local aquarium. By high school, he had filled his parents' basement with fish tanks and was selling rare species to the local pet store. He fell in love with corals during a summer research trip to Jamaica as an undergrad at Johns Hopkins University. "I went to work every morning on the same reef and got to know it extremely well, all the corals, sand channels and sheer walls," Palumbi said.</p>
+        <p> Even his band is ocean themed: <a href="http://palumbi.stanford.edu/music/">Sustainable Sole</a> has written and recorded several songs about the behavior of marine animals and the pressures they face, including "Crab Love" and "The Last Fish Left."</p>
+        <p> "Give him a mask and a snorkel, and he's the happiest guy in the world," said Rachael Bay, one of Palumbi's graduate students and a research collaborator.</p>
+        <p> For the past several years, Palumbi has been studying two particular coral populations in a lagoon along the white sandy beaches of Ofu, a small island in American Samoa.</p>
+        <p> One population of <em>Acropora hyacinthus</em> coral – dubbed "table top coral" for its round, flat appearance – grows in water that often hits the high 80s Fahrenheit, which is warm for corals, but not unusual. The other reef, composed of the same species, rests just a few hundred yards away, but the water here doesn't mix as much with the cool incoming tides, and so it commonly reaches 95 F. That's well warmer than corals can typically survive; hotter even than what most climate models project for the world's oceans in the next century.</p>
+        <p> And yet, these corals thrive.</p>
+        <p> "They're actually doing better under heat stress because they've adapted to express genes that produce proteins that protect them against the physiological damage of the heat," Palumbi said.</p>
+        <p> When Palumbi and his colleagues transplanted coral from the cooler pool into the hotter one, those corals died. Genetic testing revealed that although they possessed the same DNA code to produce the protective proteins, they didn't activate it in time to withstand the warmer temperatures.</p>
+        <p> So Palumbi and his colleagues tried something slower. They moved cool corals into the hotter pool in winter, giving the little colonies a few months to acclimate to this water before the heat of summer. These corals survived. Subsequent genetic tests revealed that these survivors had activated the genes necessary for producing the protective proteins. Then the scientists repeated this in the lab – a complex snarl of tubes and pipes set up on the beach in American Samoa. In this careful setting they showed corals could gain heat resistance in as little as two weeks.</p>
+        <p> If all corals have the potential to stand up to hotter temperatures hidden away in their genome, Palumbi dared to think, perhaps it's too early to begin writing the animal's obituary. </p>
+      </div>
+      <div class="six columns">
+        <div class="image-container"> <img src="images/about/diver.jpg" alt="Diver" style="width: 100%; display: block;" />
+          <div class="caption">
+            <p style="margin-bottom: 0;">Steve Palumbi diving in American Samoa, with "tabletop" coral in the foreground.</p>
+          </div>
+        </div>
+        <div class="well">
+          <h5 style="margin-bottom: 10;">“Corals have been around for 250 million years and the environment has changed around them during that time. We’re trying to learn what innate adaptive resources they have to deal with changing climates.”</h5>
+          <h6><br>
+            —Steve Palumbi, the Harold A. Miller Professor in Marine Sciences </h6>
+          <br>
+          <br>
+        
+          <!-- Start Audio -->
+          <audio controls>
+            <source src="images/audio/CrabLove.mp3" type="audio/mpeg">
+            <!--  <source src="horse.ogg" type="audio/ogg"> --> 
+            Your browser does not support this audio format. </audio>
+          <br><p>Use the player above to listen to <a href="http://palumbi.stanford.edu/music/index.html">Sustainable Sole</a>’s song, Crab Love</p>
+          <!-- End Audio --> 
+          
+        </div>
+        <br>
+        <div class="video">
+          <iframe src="//www.youtube.com/embed/KfEOh-tjmoM?rel=0" ></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Chapter 2 Section --> 
+  
+  <!-- Start Parallax Quote -->
+  <section class="parallax clearfix" id="px03">
+    <div class="px_bg">
+      <div class="bg"></div>
+      <div class="pxmask"></div>
+    </div>
+    <div class="px_overlay">
+      <div class="container clearfix">
+        <div class="sixteen columns">
+          <div class="parallax_content sentence"> <span class="icon-blockquote-32"></span>
+            <h3>Coral reefs provide benefits to billions of people. In the Cook Islands, people are worried about how climate change will affect coral. They’re not talking about whether climate change is happening. They’re asking, “What can we do about it?”</h3>
+            <span class="author">Noah Rose, Stanford graduate student in biology</span> </div>
+        </div>
+        
+        <!-- Start Back to Section -->
+        <div class="backsection bgcolor"> <a href="#intro"><span class="icon-arrow-simple-up icon-white"></span> </a> </div>
+        <!-- End Back to Section --> 
+      </div>
+    </div>
+  </section>
+  <!-- End Parallax Quote --> 
+  
+  <!-- Start Chapter 3 section-->
+  <section class="content clearfix" id="ch3">
+    <div class="container clearfix">
+      <div class="sixteen columns">
+        <div class="margin-50 clearfix">
+          <h4>The experiment</h4>
+          <p>Back in Monterey, Palumbi and his students began devising a way to make their first-of-its-kind coral stress testers portable. They outfitted small picnic coolers with computer-controlled heaters and bubblers that could carefully increase the water's temperature in tenth-of-a-degree increments. And then they took them to the isolated reefs of Ofu to test the coral's stamina when exposed to heat.</p>
+          <p> Conducting experiments in humid, salty environments on isolated Pacific Islands with limited supply chains is not ideal. "Sea water and electronics aren't great friends. We've had quite a few small meltdowns," Bay said. "Every single electronics store on the island knows us."</p>
+          <p> "We have some really cool results out of American Samoa," Bay continued. "But if we want to use those results in conservation efforts, or to say anything about coral and climate change in general, we need to know if this holds true across corals around the Pacific."</p>
+        </div>
+      </div>
+    </div>
+    <div class="container clearfix">
+      <div class="sixteen columns">
+        <div class="margin-50 clearfix"> 
+          <!-- Start Full Width Video -->
+          <div class="video">
+            <iframe src="//www.youtube.com/embed/GTkqNb-eENs?rel=0" ></iframe>
+          </div>
+          <!-- End Full Width Video  --> 
+          
+        </div>
+      </div>
+    </div>
+    <div class="container clearfix">
+      <div class="ten columns">
+        <p> This winter Palumbi, Bay and Noah Rose, another graduate student in Palumbi's lab, headed to Rarotonga and Manihiki, two islands within the Cook Islands that present an ideal location for the next phase of the research. Across 1,000 miles of South Pacific Ocean, there is little potential for larvae from one habitat to float into another test-bed, as regularly occurs in the lagoon at Ofu, so the scientists can know for certain that they are looking at discrete populations.</p>
+        <p> The islands are flush with the same <em>Acropora</em> species as is prevalent in Ofu, but these corals are used to relatively cooler temperatures – around 85 F – than those at Ofu. Over six weeks, the team collected corals from both Cook Islands sites and conducted the same acclimation experiments as they've done in Ofu.</p>
+        <p> The early results seem promising. The corals at both Rarotonga and Manihiki developed higher heat resistance – turning white, or "bleaching," at a higher temperature than before – after spending a week acclimating to warmer water in the holding tanks. The Manihiki corals lived in slightly warmer water than those at Rarotonga, and thus showed greater heat resistance. This indicates that there are some longer term forces at play, Bay said, most likely genetic adaptations that occurred over hundreds or thousands of years, not just a week.</p>
+        <p> "The message in terms of climate change is that corals can increase their heat tolerance some, which may somewhat buffer them against warming temperatures," Bay said. "But that capacity is not unlimited."</p>
+        <p> Still, the Cook Islands research suggests that corals around the Pacific stand a fighting chance in the face of climate change, which will come as good news to the Cook Islanders.</p>
+        <p> "We were pleasantly surprised in how informed and interested the local people are in climate change," Rose said. "It's something that the people here are already really worried about. Their livelihood – food and tourism – is dependent on the reefs. They're not talking about whether climate change is happening. They're asking, 'What can we do about it?'" </p>
+      </div>
+      <div class="six columns">
+        <div class="well">
+          <h5 style="color: #820000; margin-bottom: 20px">Did you know... </h5>
+          <ul class="list list_arrow_2">
+            <li>
+              <h3 style="margin-bottom: 10px">$800 billion</h3>
+              <i class="icon-leaf"></i>estimated net present value of corals worldwide </li>
+            <li>
+              <h3 style="margin-bottom: 10px">$29.8 billion</h3>
+              <i class="icon-leaf"></i>annual global economic value of corals </li>
+            <li>
+              <h3 style="margin-bottom: 10px">$5.7 billion</h3>
+              <i class="icon-leaf"></i>annual value of corals to the fishery industry </li>
+            <li>
+              <h3 style="margin-bottom: 10px">$9 billion</h3>
+              <i class="icon-leaf"></i>annual value of corals in coastal protection </li>
+            <li>
+              <h3 style="margin-bottom: 10px">$9.6 billion</h3>
+              <i class="icon-leaf"></i>annual value of corals for tourism </li>
+            <li><i class="icon-leaf"></i>Many marine organisms found on coral reefs produce chemical compounds that can be used to produce novel human medicines, including treatments for cancer and AIDS. A valuation model of anti-cancer drugs alone suggests that a 20 percent loss of coral reef biodiversity would equate to a market value loss of $112 billion to $1.14 trillion.</li>
+          </ul>
+            <p style="text-align: right;"><a href="http://www.icriforum.org/sites/default/files/Economic_values_global%20compilation.pdf">Source 1 </a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="http://www.endangeredspeciesinternational.org/coralreefs5.html"> Source 2</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Chapter 3 Section --> 
+  
+  <!-- Start Parallax Quote -->
+  <section class="parallax clearfix" id="px04">
+    <div class="px_bg">
+      <div class="bg"></div>
+      <div class="pxmask"></div>
+    </div>
+    <div class="px_overlay">
+      <div class="container clearfix">
+        <div class="sixteen columns">
+          <div class="parallax_content sentence"> <span class="icon-blockquote-32"></span>
+            <h3>If we can identify corals that are most likely to survive increasing ocean temperatures, maybe we can use them to “seed” and re-grow reefs that have higher heat resistance to future conditions.</h3>
+            <span class="author">Rachael Bay, Stanford graduate student in biology</span> </div>
+        </div>
+        
+        <!-- Start Back to Section -->
+        <div class="backsection bgcolor"> <a href="#intro"><span class="icon-arrow-simple-up icon-white"></span> </a> </div>
+        <!-- End Back to Section --> 
+      </div>
+    </div>
+  </section>
+  <!-- End Parallax Quote --> 
+  
+  <!-- Start Chapter 4 Section -->
+  <section class="content clearfix" id="ch4">
+    <div class="container clearfix">
+      <div class="ten columns">
+          <h4>The Future fix</h4>
+          <p> "I've gone around the Pacific, and you run into a lot of reefs that are just in awful shape and it breaks your heart," Palumbi said. "Other times, you're swimming across the reef and it's incredibly hot, in an environment where corals shouldn't do well, and they're thriving."</p>
+          <p>Transplant efforts in the past haven't been very successful, Palumbi said, but maybe we just haven't been picking the right corals to transplant? Or maybe we simply didn't know that they needed "training" to prepare for a new location?</p>
+          <p>Palumbi's group has begun using next-generation DNA sequencing techniques to determine which genes are responsible for heat tolerance in corals, and to compare the genetics of the Rarotonga and Manihiki corals to look for genetic adaptation. This will improve the understanding of the animals' cellular machinery that makes acclimation possible and will help conservationists identify species that stand the best chance against future climates.</p>
+          <p>Corals have been around for 250 million years and have adapted to survive many changing conditions. Palumbi is optimistic that we can help them – maybe just a little – to do that now. Perhaps identifying the strongest corals and using them to "seed" troubled reefs is the answer; when healthy, corals can double in size year over year. Of course, such efforts will be for naught without policies in place to protect corals from overfishing, sediment runoff, development and other direct sources of physical damage.</p>
+          <p>"The ocean is a highly variable place. It's not an easy home to live in, but organisms living anywhere in the ocean are facing all kinds of different environments all the time," he said. "They don't wear sweaters, they don't have air conditioners – they just have to deal with the environment as they have it. And they have amazing innate capacities to do that.</p>
+          <p>"Evolution over millions of years has given them the genetic diversity and the acclimation mechanisms. If we just give them a chance, they can often come back. I'm hopeful that our research will help corals find a way to do that."&nbsp;&nbsp;&nbsp;<i class="icon-stop" style="color: #820000"></i></p>
+      </div>
+      <div class="six columns">
+        <div class="image-container"> <img src="images/about/palumbi.jpg" alt="Palumbi" style="width: 100%; display: block;" />
+          <div class="caption">
+            <p style="margin-bottom: 0;">Steve Palumbi</p>
+          </div>
+        </div>
+        
+        <!--Social Media links -->
+        <div class="well"> 
+          <div id="socialmedia">
+	<h2>Share This Story</h2>
+<script type="text/javascript"><!-- 
+document.write('<span class="st_facebook_vcount" displayText="Facebook"></span><span class="st_twitter_vcount" displayText="Tweet"></span><span class="st_linkedin_vcount" displayText="LinkedIn"></span><span class="st_email_vcount" displayText="Email"></span><hr class="clearer" /><span class="st_fblike_hcount" displayText="Like"></span>')
+--></script>
+<hr class="clearer" />
+</div>
+ 
+        </div>
+        
+        <!-- END Social Media links --> 
+      </div>
+    </div>
+  </section>
+  <!-- End Chapter 4 Section --> 
+  
+  <!-- Start Parallax Quote -->
+  <section class="parallax clearfix" id="px05">
+    <div class="px_bg">
+      <div class="bg"></div>
+      <div class="pxmask"></div>
+    </div>
+    <div class="px_overlay">
+      <div class="container clearfix">
+        <div class="sixteen columns">
+          <div class="parallax_content sentence"> <span class="icon-blockquote-32"></span>
+            <h3>As a basic foundation for human wellbeing, corals are one of the most important ecosystems that we have in the oceans.</h3>
+            <span class="author">Steve Palumbi, the Harold A. Miller Professor in Marine Sciences</span> </div>
+        </div>
+      </div>
+      <!-- Start Back to Section -->
+      <div class="backsection bgcolor"> <a href="#intro"> <span class="icon-arrow-simple-up icon-white"></span></a> </div>
+      <!-- End Back to Section --> 
+    </div>
+  </section>
+  <!-- End Parallax Quote --> 
+</div>
+
+<!-- Global footer snippet start -->
+<div id="global-footer">
+  <div class="container">
+    <div class="row">
+      <div id="bottom-logo" class="span2"> <a href="http://www.stanford.edu"> <img src="https://www.stanford.edu/su-identity/images/footer-stanford-logo@2x.png" alt="Stanford University" width="105" height="49"/> </a> </div>
+      <!-- #bottom-logo end -->
+      <div id="bottom-text" class="span10">
+        <ul>
+          <li class="home"><a href="http://www.stanford.edu">SU Home</a></li>
+          <li class="maps alt"><a href="http://visit.stanford.edu/plan/maps.html">Maps &amp; Directions</a></li>
+          <li class="search-stanford"><a href="http://www.stanford.edu/search/">Search Stanford</a></li>
+          <li class="terms alt"><a href="http://www.stanford.edu/site/terms.html">Terms of Use</a></li>
+          <li class="emergency-info"><a href="http://emergency.stanford.edu">Emergency Info</a></li>
+        </ul>
+      </div>
+      <!-- .bottom-text end -->
+      <div class="clear"></div>
+      <p class="copyright vcard">&copy; <span class="fn org">Stanford University</span>, <span class="adr"> <span class="locality">Stanford</span>, <span class="region">California</span> <span class="postal-code">94305</span></span>.&nbsp;&nbsp; <span id="copyright-complaint"><a href="http://www.stanford.edu/group/security/dmca.html" class="copyright-complaint" >Copyright Complaints</a></span> </p>
+    </div>
+    <!-- .row end --> 
+  </div>
+  <!-- .container end --> 
+</div>
+<!-- global-footer end --> 
+<!-- Global footer snippet end --> 
+
+<!-- Start Javascripts  --> 
+<script src="js/libs/jquery-1.8.3.min.js"></script> <!-- jQuery Library --> 
+<script src="js/libs/jquery.cookie.js"></script> <!-- jQuery Cookie Helper --> 
+<script src="js/libs/jquery.preloader.js"></script> <!-- jQuery Preloader --> 
+<script src="js/libs/jquery.smartresize.js"></script> <!-- jQuery SmartResize --> 
+<script src="js/libs/jquery.inview.js"></script> <!-- jQuery Inview --> 
+
+<script src="js/libs/jquery.scrollTo.js"></script> <!-- scrollTo Plugin --> 
+<script src="js/libs/jquery.nav.js"></script> <!-- Nav Plugin --> 
+<!-- <script src="js/libs/jquery.selectnav.js"></script>  SelectNav Plugin --> 
+<!--<script src="js/libs/jquery.tweet.js"></script>  Twitter Plugin --> 
+<!-- <script src="js/libs/jquery.isotope.js"></script> Isotope Plugin --> 
+<!-- <script src="js/libs/jquery.colortip.js"></script> Tooltips Plugin --> 
+<!-- <script src="js/libs/jquery.prettyPhoto.js"></script>  PrettyPhoto Plugin --> 
+<script src="js/libs/waypoints.min.js"></script> <!-- Waypoints Plugin --> 
+<script src="js/libs/waypoints-sticky.min.js"></script> <!-- Waypoints shortcut for sticky elements (nav) --> 
+<script src="js/main.js"></script> <!-- Main JS File --> 
+<!-- End Javascripts -->
+
+</body>
+</html>

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<!--[if IE 7]> <html lang="en" class="ie7"> <![endif]-->
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+<title>Emergency  Information</title>
+
+<!-- Meta -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Site / page description" />
+<meta name="author" content="Stanford Department or Group" />
+<!-- These meta tags are used when someone shares a link to this page on Facebook,
+     Twitter or other social media sites. All tags are optional, but including them
+     and customizing the content for specific sites can help the visibility of your
+     content.
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Title when shared to social media sites" />
+<meta property="og:description" content="Snippet for social media sites." />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@TwitterHandle" />
+<meta name="twitter:title" content="Title for Twitter" />
+<meta name="twitter:description" content="Snippet when tweet is expanded." />
+<meta name="twitter:image" content="http://stanford.edu/about/images/intro_about.jpg" />
+<link rel="publisher" href="https://plus.google.com/id# of Google+ entity associated with your department or group" />
+-->
+
+<!-- CSS -->
+<link rel="stylesheet" href="/wp-content/themes/cardinal/css/bootstrap.min.css" type="text/css" />
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" type="text/css" />
+<link rel="stylesheet" href="/wp-content/themes/cardinal/css/base.min.css?v=0.1" type="text/css" />
+<link rel="stylesheet" href="/wp-content/themes/cardinal-custom/style.css?v=0.1" type="text/css"/>
+<!--[if lt IE 9]>
+  <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--[if IE 8]>
+  <link rel="stylesheet" type="text/css" href="/wp-content/themes/cardinal/css/ie/ie8.css" />
+<![endif]-->
+<!--[if IE 7]>
+  <link rel="stylesheet" type="text/css" href="/wp-content/themes/cardinal/css/ie/ie7.css" />
+<![endif]-->
+<!-- JS and jQuery --> 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="/wp-content/themes/cardinal/js/bootstrap.min.js"></script> 
+
+<!--[if lt IE 9]>
+	<script src="/wp-content/themes/cardinal/js/respond.js"></script>
+<![endif]--> 
+
+<!-- custom JS -->
+<script src="/wp-content/themes/cardinal/js/base.js"></script>
+<script src="/wp-content/themes/cardinal/js/custom.js"></script>
+
+<!-- wp_head(); -->
+<meta name="generator" content="WordPress 3.9.1 - really-static 0.5" />
+<!-- Google Analytics code for property id UA-1860414-7 -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1860414-7', 'auto');
+  ga('send',   'pageview');
+</script>
+
+</head>
+
+<body class="home blog">
+<div id="su-wrap"> <!-- used to force footer to bottom of short pages -->
+  <div id="su-content"> <!-- used to force footer to bottom of short pages --> 
+    
+    <!--=== Top ===-->
+    <div id="top">
+      <div class="container"> 
+        <!--=== Skip links ===-->
+        <div id="skip"> <a href="#content" onClick="$('#content').focus()">Skip to content</a> </div>
+        <!-- /Skip links --> 
+      </div>
+    </div>
+    <!--/top--> 
+    
+    <!--=== Header ===-->
+    <div id="header" class="clearfix" role="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8"> 
+            <!-- Logo -->
+            <div id="logo" class="clearfix"> <a href="http://www.stanford.edu/"><img class="img-responsive" src="/wp-content/themes/cardinal/images/stanford-white@2x.png"  alt="Stanford University" /></a> </div>
+            <!-- /logo -->
+            <div id="signature">
+              <div id="site-name">
+                <a href="http://emergency.stanford.edu/">Emergency  Information</a>
+              </div>
+              <div id="site-slogan">
+                <a href="http://emergency.stanford.edu/"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Menu -->
+    <div id="mainmenu" class="clearfix" role="navigation">
+      <div class="container">
+        <div class="navbar navbar-default"> 
+          
+          <!-- main navigation -->
+          <button type="button" class="navbar-toggle btn-navbar" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="menu-text">Menu</span></button>
+          <!-- /nav-collapse -->
+          
+          <div class="navbar-collapse collapse"> 
+            <!--search box-->
+            <div id="nav-search" role="search">
+                          </div>
+            <div  role="navigation">
+                          </div>
+          </div>
+          <!-- /nav-collapse --> 
+        </div>
+        <!-- /navbar --> 
+        
+      </div>
+      <!-- /container --> 
+    </div>
+    <!-- /mainmenu --> 
+    
+    <!-- main content -->
+    <div id="content" class="container" tabindex="0">
+      <div class="row">
+        <!-- Main column -->
+          <div id="main-content" class="col-md-6 col-md-push-3" role="main">
+            <div class="post-listing">
+<div class="sticky current-status">
+
+  <h2>Current Status</h2>
+
+  <div id="the-status">
+    <p><span style="color: #3f3c30;">There is currently no emergency situation at Stanford.<br />
+</span></p>
+  </div>
+  
+  <hr/>
+
+  <div class="row">
+    <div class="col-sm-6">
+      <h3>Emergency Hotlines</h3>
+      <p>
+        650-725-5555<br/>
+        844-ALERTSU (844-253-7878)
+      </p>
+    </div>
+    <div class="col-sm-6">
+      <h3>For Emergency Assistance</h3>
+      <p>
+        Dial 911<br/>
+        (9-911 from campus phones)
+      </p>
+    </div>
+  </div>
+
+</div><!-- .current-status -->
+<div class="post-listing-post">
+<h2><a href="http://emergency.stanford.edu/2014/09/about-this-site/">About this site</a></h2>
+<div class="post-meta">
+<div class="post-attribution">September 10, 2014 12:35 pm</div>
+<div class="post-categories">
+<span class="post-category-label">Categories:</span> <a href="http://emergency.stanford.edu/category/status/" title="View all posts in Status" rel="category tag">Status</a>
+</div>
+</div>
+<div class="lead">If there were a disaster or emergency affecting the Stanford community, you would be able to obtain updates and important instructions through this website.</div>
+<div class="clearfix"></div>
+</div><!-- .post-listing-post -->
+</div>
+          </div>
+
+          <!-- Left sidebar -->
+          <div id="sidebar-first" class="sidebar col-md-3 col-md-pull-6" role="complementary">
+            <div class="sidebar-nav">
+<div class="menu-emergency-menu-container"><ul id="menu-emergency-menu" class="menu"><li id="menu-item-31" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-home menu-item-31"><a href="http://emergency.stanford.edu">Home</a></li>
+<li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"><a href="http://emergency.stanford.edu/resources/">Resources</a></li>
+<li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a href="http://emergency.stanford.edu/about-this-site/">About this site</a></li>
+</ul></div></div>
+          </div>
+
+          <!-- Right sidebar -->
+          <div id="sidebar-second" class="sidebar col-md-3" role="complementary">
+            <div class="well">
+<h2 class="widgettitle">Recent AlertSU Notices</h2>
+	<div class="dpe-flexible-posts no-posts">
+		<p>No recent alerts</p>
+	</div>
+
+<p style="text-align: right;">
+  <a class="more-link" href="http://emergency.stanford.edu/category/alertsu/">
+    <i class="fa fa-chevron-circle-right"></i>
+    <span>See all alerts</span>
+  </a>
+</p></div><!-- well -->
+<div class="well">
+<h2 class="widgettitle">AlertSU</h2>
+<p><a href="http://alertsu.stanford.edu">AlertSU</a> is the Stanford University emergency notification system. It delivers time-sensitive emergency notifications via phone, email, text-mesaging and outdoor warning sirens to all members of the Stanford community.</p>
+<p class="more"><a href="http://alertsu.stanford.edu">More Info</a></p></div><!-- well -->
+<div class="well">
+<h2 class="widgettitle">Crime Alerts</h2>
+<p><a href="http://police.stanford.edu">Community Crime Alerts</a> are reports of major criminal incidents on the campus that could potentially affect the larger Stanford community.</p>
+<p class="more"><a href="http://police.stanford.edu">More Info</a></p></div><!-- well -->
+          </div>
+
+      </div> <!-- row -->
+    </div>
+    <!-- #content--> 
+    
+  </div>
+  <!-- #su-content --> 
+</div>
+<!-- #su-wrap --> 
+
+<!-- BEGIN footer -->
+<div id="footer" class="clearfix footer" role="contentinfo">
+    
+  <!-- Global footer snippet start -->
+  <div id="global-footer">
+    <div class="container">
+      <div class="row">
+        <div id="bottom-logo" class="col-xs-6 col-sm-2"> <a href="http://www.stanford.edu"> <img src="http://emergency.stanford.edu/wp-content/themes/cardinal/images/footer-stanford-logo@2x.png" alt="Stanford University" width="105" height="49"/> </a> </div>
+        <!-- #bottom-logo end -->
+        <div id="bottom-text" class="col-xs-6 col-sm-10">
+          <ul>
+            <li class="home"><a href="http://www.stanford.edu">SU Home</a></li>
+            <li class="maps alt"><a href="http://visit.stanford.edu/plan/maps.html" class="su-link" data-ua-action="visit.stanford.edu/plan/maps" data-ua-label="global-footer">Maps &amp; Directions</a></li>
+            <li class="search-stanford"><a href="http://stanford.edu/search/">Search Stanford</a></li>
+            <li class="terms alt"><a href="http://www.stanford.edu/site/terms.html">Terms of Use</a></li>
+            <li class="emergency-info"><a href="http://emergency.stanford.edu/" class="su-link" data-ua-label="global-footer">Emergency Info</a></li>
+          </ul>
+        </div>
+        <!-- .bottom-text end -->
+        <div class="clear"></div>
+        <p class="copyright vcard col-sm-10">&copy; <span class="fn org">Stanford University</span>.&nbsp; <span class="adr"> <span class="locality">Stanford</span>, <span class="region">California</span> <span class="postal-code">94305</span></span>. <span id="termsofuse"><a href="http://www.stanford.edu/group/security/dmca.html" class="su-link" data-ua-action="copyright-complaints" data-ua-label="global-footer">Copyright Complaints</a>&nbsp;&nbsp;&nbsp;<a href="https://adminguide.stanford.edu/chapter-1/subchapter-5/policy-1-5-4" class="su-link" data-ua-action="trademark-notice" data-ua-label="global-footer">Trademark Notice</a></span></p>
+      </div>
+      <!-- .row end --> 
+    </div>
+    <!-- .container end --> 
+  </div>
+  <!-- Global footer snippet end --> 
+  
+</div>
+<!-- END footer --> 
+
+</body>
+</html>

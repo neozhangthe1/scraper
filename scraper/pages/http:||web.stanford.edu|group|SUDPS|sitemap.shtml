@@ -1,0 +1,284 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>
+		SUDPS - Site Map
+	</title>
+	
+	<meta name="description" content="The Stanford University Department of Public Safety - Site Map">
+	<meta name="keywords" content="index, stanford, Stanford, police, employment, police jobs, recruiting, police recruiting, Stanford police, stanford websites, stanford web, stanford home page, university, college">
+
+	<link rel="stylesheet" type="text/css" href="scripts/styles-sitemap.css" />
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-35141420-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+
+<div style="text-align: center; margin: 0 auto;"><a name="pagetop"></a><img src="images/top-border.jpg" width="770" height="5" alt="" border="0" /></div>
+	<div id="wrapper">			
+		<div id="mainWrapper">
+			<div id="container">
+				
+				<div id="main_pageheader">
+					<div id="header-text">Site Map</div>
+				</div>
+				
+				<div id="nav-spacer"></div>
+				<div id="main_nav-q">
+
+<!-- BEGIN INCLUDE: /scripts/includes/nav-imagemap.inc -->	
+				
+<img src="http://www.stanford.edu/group/SUDPS/images/y-menu4.jpg" width="760" height="46" usemap="#tabsMap" border="0" align="bottom" name="imagemap">
+
+<map name="tabsMap">	 
+   <area shape="rect" coords="0,5,63,48" href="http://www.stanford.edu/group/SUDPS/index.shtml" onMouseover="dropdownmenu(this, event, menu0, '149px');rollOver('imagemap','home')" onMouseout="delayhidemenu();rollOver('imagemap','default')">
+   <area shape="rect" coords="65,5,163,48" href="http://www.stanford.edu/group/SUDPS/safety-report.shtml" onMouseover="dropdownmenu(this, event, menu1, '149px');rollOver('imagemap','safety')" onMouseout="delayhidemenu();rollOver('imagemap','default')">
+   <area shape="rect" coords="165,5,246,48" href="http://www.stanford.edu/group/SUDPS/crime-alert.shtml" onMouseover="dropdownmenu(this, event, menu2, '149px');rollOver('imagemap','crime-alerts')" onMouseout="delayhidemenu();rollOver('imagemap','default')">
+   <area shape="rect" coords="248,5,329,48" href="http://www.stanford.edu/group/SUDPS/employment.shtml" onMouseover="dropdownmenu(this, event, menu3, '149px');rollOver('imagemap','employ')" onMouseout="delayhidemenu();rollOver('imagemap','default')">
+   <area shape="rect" coords="331,5,406,48" href="http://www.stanford.edu/group/SUDPS/outreach.shtml" onMouseover="dropdownmenu(this, event, menu4, '149px');rollOver('imagemap','outreach')" onMouseout="delayhidemenu();rollOver('imagemap','default')">
+   <area shape="rect" coords="408,5,468,48" href="http://www.stanford.edu/group/SUDPS/event-security.shtml" onMouseover="dropdownmenu(this, event, menu5, '149px');rollOver('imagemap','event')" onMouseout="delayhidemenu();rollOver('imagemap','default')">
+   <area shape="rect" coords="469,5,529,48" href="http://www.stanford.edu/group/SUDPS/livescan.shtml" onMouseover="dropdownmenu(this, event, menu6, '149px');rollOver('imagemap','livescan')" onMouseout="delayhidemenu();rollOver('imagemap','default')">
+   <area shape="rect" coords="532,5,610,48" href="http://www.stanford.edu/group/SUDPS/forms.shtml" onMouseover="dropdownmenu(this, event, menu7, '149px');rollOver('imagemap','forms')" onMouseout="delayhidemenu();rollOver('imagemap','default')">
+   <area shape="rect" coords="613,5,667,48" href="http://www.stanford.edu/group/SUDPS/links.shtml" onMouseover="dropdownmenu(this, event, menu8, '149px');rollOver('imagemap','links')" onMouseout="delayhidemenu();rollOver('imagemap','default')">
+   <area shape="rect" coords="670,5,742,48" href="http://www.stanford.edu/group/SUDPS/contact.shtml" onMouseover="dropdownmenu(this, event, menu9, '149px');rollOver('imagemap','contact')" onMouseout="delayhidemenu();rollOver('imagemap','default')">
+</map>
+
+<!-- END INCLUDE: /scripts/includes/nav-imagemap.inc -->	
+
+					</div>
+				<div id="nav-spacer"></div>
+				
+				<div id="content-area">
+					<div id="left-col">
+						<div id="left-nav">
+														
+<!-- BEGIN INCLUDE: /scripts/includes/search.inc -->			
+
+<div id="search-btn">
+<form method="get" action="http://www.stanford.edu/search">
+<input type="text" name="q" size="10" maxlength="100" value="" />&nbsp;
+<input type="submit" name="sa" value="Search" />
+<input type="hidden" name="cx" value="003265255082301896483:sq5n7qoyfh8" />
+<input type="hidden" name="cof" value="FORID:9" />
+<input type="hidden" name="ie" value="UTF-8" />
+
+<input type="hidden" name="as_dt" value="i" />
+<input type="hidden" name="as_sitesearch" value="stanford.edu/group/SUDPS" />
+
+</form></div>
+
+<!-- END INCLUDE: /scripts/includes/search.inc -->
+							
+				</div><!-- // left-nav -->
+							<div id="nav-spacer"></div>
+
+					</div><!-- // left-col -->
+					
+
+				
+		<!-- center-col -->						
+										
+						<div id="center-col">
+
+<div id="bread-crumbs"><a href="index.shtml" class="bread-crumbs">Home</a> > <font color="#393a38">Site Map</font></div>
+
+<p align="center"><img src="images/sitemap.gif" /></p>
+
+<table class="sitemap" cellpadding="15"><tr><td valign="top">
+<h3><a href="index.shtml" class="bread-crumbs">Home</a></h3>
+<ul>
+	<li><a href="http://www.stanford.edu/group/SUDPS/index.shtml" title="About SUDPS">About SUDPS</a></li>
+  <li><a href="http://www.stanford.edu/group/SUDPS/chief.shtml" title="About the Chief">About the Chief</a>
+  <li><a href="http://www.stanford.edu/group/SUDPS/Stanford.shtml" title="About Stanford University">About Stanford University</a>
+</ul>
+
+<h3><a href="safety-report/index.shtml" class="bread-crumbs">Safety & Security Report</a></h3>
+<ul>
+  <li><A HREF="http://www.stanford.edu/group/SUDPS/safety-report/public-safety.shtml" title="Stanford Public Safety Services">Public Safety Services</a>
+  <li><A HREF="http://www.stanford.edu/group/SUDPS/safety-report/security-authorities.shtml" title="Campus Security Authorities">Campus Security Authorities</a>
+  <li><A HREF="http://www.stanford.edu/group/SUDPS/safety-report/related-services.shtml" title="Safety Related Services at Stanford">Safety Related Services</a>
+	<li><a href="http://www.stanford.edu/group/SUDPS/safety-report/toc.shtml" title="Crime & Safety Tips">Crime & Safety Tips</a>
+  	<ul>
+			<li><a href="safety-report/alcohol.shtml">Alcohol, Drug, and Driving Laws</a></li>
+			<li><a href="safety-report/bicycle.shtml">Bicycle Safety and Security **</a></li>
+			<li><a href="safety-report/bomb-threat.shtml">Bomb Threat Safety Instructions</a></li>
+			<li><a href="safety-report/dv.shtml">Domestic Violence</a></li>
+			<li><a href="safety-report/emergency.shtml">Emergency Preparedness</a></li>
+			<li><a href="safety-report/justice-system.shtml">How to Navigate the Criminal Justice System</a></li>
+			<li><a href="safety-report/mail-bomb.shtml">Letter and Package Bomb Indicators</a></li>
+			<li><a href="safety-report/pedestrian.shtml">Pedestrian Safety Zone</a></li>
+			<li><a href="safety-report/personal-safety.shtml">Personal Safety and Protection</a></li>			
+			<li><a href="safety-report/property.shtml">Property Protection **</a></li>
+			<li><a href="safety-report/reporting.shtml">Reporting Crime and Suspicious Activity</a></li>
+			<li><a href="safety-report/sexual-assault.shtml">Sexual Assault</a></li>
+			<li><a href="safety-report/phone-bomb.shtml">Telephone Bomb Threat Report Form</a></a></li>
+ 		</ul>
+	</li>
+	<li><a href="http://www.stanford.edu/group/SUDPS/safety-report/toc.shtml" title="Crime Statistics">Crime Statistics</a>
+		<ul>
+			<li><a href="safety-report/stats.shtml#def">Definitions of Crime Categories</a></li>
+			<li><a href="safety-report/stanford.shtml">Stanford Main Campus</a></li>
+			<li><a href="safety-report/australia.shtml">Australia</a></li>
+			<li><a href="safety-report/beijing.shtml">Beijing, China</a></li>
+			<li><a href="safety-report/berlin.shtml">Berlin, Germany</a></li>
+			<li><a href="safety-report/florence.shtml">Florence, Italy</a></li>
+			<li><a href="safety-report/marine.shtml">Hopkins Marine Station</a></li>
+			<li><a href="safety-report/kyoto.shtml">Kyoto, Japan</a></li>
+			<li><a href="safety-report/moscow.shtml">Moscow, Russia</a></li>
+			<li><a href="safety-report/oxford.shtml">Oxford, England</a></li>
+			<li><a href="safety-report/paris.shtml">Paris, France</a></li>
+			<li><a href="safety-report/santiago.shtml">Santiago, Chile</a></li>
+			<li><a href="safety-report/washington.shtml">Washington, D.C.</a></li>
+		</ul>
+	</li>
+	<li><a href="http://www.stanford.edu/group/SUDPS/reporting.shtml" title="Reporting Crime">Reporting Crime</a></li>
+	<li><a href="safety-report/request.shtml" title="Annual Security Report Request">Annual Security Report Request</a></li>
+</ul>
+
+
+</td>
+<td valign="top">
+	
+	
+<h3><a href="crime-alert.shtml" class="bread-crumbs">Community Crime Alerts</a></h3>
+
+<ul>
+  <li><A HREF="http://www.stanford.edu/group/SUDPS/crime-alert0607.shtml" title="Positions">2006-2007</A>
+  	<ul>
+  		<li><a href="http://www.stanford.edu/group/SUDPS/crime-alert0607.shtml#summer07" title="Summer 2007">Summer 2007</a></li>
+  		<li><a href="http://www.stanford.edu/group/SUDPS/crime-alert0607.shtml#spring07" title="Spring 2007">Spring 2007</a></li>
+  		<li><a href="http://www.stanford.edu/group/SUDPS/crime-alert0607.shtml#winter07" title="Winter 2007">Winter 2007</a></li>
+ 		</ul>
+	</li>
+	<li><a href="http://www.stanford.edu/group/SUDPS/crime-alert0506.shtml" title="2005-2006">2005-2006</a></li>
+	<li><a href="http://www.stanford.edu/group/SUDPS/crime-alert.shtml#safety" title="Public Safety Reminders">Public Safety Reminders</a></li>
+	<li><a href="http://www.stanford.edu/group/SUDPS/safety-report/toc.shtml" title="Crime & Safety Tips">Crime & Safety Tips</a>
+  	<ul>
+			<li><a href="safety-report/alcohol.shtml">Alcohol, Drug, and Driving Laws</a></li>
+			<li><a href="safety-report/bicycle.shtml">Bicycle Safety and Security **</a></li>
+			<li><a href="safety-report/bomb-threat.shtml">Bomb Threat Safety Instructions</a></li>
+			<li><a href="safety-report/dv.shtml">Domestic Violence</a></li>
+			<li><a href="safety-report/emergency.shtml">Emergency Preparedness</a></li>
+			<li><a href="safety-report/justice-system.shtml">How to Navigate the Criminal Justice System</a></li>
+			<li><a href="safety-report/mail-bomb.shtml">Letter and Package Bomb Indicators</a></li>
+			<li><a href="safety-report/pedestrian.shtml">Pedestrian Safety Zone</a></li>
+			<li><a href="safety-report/personal-safety.shtml">Personal Safety and Protection</a></li>			
+			<li><a href="safety-report/property.shtml">Property Protection **</a></li>
+			<li><a href="safety-report/reporting.shtml">Reporting Crime and Suspicious Activity</a></li>
+			<li><a href="safety-report/sexual-assault.shtml">Sexual Assault</a></li>
+			<li><a href="safety-report/phone-bomb.shtml">Telephone Bomb Threat Report Form</a></a></li>
+ 		</ul>
+	</li>
+	<li><a href="http://www.stanford.edu/group/SUDPS/reporting.shtml" title="Reporting Crime">Reporting Crime</a></li>
+</ul>
+
+
+<h3><a href="employment.shtml" class="bread-crumbs">Employment</a></h3>
+
+<ul>
+  <li><A HREF="http://www.stanford.edu/group/SUDPS/employment.shtml" title="Positions">Positions</A>
+  	<ul>
+  		<li><a href="http://www.stanford.edu/group/SUDPS/deputy-job.shtml" title="Deputies">Deputies</a></li>
+  		<li><a href="http://www.stanford.edu/group/SUDPS/sep-job.shtml" title="Special Events Patrol">Special Events Patrol</a></li>
+  		<li><a href="http://www.stanford.edu/group/SUDPS/cso-job.shtml" title="Community Service Officers">Community Service Officers</a></li>
+ 		</ul>
+	</li>
+	<li><a href="http://www.stanford.edu/group/SUDPS/profiles.shtml" title="Deputy Profiles">Deputy Profiles</a></li>
+	<li><a href="http://www.stanford.edu/group/SUDPS/recruitment.shtml" title="Recruitment Process">Recruitment Process</a></li>
+	<li><a href="http://www.stanford.edu/group/SUDPS/faq.shtml" title="FAQs">FAQs</a></li>
+</ul>
+
+
+<h3><a href="outreach.shtml" class="bread-crumbs">Community Outreach</a></h3>
+
+<ul>
+  <li><a href="http://www.stanford.edu/group/SUDPS/com-academy.shtml" title="Community Police Academy">Community Police Academy</a></li>
+  <li><a href="http://www.stanford.edu/group/SUDPS/noon.shtml" title="Noon Police Seminars">Noon Police Seminars</a></li>
+  <li><a href="http://www.stanford.edu/group/SUDPS/bicycle.shtml" title="Bicycle Programs">Bicycle Programs</a>
+  	<ul>
+  		<li><a href="http://www.stanford.edu/group/SUDPS/bicycle.shtml#policy" title="Bicycle Policy">Bicycle Policy</a></li>
+  		<li><a href="http://www.stanford.edu/group/SUDPS/bicycle.shtml#outreach" title="Abatement Program">Abatement Program</a></li>
+  		<li><a href="http://www.stanford.edu/group/SUDPS/bicycle.shtml#abatement" title="Summer Abatement">Summer Abatement</a></li>
+  		<li><a href="http://www.stanford.edu/group/SUDPS/bicycle.shtml#sale" title="Bicycle Sale">Bicycle Sale</a></li>
+  		<li><a href="http://www.stanford.edu/group/SUDPS/bicycle.shtml#outreach" title="Bike Safety Outreach">Bike Safety Outreach</a></li>
+  		<li><a href="http://www.stanford.edu/group/SUDPS/bicycle.shtml#faq" title="FAQ">FAQ</a></li>
+ 		</ul></li>
+  <li><a href="http://www.stanford.edu/group/SUDPS/bicycle.shtml" title="Other Outreach Programs">Other Outreach Programs</a>
+  	<ul>
+  		<li><a href="mailto:community-outreach@lists.stanford.edu?subject=Security Presentations" title="Security Presentations">Security Presentations</a></li>
+  		<li><a href="mailto:community-outreach@lists.stanford.edu?subject=Dialogue with a Deputy" title="Dialogue with a Deputy">Dialogue with a Deputy</a></li>
+  		<li><a href="mailto:community-outreach@lists.stanford.edu?subject=Ride-Along Program" title="Ride-Along Program">Ride-Along Program</a></li>
+  		<li><a href="mailto:community-outreach@lists.stanford.edu?subject=Group Centric" title="Group Centric">Group Centric</a></li>
+  		<li><a href="mailto:community-outreach@lists.stanford.edu?subject=Public Safety Contact" title="Public Safety Contact">Public Safety Contact</a></li>
+ 		</ul></li>
+</ul>
+
+
+</td>
+<td valign="top">
+
+
+<h3><a href="event-security.shtml" class="bread-crumbs">Event Security</a></h3>
+
+<ul>
+  <li><a href="http://www.stanford.edu/group/SUDPS/security-personnel.shtml" title="Security Personnel">Security Personnel</a></li>
+  <li><a href="http://www.stanford.edu/group/SUDPS/security-request.shtml" title="Requesting Services">Requesting Services</a>
+  <li><a href="http://police.stanford.edu/ssrf.pdf" target="_blank" title="Request Form">Request Form</a>
+  <li><a href="http://www.stanford.edu/group/SUDPS/security-faq.shtml" title="FAQ">FAQ</a>
+</ul>
+
+<h3><a href="livescan.shtml" class="bread-crumbs">LiveScan</a></h3>
+
+
+<h3><a href="forms.shtml" class="bread-crumbs">Forms</a></h3>
+
+<ul>
+  <li><a href="http://www.stanford.edu/group/SUDPS/publications.shtml" title="Publications">Publications</a>
+  	<ul>
+  		<li><a href="http://www.stanford.edu/group/SUDPS/safety-report/Almanac.pdf" title="Safety and Security Report">Safety & Security Report</a></li>
+  		<li><a href="http://www.stanford.edu/group/SUDPS/docs/id-theft-prev.pdf" title="ID Theft">ID Theft</a></li>
+  		<li><a href="http://maps.stanford.edu/sites/all/lbre-shared/files/maps/files/shared/file/maps_records/Suggested_Travel_Routes_Map.pdf" title="Summer Abatement">Suggested Travel Routes Map</a></li>
+ 		</ul></li>
+  <li><a href="http://www.stanford.edu/group/SUDPS/bicycle.shtml" title="Other Outreach Programs">Public Safety Forms</a>
+  	<ul>
+  		<li><a href="mailto:community-outreach@lists.stanford.edu?subject=Security Presentations" title="Security Presentations">Parking Citation Appeal</a></li>
+  		<li><a href="mailto:community-outreach@lists.stanford.edu?subject=Dialogue with a Deputy" title="Dialogue with a Deputy">Collision Report</a></li>
+  		<li><a href="mailto:community-outreach@lists.stanford.edu?subject=Ride-Along Program" title="Ride-Along Program">Records Info Request</a></li>
+  		<li><a href="mailto:community-outreach@lists.stanford.edu?subject=Group Centric" title="Group Centric">Police Clearance App</a></li>
+  		<li><a href="mailto:community-outreach@lists.stanford.edu?subject=Public Safety Contact" title="Public Safety Contact">House Check Request</a></li>
+ 		</ul></li>
+</ul>
+
+<h3><a href="links.shtml" class="bread-crumbs">Related Links</a></h3>
+
+
+<h3><a href="contact.shtml" class="bread-crumbs">Contact Us</a></h3>
+
+</td></tr></table>
+
+<br><center><a href="#pagetop"><b>- top -</b></a></center>
+
+						</div><!-- // center-col -->
+
+				</div><!-- // content-area -->
+
+			</div><!-- // container -->
+		</div><!-- // mainWrapper -->
+	</div><!-- // wrapper -->
+
+</body>
+</html>
