@@ -1,9 +1,0 @@
-<html>
-<!-- uncomment for maintenance -->
-<!--
-<body onLoad="top.location.replace('https://ofweb.stanford.edu/maintenance.html')"> 
--->
-
-<!-- regular operational mode -->
-<body onLoad="top.location.replace('https://ofweb.stanford.edu/pls/OF1PRD/xxdl_web_login_pkg.WebAuth')">
-</html>

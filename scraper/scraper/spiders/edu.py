@@ -14,7 +14,7 @@ class EduSpider(scrapy.Spider):
 
     def parse(self, response):
         links = response.xpath("//a/@href").extract()
-        filename = "pages/" + response.url.replace("/", "|")
+        filename = "pages/" + response.url.split("//")[1].strip("/").replace("/", "|")
         open(filename, 'wb').write(response.body)
         for link in links:
             try:
