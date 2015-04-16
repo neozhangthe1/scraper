@@ -20,7 +20,7 @@ ITEM_PIPELINES = [
   'scrapy_mongodb.MongoDBPipeline',
 ]
 
-password = open("password.txt").next()
+password = open("password.txt").next().strip()
 
 MONGODB_URI = 'mongodb://yutao:%s@yutao.us:30017/bigsci' % password
 MONGODB_DATABASE = 'bigsci'

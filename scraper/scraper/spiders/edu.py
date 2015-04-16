@@ -21,7 +21,11 @@ class EduSpider(scrapy.Spider):
     )
 
     def parse(self, response):
-        title = response.xpath("//title/text()").extract()[0]
+        title = response.xpath("//title/text()").extract()
+        if len(title) > 0:
+            title = title[0]
+        else:
+            title = ""
 
         url = response.url
         domain = get_tld(url)
