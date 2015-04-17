@@ -6,12 +6,13 @@ from ..items import AdmissionPageItem
 import logging
 import urlparse
 
-class EduSpider(scrapy.Spider):
-    name = "edu"
+class AdmissionSpider(scrapy.Spider):
+    name = "admission"
     #allowed_domains = ["stanford.edu", "cmu.edu", "berkeley.edu", "mit.edu"]
     start_urls = (
         "http://www.clas.ufl.edu/au/",
         "http://univ.cc/search.php?dom=world&key=&start=1"
+        "http://univ.cc/search.php?dom=edu&key=&start=1"
     )
 
     def parse(self, response):
@@ -27,6 +28,7 @@ class EduSpider(scrapy.Spider):
         links = []
 
         for link in urls:
+            link = urlparse.urljoin(response.url, link)
             if not ".edu" and not "univ.cc" in link:
                 continue
             if ".txt" in link or ".pdf" in link:
@@ -64,6 +66,5 @@ class EduSpider(scrapy.Spider):
         item["domain"] = domain
         item["links"] = links
         item["url"] = url
-
 
         yield item
