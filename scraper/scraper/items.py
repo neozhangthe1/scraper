@@ -21,3 +21,4 @@ class AdmissionPageItem(scrapy.Item):
     content = scrapy.Field()
     links = scrapy.Field()
     domain = scrapy.Field()
+    admission = scrapy.Field()

@@ -44,9 +44,6 @@ class EduSpider(scrapy.Spider):
             except:
                 pass
 
-        if not "admission" in title.lower() and not "admission" in url.lower():
-            return
-
         item = AdmissionPageItem()
 
         logging.info("[Crawled]" + title)
@@ -72,5 +69,9 @@ class EduSpider(scrapy.Spider):
         item["domain"] = domain
         item["links"] = links
         item["url"] = url
+        if not "admission" in title.lower() and not "admission" in url.lower():
+            item["admission"] = False
+        else:
+            item["admission"] = True
 
         yield item
