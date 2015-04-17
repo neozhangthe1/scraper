@@ -15,7 +15,7 @@ NEWSPIDER_MODULE = 'scraper.spiders'
 
 #DEPTH_PRIORITY = 1 #BFS
 DEPTH_PRIORITY = 0 #DFS
-DEPTH_LIMIT = 5
+DEPTH_LIMIT = 4
 
 ITEM_PIPELINES = [
   'scrapy_mongodb.MongoDBPipeline',

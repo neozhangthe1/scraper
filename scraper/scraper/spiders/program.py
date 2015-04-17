@@ -17,7 +17,7 @@ class ProgramSpider(scrapy.Spider):
         "http://www.ucsd.edu/",
         "http://www.ucla.edu/"
         "http://www.mit.edu/",
-        "http://www.harvard.edu/",
+        # "http://www.harvard.edu/",
         "http://www.yale.edu/",
         "http://www.uiuc.edu/",
         "http://www.nyu.edu/",
