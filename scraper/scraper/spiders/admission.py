@@ -29,7 +29,7 @@ class AdmissionSpider(scrapy.Spider):
 
         for link in urls:
             link = urlparse.urljoin(response.url, link)
-            if not ".edu" and not "univ.cc" in link:
+            if not ".edu" in link and not "univ.cc" in link:
                 continue
             if ".txt" in link or ".pdf" in link:
                 continue
