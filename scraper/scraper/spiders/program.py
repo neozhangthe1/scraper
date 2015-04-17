@@ -10,7 +10,20 @@ class ProgramSpider(scrapy.Spider):
     name = "program"
     #allowed_domains = ["stanford.edu", "cmu.edu", "berkeley.edu", "mit.edu"]
     start_urls = (
-        "http://www.clas.ufl.edu/au/",
+        "http://www.princeton.edu/",
+        "http://www.stanford.edu",
+        "http://www.cmu.edu/",
+        "http://www.berkeley.edu/",
+        "http://www.ucsd.edu/",
+        "http://www.ucla.edu/"
+        "http://www.mit.edu/",
+        "http://www.harvard.edu/",
+        "http://www.yale.edu/",
+        "http://www.uiuc.edu/",
+        "http://www.nyu.edu/",
+        "http://www.brown.edu/",
+        "http://www.byu.edu/"
+        # "http://www.clas.ufl.edu/au/",
         # "http://univ.cc/search.php?dom=world&key=&start=1"
         # "http://univ.cc/search.php?dom=edu&key=&start=1"
     )
@@ -18,7 +31,7 @@ class ProgramSpider(scrapy.Spider):
     def parse(self, response):
         title = response.xpath("//title/text()").extract()
         if len(title) > 0:
-            title = title[0]
+            title = title[0].strip()
         else:
             title = ""
 
