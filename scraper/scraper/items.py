@@ -22,3 +22,10 @@ class AdmissionPageItem(scrapy.Item):
     links = scrapy.Field()
     domain = scrapy.Field()
     admission = scrapy.Field()
+
+
+class UniversityItem(scrapy.Item):
+    _id = scrapy.Field()
+    url = scrapy.Field()
+    name = scrapy.Field()
+    country = scrapy.Field()
