@@ -11,8 +11,8 @@ class AdmissionSpider(scrapy.Spider):
     #allowed_domains = ["stanford.edu", "cmu.edu", "berkeley.edu", "mit.edu"]
     start_urls = (
         "http://www.clas.ufl.edu/au/",
-        "http://univ.cc/search.php?dom=world&key=&start=1"
-        "http://univ.cc/search.php?dom=edu&key=&start=1"
+        # "http://univ.cc/search.php?dom=world&key=&start=1"
+        # "http://univ.cc/search.php?dom=edu&key=&start=1"
     )
 
     def parse(self, response):
