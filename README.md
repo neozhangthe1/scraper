@@ -3,7 +3,6 @@ Scraping official sites of universities
 
 ## Popular Application Engines
 1. Common Application https://www.commonapp.org/ (CMU, Stanford)
-2. 
 
 ## Page of Interest
 
