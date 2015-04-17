@@ -26,7 +26,8 @@ password = open("password.txt").next().strip()
 MONGODB_URI = 'mongodb://yutao:%s@yutao.us:30017/bigsci' % password
 MONGODB_DATABASE = 'bigsci'
 # MONGODB_COLLECTION = 'university'
-MONGODB_COLLECTION = 'admission_pages'
+# MONGODB_COLLECTION = 'admission_pages'
+MONGODB_COLLECTION = 'program_pages'
 MONGODB_UNIQUE_KEY = 'url'
 MONGODB_ADD_TIMESTAMP = True
 

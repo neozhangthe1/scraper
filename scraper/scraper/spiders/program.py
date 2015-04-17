@@ -6,8 +6,8 @@ from ..items import AdmissionPageItem
 import logging
 import urlparse
 
-class AdmissionSpider(scrapy.Spider):
-    name = "admission"
+class ProgramSpider(scrapy.Spider):
+    name = "program"
     #allowed_domains = ["stanford.edu", "cmu.edu", "berkeley.edu", "mit.edu"]
     start_urls = (
         "http://www.clas.ufl.edu/au/",
@@ -29,7 +29,7 @@ class AdmissionSpider(scrapy.Spider):
 
         for link in urls:
             link = urlparse.urljoin(response.url, link)
-            if not ".edu" in link and not "univ.cc" in link:
+            if not ".edu" in link:
                 continue
             if ".txt" in link or ".pdf" in link:
                 continue
@@ -38,7 +38,7 @@ class AdmissionSpider(scrapy.Spider):
             except:
                 pass
 
-        if not "admission" in title.lower() and not "admission" in url.lower():
+        if not "program" in title.lower() and not "program" in url.lower():
             return
 
         item = AdmissionPageItem()
@@ -57,7 +57,7 @@ class AdmissionSpider(scrapy.Spider):
                 u = ""
             links.append({
                 "text": t,
-                "url": urlparse.urljoin(response.url, u)
+                "url": u
             })
 
         item["_id"] = url.replace("http://", "").replace("https://", "").replace("//", "").split("#")[0].strip("/")
