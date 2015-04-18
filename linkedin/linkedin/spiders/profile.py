@@ -41,7 +41,7 @@ class LinkedinSpider(CrawlSpider):
         proxy = urllib.urlopen(self.request20proxy)
         for line in proxy.readlines():
             print(line.strip())
-            if ":80" in line.strip():
+            if not "http" in line.strip() and ":" in line.strip():
                 self.proxies.append('http://' + line.strip())
 
     def choose_proxy(self):
@@ -54,7 +54,7 @@ class LinkedinSpider(CrawlSpider):
             del self.proxies[idx]
             proxy = urllib.urlopen(self.request1proxy)
             for line in proxy.readlines():
-                if ":80" in line.strip():
+                if not "http" in line.strip() and ":" in line.strip():
                     p = 'http://' + line.strip()
                     self.proxies.append(p)
                     print("Proxy " + p + " is added.")
