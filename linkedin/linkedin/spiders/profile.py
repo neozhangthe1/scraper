@@ -24,7 +24,8 @@ class LinkedinSpider(CrawlSpider):
     # start_urls = ["http://www.linkedin.com/directory/people/%s.html" % s
     # for s in "abcdefghijklmnopqrstuvwxyz"]
     # start_urls = ["http://www.linkedin.com/pub/ruihua-janice-wang/63/759/35b"]
-    start_urls = ["http://www.linkedin.com/in/jietangtsinghua"]
+    # start_urls = ["http://www.linkedin.com/in/jietangtsinghua"]
+    start_urls = ["https://www.linkedin.com/in/leskovec"]
 
     rules = (
         # Rule(SgmlLinkExtractor(allow=r'Items/'), callback='parse_item', follow=True),
