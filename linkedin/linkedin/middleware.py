@@ -27,7 +27,7 @@ class CustomHttpProxyMiddleware(object):
         if "depth" in request.meta and int(request.meta['depth']) <= 2:
             return False
         i = random.randint(1, 10)
-        return i <= 5
+        return i <= 2
 
 
 """
