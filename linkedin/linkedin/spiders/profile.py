@@ -41,16 +41,23 @@ class LinkedinSpider(CrawlSpider):
         proxy = urllib.urlopen(self.request20proxy)
         for line in proxy.readlines():
             print(line.strip())
-            self.proxies.append('http://' + line.strip())
+            if ":80" in line.strip():
+                self.proxies.append('http://' + line.strip())
 
     def choose_proxy(self):
-        idx = random.randint(0, len(self.proxies))
+        print("num of proxies", len(self.proxies))
+        idx = random.randint(0, len(self.proxies) - 1)
+        print(idx)
+        print(self.proxies)
+        p = self.proxies[0]
         if not self.test_proxy(self.proxies[idx]):
             proxy = urllib.urlopen(self.request1proxy)
-            self.proxies[idx] = 'http://' + proxy.readlines()[0].strip()
-            print
-            "Proxy " + self.proxies[idx] + " is added."
-        return self.proxies[idx]
+            for line in proxy.readlines():
+                if ":80" in line.strip():
+                    p = 'http://' + line.strip()
+                    self.proxies.append(p)
+                    print("Proxy " + p + " is added.")
+        return p
 
     def test_proxy(self, proxy):
         socket.setdefaulttimeout(3.0)
