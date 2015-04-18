@@ -14,7 +14,7 @@ SPIDER_MODULES = ['linkedin.spiders']
 NEWSPIDER_MODULE = 'linkedin.spiders'
 
 DOWNLOADER_MIDDLEWARES = {
-    'linkedin.middleware.CustomHttpProxyMiddleware': 543,
+    # 'linkedin.middleware.CustomHttpProxyMiddleware': 543,
     'linkedin.middleware.CustomUserAgentMiddleware': 545,
 }
 
