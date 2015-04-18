@@ -45,12 +45,13 @@ class LinkedinSpider(CrawlSpider):
                 self.proxies.append('http://' + line.strip())
 
     def choose_proxy(self):
-        print("num of proxies", len(self.proxies))
+        # print("num of proxies", len(self.proxies))
         idx = random.randint(0, len(self.proxies) - 1)
         # print(idx)
         # print(self.proxies)
         p = self.proxies[idx]
         if not self.test_proxy(self.proxies[idx]):
+            del self.proxies[idx]
             proxy = urllib.urlopen(self.request1proxy)
             for line in proxy.readlines():
                 if ":80" in line.strip():
