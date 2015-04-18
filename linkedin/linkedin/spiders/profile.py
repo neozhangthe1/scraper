@@ -100,8 +100,8 @@ class LinkedinSpider(CrawlSpider):
                     continue
                 try:
                     request = Request(link, callback=self.parse)
-                    request.headers['Proxy-Authorization'] = ''
-                    request.meta['proxy'] = self.choose_proxy()
+                    # request.headers['Proxy-Authorization'] = ''
+                    # request.meta['proxy'] = self.choose_proxy()
                     yield request
                     # yield Request(link, callback=self.parse)
                 except:
