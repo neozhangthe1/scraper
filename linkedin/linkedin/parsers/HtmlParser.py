@@ -1,7 +1,7 @@
 __author__ = 'yutao'
 
 from ..items import PersonProfileItem
-from bs4 import UnicodeDammit
+# from bs4 import UnicodeDammit
 from w3lib.url import url_query_cleaner
 import random
 from . import LinkedinParser
@@ -40,13 +40,13 @@ class HtmlParser:
             if industry and len(industry) == 1:
                 personProfile['industry'] = industry[0].strip()
 
-        ## overview
-        overview = response.xpath("//dl[@id='overview']").extract()
-        if overview and len(overview) == 1:
-            personProfile['overview_html'] = overview[0]
-            homepage = LinkedinParser.parse_homepage(overview[0])
-            if homepage:
-                personProfile['homepage'] = homepage
+        # ## overview
+        # overview = response.xpath("//dl[@id='overview']").extract()
+        # if overview and len(overview) == 1:
+        #     personProfile['overview_html'] = overview[0]
+        #     homepage = LinkedinParser.parse_homepage(overview[0])
+        #     if homepage:
+        #         personProfile['homepage'] = homepage
 
         ## summary
         summary = response.xpath("//div[@id='summary-item-view']/div[@class='summary']/p/text()").extract()

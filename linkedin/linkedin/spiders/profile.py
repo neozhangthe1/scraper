@@ -7,7 +7,7 @@ import urllib
 # from scrapy import Selector
 from scrapy.contrib.spiders import CrawlSpider
 from scrapy.http import Request
-from bs4 import UnicodeDammit
+# from bs4 import UnicodeDammit
 
 import random
 
@@ -21,14 +21,15 @@ from ..parsers.HtmlParser import HtmlParser
 class LinkedinSpider(CrawlSpider):
     name = 'linkedin'
     allowed_domains = ['linkedin.com']
-    # start_urls = ["http://www.linkedin.com/directory/people/%s.html" % s
-    # for s in "abcdefghijklmnopqrstuvwxyz"]
+    # start_urls = ["http://www.linkedin.com/directory/people-%s" % s
+    #     for s in "abcdefghijklmnopqrstuvwxyz"]
+    # start_urls = ["http://www.linkedin.com/directory/people-k-46-8-8/"]
     # start_urls = ["http://www.linkedin.com/pub/ruihua-janice-wang/63/759/35b"]
     # start_urls = ["http://www.linkedin.com/in/jietangtsinghua"]
-    start_urls = ["http://www.linkedin.com/in/leskovec",
-                  "http://www.linkedin.com/in/jietangtsinghua",
-                  "http://www.linkedin.com/pub/ruihua-janice-wang/63/759/35b",
-                  "http://www.linkedin.com/in/andrewyng"]
+    start_urls = ["https://www.linkedin.com/in/leskovec",
+                  "https://www.linkedin.com/in/jietangtsinghua",
+                  "https://www.linkedin.com/pub/ruihua-janice-wang/63/759/35b",
+                  "https://www.linkedin.com/in/andrewyng"]
 
     rules = (
         # Rule(SgmlLinkExtractor(allow=r'Items/'), callback='parse_item', follow=True),
@@ -77,11 +78,11 @@ class LinkedinSpider(CrawlSpider):
             else:
                 return True
 
-    def make_requests_from_url(self, url):
-        request = Request(url, callback=self.parse)
-        request.meta['proxy'] = self.choose_proxy()
-        request.headers['Proxy-Authorization'] = ''
-        return request
+    # def make_requests_from_url(self, url):
+    #     request = Request(url, callback=self.parse)
+    #     request.meta['proxy'] = self.choose_proxy()
+    #     request.headers['Proxy-Authorization'] = ''
+    #     return request
 
 
     def parse(self, response):
@@ -92,13 +93,13 @@ class LinkedinSpider(CrawlSpider):
         # hxs = HtmlXPathSelector(response)
         index_level = self.determine_level(response.url)
         if index_level in [1, 2, 3, 4]:
-            self.save_to_file_system(index_level, response)
-            relative_urls = self.get_follow_links(index_level, response)
+            # self.save_to_file_system(index_level, response)
+            relative_urls = response.xpath("//a/@href").extract()#self.get_follow_links(index_level, response)
             if relative_urls is not None:
                 for url in relative_urls:
                     request = Request(url, callback=self.parse)
-                    request.headers['Proxy-Authorization'] = ''
-                    request.meta['proxy'] = self.choose_proxy()
+                    # request.headers['Proxy-Authorization'] = ''
+                    # request.meta['proxy'] = self.choose_proxy()
                     yield request
         elif index_level == 5:
             urls = response.xpath("//a/@href").extract()
@@ -108,8 +109,8 @@ class LinkedinSpider(CrawlSpider):
                     continue
                 try:
                     request = Request(link, callback=self.parse)
-                    request.headers['Proxy-Authorization'] = ''
-                    request.meta['proxy'] = self.choose_proxy()
+                    # request.headers['Proxy-Authorization'] = ''
+                    # request.meta['proxy'] = self.choose_proxy()
                     yield request
                     # yield Request(link, callback=self.parse)
                 except:
@@ -117,11 +118,11 @@ class LinkedinSpider(CrawlSpider):
             personProfile = HtmlParser.extract_person_profile(response)
             linkedin_id = self.get_linkedin_id(response.url)
             print("aa", linkedin_id)
-            linkedin_id = UnicodeDammit(urllib.unquote_plus(linkedin_id)).markup
+            linkedin_id = urllib.unquote_plus(linkedin_id) #UnicodeDammit(urllib.unquote_plus(linkedin_id)).markup
             print("bb", linkedin_id)
             if linkedin_id:
                 personProfile['_id'] = linkedin_id
-                personProfile['url'] = UnicodeDammit(response.url).markup
+                personProfile['url'] = response.url #UnicodeDammit(response.url).markup
                 yield personProfile
 
     def determine_level(self, url):
@@ -139,7 +140,7 @@ class LinkedinSpider(CrawlSpider):
             return 1
         elif re.match(".+/[A-Z]\d+.html", url):
             return 2
-        elif re.match(".+/people/[a-zA-Z0-9-]+.html", url):
+        elif re.match(".+/people-[a-zA-Z0-9-]", url):
             return 3
         elif re.match(".+/pub/dir/.+", url):
             return 4
