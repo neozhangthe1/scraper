@@ -9,6 +9,10 @@ from scrapy.contrib.spiders import CrawlSpider
 from scrapy.http import Request
 from bs4 import UnicodeDammit
 
+import random
+
+import urllib, socket
+
 from ..items import LinkedinItem, PersonProfileItem
 from ..parsers.HtmlParser import HtmlParser
 # from linkedin.db import MongoDBClient
@@ -18,13 +22,54 @@ class LinkedinSpider(CrawlSpider):
     name = 'linkedin'
     allowed_domains = ['linkedin.com']
     # start_urls = ["http://www.linkedin.com/directory/people/%s.html" % s
-    #               for s in "abcdefghijklmnopqrstuvwxyz"]
+    # for s in "abcdefghijklmnopqrstuvwxyz"]
     # start_urls = ["http://www.linkedin.com/pub/ruihua-janice-wang/63/759/35b"]
     start_urls = ["http://www.linkedin.com/in/jietangtsinghua"]
 
     rules = (
-    #Rule(SgmlLinkExtractor(allow=r'Items/'), callback='parse_item', follow=True),
+        # Rule(SgmlLinkExtractor(allow=r'Items/'), callback='parse_item', follow=True),
     )
+
+    def __init__(self):
+        self.proxies = []
+        self.request20proxy = 'http://erwx.daili666.com/ip/?tid=559319013849285&num=20&filter=on&foreign=only'
+        self.request1proxy = 'http://erwx.daili666.com/ip/?tid=559319013849285&num=1&filter=on&foreign=only'
+        proxy = urllib.urlopen(self.request20proxy)
+        for line in proxy.readlines():
+            print(line.strip())
+            self.proxies.append('http://' + line.strip())
+
+    def choose_proxy(self):
+        idx = random.randint(0, 19)
+        if not self.test_proxy(self.proxies[idx]):
+            proxy = urllib.urlopen(self.request1proxy)
+            self.proxies[idx] = 'http://' + proxy.readlines()[0].strip()
+            print
+            "Proxy " + self.proxies[idx] + " is added."
+        return self.proxies[idx]
+
+    def test_proxy(self, proxy):
+        socket.setdefaulttimeout(3.0)
+        test_url = 'http://www.linkedin.com'
+        try:
+            f = urllib.urlopen(test_url, proxies={'http': ':@' + proxy})
+        except:
+            print
+            "Proxy " + proxy + " fails!"
+            return False
+        else:
+            if f.getcode() != '200':
+                print
+                "Proxy " + proxy + " fails!"
+                return False
+            else:
+                return True
+
+    def make_requests_from_url(self, url):
+        request = Request(url, callback=self.parse)
+        request.meta['proxy'] = self.choose_proxy()
+        request.headers['Proxy-Authorization'] = ''
+        return request
 
 
     def parse(self, response):
@@ -39,7 +84,10 @@ class LinkedinSpider(CrawlSpider):
             relative_urls = self.get_follow_links(index_level, response)
             if relative_urls is not None:
                 for url in relative_urls:
-                    yield Request(url, callback=self.parse)
+                    request = Request(url, callback=self.parse)
+                    request.headers['Proxy-Authorization'] = ''
+                    request.meta['proxy'] = self.choose_proxy()
+                    yield request
         elif index_level == 5:
             urls = response.xpath("//a/@href").extract()
             # print(urls)
