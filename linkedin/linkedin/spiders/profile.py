@@ -25,10 +25,10 @@ class LinkedinSpider(CrawlSpider):
     # for s in "abcdefghijklmnopqrstuvwxyz"]
     # start_urls = ["http://www.linkedin.com/pub/ruihua-janice-wang/63/759/35b"]
     # start_urls = ["http://www.linkedin.com/in/jietangtsinghua"]
-    start_urls = ["https://www.linkedin.com/in/leskovec",
+    start_urls = ["http://www.linkedin.com/in/leskovec",
                   "http://www.linkedin.com/in/jietangtsinghua",
                   "http://www.linkedin.com/pub/ruihua-janice-wang/63/759/35b",
-                  "https://www.linkedin.com/in/andrewyng"]
+                  "http://www.linkedin.com/in/andrewyng"]
 
     rules = (
         # Rule(SgmlLinkExtractor(allow=r'Items/'), callback='parse_item', follow=True),
