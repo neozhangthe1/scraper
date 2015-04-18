@@ -99,7 +99,11 @@ class LinkedinSpider(CrawlSpider):
                 if not self.determine_level(link) == 5:
                     continue
                 try:
-                    yield Request(link, callback=self.parse)
+                    request = Request(link, callback=self.parse)
+                    request.headers['Proxy-Authorization'] = ''
+                    request.meta['proxy'] = self.choose_proxy()
+                    yield request
+                    # yield Request(link, callback=self.parse)
                 except:
                     pass
             personProfile = HtmlParser.extract_person_profile(response)
