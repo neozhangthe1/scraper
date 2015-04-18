@@ -25,10 +25,10 @@ class LinkedinSpider(CrawlSpider):
     # for s in "abcdefghijklmnopqrstuvwxyz"]
     # start_urls = ["http://www.linkedin.com/pub/ruihua-janice-wang/63/759/35b"]
     # start_urls = ["http://www.linkedin.com/in/jietangtsinghua"]
-    start_urls = ["https://www.linkedin.com/in/leskovec",
-                  "https://www.linkedin.com/in/jietangtsinghua",
-                  "https://www.linkedin.com/pub/ruihua-janice-wang/63/759/35b",
-                  "https://www.linkedin.com/in/andrewyng"]
+    start_urls = ["http://www.linkedin.com/in/leskovec",
+                  "http://www.linkedin.com/in/jietangtsinghua",
+                  "http://www.linkedin.com/pub/ruihua-janice-wang/63/759/35b",
+                  "http://www.linkedin.com/in/andrewyng"]
 
     rules = (
         # Rule(SgmlLinkExtractor(allow=r'Items/'), callback='parse_item', follow=True),
@@ -44,7 +44,7 @@ class LinkedinSpider(CrawlSpider):
             self.proxies.append('http://' + line.strip())
 
     def choose_proxy(self):
-        idx = random.randint(0, 19)
+        idx = random.randint(0, len(self.proxies))
         if not self.test_proxy(self.proxies[idx]):
             proxy = urllib.urlopen(self.request1proxy)
             self.proxies[idx] = 'http://' + proxy.readlines()[0].strip()
