@@ -36,7 +36,8 @@ class LinkedinSpider(CrawlSpider):
     )
 
     def __init__(self):
-        self.proxies = []
+        self.proxies = ["http://104.236.128.223:80", "http://181.52.246.30:8080", "http://177.200.82.236:8080",
+                        "http://177.205.105.23:8080", "http://50.249.126.89:3128", "http://180.210.48.130:8080"]
         self.request20proxy = 'http://erwx.daili666.com/ip/?tid=559319013849285&num=20&filter=on&foreign=only'
         self.request1proxy = 'http://erwx.daili666.com/ip/?tid=559319013849285&num=1&filter=on&foreign=only'
         proxy = urllib.urlopen(self.request20proxy)
@@ -78,11 +79,11 @@ class LinkedinSpider(CrawlSpider):
             else:
                 return True
 
-    # def make_requests_from_url(self, url):
-    #     request = Request(url, callback=self.parse)
-    #     request.meta['proxy'] = self.choose_proxy()
-    #     request.headers['Proxy-Authorization'] = ''
-    #     return request
+    def make_requests_from_url(self, url):
+        request = Request(url, callback=self.parse)
+        request.meta['proxy'] = self.choose_proxy()
+        request.headers['Proxy-Authorization'] = ''
+        return request
 
 
     def parse(self, response):
@@ -109,8 +110,8 @@ class LinkedinSpider(CrawlSpider):
                     continue
                 try:
                     request = Request(link, callback=self.parse)
-                    # request.headers['Proxy-Authorization'] = ''
-                    # request.meta['proxy'] = self.choose_proxy()
+                    request.headers['Proxy-Authorization'] = ''
+                    request.meta['proxy'] = self.choose_proxy()
                     yield request
                     # yield Request(link, callback=self.parse)
                 except:
