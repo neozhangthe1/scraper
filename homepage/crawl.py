@@ -13,7 +13,7 @@ for item in data:
 	try:
 		print hp
 		res = requests.get(hp)
-		f_out = open(item["_id"] + ".html")
+		f_out = open(item["_id"] + ".html", "w")
 		f_out.write(res.text)
 		f_out.close()
 		cnt += 1
