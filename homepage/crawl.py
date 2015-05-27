@@ -1,5 +1,7 @@
 from pymongo import MongoClient
 import requests
+import codecs
+
 client = MongoClient('mongodb://yutao:911106zyt@yutao.us:30017/bigsci')
 db = client["bigsci"]
 col = db["people"]
@@ -13,7 +15,7 @@ for item in data:
 	try:
 		print hp
 		res = requests.get(hp)
-		f_out = open(str(item["_id"]) + ".html", "w")
+		f_out = codecs.open(str(item["_id"]) + ".html", "w", encoding="utf-8")
 		f_out.write(res.text)
 		f_out.close()
 		cnt += 1
