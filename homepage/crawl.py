@@ -5,7 +5,7 @@ import codecs
 client = MongoClient('mongodb://yutao:911106zyt@yutao.us:30017/bigsci')
 db = client["bigsci"]
 col = db["people"]
-data = col.find({"contact.homepage":{"$exists":True}})
+data = col.find({"contact.homepage":{"$exists":True}}, skip=700, timeout=False)
 print "data query finished"
 
 cnt = 0
