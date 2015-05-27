@@ -7,10 +7,10 @@ eventlet.monkey_patch()
 client = MongoClient('mongodb://yutao:911106zyt@yutao.us:30017/bigsci')
 db = client["bigsci"]
 col = db["people"]
-data = col.find({"contact.homepage":{"$exists":True}}, skip=6457, timeout=False)
+data = col.find({"contact.homepage":{"$exists":True}}, skip=6450 + 700, timeout=False)
 print "data query finished"
 
-cnt = 0
+cnt = 6450 + 700
 for item in data:
 	print item["_id"], item["name"]
 	hp = item["contact"]["homepage"]
