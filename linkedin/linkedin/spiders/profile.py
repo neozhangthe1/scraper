@@ -26,20 +26,22 @@ class LinkedinSpider(CrawlSpider):
     # start_urls = ["http://www.linkedin.com/directory/people-k-46-8-8/"]
     # start_urls = ["http://www.linkedin.com/pub/ruihua-janice-wang/63/759/35b"]
     # start_urls = ["http://www.linkedin.com/in/jietangtsinghua"]
-    start_urls = ["https://www.linkedin.com/in/leskovec",
-                  "https://www.linkedin.com/in/jietangtsinghua",
-                  "https://www.linkedin.com/pub/ruihua-janice-wang/63/759/35b",
-                  "https://www.linkedin.com/in/andrewyng"]
+#    start_urls = ["https://cn.linkedin.com/pub/yu-hu/26/790/a63",
+#                  "https://cn.linkedin.com/in/kaifulee",
+#                  "https://cn.linkedin.com/pub/chang-liu/3a/5b5/990",
+#                  "https://www.linkedin.com/pub/wenbin-tang/43/2a1/372"]
+    start_urls = ["https://www.linkedin.com/in/cngroup",
+                  "https://www.linkedin.com/in/htong",
+                  ]
 
     rules = (
         # Rule(SgmlLinkExtractor(allow=r'Items/'), callback='parse_item', follow=True),
     )
 
     def __init__(self):
-        self.proxies = ["http://104.236.128.223:80", "http://181.52.246.30:8080", "http://177.200.82.236:8080",
-                        "http://177.205.105.23:8080", "http://50.249.126.89:3128", "http://180.210.48.130:8080"]
-        self.request20proxy = 'http://erwx.daili666.com/ip/?tid=559319013849285&num=20&filter=on&foreign=only'
-        self.request1proxy = 'http://erwx.daili666.com/ip/?tid=559319013849285&num=1&filter=on&foreign=only'
+        self.proxies = []
+        self.request20proxy = 'http://erwx.daili666.com/ip/?tid=559319013849285&num=100'
+        self.request1proxy = 'http://erwx.daili666.com/ip/?tid=559319013849285&num=1'
         proxy = urllib.urlopen(self.request20proxy)
         for line in proxy.readlines():
             print(line.strip())
@@ -68,23 +70,21 @@ class LinkedinSpider(CrawlSpider):
         try:
             f = urllib.urlopen(test_url, proxies={'http': ':@' + proxy})
         except:
-            print
-            "Proxy " + proxy + " fails!"
+            print("Proxy " + proxy + " fails!")
             return False
         else:
             if f.getcode() != '200':
-                print
-                "Proxy " + proxy + " fails!"
+                print("Proxy " + proxy + " fails!")
                 return False
             else:
                 return True
 
-    def make_requests_from_url(self, url):
-        request = Request(url, callback=self.parse)
-        request.meta['proxy'] = self.choose_proxy()
-        request.headers['Proxy-Authorization'] = ''
-        return request
-
+    # def make_requests_from_url(self, url):
+    #     request = Request(url, callback=self.parse)
+    #     request.meta['proxy'] = self.choose_proxy()
+    #     request.headers['Proxy-Authorization'] = ''
+    #     return request
+    #
 
     def parse(self, response):
         """
@@ -110,8 +110,8 @@ class LinkedinSpider(CrawlSpider):
                     continue
                 try:
                     request = Request(link, callback=self.parse)
-                    request.headers['Proxy-Authorization'] = ''
-                    request.meta['proxy'] = self.choose_proxy()
+                    # request.headers['Proxy-Authorization'] = ''
+                    # request.meta['proxy'] = self.choose_proxy()
                     yield request
                     # yield Request(link, callback=self.parse)
                 except:
