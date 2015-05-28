@@ -28,6 +28,6 @@ class HPSpider(scrapy.Spider):
 
     def parse(self, response):
         if response.url in self.url_to_id:
-            f_out = codecs.open(self.url_to_id[response.url] + ".html", "w", encoding="utf-8")
+            f_out = codecs.open(self.url_to_id[response.body] + ".html", "w", encoding="utf-8")
             f_out.write(response.text)
             f_out.close()
