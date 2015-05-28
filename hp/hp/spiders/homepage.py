@@ -21,6 +21,7 @@ class HPSpider(scrapy.Spider):
     # )
     def __init__(self):
         self.url_to_id = json.load(codecs.open("url.json"))
+        self.url_to_id del ""
         self.start_urls = self.url_to_id.keys()
         print len(self.start_urls), "urls"
 
