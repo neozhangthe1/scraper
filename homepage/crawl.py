@@ -25,3 +25,20 @@ for item in data:
 			print cnt
 	except Exception, e:
 		print e
+
+def get_urls():
+    client = MongoClient('mongodb://yutao:911106zyt@yutao.us:30017/bigsci')
+    db = client["bigsci"]
+    col = db["people"]
+    data = col.find({"contact.homepage":{"$exists":True}}, timeout=False)
+    url_to_id = {}
+    cnt = 0
+    for item in data:
+    	cnt += 1
+    	hp = item["contact"]["homepage"]
+    	print cnt, hp
+    	url_to_id[hp] = str(item["_id"])
+    import json
+	f_out = codecs.open("url.json", "w", encoding="utf-8")
+	json.dump(url_to_id, f_out)
+	f_out.close()

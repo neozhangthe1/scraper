@@ -2,6 +2,8 @@
 import scrapy
 import logging
 from pymongo import MongoClient
+import json
+import codecs
 
 class HPSpider(scrapy.Spider):
     name = "hp"
@@ -18,16 +20,8 @@ class HPSpider(scrapy.Spider):
     #     'http://admission.enrollment.cmu.edu/pages/engineering-programs-in-the-carnegie-institute-of-technology'
     # )
     def __init__(self):
-        self.start_urls = []
-        self.url_to_id = {}
-        client = MongoClient('mongodb://yutao:911106zyt@yutao.us:30017/bigsci')
-        db = client["bigsci"]
-        col = db["people"]
-        data = col.find({"contact.homepage":{"$exists":True}}, timeout=False)
-        for item in data:
-            hp = item["contact"]["homepage"]
-            self.start_urls.append(hp)
-            self.url_to_id[hp] = item["_id"]
+        self.url_to_id = json.load(codecs.open("url.json"))
+        self.start_urls = self.url_to_id.keys()
         print len(self.start_urls), "urls"
 
 
