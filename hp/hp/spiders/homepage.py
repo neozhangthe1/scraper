@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import scrapy
 import logging
+from pymongo import MongoClient
 
 class HPSpider(scrapy.Spider):
     name = "hp"
