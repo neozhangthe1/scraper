@@ -30,7 +30,7 @@ class LinkedinSpider(CrawlSpider):
 #                  "https://cn.linkedin.com/in/kaifulee",
 #                  "https://cn.linkedin.com/pub/chang-liu/3a/5b5/990",
 #                  "https://www.linkedin.com/pub/wenbin-tang/43/2a1/372"]
-    start_urls = ["https://cn.linkedin.com/pub/jing-zhang/83/ba8/6a2"
+    start_urls = ["https://www.linkedin.com/pub/qiang-yang/2b/2b6/427"
     # "https://www.linkedin.com/in/jengolbeck"
     # "https://www.linkedin.com/in/cngroup",
                   # "https://www.linkedin.com/in/htong",

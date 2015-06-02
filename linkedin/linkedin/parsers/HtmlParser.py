@@ -181,6 +181,10 @@ class HtmlParser:
                 title = pub.xpath("hgroup/h4/a/span/text()").extract()
                 if len(title) > 0:
                     p["title"] = title[0]
+                else:
+                    title = pub.xpath("hgroup/h4/span/text()").extract()
+                    if len(title) > 0:
+                        p["title"] = title[0]
                 url = pub.xpath("hgroup/h4/a/@href").extract()
                 if len(url) > 0:
                     p["url"] = url[0]
