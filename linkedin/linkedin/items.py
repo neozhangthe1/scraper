@@ -33,3 +33,5 @@ class PersonProfileItem(scrapy.Item):
     experience = scrapy.Field()
     overview_html = scrapy.Field()
     homepage = scrapy.Field()
+    honoraward = scrapy.Field()
+    pubs = scrapy.Field()

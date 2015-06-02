@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 __author__ = 'yutao'
 
 from ..items import PersonProfileItem
@@ -136,6 +138,10 @@ class HtmlParser:
                     title = e.xpath("div/header/h4/text()").extract()
                     if len(title) > 0:
                         je['title'] = title[0].strip()
+                    else:
+                        title = e.xpath("div/header/h4/a/text()").extract()
+                        if len(title) > 0:
+                            je['title'] = title[0].strip()
                     logo = e.xpath("div/header/h5[@class='experience-logo']/a/img/@src").extract()
                     if len(logo) > 0:
                         je['logo'] = logo[0].strip()
@@ -145,7 +151,7 @@ class HtmlParser:
                     else:
                         org = e.xpath("div/header/h5/span/text()").extract()
                         if org and len(org) == 1:
-                            je['name'] = org[0].strip()
+                            je['org'] = org[0].strip()
                     time = e.select("div/span[@class='experience-date-locale']/time/text()").extract()
                     if len(time) > 0:
                         je['start'] = time[0].strip()
@@ -162,6 +168,54 @@ class HtmlParser:
                         je['desc'] = "".join(x.strip() for x in desc)
                     es.append(je)
             personProfile['experience'] = es
+
+        honors = response.xpath("//div[@id='honors-additional-item-view']/div/p/text()").extract()
+        if len(honors) > 0:
+            personProfile["honoraward"] = {"additional": [h.strip() for h in honors]}
+
+        pubs = response.xpath("//div[@id='background-publications']/div/div")
+        pub_items = []
+        if len(pubs) > 0:
+            for pub in pubs:
+                p = {}
+                title = pub.xpath("hgroup/h4/a/span/text()").extract()
+                if len(title) > 0:
+                    p["title"] = title[0]
+                url = pub.xpath("hgroup/h4/a/@href").extract()
+                if len(url) > 0:
+                    p["url"] = url[0]
+                venue = pub.xpath("hgroup/h5/span/text()").extract()
+                if len(venue) > 0:
+                    p["venue"] = venue[0]
+                year = pub.xpath("span[@class='publication-date']/text()").extract()
+                if len(year) > 0:
+                    p["year"] = year[0]
+                abstract = pub.xpath("p[@class='description']/text()").extract()
+                if len(abstract) > 0:
+                    p["abstract"] = abstract[0]
+                coauthors = pub.xpath("dl/dd/ul/li")
+                if len(coauthors) > 0:
+                    authors = []
+                    for au in coauthors:
+                        a = {}
+                        aa = au.xpath("a")
+                        if len(aa) > 0:
+                            name = aa.xpath("text()").extract()
+                            if len(name) > 0:
+                                a["name"] = name[0]
+                            url = aa.xpath("@href").extract()
+                            if len(url) > 0:
+                                a["url"] = url[0]
+                                a["id"] = HtmlParser.get_linkedin_id(a["url"])
+                        else:
+                            name = au.xpath("text()").extract()
+                            if len(name) > 0:
+                                a["name"] = name[0].strip().strip(u"、").strip(",")
+                        authors.append(a)
+                    p["authors"] = authors
+                pub_items.append(p)
+            personProfile["pubs"] = pub_items
+
 
         ## Also view
         alsoViewProfileList = []
