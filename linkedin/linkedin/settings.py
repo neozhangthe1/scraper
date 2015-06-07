@@ -18,6 +18,7 @@ DOWNLOADER_MIDDLEWARES = {
     'linkedin.middleware.CustomUserAgentMiddleware': 545,
 }
 
+DOWNLOAD_DELAY = 1
 
 DEPTH_PRIORITY = 1 #BFS
 #DEPTH_PRIORITY = 0 #DFS
