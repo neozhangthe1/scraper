@@ -30,7 +30,8 @@ class LinkedinSpider(CrawlSpider):
 #                  "https://cn.linkedin.com/in/kaifulee",
 #                  "https://cn.linkedin.com/pub/chang-liu/3a/5b5/990",
 #                  "https://www.linkedin.com/pub/wenbin-tang/43/2a1/372"]
-    start_urls = ["https://de.linkedin.com/pub/volker-tresp/18/a1/811"
+    start_urls = ["https://www.linkedin.com/pub/nobuhiro-inuzuka/72/568/1b4"
+    # "https://de.linkedin.com/pub/volker-tresp/18/a1/811"
     # "https://www.linkedin.com/pub/licia-verde/1a/aa2/834"
     # "https://uk.linkedin.com/pub/nicholas-redshaw/75/884/429",
     # "https://uk.linkedin.com/pub/nathan-brown-phd/2/6a/108"

@@ -1,0 +1,130 @@
+Agents of SHIELD|/agents-of-shield
+Black-ish|/black-ish
+Castle|/castle
+Cristela|/cristela
+Happy Endings|/happy-endings
+How to Get Away with Murder|/how-to-get-away-with-murder
+How to Live With Your Parents|/how-to-live-with-your-parents
+Last Man Standing|/last-man-standing
+Manhattan Love Story|/manhattan-love-story
+Mistresses|/mistresses
+Modern Family|/modern-family
+Nashville|/nashville
+Once Upon A Time|/once-upon-a-time
+Revenge|/revenge
+Scandal|/scandal
+Selfie|/selfie
+Suburgatory|/suburgatory
+Trophy Wife|/trophy-wife
+Baby Daddy|/baby-daddy
+Bunheads|/bunheads
+Chasing Life|/chasing-life
+Jane By Design|/jane-by-design
+Melissa and Joey|/melissa-and-joey
+Mystery Girls|/mystery-girls
+Pretty Little Liars|/pretty-little-liars
+Ravenswood|/ravenswood
+Switched at Birth|/switched-at-birth
+The Fosters|/the-fosters
+The Vineyard|/the-vineyard
+Twisted|/twisted
+Young & Hungry|/young-and-hungry/
+House of Cards|/house-of-cards/
+Unbreakable Kimmy Schmidt|/unbreakable-kimmy-schmidt/
+24|/24
+Bones|/bones
+Brooklyn Nine-Nine|/brooklyn-nine-nine
+Dads|/dads
+Glee|/glee
+Mulaney|/mulaney
+New Girl|/new-girl
+Red Band Society|/red-band-society
+The Goodwin Games|/goodwin-games
+The Mindy Project|/the-mindy-project
+Weird Loners|/weird-loners
+2 Broke Girls|/2-broke-girls
+Bad Teacher|/bad-teacher
+Elementary|/elementary
+Friends with Better Lives|/friends-with-better-lives
+Hawaii Five-O|/hawaii-five-o
+How I Met Your Mother|/how-i-met-your-mother
+Madam Secretary|/madam-secretary
+Mom|/mom
+Scorpion|/scorpion
+The Big Bang Theory|/the-big-bang-theory
+The Bold & the Beautiful|/the-bold-and-the-beautiful/
+The Crazy Ones|/the-crazy-ones
+The Good Wife|/the-good-wife
+The Mentalist|/the-mentalist
+The Young &amp the Restless|/the-young-and-the-restless/
+Under the Dome|/under-the-dome
+Benched|/benched/
+Burn Notice|/burn-notice/
+Covert Affairs|/covert-affairs/
+Graceland|/graceland/
+Royal Pains|/royal-pains/
+Suits|/suits/
+Dog with a Blog|/dog-with-a-blog/
+Girl Meets World|/girl-meets-world/
+I Didn't Do It|/i-didnt-do-it/
+Jessie|/jessie/
+KC Undercover|/kc-undercover/
+Liv and Maddie|/liv-and-maddie/
+Devious Maids|/devious-maids
+The Client List|/the-client-list
+Witches of East End|/witches-of-east-end/
+A to Z|/a-to-z
+Bad Judge|/bad-judge
+Camp|/camp
+Days of Our Lives|/days-of-our-lives/
+Marry Me|/marry-me
+Parenthood|/parenthood
+Parks and Recreation|/parks-and-recreation
+Smash|/smash
+State of Affairs|/state-of-affairs
+The Office|/the-office
+Arrow|/arrow
+Beauty and the Beast|/beauty-and-the-beast
+Gossip Girl|/gossip-girl
+Hart of Dixie|/hart-of-dixie
+iZombie|/izombie
+Jane the Virgin|/jane-the-virgin
+Nikita|/nikita
+Star-Crossed|/star-crossed
+Supernatural|/supernatural
+The Carrie Diaries|/the-carrie-diaries
+The Flash|/the-flash
+The Originals|/the-originals
+The Vampire Diaries|/the-vampire-diaries
+Awkward|/awkward
+Degrassi: The Next Generation|/degrassi
+Eye Candy|/eye-candy
+Faking It|/faking-it
+Finding Carter|/finding-carter
+Happyland|/happyland
+Teen Wolf|/teen-wolf
+Scream|/scream
+The Royals|/the-royals
+Younger|/younger
+Orphan Black|/orphan-black
+Doctor Who|/doctor-who
+Sherlock|/sherlock
+Mad Men|/mad-men
+Rizzoli and Isles|/rizzoli-and-isles
+The Librarians|/the-librarians
+Cougar Town|/cougar-town
+Always Sunny in Phila...|/its-always-sunny-in-philadelphia
+American Horror Story|/american-horror-story
+Wilfred|/wilfred
+You're the Worst|/youre-the-worst
+Bates Motel|/bates-motel
+Girls|/girls
+The Comeback|/the-comeback
+The Leftovers|/the-leftovers
+True Blood|/true-blood
+Veep|/veep
+Dexter|/dexter
+House Of Lies|/house-of-lies
+Girlfriends' Guide to Divorce|/girlfriends-guide-to-divorce/
+12 Monkeys|/12-monkeys/
+Community|/community

@@ -18,7 +18,7 @@ DEPTH_PRIORITY = 1 #BFS
 DEPTH_LIMIT = 4
 
 ITEM_PIPELINES = [
-  'scrapy_mongodb.MongoDBPipeline',
+  # 'scrapy_mongodb.MongoDBPipeline',
 ]
 
 password = open("password.txt").next().strip()
