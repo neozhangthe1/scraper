@@ -12,7 +12,7 @@ class WornontvSpider(scrapy.Spider):
 
     def __init__(self):
         self.start_urls = []
-        for t in range(0, 60000):
+        for t in range(18000, 30000):
             self.start_urls.append("http://wornontv.net/%s/" % t)
     # f_out = open("wornontv.txt", "w")
 
