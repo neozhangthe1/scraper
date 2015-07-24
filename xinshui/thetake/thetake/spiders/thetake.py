@@ -59,18 +59,19 @@ class WornontvSpider(scrapy.Spider):
         product_img = response.xpath("//img[@id='productImage']/@src").extract()[0]
         productBrand = response.xpath("//h2[@id='productBrand']/text()").extract()[0]
         productName = response.xpath("//h1[@id='productName']/text()").extract()[0]
-        priceCurrency = response.xpath("//div[@id='productPriceTest']/meta[@itemprop='priceCurrency']/@content").extract()[0]
-        price = response.xpath("//div[@id='productPriceTest']/meta[@itemprop='priceCurrency']/@content").extract()[0]
-        url = response.xpath("//div[@id='productPriceTest']/meta[@itemprop='priceCurrency']/@content").extract()[0]
+        priceCurrency = response.xpath("//div[@id='productPriceTest']/meta[@itemprop='priceCurrency']/@content").extract()
+        price = response.xpath("//div[@id='productPriceTest']/meta[@itemprop='priceCurrency']/@content").extract()
+        url = response.xpath("//div[@id='productPriceTest']/meta[@itemprop='priceCurrency']/@content").extract()
         p = {
             "match": exact,
             "img": product_img,
             "brand": productBrand,
-            "name": productName,
-            "currency": priceCurrency,
-            "price": price,
             "store": url
         }
+        if len(productName) > 0:
+            p["name"] = productName[0]
+            p["currency"] = priceCurrency[0],
+            p["price"] = price[0],
         sss = []
         similar = response.xpath("//ul[@id='similarList']/li")
         for s in similar:
