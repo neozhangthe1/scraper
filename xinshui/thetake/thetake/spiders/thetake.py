@@ -85,7 +85,9 @@ class WornontvSpider(scrapy.Spider):
         }
         if len(productName) > 0:
             p["name"] = productName[0]
+        if len(priceCurrency) > 0:
             p["currency"] = priceCurrency[0],
+        if len(price) > 0:
             p["price"] = price[0],
         sss = []
         similar = response.xpath("//ul[@id='similarList']/li")
