@@ -15,7 +15,7 @@ class WornontvSpider(scrapy.Spider):
         self.start_urls = []
         # self.start_urls = ["https://thetake.com/product/85815/daniel-craig-npeal-spectre-cable-roll-neck-cashmere-sweater-spectre"]
         for id in reversed(range(97123)):
-            self.start_urls.append("https://thetake.com/product/" + str(id))
+            self.start_urls.append("https://thetake.com/product/" + str(id) + "/")
     # f_out = open("wornontv.txt", "w")
 
     # def parse(self, response):
