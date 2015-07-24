@@ -33,6 +33,8 @@ class WornontvSpider(scrapy.Spider):
         item['src'] = "movie"
         if len(img) > 0:
             item['img'] = img[0]
+        else:
+            print("no img")
         item['actor'] = response.xpath("//a[@id='actorName']/text()").extract()[0]
         item['actor_url'] = response.xpath("//a[@id='actorName']/@href").extract()[0]
         item['movie'] = response.xpath("//a[@id='movieName']/text()").extract()[0]
@@ -40,6 +42,8 @@ class WornontvSpider(scrapy.Spider):
         tmp = response.xpath("//strong[@class='pro-details-description-header']/text()").extract()
         if len(tmp) > 0:
             item['des_header'] = [0]
+        else:
+            print("no des header")
         item['des'] = "".join(response.xpath("//div[@class='pro-details-description']/text()").extract()).strip()
         item['category'] = response.xpath("//a[@class='pro-detail-cat']/text()").extract()
         #
