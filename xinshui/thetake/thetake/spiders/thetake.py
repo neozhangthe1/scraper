@@ -91,8 +91,8 @@ class WornontvSpider(scrapy.Spider):
         else:
             print("no name")
         priceCurrency = response.xpath("//div[@id='productPriceTest']/meta[@itemprop='priceCurrency']/@content").extract()
-        price = response.xpath("//div[@id='productPriceTest']/meta[@itemprop='priceCurrency']/@content").extract()
-        url = response.xpath("//div[@id='productPriceTest']/meta[@itemprop='priceCurrency']/@content").extract()
+        price = response.xpath("//div[@id='productPriceTest']/meta[@itemprop='price']/@content").extract()
+        url = response.xpath("//div[@id='productPriceTest']/meta[@itemprop='url']/@content").extract()
         p = {
             "match": exact,
             "img": product_img,
