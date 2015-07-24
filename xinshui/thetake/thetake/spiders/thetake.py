@@ -54,11 +54,26 @@ class WornontvSpider(scrapy.Spider):
         #             yield Request("http://thetake.com" + url, callback=self.parse)
 
         exact = False
+        product_img = ""
+        productBrand = ""
+        productName = ""
         if len(response.xpath("//div[@class='circle exact-match']")) > 0:
             exact = True
-        product_img = response.xpath("//img[@id='productImage']/@src").extract()[0]
-        productBrand = response.xpath("//h2[@id='productBrand']/text()").extract()[0]
-        productName = response.xpath("//h1[@id='productName']/text()").extract()[0]
+        tmp = response.xpath("//img[@id='productImage']/@src").extract()
+        if len(tmp) > 0:
+            product_img = tmp[0]
+        else:
+            print("no product_img")
+        tmp = response.xpath("//h2[@id='productBrand']/text()").extract()
+        if len(tmp) > 0:
+            productBrand = tmp[0]
+        else:
+            print("no brand")
+        tmp = response.xpath("//h1[@id='productName']/text()").extract()
+        if len(tmp) > 0:
+            productName = tmp[0]
+        else:
+            print("no name")
         priceCurrency = response.xpath("//div[@id='productPriceTest']/meta[@itemprop='priceCurrency']/@content").extract()
         price = response.xpath("//div[@id='productPriceTest']/meta[@itemprop='priceCurrency']/@content").extract()
         url = response.xpath("//div[@id='productPriceTest']/meta[@itemprop='priceCurrency']/@content").extract()
