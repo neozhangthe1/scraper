@@ -35,10 +35,26 @@ class WornontvSpider(scrapy.Spider):
             item['img'] = img[0]
         else:
             print("no img")
-        item['actor'] = response.xpath("//a[@id='actorName']/text()").extract()[0]
-        item['actor_url'] = response.xpath("//a[@id='actorName']/@href").extract()[0]
-        item['movie'] = response.xpath("//a[@id='movieName']/text()").extract()[0]
-        item['movie_url'] = response.xpath("//a[@id='movieName']/@href").extract()[0]
+        tmp = response.xpath("//a[@id='actorName']/text()").extract()
+        if len(tmp) > 0:
+            item['actor'] = tmp[0]
+        else:
+            print('no actor')
+        tmp = response.xpath("//a[@id='actorName']/@href").extract()
+        if len(tmp) > 0:
+            item['actor_url'] = tmp[0]
+        else:
+            print('no actor_url')
+        tmp = response.xpath("//a[@id='movieName']/text()").extract()
+        if len(tmp) > 0:
+            item['movie'] = tmp[0]
+        else:
+            print('no movie')
+        tmp = response.xpath("//a[@id='movieName']/@href").extract()
+        if len(tmp) > 0:
+            item['movie_url'] = tmp[0]
+        else:
+            print('no movie url')
         tmp = response.xpath("//strong[@class='pro-details-description-header']/text()").extract()
         if len(tmp) > 0:
             item['des_header'] = [0]
@@ -81,14 +97,15 @@ class WornontvSpider(scrapy.Spider):
             "match": exact,
             "img": product_img,
             "brand": productBrand,
-            "store": url
+            "name": productName
         }
-        if len(productName) > 0:
-            p["name"] = productName[0]
         if len(priceCurrency) > 0:
             p["currency"] = priceCurrency[0],
         if len(price) > 0:
             p["price"] = price[0],
+        if len(url) > 0:
+            p["store"] = url[0]
+
         sss = []
         similar = response.xpath("//ul[@id='similarList']/li")
         for s in similar:
