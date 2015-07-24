@@ -28,15 +28,18 @@ class WornontvSpider(scrapy.Spider):
     #         f_out.write(title + "|" + url + "\n")
     def parse(self, response):
         item = ThetakeItem()
-        img = response.xpath("//img[@id='productCropImage']/@src").extract()[0]
+        img = response.xpath("//img[@id='productCropImage']/@src").extract()
         item["_id"] = response.url.split("/")[-2]
         item['src'] = "movie"
-        item['img'] = img
+        if len(img) > 0:
+            item['img'] = img[0]
         item['actor'] = response.xpath("//a[@id='actorName']/text()").extract()[0]
         item['actor_url'] = response.xpath("//a[@id='actorName']/@href").extract()[0]
         item['movie'] = response.xpath("//a[@id='movieName']/text()").extract()[0]
         item['movie_url'] = response.xpath("//a[@id='movieName']/@href").extract()[0]
-        item['des_header'] = response.xpath("//strong[@class='pro-details-description-header']/text()").extract()[0]
+        tmp = response.xpath("//strong[@class='pro-details-description-header']/text()").extract()
+        if len(tmp) > 0:
+            item['des_header'] = [0]
         item['des'] = "".join(response.xpath("//div[@class='pro-details-description']/text()").extract()).strip()
         item['category'] = response.xpath("//a[@class='pro-detail-cat']/text()").extract()
         #
