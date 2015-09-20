@@ -19,9 +19,9 @@ ITEM_PIPELINES = {
     "photo.pipelines.PhotoPipeline": 1,
 }
 
-# DOWNLOADER_MIDDLEWARES = {
-#     "photo.misc.middlewares.CustomUserAgentMiddleware": 401,
-#     "photo.misc.middlewares.CustomCookieMiddleware": 701,
-#     "photo.misc.middlewares.CustomHeadersMiddleware": 551,
-# }
+DOWNLOADER_MIDDLEWARES = {
+    "photo.misc.middlewares.CustomUserAgentMiddleware": 401,
+    "photo.misc.middlewares.CustomCookieMiddleware": 701,
+    "photo.misc.middlewares.CustomHeadersMiddleware": 551,
+}
 

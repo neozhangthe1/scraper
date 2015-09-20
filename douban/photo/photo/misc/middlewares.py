@@ -1,6 +1,6 @@
 #encoding: utf-8
 from random import choice
-from misc.helper import gen_bids
+from .helper import gen_bids
 
 class CustomCookieMiddleware(object):
     def __init__(self):
