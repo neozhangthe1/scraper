@@ -3,7 +3,6 @@ doubanspiders
 
 豆瓣电影、书籍、小组、相册、东西等爬虫集 writen by Python.
 
-PS: 哎, 八个月后自己尝试设计了下爬虫框架, 感觉doubanspiders代码简直糟蹋了Scrapy, 阿弥陀佛!
 
 ###依赖服务
 1. MongoDB
