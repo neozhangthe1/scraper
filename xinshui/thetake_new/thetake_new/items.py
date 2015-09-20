@@ -8,9 +8,7 @@
 import scrapy
 
 
-class ThetakeItem(scrapy.Item):
+class ThetakeNewItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    _id = scrapy.Field()
-    data_type = scrapy.Field()
-    data = scrapy.Field()
+    pass
