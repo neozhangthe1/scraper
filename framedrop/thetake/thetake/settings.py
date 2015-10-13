@@ -32,8 +32,8 @@ ITEM_PIPELINES = [
   'scrapy_mongodb.MongoDBPipeline',
 ]
 
-MONGODB_URI = 'mongodb://localhost:27017/xinshui'
-MONGODB_DATABASE = 'xinshui'
+MONGODB_URI = 'mongodb://localhost:27017/framedrop'
+MONGODB_DATABASE = 'framedrop'
 # MONGODB_COLLECTION = 'university'
 # MONGODB_COLLECTION = 'admission_pages'
 MONGODB_COLLECTION = 'thetake'
