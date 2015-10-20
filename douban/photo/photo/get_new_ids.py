@@ -10,7 +10,7 @@ for line in f_in:
     print(cnt)
     cnt += 1
     x = line.strip()
-    if not col.find({"movie_id": line.strip()}):
+    if not col.find_one({"movie_id": line.strip()}):
         ids.append(x)
 
 f_out = open("ids.txt", "w")
