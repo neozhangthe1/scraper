@@ -12,3 +12,9 @@ for line in f_in:
     x = line.strip()
     if not col.find({"movie_id": line.strip()}):
         ids.append(x)
+
+f_out = open("ids.txt", "w")
+for i in ids:
+    f_out.write(i + "\n")
+
+f_out.close()
