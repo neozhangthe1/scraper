@@ -15,7 +15,7 @@ class HtmlParser:
     def extract_person_profile(response):
         personProfile = PersonProfileItem()
         ## Person name
-        nameSpan = response.xpath("//span[@class='full-name']/text()")
+        nameSpan = response.xpath("//h1[@class='fn']/text()")
         if nameSpan and len(nameSpan) == 1:
             personProfile['name'] = nameSpan.extract()[0].strip()
         else:

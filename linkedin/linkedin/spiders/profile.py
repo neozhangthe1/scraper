@@ -16,6 +16,7 @@ import urllib, socket
 from ..items import LinkedinItem, PersonProfileItem
 from ..parsers.HtmlParser import HtmlParser
 # from linkedin.db import MongoDBClient
+import requests
 
 CRAWL_NEIGHBOR = False
 
@@ -23,70 +24,85 @@ class LinkedinSpider(CrawlSpider):
     name = 'linkedin'
     allowed_domains = ['linkedin.com']
 
+    start_urls = ["https://www.linkedin.com/pub/tinne-verhulst/71/720/352"]
+
     rules = (
         # Rule(SgmlLinkExtractor(allow=r'Items/'), callback='parse_item', follow=True),
     )
 
     def __init__(self):
-        from pymongo import MongoClient
-        from ..settings import MONGODB_URI
-        db = MongoClient(MONGODB_URI)["bigsci"]
-        self.start_urls = []
-        cnt = 1
-        for item in db["linkedin"].find({}, {"url": 1}):
-            if "pub-" in item["url"]:
-                self.start_urls.append(item["url"])
-            if cnt % 1000 == 0:
-                print(cnt)
-            cnt += 1
-            if len(self.start_urls) > 10:
-                break
+        # from pymongo import MongoClient
+        # from ..settings import MONGODB_URI
+        # db = MongoClient(MONGODB_URI)["bigsci"]
+        # self.start_urls = []
+        # cnt = 1
+        # for item in db["linkedin"].find({}, {"url": 1}):
+        #     if "pub-" in item["url"]:
+        #         self.start_urls.append(item["url"])
+        #     if cnt % 1000 == 0:
+        #         print(cnt)
+        #     cnt += 1
+        #     if len(self.start_urls) > 10:
+        #         break
         print(self.start_urls)
-        # self.proxies = []
-        # self.request20proxy = 'http://erwx.daili666.com/ip/?tid=559319013849285&num=100'
-        # self.request1proxy = 'http://erwx.daili666.com/ip/?tid=559319013849285&num=1'
-        # proxy = urllib.urlopen(self.request20proxy)
-        # for line in proxy.readlines():
-        #     print(line.strip())
-        #     if not "http" in line.strip() and ":" in line.strip():
-        #         self.proxies.append('http://' + line.strip())
+        self.proxies = []
+        self.request20proxy = 'http://erwx.daili666.com/ip/?tid=558045424788230&num=100'
+        self.request1proxy = 'http://erwx.daili666.com/ip/?tid=558045424788230&num=1'
+        proxy = urllib.urlopen(self.request20proxy)
+        for line in proxy.readlines():
+            print(line.strip())
+            if not "http" in line.strip() and ":" in line.strip():
+                self.proxies.append('http://' + line.strip())
 
-    # def choose_proxy(self):
-    #     # print("num of proxies", len(self.proxies))
-    #     idx = random.randint(0, len(self.proxies) - 1)
-    #     # print(idx)
-    #     # print(self.proxies)
-    #     p = self.proxies[idx]
-    #     if not self.test_proxy(self.proxies[idx]):
-    #         del self.proxies[idx]
-    #         proxy = urllib.urlopen(self.request1proxy)
-    #         for line in proxy.readlines():
-    #             if not "http" in line.strip() and ":" in line.strip():
-    #                 p = 'http://' + line.strip()
-    #                 self.proxies.append(p)
-    #                 print("Proxy " + p + " is added.")
-    #     return p
+    def choose_proxy(self):
+        # print("num of proxies", len(self.proxies))
+        while True:
+            idx = random.randint(0, len(self.proxies) - 1)
+            # print(idx)
+            # print(self.proxies)
+            p = self.proxies[idx]
+            print(p)
+            if not self.test_proxy(p):
+                del self.proxies[idx]
+                # proxy = urllib.urlopen(self.request1proxy)
+                # for line in proxy.readlines():
+                #     if not "http" in line.strip() and ":" in line.strip():
+                #         p = 'http://' + line.strip()
+            else:
+                return p
 
-    # def test_proxy(self, proxy):
-    #     socket.setdefaulttimeout(3.0)
-    #     test_url = 'http://www.linkedin.com'
-    #     try:
-    #         f = urllib.urlopen(test_url, proxies={'http': ':@' + proxy})
-    #     except:
-    #         print("Proxy " + proxy + " fails!")
-    #         return False
-    #     else:
-    #         if f.getcode() != '200':
-    #             print("Proxy " + proxy + " fails!")
-    #             return False
-    #         else:
-    #             return True
+    def test_proxy(self, proxy):
+        # socket.setdefaulttimeout(3.0)
+        test_url = 'http://www.linkedin.com'
+        try:
+            f = requests.get(test_url, proxies={"http": proxy, "https": proxy}, timeout=10)
+        except requests.exceptions.ConnectTimeout:
+            print("Proxy " + proxy + " fails!", "Timeout")
+            return False
+        except requests.exceptions.ConnectionError:
+            print("Proxy " + proxy + " fails!", "ConnectionErr")
+            return False
+        except requests.exceptions.ReadTimeout:
+            print("Proxy " + proxy + " fails!", "Read Timeout")
+            return False
+        # f = urllib.urlopen(test_url, proxies={'http': ':@' + proxy})
+        # except TimeoutError:
+        #     print("Proxy " + proxy + " fails!")
+        #     return False
+        else:
+            if f.status_code != 200:
+                print("Proxy " + proxy + " fails!", f.status_code)
+                return False
+            else:
+                print("Proxy " + proxy + " is added.")
+                return True
 
-    # def make_requests_from_url(self, url):
-    #     request = Request(url, callback=self.parse)
-    #     request.meta['proxy'] = self.choose_proxy()
-    #     request.headers['Proxy-Authorization'] = ''
-    #     return request
+    def make_requests_from_url(self, url):
+        request = Request(url, callback=self.parse)
+        request.meta['proxy'] = self.choose_proxy()
+        print("using proxy", request.meta['proxy'])
+        request.headers['Proxy-Authorization'] = ''
+        return request
     #
 
     def parse(self, response):
@@ -102,8 +118,8 @@ class LinkedinSpider(CrawlSpider):
             if relative_urls is not None:
                 for url in relative_urls:
                     request = Request(url, callback=self.parse)
-                    # request.headers['Proxy-Authorization'] = ''
-                    # request.meta['proxy'] = self.choose_proxy()
+                    request.headers['Proxy-Authorization'] = ''
+                    request.meta['proxy'] = self.choose_proxy()
                     yield request
         elif index_level == 5:
             urls = response.xpath("//a/@href").extract()
