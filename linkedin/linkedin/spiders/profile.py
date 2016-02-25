@@ -17,76 +17,69 @@ from ..items import LinkedinItem, PersonProfileItem
 from ..parsers.HtmlParser import HtmlParser
 # from linkedin.db import MongoDBClient
 
+CRAWL_NEIGHBOR = False
 
 class LinkedinSpider(CrawlSpider):
     name = 'linkedin'
     allowed_domains = ['linkedin.com']
-    # start_urls = ["http://www.linkedin.com/directory/people-%s" % s
-    #     for s in "abcdefghijklmnopqrstuvwxyz"]
-    # start_urls = ["http://www.linkedin.com/directory/people-k-46-8-8/"]
-    # start_urls = ["http://www.linkedin.com/pub/ruihua-janice-wang/63/759/35b"]
-    # start_urls = ["http://www.linkedin.com/in/jietangtsinghua"]
-#    start_urls = ["https://cn.linkedin.com/pub/yu-hu/26/790/a63",
-#                  "https://cn.linkedin.com/in/kaifulee",
-#                  "https://cn.linkedin.com/pub/chang-liu/3a/5b5/990",
-#                  "https://www.linkedin.com/pub/wenbin-tang/43/2a1/372"]
-    start_urls = ["https://www.linkedin.com/pub/nobuhiro-inuzuka/72/568/1b4"
-    # "https://de.linkedin.com/pub/volker-tresp/18/a1/811"
-    # "https://www.linkedin.com/pub/licia-verde/1a/aa2/834"
-    # "https://uk.linkedin.com/pub/nicholas-redshaw/75/884/429",
-    # "https://uk.linkedin.com/pub/nathan-brown-phd/2/6a/108"
-    #"https://tw.linkedin.com/pub/hao-chuan-wang/6/191/287"
-    #"https://nz.linkedin.com/pub/reinhard-klette/b7/2a/21",
-    #"https://www.linkedin.com/pub/qiang-yang/2b/2b6/427"
-    # "https://www.linkedin.com/in/jengolbeck"
-    # "https://www.linkedin.com/in/cngroup",
-                  # "https://www.linkedin.com/in/htong",
-                  ]
 
     rules = (
         # Rule(SgmlLinkExtractor(allow=r'Items/'), callback='parse_item', follow=True),
     )
 
     def __init__(self):
-        self.proxies = []
-        self.request20proxy = 'http://erwx.daili666.com/ip/?tid=559319013849285&num=100'
-        self.request1proxy = 'http://erwx.daili666.com/ip/?tid=559319013849285&num=1'
-        proxy = urllib.urlopen(self.request20proxy)
-        for line in proxy.readlines():
-            print(line.strip())
-            if not "http" in line.strip() and ":" in line.strip():
-                self.proxies.append('http://' + line.strip())
+        from pymongo import MongoClient
+        db = MongoClient('mongodb://yutao:911106zyt@yutao.us:30017/bigsci')["bigsci"]
+        self.start_urls = []
+        cnt = 1
+        for item in db["linkedin"].find({}, {"url": 1}):
+            if "pub-" in item["url"]:
+                self.start_urls.append(item["url"])
+            if cnt % 1000 == 0:
+                print(cnt)
+            cnt += 1
+            if len(self.start_urls) > 10:
+                break
+        print(self.start_urls)
+        # self.proxies = []
+        # self.request20proxy = 'http://erwx.daili666.com/ip/?tid=559319013849285&num=100'
+        # self.request1proxy = 'http://erwx.daili666.com/ip/?tid=559319013849285&num=1'
+        # proxy = urllib.urlopen(self.request20proxy)
+        # for line in proxy.readlines():
+        #     print(line.strip())
+        #     if not "http" in line.strip() and ":" in line.strip():
+        #         self.proxies.append('http://' + line.strip())
 
-    def choose_proxy(self):
-        # print("num of proxies", len(self.proxies))
-        idx = random.randint(0, len(self.proxies) - 1)
-        # print(idx)
-        # print(self.proxies)
-        p = self.proxies[idx]
-        if not self.test_proxy(self.proxies[idx]):
-            del self.proxies[idx]
-            proxy = urllib.urlopen(self.request1proxy)
-            for line in proxy.readlines():
-                if not "http" in line.strip() and ":" in line.strip():
-                    p = 'http://' + line.strip()
-                    self.proxies.append(p)
-                    print("Proxy " + p + " is added.")
-        return p
+    # def choose_proxy(self):
+    #     # print("num of proxies", len(self.proxies))
+    #     idx = random.randint(0, len(self.proxies) - 1)
+    #     # print(idx)
+    #     # print(self.proxies)
+    #     p = self.proxies[idx]
+    #     if not self.test_proxy(self.proxies[idx]):
+    #         del self.proxies[idx]
+    #         proxy = urllib.urlopen(self.request1proxy)
+    #         for line in proxy.readlines():
+    #             if not "http" in line.strip() and ":" in line.strip():
+    #                 p = 'http://' + line.strip()
+    #                 self.proxies.append(p)
+    #                 print("Proxy " + p + " is added.")
+    #     return p
 
-    def test_proxy(self, proxy):
-        socket.setdefaulttimeout(3.0)
-        test_url = 'http://www.linkedin.com'
-        try:
-            f = urllib.urlopen(test_url, proxies={'http': ':@' + proxy})
-        except:
-            print("Proxy " + proxy + " fails!")
-            return False
-        else:
-            if f.getcode() != '200':
-                print("Proxy " + proxy + " fails!")
-                return False
-            else:
-                return True
+    # def test_proxy(self, proxy):
+    #     socket.setdefaulttimeout(3.0)
+    #     test_url = 'http://www.linkedin.com'
+    #     try:
+    #         f = urllib.urlopen(test_url, proxies={'http': ':@' + proxy})
+    #     except:
+    #         print("Proxy " + proxy + " fails!")
+    #         return False
+    #     else:
+    #         if f.getcode() != '200':
+    #             print("Proxy " + proxy + " fails!")
+    #             return False
+    #         else:
+    #             return True
 
     # def make_requests_from_url(self, url):
     #     request = Request(url, callback=self.parse)
@@ -114,17 +107,18 @@ class LinkedinSpider(CrawlSpider):
         elif index_level == 5:
             urls = response.xpath("//a/@href").extract()
             # print(urls)
-            for link in urls:
-                if not self.determine_level(link) == 5:
-                    continue
-                try:
-                    request = Request(link, callback=self.parse)
-                    # request.headers['Proxy-Authorization'] = ''
-                    # request.meta['proxy'] = self.choose_proxy()
-                    yield request
-                    # yield Request(link, callback=self.parse)
-                except:
-                    pass
+            if CRAWL_NEIGHBOR:
+                for link in urls:
+                    if not self.determine_level(link) == 5:
+                        continue
+                    try:
+                        request = Request(link, callback=self.parse)
+                        # request.headers['Proxy-Authorization'] = ''
+                        # request.meta['proxy'] = self.choose_proxy()
+                        yield request
+                        # yield Request(link, callback=self.parse)
+                    except:
+                        pass
             personProfile = HtmlParser.extract_person_profile(response)
             linkedin_id = self.get_linkedin_id(response.url)
             print("aa", linkedin_id)
@@ -133,6 +127,7 @@ class LinkedinSpider(CrawlSpider):
             if linkedin_id:
                 personProfile['_id'] = linkedin_id
                 personProfile['url'] = response.url #UnicodeDammit(response.url).markup
+                personProfile['redirect_urls'] = [HtmlParser.remove_url_parameter(u) for u in response.request.meta["redirect_urls"]]
                 yield personProfile
 
     def determine_level(self, url):
