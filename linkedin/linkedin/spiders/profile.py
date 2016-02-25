@@ -29,7 +29,8 @@ class LinkedinSpider(CrawlSpider):
 
     def __init__(self):
         from pymongo import MongoClient
-        db = MongoClient('mongodb://yutao:911106zyt@yutao.us:30017/bigsci')["bigsci"]
+        from ..settings import MONGODB_URI
+        db = MongoClient(MONGODB_URI)["bigsci"]
         self.start_urls = []
         cnt = 1
         for item in db["linkedin"].find({}, {"url": 1}):

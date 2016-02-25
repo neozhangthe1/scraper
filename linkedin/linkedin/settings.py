@@ -36,8 +36,7 @@ MONGODB_DATABASE = 'bigsci'
 # MONGODB_COLLECTION = 'admission_pages'
 MONGODB_COLLECTION = 'linkedin'
 MONGODB_UNIQUE_KEY = '_id'
-MONGODB_ADD_TIMESTAMP = True
-
+MONGODB_ADD_TIMESTAMP = Tru
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'linkedin (+http://www.yourdomain.com)'
 
