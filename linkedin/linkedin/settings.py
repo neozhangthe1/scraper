@@ -18,19 +18,19 @@ DOWNLOADER_MIDDLEWARES = {
     'linkedin.middleware.CustomUserAgentMiddleware': 545,
 }
 
-DOWNLOAD_DELAY = 1
+DOWNLOAD_DELAY = 0.01
 
 DEPTH_PRIORITY = 1 #BFS
 #DEPTH_PRIORITY = 0 #DFS
 #DEPTH_LIMIT = 4
 
 ITEM_PIPELINES = [
-  'scrapy_mongodb.MongoDBPipeline',
+  'linkedin.pipelines.MongoDBPipeline',
 ]
 
-password = open("password.txt").next().strip()
+# password = open("password.txt").next().strip()
 
-MONGODB_URI = 'mongodb://yutao:%s@yutao.us:30017/bigsci' % password
+MONGODB_URI = 'mongodb://yutao:911106zyt@yutao.us:30017/bigsci'#% password
 MONGODB_DATABASE = 'bigsci'
 # MONGODB_COLLECTION = 'university'
 # MONGODB_COLLECTION = 'admission_pages'

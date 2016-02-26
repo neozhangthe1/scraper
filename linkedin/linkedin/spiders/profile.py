@@ -20,6 +20,7 @@ import requests
 
 CRAWL_NEIGHBOR = False
 
+
 class LinkedinSpider(CrawlSpider):
     name = 'linkedin'
     allowed_domains = ['linkedin.com']

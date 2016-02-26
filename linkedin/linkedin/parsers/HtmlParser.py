@@ -264,27 +264,27 @@ class HtmlParser:
             else:
                 title = e.xpath("a/div/div/span[@class='item-title']/text()").extract()
                 if title and len(title) == 1:
-                    s['title'] = title[0].strip()
+                    je['title'] = title[0].strip()
                 else:
                     title = e.xpath("div/div/span[@class='item-title']/text()").extract()
                     if title and len(title) == 1:
-                        s['title'] = title[0].strip()
+                        je['title'] = title[0].strip()
 
                 url = e.xpath("a/@href").extract()
                 if url and len(url) == 1:
-                    s['url'] = url_query_cleaner(urlparse.urljoin(response.url, url[0]))
+                    je['url'] = url_query_cleaner(urlparse.urljoin(response.url, url[0]))
                 sub = e.xpath("a/div/div/span[@class='item-subtitle']/text()").extract()
                 if sub and len(sub) == 1:
-                    s['org'] = sub[0].strip().strip(",").strip()
+                    je['org'] = sub[0].strip().strip(",").strip()
                 logo = e.xpath("div/span[@class='logo']/img/@data-delayed-url").extract()
                 if len(logo) > 0:
-                    s['logo'] = logo[0].strip()
+                    je['logo'] = logo[0].strip()
                 time = e.xpath("a/div/div/span[@class='date-range']/time/text()").extract()
                 if len(time) > 0:
-                    s['start'] = time[0].strip()
+                    je['start'] = time[0].strip()
                     if len(time) == 2:
-                        s['end'] = time[1].replace(u"\u2013", "").strip()
-                es.append(s)
+                        je['end'] = time[1].replace(u"\u2013", "").strip()
+                es.append(je)
         personProfile['experience'] = es
 
         honors = []
