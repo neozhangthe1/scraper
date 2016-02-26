@@ -24,7 +24,12 @@ class LinkedinSpider(CrawlSpider):
     name = 'linkedin'
     allowed_domains = ['linkedin.com']
 
-    start_urls = ["https://www.linkedin.com/in/feixia93"]
+    start_urls = ["https://www.linkedin.com/in/feixia93",
+                  "https://www.linkedin.com/pub/jeff-weiner/7/58a/74b",
+                  "https://www.linkedin.com/pub/bill-gates/70/388/115",
+                  'https://www.linkedin.com/in/jing-zhang-6a2ba883',
+                  "https://www.linkedin.com/pub/yutao-zhang/13/131/850"
+                  ]
 
     rules = (
         # Rule(SgmlLinkExtractor(allow=r'Items/'), callback='parse_item', follow=True),

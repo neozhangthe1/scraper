@@ -73,24 +73,40 @@ class HtmlParser:
                 title = c.xpath("a/div/div/span[@class='item-title']/text()").extract()
                 if len(title) > 0:
                     ce["title"] = title[0]
-                url = c.xpath("a/@href").extract()
-                if len(url) > 0:
-                    ce["url"] = url_query_cleaner(url[0])
-            # sub = c.xpath("header/h5/text()").extract()
-            # if len(sub) > 0:
-            #     ce["sub"] = sub[0]
-            # des = c.xpath("header/h5/a/text()").extract()
-            # if len(des) > 0:
-            #     ce["des"] = des[0]
+                    url = c.xpath("a/@href").extract()
+                    if len(url) > 0:
+                        ce["url"] = url_query_cleaner(url[0])
+                else:
+                    title = c.xpath("header/h4/a/text()").extract()
+                    if len(title) > 0:
+                        ce["title"] = title[0]
+                    url = c.xpath("header/h4/a/@href").extract()
+                    if len(url) > 0:
+                        ce["url"] = url_query_cleaner(url[0])
+
             sub = c.xpath("a/div/div/span[@class='item-subtitle']/text()").extract()
             if len(sub) > 0:
                 ce["sub"] = sub[0]
+            else:
+                sub = c.xpath("header/h5/a/text()").extract()
+                if len(sub) > 0:
+                    ce["sub"] = sub[0]
+                else:
+                    sub = c.xpath("header/h5/text()").extract()
+                    if len(sub) > 0:
+                        ce["sub"] = sub[0]
 
             time = c.xpath("a/div/div/span[@class='date-range']/time/text()").extract()
             if len(time) > 0:
                 ce['start'] = time[0].strip()
                 if len(time) == 2:
                     ce['end'] = time[1].replace(u"\u2013", "").strip()
+            else:
+                time = c.xpath("header/div/span[@class='date-range']/time/text()").extract()
+                if len(time) > 0:
+                    ce['start'] = time[0].strip()
+                    if len(time) == 2:
+                        ce['end'] = time[1].replace(u"\u2013", "").strip()
             certifications.append(ce)
         personProfile["certifications"] = certifications
 
