@@ -42,16 +42,27 @@ class LinkedinSpider(CrawlSpider):
         db = MongoClient(MONGODB_URI)["bigsci"]
         self.start_urls = []
         cnt = 1
-        for item in db["linkedin"].find({}, {"url": 1}):
-            if "pub" in item["url"]:
-                self.start_urls.append(item["url"])
-            if cnt % 1000 == 0:
-                print(cnt, len(self.start_urls))
+        # for item in db["linkedin"].find({}, {"url": 1}):
+        #     if "pub" in item["url"]:
+        #         self.start_urls.append(item["url"])
+        #     if cnt % 1000 == 0:
+        #         print(cnt, len(self.start_urls))
+        #     cnt += 1
+        # print(len(self.start_urls))
+        urls = set()
+        cnt = 0
+        for item in db["linkedin"].find():
+            urls.add(item["url"])
+            if "also_view" in item:
+                for u in item['also_view']:
+                    urls.add(u["url"])
+            if cnt % 10000 == 0:
+                print(cnt, len(urls))
             cnt += 1
-        print(len(self.start_urls))
+        self.start_urls = list(urls)
         self.proxies = []
-        self.request20proxy = 'http://erwx.daili666.com/ip/?tid=558045424788230&num=1000&foreign=only'
-        self.request1proxy = 'http://erwx.daili666.com/ip/?tid=558045424788230&num=1&foreign=only'
+        self.request20proxy = 'http://erwx.daili666.com/ip/?tid=558045424788230&num=1000'
+        self.request1proxy = 'http://erwx.daili666.com/ip/?tid=558045424788230&num=1'
         self.update_proxy()
 
     def update_proxy(self):
