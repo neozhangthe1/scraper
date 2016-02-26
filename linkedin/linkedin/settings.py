@@ -18,14 +18,16 @@ DOWNLOADER_MIDDLEWARES = {
     'linkedin.middleware.CustomUserAgentMiddleware': 545,
 }
 
-DOWNLOAD_DELAY = 0.01
+DOWNLOAD_DELAY = 0
+CONCURRENT_REQUESTS_PER_DOMAIN = 1000
+AUTOTHROTTLE_ENABLED = False
 
 DEPTH_PRIORITY = 1 #BFS
 #DEPTH_PRIORITY = 0 #DFS
 #DEPTH_LIMIT = 4
 
 ITEM_PIPELINES = [
-  'linkedin.pipelines.MongoDBPipeline',
+  'scrapy_mongodb.MongoDBPipeline',
 ]
 
 # password = open("password.txt").next().strip()
