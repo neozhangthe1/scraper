@@ -62,8 +62,8 @@ class LinkedinSpider(CrawlSpider):
             if cnt % 10000 == 0:
                 print(cnt, len(urls))
             cnt += 1
-            if len(urls) > 100000:
-                break
+            # if len(urls) > 100000:
+            #     break
         self.start_urls = list(urls)
         self.proxies = []
         self.request20proxy = 'http://erwx.daili666.com/ip/?tid=558045424788230&num=1000&protocol=https'
