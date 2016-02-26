@@ -442,9 +442,9 @@ class HtmlParser:
                     p["url"] = url[0]
                 time = pub.xpath("div/span[@class='date-range']/time/text()").extract()
                 if len(time) > 0:
-                    ho['start'] = time[0].strip()
+                    p['start'] = time[0].strip()
                     if len(time) == 2:
-                        ho['end'] = time[1].replace(u"\u2013", "").strip()
+                        p['end'] = time[1].replace(u"\u2013", "").strip()
                 des = pub.xpath("p[@class='description']/text()").extract()
                 if len(des) > 0:
                     p["des"] = " ".join(des)
@@ -490,9 +490,9 @@ class HtmlParser:
                     p["abstract"] = " ".join(abstract)
                 time = pub.xpath("header/div/span[@class='date-range']/time/text()").extract()
                 if len(time) > 0:
-                    ho['start'] = time[0].strip()
+                    p['start'] = time[0].strip()
                     if len(time) == 2:
-                        ho['end'] = time[1].replace(u"\u2013", "").strip()
+                        p['end'] = time[1].replace(u"\u2013", "").strip()
                 coauthors = pub.xpath("dl/dd/ul/li")
                 if len(coauthors) > 0:
                     authors = []
