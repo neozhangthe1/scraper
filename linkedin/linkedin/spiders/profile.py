@@ -24,7 +24,7 @@ class LinkedinSpider(CrawlSpider):
     name = 'linkedin'
     allowed_domains = ['linkedin.com']
 
-    start_urls = ["https://www.linkedin.com/pub/tinne-verhulst/71/720/352"]
+    start_urls = ["https://www.linkedin.com/in/feixia93"]
 
     rules = (
         # Rule(SgmlLinkExtractor(allow=r'Items/'), callback='parse_item', follow=True),
@@ -48,10 +48,13 @@ class LinkedinSpider(CrawlSpider):
         self.proxies = []
         self.request20proxy = 'http://erwx.daili666.com/ip/?tid=558045424788230&num=100'
         self.request1proxy = 'http://erwx.daili666.com/ip/?tid=558045424788230&num=1'
+        self.update_proxy()
+
+    def update_proxy(self):
         proxy = urllib.urlopen(self.request20proxy)
         for line in proxy.readlines():
             print(line.strip())
-            if not "http" in line.strip() and ":" in line.strip():
+            if "http" not in line.strip() and ":" in line.strip():
                 self.proxies.append('http://' + line.strip())
 
     def choose_proxy(self):
@@ -68,6 +71,8 @@ class LinkedinSpider(CrawlSpider):
                 # for line in proxy.readlines():
                 #     if not "http" in line.strip() and ":" in line.strip():
                 #         p = 'http://' + line.strip()
+                if len(self.proxies) < 20:
+                    self.update_proxy()
             else:
                 return p
 
@@ -144,7 +149,8 @@ class LinkedinSpider(CrawlSpider):
             if linkedin_id:
                 personProfile['_id'] = linkedin_id
                 personProfile['url'] = response.url #UnicodeDammit(response.url).markup
-                personProfile['redirect_urls'] = [HtmlParser.remove_url_parameter(u) for u in response.request.meta["redirect_urls"]]
+                if "redirect_urls" in response.request.meta:
+                    personProfile['redirect_urls'] = [HtmlParser.remove_url_parameter(u) for u in response.request.meta["redirect_urls"]]
                 yield personProfile
 
     def determine_level(self, url):
