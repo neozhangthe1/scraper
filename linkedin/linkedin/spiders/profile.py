@@ -55,7 +55,8 @@ class LinkedinSpider(CrawlSpider):
             urls.add(item["url"])
             if "also_view" in item:
                 for u in item['also_view']:
-                    urls.add(u["url"])
+                    if "url" in u:
+                        urls.add(u["url"])
             if cnt % 10000 == 0:
                 print(cnt, len(urls))
             cnt += 1
@@ -80,16 +81,17 @@ class LinkedinSpider(CrawlSpider):
             # print(self.proxies)
             p = self.proxies[idx]
             print(p)
-            if not self.test_proxy(p):
-                del self.proxies[idx]
-                # proxy = urllib.urlopen(self.request1proxy)
-                # for line in proxy.readlines():
-                #     if not "http" in line.strip() and ":" in line.strip():
-                #         p = 'http://' + line.strip()
-                if len(self.proxies) < 20:
-                    self.update_proxy()
-            else:
-                return p
+            return p
+            # if not self.test_proxy(p):
+            #     del self.proxies[idx]
+            #     # proxy = urllib.urlopen(self.request1proxy)
+            #     # for line in proxy.readlines():
+            #     #     if not "http" in line.strip() and ":" in line.strip():
+            #     #         p = 'http://' + line.strip()
+            #     if len(self.proxies) < 20:
+            #         self.update_proxy()
+            # else:
+            #     return p
 
     def test_proxy(self, proxy):
         # socket.setdefaulttimeout(3.0)

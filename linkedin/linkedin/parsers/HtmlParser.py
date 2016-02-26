@@ -403,7 +403,7 @@ class HtmlParser:
             url = item.xpath("div/h4/a/@href").extract()
             if len(url) > 0:
                 p["url"] = url_query_cleaner(url[0])
-                p["id"] = HtmlParser.get_linkedin_id(p["url"])
+                # p["id"] = HtmlParser.get_linkedin_id(p["url"])
             also_view.append(p)
         personProfile['also_view'] = also_view
 
