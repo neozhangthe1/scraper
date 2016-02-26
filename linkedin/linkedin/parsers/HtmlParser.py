@@ -391,19 +391,33 @@ class HtmlParser:
         also_view_elem = response.xpath("//div[@class='browse-map']/ul/li")
         for item in also_view_elem:
             p = {}
-            photo = item.xpath("a/img/@data-delayed-url").extract()
-            if len(photo) > 0:
-                p["photo"] = photo[0]
-            name = item.xpath("div/h4/a/text()").extract()
-            if len(name) > 0:
-                p["name"] = name[0].strip()
-            title = item.xpath("div/p[@class='headline']/text()").extract()
-            if len(title) > 0:
-                p["title"] = title[0].strip()
-            url = item.xpath("div/h4/a/@href").extract()
-            if len(url) > 0:
-                p["url"] = url_query_cleaner(url[0])
-                # p["id"] = HtmlParser.get_linkedin_id(p["url"])
+            if len(item.xpath("div/h4/a/text()").extract()) > 0:
+                photo = item.xpath("a/img/@data-delayed-url").extract()
+                if len(photo) > 0:
+                    p["photo"] = photo[0]
+                name = item.xpath("div/h4/a/text()").extract()
+                if len(name) > 0:
+                    p["name"] = name[0].strip()
+                title = item.xpath("div/p[@class='headline']/text()").extract()
+                if len(title) > 0:
+                    p["title"] = title[0].strip()
+                url = item.xpath("div/h4/a/@href").extract()
+                if len(url) > 0:
+                    p["url"] = url_query_cleaner(url[0])
+                    # p["id"] = HtmlParser.get_linkedin_id(p["url"])
+            else:
+                photo = item.xpath("div/a/span/img/@data-delayed-url").extract()
+                if len(photo) > 0:
+                    p["photo"] = photo[0]
+                name = item.xpath("div/a/div/span/text()").extract()
+                if len(name) > 0:
+                    p["name"] = name[0].strip()
+                title = item.xpath("div/a/div/p/text()").extract()
+                if len(title) > 0:
+                    p["title"] = title[0].strip()
+                url = item.xpath("div/a/@href").extract()
+                if len(url) > 0:
+                    p["url"] = url_query_cleaner(url[0])
             also_view.append(p)
             if p == {}:
                 print(item.extract())

@@ -51,7 +51,6 @@ class LinkedinSpider(CrawlSpider):
         # print(len(self.start_urls))
 
         self.start_urls = []
-        cnt = 1
         urls = set()
         cnt = 0
         for item in db["linkedin"].find():
