@@ -40,13 +40,13 @@ class LinkedinSpider(CrawlSpider):
         from pymongo import MongoClient
         from ..settings import MONGODB_URI
         db = MongoClient(MONGODB_URI)["bigsci"]
-        start_urls = []
+        self.start_urls = []
         cnt = 1
         for item in db["linkedin"].find({}, {"url": 1}):
             if "pub" in item["url"]:
-                start_urls.append(item["url"])
+                self.start_urls.append(item["url"])
             if cnt % 1000 == 0:
-                print(cnt, len(start_urls))
+                print(cnt, len(self.start_urls))
             cnt += 1
         print(len(self.start_urls))
         self.proxies = []
