@@ -40,8 +40,8 @@ class LinkedinSpider(CrawlSpider):
         from pymongo import MongoClient
         from ..settings import MONGODB_URI
         db = MongoClient(MONGODB_URI)["bigsci"]
-        self.start_urls = []
-        cnt = 1
+        self.current_requests = {}
+
         # for item in db["linkedin"].find({}, {"url": 1}):
         #     if "pub" in item["url"]:
         #         self.start_urls.append(item["url"])
@@ -49,6 +49,9 @@ class LinkedinSpider(CrawlSpider):
         #         print(cnt, len(self.start_urls))
         #     cnt += 1
         # print(len(self.start_urls))
+
+        self.start_urls = []
+        cnt = 1
         urls = set()
         cnt = 0
         for item in db["linkedin"].find():
@@ -60,10 +63,12 @@ class LinkedinSpider(CrawlSpider):
             if cnt % 10000 == 0:
                 print(cnt, len(urls))
             cnt += 1
+            if len(urls) > 100000:
+                break
         self.start_urls = list(urls)
         self.proxies = []
-        self.request20proxy = 'http://erwx.daili666.com/ip/?tid=558045424788230&num=1000'
-        self.request1proxy = 'http://erwx.daili666.com/ip/?tid=558045424788230&num=1'
+        self.request20proxy = 'http://erwx.daili666.com/ip/?tid=558045424788230&num=1000&protocol=https'
+        self.request1proxy = 'http://erwx.daili666.com/ip/?tid=558045424788230&num=1&protocol=https'
         self.update_proxy()
 
     def update_proxy(self):
@@ -81,23 +86,18 @@ class LinkedinSpider(CrawlSpider):
             # print(self.proxies)
             p = self.proxies[idx]
             print(p)
-            return p
-            # if not self.test_proxy(p):
-            #     del self.proxies[idx]
-            #     # proxy = urllib.urlopen(self.request1proxy)
-            #     # for line in proxy.readlines():
-            #     #     if not "http" in line.strip() and ":" in line.strip():
-            #     #         p = 'http://' + line.strip()
-            #     if len(self.proxies) < 20:
-            #         self.update_proxy()
-            # else:
-            #     return p
+            if not self.test_proxy(p):
+                del self.proxies[idx]
+                if len(self.proxies) < 20:
+                    self.update_proxy()
+            else:
+                return idx
 
     def test_proxy(self, proxy):
         # socket.setdefaulttimeout(3.0)
-        test_url = 'http://www.linkedin.com'
+        test_url = 'http://www.baidu.com'
         try:
-            f = requests.get(test_url, proxies={"http": proxy}, timeout=3)
+            f = requests.get(test_url, proxies={"https": proxy}, timeout=3)
         except requests.exceptions.ConnectTimeout:
             print("Proxy " + proxy + " fails!", "Timeout")
             return False
@@ -111,9 +111,9 @@ class LinkedinSpider(CrawlSpider):
             print("Proxy " + proxy + " fails!", "TypeError")
             return False
         # f = urllib.urlopen(test_url, proxies={'http': ':@' + proxy})
-        # except TimeoutError:
-        #     print("Proxy " + proxy + " fails!")
-        #     return False
+        # # except TimeoutError:
+        # #     print("Proxy " + proxy + " fails!")
+        # #     return False
         else:
             if f.status_code != 200:
                 print("Proxy " + proxy + " fails!", f.status_code)
@@ -122,11 +122,29 @@ class LinkedinSpider(CrawlSpider):
                 print("Proxy " + proxy + " is added.")
                 return True
 
+    def handle_success(self, response):
+        if response.status == 999:
+            print("code 999")
+            self.handle_fail(response)
+
+    def handle_fail(self, response):
+        url = response.request.url
+        if "redirect_urls" in response.request.meta and response.request.meta["redirect_urls"] > 0:
+            url = response.request.meta["redirect_urls"][0]
+        if url in self.current_requests:
+            del self.proxies[self.current_requests[url]["proxy"]]
+        self.start_urls.append(url)
+        self.make_requests_from_url(url)
+
     def make_requests_from_url(self, url):
-        request = Request(url, callback=self.parse)
-        request.meta['proxy'] = self.choose_proxy()
+        request = Request(url, callback=self.parse, errback=self.handle_fail)
+        proxy_idx = self.choose_proxy()
+        request.meta['proxy'] = self.proxies[proxy_idx]
         print("using proxy", request.meta['proxy'])
         request.headers['Proxy-Authorization'] = ''
+        self.current_requests[url] = {
+            "proxy": proxy_idx
+        }
         return request
     #
 

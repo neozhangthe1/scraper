@@ -405,7 +405,10 @@ class HtmlParser:
                 p["url"] = url_query_cleaner(url[0])
                 # p["id"] = HtmlParser.get_linkedin_id(p["url"])
             also_view.append(p)
+            if p == {}:
+                print(item.extract())
         personProfile['also_view'] = also_view
+
 
         # project
         projects = []
