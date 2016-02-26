@@ -24,33 +24,31 @@ CRAWL_NEIGHBOR = False
 class LinkedinSpider(CrawlSpider):
     name = 'linkedin'
     allowed_domains = ['linkedin.com']
-
-    start_urls = ["https://www.linkedin.com/in/feixia93",
-                  "https://www.linkedin.com/pub/jeff-weiner/7/58a/74b",
-                  "https://www.linkedin.com/pub/bill-gates/70/388/115",
-                  'https://www.linkedin.com/in/jing-zhang-6a2ba883',
-                  "https://www.linkedin.com/pub/yutao-zhang/13/131/850"
-                  ]
+    #
+    # start_urls = ["https://www.linkedin.com/in/feixia93",
+    #               "https://www.linkedin.com/pub/jeff-weiner/7/58a/74b",
+    #               "https://www.linkedin.com/pub/bill-gates/70/388/115",
+    #               'https://www.linkedin.com/in/jing-zhang-6a2ba883',
+    #               "https://www.linkedin.com/pub/yutao-zhang/13/131/850"
+    #               ]
 
     rules = (
         # Rule(SgmlLinkExtractor(allow=r'Items/'), callback='parse_item', follow=True),
     )
 
     def __init__(self):
-        # from pymongo import MongoClient
-        # from ..settings import MONGODB_URI
-        # db = MongoClient(MONGODB_URI)["bigsci"]
-        # self.start_urls = []
-        # cnt = 1
-        # for item in db["linkedin"].find({}, {"url": 1}):
-        #     if "pub-" in item["url"]:
-        #         self.start_urls.append(item["url"])
-        #     if cnt % 1000 == 0:
-        #         print(cnt)
-        #     cnt += 1
-        #     if len(self.start_urls) > 10:
-        #         break
-        print(self.start_urls)
+        from pymongo import MongoClient
+        from ..settings import MONGODB_URI
+        db = MongoClient(MONGODB_URI)["bigsci"]
+        self.start_urls = []
+        cnt = 1
+        for item in db["linkedin"].find({}, {"url": 1}):
+            if "pub-" in item["url"]:
+                self.start_urls.append(item["url"])
+            if cnt % 1000 == 0:
+                print(cnt)
+            cnt += 1
+        print(len(self.start_urls))
         self.proxies = []
         self.request20proxy = 'http://erwx.daili666.com/ip/?tid=558045424788230&num=100'
         self.request1proxy = 'http://erwx.daili666.com/ip/?tid=558045424788230&num=1'
