@@ -50,8 +50,8 @@ class LinkedinSpider(CrawlSpider):
             cnt += 1
         print(len(self.start_urls))
         self.proxies = []
-        self.request20proxy = 'http://erwx.daili666.com/ip/?tid=558045424788230&num=100'
-        self.request1proxy = 'http://erwx.daili666.com/ip/?tid=558045424788230&num=1'
+        self.request20proxy = 'http://erwx.daili666.com/ip/?tid=558045424788230&num=1000&foreign=only'
+        self.request1proxy = 'http://erwx.daili666.com/ip/?tid=558045424788230&num=1&foreign=only'
         self.update_proxy()
 
     def update_proxy(self):
