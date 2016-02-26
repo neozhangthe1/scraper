@@ -84,7 +84,7 @@ class LinkedinSpider(CrawlSpider):
         # socket.setdefaulttimeout(3.0)
         test_url = 'http://www.linkedin.com'
         try:
-            f = requests.get(test_url, proxies={"http": proxy}, timeout=10)
+            f = requests.get(test_url, proxies={"http": proxy}, timeout=3)
         except requests.exceptions.ConnectTimeout:
             print("Proxy " + proxy + " fails!", "Timeout")
             return False
