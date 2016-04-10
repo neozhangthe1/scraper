@@ -85,6 +85,8 @@ class YouzySpider(CrawlSpider):
                 tmp = response.url.split("page=")
                 if len(tmp) > 1:
                     cur_page = int(tmp[1])
+                else:
+                    tmp[0] += "?"
 
                 pagination = response.xpath("//ul[@class='pagination']/li/a/text()").extract()
                 if len(pagination) > 0:
