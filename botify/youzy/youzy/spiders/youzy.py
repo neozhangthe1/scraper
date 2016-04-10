@@ -63,7 +63,7 @@ class YouzySpider(CrawlSpider):
             for u in urls:
                 yield Request(u, callback=self.parse)
 
-        elif "opencollege" in response.url:
+        elif "opencollege" in response.url.lower():
             print(response.url)
             for elem in response.xpath("//ul[@class='uzy-college-list']/li"):
                 d = {
