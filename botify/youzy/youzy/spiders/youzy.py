@@ -67,7 +67,7 @@ class YouzySpider(CrawlSpider):
             print(response.url)
             for elem in response.xpath("//ul[@class='uzy-college-list']/li"):
                 d = {
-                    "subject": response.xpath("//div[@class='major-right']/div[@class='major-info']/h3/text()").extract()[0],
+                    "subject": response.xpath("//div[@class='major-right']/div[@class='major-info']/h3/text()").extract()[0].strip(),
                     "subject_info": response.xpath("//div[@class='major-right']/div[@class='major-info']/div[@class='info']/span/text()").extract()[0],
                     "name": elem.xpath("div/div[@class='top']/a/text()").extract()[0],
                     "name_en": elem.xpath("div[@class='mark']/a/img/@alt").extract()[0],
