@@ -88,6 +88,10 @@ class YouzySpider(CrawlSpider):
 
                 pagination = response.xpath("//ul[@class='pagination']/li/a/text()").extract()
                 if len(pagination) > 0:
-                    if int(pagination[-1]) != cur_page:
+                    if not pagination[-1] == "下一页":
+                        last_page = int(pagination[-1])
+                    else:
+                        last_page = int(pagination[-2])
+                    if last_page != cur_page:
                         yield Request(tmp[0] + "page=" + str(cur_page + 1), callback=self.parse)
 
