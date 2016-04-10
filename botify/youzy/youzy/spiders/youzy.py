@@ -47,7 +47,7 @@ class YouzySpider(CrawlSpider):
 
     def get_urls(self, response):
         urls = response.xpath("//div[@class='major-list-con']/ul/li/a/@href").extract()
-        urls = ["http://www.youzy.cn" + u for u in urls]
+        urls = ["http://www.youzy.cn" + u.replace("explain", "OpenCollege") for u in urls]
         return urls
 
 
